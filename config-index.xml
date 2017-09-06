@@ -1,0 +1,65 @@
+<configurations>
+	<plugins>
+		<item id="woocommerce-catalog-visibility-options" override_local="true">WooCommerce Catalog Visibility Options</item>
+		<item id="woocommerce-paymill-gateway" override_local="true">WooCommerce Paymill Gateway</item>
+		<item id="woocommerce-stripe-gateway" override_local="true">WooCommerce Stripe Gateway</item>
+		<item id="woocommerce-product-add-ons" override_local="true">WooCommerce Product Add-ons</item>
+		<item id="woocommerce-postepay" override_local="true">WooCommerce PostePay</item>
+		<item id="sensei" override_local="true">Sensei</item>
+		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
+		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
+		<item id="woocommerce-plivo" override_local="true">WooCommerce Plivo</item>
+		<item id="woocommerce-embed-slides" override_local="true">WooCommerce Embed Slides</item>
+		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
+		<item id="woocommerce-product-bundles">WooCommerce Product Bundles</item>
+		<item id="woocommerce-price-by-country" override_local="true">WooCommerce Price by Country</item>
+		<item id="woocommerce-video-tab" override_local="true">WooCommerce Video Tab</item>
+		<item id="woocommerce-multilingual" override_local="true">WooCommerce Multilingual</item>
+		<item id="wpml-test-config" override_local="true">WPML Test Config</item>
+		<item id="woocommerce-product-gift-wrap" override_local="true">WooCommerce Product Gift Wrap</item>
+		<item id="yoast-seo" override_local="true">Yoast SEO</item>
+		<item id="woocommerce-tab-manager" override_local="true">WooCommerce Tab Manager</item>
+		<item id="woocommerce-bookings" override_local="true">WooCommerce Bookings</item>
+		<item id="yith-woocommerce-quick-view-premium">YITH WooCommerce Quick View Premium</item>
+		<item id="multibanco-ifthenpay-gateway-for-woocommerce">Multibanco (IfthenPay gateway) for WooCommerce</item>
+		<item id="woocommerce-advanced-product-labels">WooCommerce Advanced Product Labels</item>
+		<item id="woocommerce-composite-products">WooCommerce Composite Products</item>
+		<item id="yith-woocommerce-catalog-mode">YITH WooCommerce Catalog Mode</item>
+		<item id="woocomerce-brands-pro">Woocomerce Brands Pro</item>
+		<item id="woocommerce-local-pickup-plus" override_local="true">WooCommerce Local Pickup Plus</item>
+		<item id="productprint" override_local="true">ProductPrint</item>
+		<item id="woocommerce-currency-converter" override_local="true">WooCommerce Currency Converter</item>
+		<item id="woocommerce-name-your-price" override_local="true">WooCommerce Name Your Price</item>
+		<item id="yith-woocommerce-minimum-maximum-quantity-premium" override_local="true">YITH WooCommerce Minimum Maximum Quantity Premium</item>
+		<item id="woocommerce-dibs-flexwin-gateway" override_local="true">WooCommerce DIBS FlexWin Gateway</item>
+		<item id="woocommerce-pdf-invoices-packing-slips" override_local="true">WooCommerce PDF Invoices &amp; Packing Slips</item>
+		<item id="woocommerce-social-media-share-buttons" override_local="true">Woocommerce Social Media Share Buttons</item>
+		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
+		<item id="event-tickets-plus">Event Tickets Plus</item>
+		<item id="the-events-calendar">The Events Calendar</item>
+		<item id="divi-builder" override_local="true">Divi Builder</item>
+		<item id="woocommerce-additional-variation-images" override_local="true">WooCommerce Additional Variation Images</item>
+		<item id="cornerstone" override_local="true">Cornerstone</item>
+		<item id="members">Members</item>
+		<item id="wp-job-manager">WP Job Manager</item>
+		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
+	</plugins>
+	<themes>
+		<item id="canvas" override_local="true">Canvas</item>
+		<item id="kleo">Kleo</item>
+		<item id="port" override_local="true">Port</item>
+		<item id="idstore-responsive-wordpress-theme" override_local="true">IDStore - Responsive WordPress Theme</item>
+		<item id="divi" override_local="true">Divi</item>
+		<item id="avada">Avada</item>
+		<item id="customizr">Customizr</item>
+		<item id="genesis" override_local="true">Genesis</item>
+		<item id="emerald-cv" override_local="true">Emerald CV</item>
+		<item id="reveal" override_local="true">Reveal</item>
+		<item id="enfold" override_local="true">Enfold</item>
+		<item id="function" override_local="true">Function</item>
+		<item id="scrollider">Scrollider</item>
+		<item id="rewalk-parent">ReWalk Parent</item>
+		<item id="x" override_local="true">X</item>
+		<item id="resort" override_local="true">Resort</item>
+	</themes>
+</configurations>
