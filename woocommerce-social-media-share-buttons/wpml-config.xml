@@ -1,0 +1,6 @@
+<wpml-config>
+ <admin-texts>
+ 	<key name="toastie_smsb_title" />
+ 	<key name="toastie_smsb_email" />
+ </admin-texts>
+</wpml-config>

@@ -1,0 +1,45 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_wc_booking_base_cost</custom-field>
+		<custom-field action="copy">_wc_booking_cost</custom-field>
+		<custom-field action="copy">_wc_display_cost</custom-field>
+		<custom-field action="copy">_wc_booking_min_duration</custom-field>
+		<custom-field action="copy">_wc_booking_max_duration</custom-field>
+		<custom-field action="copy">_wc_booking_enable_range_picker</custom-field>
+		<custom-field action="copy">_wc_booking_calendar_display_mode</custom-field>
+		<custom-field action="copy">_wc_booking_qty</custom-field>
+        <custom-field action="copy">_wc_booking_has_persons</custom-field>
+		<custom-field action="copy">_wc_booking_person_qty_multiplier</custom-field>
+		<custom-field action="copy">_wc_booking_person_cost_multiplier</custom-field>
+		<custom-field action="copy">_wc_booking_min_persons_group</custom-field>
+		<custom-field action="copy">_wc_booking_max_persons_group</custom-field>
+		<custom-field action="copy">_wc_booking_has_person_types</custom-field>
+		<custom-field action="copy">_wc_booking_has_resources</custom-field>
+		<custom-field action="copy">_wc_booking_resources_assignment</custom-field>
+		<custom-field action="copy">_wc_booking_duration_type</custom-field>
+		<custom-field action="copy">_wc_booking_duration</custom-field>
+		<custom-field action="copy">_wc_booking_duration_unit</custom-field>
+		<custom-field action="copy">_wc_booking_user_can_cancel</custom-field>
+		<custom-field action="copy">_wc_booking_cancel_limit</custom-field>
+		<custom-field action="copy">_wc_booking_cancel_limit_unit</custom-field>
+		<custom-field action="copy">_wc_booking_max_date</custom-field>
+		<custom-field action="copy">_wc_booking_max_date_unit</custom-field>
+		<custom-field action="copy">_wc_booking_min_date</custom-field>
+		<custom-field action="copy">_wc_booking_min_date_unit</custom-field>
+		<custom-field action="copy">_wc_booking_first_block_time</custom-field>
+		<custom-field action="copy">_wc_booking_requires_confirmation</custom-field>
+		<custom-field action="copy">_wc_booking_default_date_availability</custom-field>
+        <custom-field action="copy">_wc_booking_check_availability_against</custom-field>
+        <custom-field action="translate">_wc_booking_resouce_label</custom-field>
+        <custom-field action="copy">_wc_booking_availability</custom-field>
+        <custom-field action="copy">_wc_booking_pricing</custom-field>
+        <custom-field action="translate">_resource_base_costs</custom-field>
+        <custom-field action="translate">_resource_block_costs</custom-field>
+        <custom-field action="copy">_has_additional_costs</custom-field>
+	</custom-fields>
+    <custom-types>
+        <custom-type translate="1">bookable_person</custom-type>
+        <custom-type translate="1">bookable_resource</custom-type>
+        <custom-type translate="1">wc_booking</custom-type>
+    </custom-types>
+</wpml-config>

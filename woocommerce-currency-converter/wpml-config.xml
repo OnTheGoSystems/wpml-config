@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="widget_woocommerce_currency_converter">
+            <key name="*">
+                <key name="title" />
+                <key name="message" />
+                <key name="currency_codes" />
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

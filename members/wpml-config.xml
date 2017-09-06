@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="members_settings">
+            <key name="content_permissions_error"/>
+            <key name="private_feed_error"/>
+        </key>
+    </admin-texts>
+</wpml-config>

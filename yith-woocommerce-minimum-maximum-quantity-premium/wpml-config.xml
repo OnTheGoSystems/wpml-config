@@ -1,0 +1,33 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ywmmq_rules_before_text"/>
+        <key name="ywmmq_message_min_cart_quantity_cart"/>
+        <key name="ywmmq_message_max_cart_quantity_cart"/>
+        <key name="ywmmq_message_min_cart_value_cart"/>
+        <key name="ywmmq_message_max_cart_value_cart"/>
+        <key name="ywmmq_message_min_product_quantity_cart"/>
+        <key name="ywmmq_message_max_product_quantity_cart"/>
+        <key name="ywmmq_message_min_category_quantity_cart"/>
+        <key name="ywmmq_message_max_category_quantity_cart"/>
+        <key name="ywmmq_message_min_category_value_cart"/>
+        <key name="ywmmq_message_max_category_value_cart"/>
+        <key name="ywmmq_message_min_tag_quantity_cart"/>
+        <key name="ywmmq_message_max_tag_quantity_cart"/>
+        <key name="ywmmq_message_min_tag_value_cart"/>
+        <key name="ywmmq_message_max_tag_value_cart"/>
+        <key name="ywmmq_message_min_cart_quantity_atc"/>
+        <key name="ywmmq_message_max_cart_quantity_atc"/>
+        <key name="ywmmq_message_min_cart_value_atc"/>
+        <key name="ywmmq_message_max_cart_value_atc"/>
+        <key name="ywmmq_message_min_product_quantity_atc"/>
+        <key name="ywmmq_message_max_product_quantity_atc"/>
+        <key name="ywmmq_message_min_category_quantity_atc"/>
+        <key name="ywmmq_message_max_category_quantity_atc"/>
+        <key name="ywmmq_message_min_category_value_atc"/>
+        <key name="ywmmq_message_max_category_value_atc"/>
+        <key name="ywmmq_message_min_tag_quantity_atc"/>
+        <key name="ywmmq_message_max_tag_quantity_atc"/>
+        <key name="ywmmq_message_min_tag_value_atc"/>
+        <key name="ywmmq_message_max_tag_value_atc"/>
+    </admin-texts>
+</wpml-config>

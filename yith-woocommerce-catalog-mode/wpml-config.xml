@@ -1,0 +1,15 @@
+<wpml-config>
+<admin-texts>
+ <key name="ywctm_general_title" />
+ <key name="ywctm_general_end" />
+ <key name="ywctm_settings_title" />
+ <key name="ywctm_settings_end" />
+ <key name="ywctm_premium_title_price" />
+ <key name="ywctm_premium_end_price" />
+ <key name="ywctm_premium_title_form" />
+ <key name="ywctm_premium_end_form" />
+ <key name="ywctm_premium_title_button" />
+ <key name="ywctm_button_text" />
+ <key name="ywctm_premium_end_review" />
+</admin-texts>
+</wpml-config>

@@ -1,0 +1,353 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">x-portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio-tag</taxonomy>
+    <taxonomy translate="1">portfolio-category</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="copy">_x_video_aspect_ratio</custom-field>
+    <custom-field action="copy">_x_video_m4v</custom-field>
+    <custom-field action="translate">_x_quote_quote</custom-field>
+    <custom-field action="copy">_x_quote_cite</custom-field>
+    <custom-field action="copy">_x_video_embed</custom-field>
+    <custom-field action="copy">_x_audio_mp3</custom-field>
+    <custom-field action="copy">_x_link_url</custom-field>
+    <custom-field action="copy">_x_portfolio_media</custom-field>
+    <custom-field action="copy">_x_portfolio_index_media</custom-field>
+    <custom-field action="copy">_x_portfolio_project_link</custom-field>
+    <custom-field action="copy">_x_portfolio_embed</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="x_integrity_blog_title"/>
+    <key name="x_integrity_blog_subtitle"/>
+    <key name="x_integrity_portfolio_archive_sort_button_text"/>
+    <key name="x_renew_blog_title"/>
+    <key name="x_topbar_content"/>
+    <key name="x_footer_content"/>
+    <key name="x_custom_portfolio_slug"/>
+    <key name="x_portfolio_tag_title"/>
+    <key name="x_portfolio_launch_project_title"/>
+    <key name="x_portfolio_launch_project_button_text"/>
+    <key name="x_portfolio_share_project_title"/>
+    <key name="x_buddypress_activity_title"/>
+    <key name="x_buddypress_groups_title"/>
+    <key name="x_buddypress_blogs_title"/>
+    <key name="x_buddypress_members_title"/>
+    <key name="x_buddypress_register_title"/>
+    <key name="x_buddypress_activate_title"/>
+    <key name="x_buddypress_activity_subtitle"/>
+    <key name="x_buddypress_groups_subtitle"/>
+    <key name="x_buddypress_blogs_subtitle"/>
+    <key name="x_buddypress_members_subtitle"/>
+    <key name="x_buddypress_register_subtitle"/>
+    <key name="x_buddypress_activate_subtitle"/>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>x_accordion_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>cs_alert</tag>
+      <attributes>
+        <attribute>heading</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_audio_player</tag>
+      <attributes>
+        <attribute>mp3</attribute>
+        <attribute>oga</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_audio_embed</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_author</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_blockquote</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_button</tag>
+      <attributes>
+        <attribute type="link">href</attribute>
+        <attribute>title</attribute>
+        <attribute>info_content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_callout</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>message</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">href</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_clear</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_code</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_columnize</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_column</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_container</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_content_band</tag>
+      <attributes>
+        <attribute>bg_pattern</attribute>
+        <attribute>bg_image</attribute>
+        <attribute>bg_video</attribute>
+        <attribute>bg_video_poster</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_counter</tag>
+      <attributes>
+        <attribute>num_start</attribute>
+        <attribute>num_end</attribute>
+        <attribute>num_speed</attribute>
+        <attribute>num_color</attribute>
+        <attribute>num_prefix</attribute>
+        <attribute>num_suffix</attribute>
+        <attribute>text_above</attribute>
+        <attribute>text_below</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_custom_headline</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_dropcap</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_share</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>share_title</attribute>
+        <attribute>email_subject</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_feature_headline</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_gap</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_highlight</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_icon</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_image</tag>
+      <attributes>
+        <attribute>src</attribute>
+        <attribute>alt</attribute>
+        <attribute type="link">href</attribute>
+        <attribute>title</attribute>
+        <attribute>info_content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_line</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_map</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_google_map</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_google_map_marker</tag>
+      <attributes>
+        <attribute>info</attribute>
+        <attribute>image</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_extra</tag>
+      <attributes>
+        <attribute type="link">href</attribute>
+        <attribute>title</attribute>
+        <attribute>info_content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_promo</tag>
+      <attributes>
+        <attribute>image</attribute>
+        <attribute>alt</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_prompt</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>message</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">href</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_protect</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_pullquote</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_recent_posts</tag>
+      <attributes>
+        <attribute>category</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_lightbox</tag>
+    </shortcode>
+    <shortcode>
+      <tag>cs_pricing_table_column</tag>
+      <attributes>
+        <attribute>featured_sub</attribute>
+        <attribute>title</attribute>
+        <attribute>currency</attribute>
+        <attribute>price</attribute>
+        <attribute>interval</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_slider</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_responsive_text</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_video_player</tag>
+      <attributes>
+        <attribute>m4v</attribute>
+        <attribute>ogv</attribute>
+        <attribute>poster</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_video_embed</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_visibility</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_toc</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_toc_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_text_type</tag>
+      <attributes>
+        <attribute>prefix</attribute>
+        <attribute>strings</attribute>
+        <attribute>suffix</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>cs_text</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_tab_nav_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_tab</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_tab_nav</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_tabs</tag>
+    </shortcode>
+    <shortcode>
+      <tag>cs_block_grid</tag>
+    </shortcode>
+    <shortcode>
+      <tag>cs_block_grid_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_card</tag>
+      <attributes>
+        <attribute>front_title</attribute>
+        <attribute>front_text</attribute>
+        <attribute>back_title</attribute>
+        <attribute>back_text</attribute>
+        <attribute>back_button_text</attribute>
+        <attribute>back_button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_creative_cta</tag>
+      <attributes>
+        <attribute>text</attribute>
+        <attribute type="link">link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>x_feature_box</tag>
+        <attributes>
+            <attribute>title</attribute>
+            <attribute>link_text</attribute>
+            <attribute type="link">href</attribute>
+            <attribute>href_title</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_feature_list</tag>
+    </shortcode>
+    <shortcode>
+      <tag>cs_icon_list</tag>
+    </shortcode>
+    <shortcode>
+      <tag>cs_icon_list_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute type="link">link_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>x_raw_content</tag>
+    </shortcode>
+    <shortcode>
+      <tag>x_skill_bar</tag>
+      <attributes>
+        <attribute>heading</attribute>
+        <attribute>percent</attribute>
+        <attribute>bar_text</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

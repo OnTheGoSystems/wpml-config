@@ -1,0 +1,43 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">_yoast_wpseo_title</custom-field>
+        <custom-field action="translate">_yoast_wpseo_bctitle</custom-field>
+        <custom-field action="translate">_yoast_wpseo_metadesc</custom-field>
+        <custom-field action="translate">_yoast_wpseo_metakeywords</custom-field>
+        <custom-field action="translate">_yoast_wpseo_focuskw</custom-field>
+        <custom-field action="copy">_yoast_wpseo_meta-robots-noindex</custom-field>
+        <custom-field action="copy">_yoast_wpseo_meta-robots-nofollow</custom-field>
+        <custom-field action="copy">_yoast_wpseo_meta-robots-adv</custom-field>
+        <custom-field action="ignore">_yoast_wpseo_canonical</custom-field>
+        <custom-field action="ignore">_yoast_wpseo_redirect</custom-field>
+        <custom-field action="translate">_yoast_wpseo_opengraph-description</custom-field>
+        <custom-field action="translate">_yoast_wpseo_google-plus-description</custom-field>
+        <custom-field action="translate">_yoast_wpseo_twitter-title</custom-field>
+        <custom-field action="translate">_yoast_wpseo_twitter-description</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="wpseo_titles">
+            <key name="title-*" />
+            <key name="metadesc-*" />
+            <key name="metakey-*" />
+        </key>
+        <key name="wpseo_internallinks">
+            <key name="breadcrumbs-sep" />
+            <key name="breadcrumbs-home" />
+            <key name="breadcrumbs-prefix" />
+            <key name="breadcrumbs-archiveprefix" />
+            <key name="breadcrumbs-searchprefix" />
+            <key name="breadcrumbs-404crumb" />
+        </key>
+        <key name="wpseo_rss">
+            <key name="rssbefore" />
+            <key name="rssafter" />
+        </key>
+         <key name="wpseo_social">
+            <key name="og_default_image" />
+            <key name="og_frontpage_title" />
+            <key name="og_frontpage_desc" />
+            <key name="og_frontpage_image" />
+        </key>
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,15 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">projects</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">skill</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="reveal">
+      <key name="ttrust_home_message"/>
+      <key name="ttrust_footer_left"/>
+      <key name="ttrust_footer_right"/>
+    </key>
+  </admin-texts>
+</wpml-config>

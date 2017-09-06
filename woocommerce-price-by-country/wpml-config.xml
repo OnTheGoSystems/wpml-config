@@ -1,0 +1,7 @@
+<wpml-config>
+<admin-texts>
+ <key name="woocommerce_global_price_by_country_settings">
+  <key name="wpbc_outsideMesage" />
+  </key>
+</admin-texts>
+</wpml-config>

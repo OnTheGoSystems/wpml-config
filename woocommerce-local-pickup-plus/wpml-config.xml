@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+<admin-texts>
+ <key name="woocommerce_pickup_locations">
+  <key name="*">
+		<key name="country" />
+		<key name="cost" />
+		<key name="note" />
+		<key name="company" />
+		<key name="address_1" />
+		<key name="address_2" />
+		<key name="city" />
+		<key name="state" />
+		<key name="postcode" />
+		<key name="phone" />
+	</key>
+ </key>
+</admin-texts>
+</wpml-config>

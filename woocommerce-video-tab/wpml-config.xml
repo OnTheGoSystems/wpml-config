@@ -1,0 +1,16 @@
+<wpml-config>
+	<custom-fields>
+		 <custom-field action="copy">wo_di_video_product0</custom-field>
+		 <custom-field action="copy">wo_di_video_product1</custom-field>
+		 <custom-field action="copy">wo_di_video_product2</custom-field>
+		 <custom-field action="copy">height_video_woocommerce</custom-field>
+		 <custom-field action="copy">width_video_woocommerce</custom-field>
+		 <custom-field action="copy">wo_di_video_check_mp4</custom-field>
+		 <custom-field action="copy">wo_di_video_check_ogg</custom-field>
+		 <custom-field action="copy">wo_di_video_url_mp4</custom-field>
+		 <custom-field action="copy">wo_di_video_url_ogg</custom-field>
+		 <custom-field action="copy">wo_di_video_product_html5</custom-field>
+		 <custom-field action="copy">wo_di_video_type</custom-field>
+		 <custom-field action="translate">wo_di_editormce_video</custom-field>
+	</custom-fields>
+</wpml-config>

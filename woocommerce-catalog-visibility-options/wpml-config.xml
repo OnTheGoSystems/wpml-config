@@ -1,0 +1,15 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_wc_restrictions_purchase</custom-field>
+        <custom-field action="copy">_wc_restrictions_price</custom-field>
+        <custom-field action="copy">_wc_restrictions</custom-field>
+        <custom-field action="copy">_wc_restrictions_location</custom-field>
+        <custom-field action="copy">_wc_restrictions_locations</custom-field>
+        <custom-field action="copy">_wc_restrictions_price_roles</custom-field>
+    </custom-fields>
+	<admin-texts>
+		<key name="wc_cvo_atc_text" />
+		<key name="wc_cvo_c_price_text" />
+		<key name="wc_cvo_s_price_text" />
+	</admin-texts>
+</wpml-config>

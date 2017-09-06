@@ -1,0 +1,81 @@
+<!-- Ticket: https://wpml.org/fr/forums/topic/how-can-i-translate-the-homepage-of-my-theme-port-from-themetrust/ -->
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">project</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">skill</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="translate">_ttrust_url_value</custom-field>
+        <custom-field action="translate">_ttrust_url_label_value</custom-field>
+        <custom-field action="translate">_ttrust_page_description_value</custom-field>
+        <custom-field action="translate">project_options</custom-field>
+        <custom-field action="translate">featured</custom-field>
+        <custom-field action="translate">page_options</custom-field>
+        <custom-field action="translate">description</custom-field>
+        <custom-field action="translate">testimonial_options</custom-field>
+        <custom-field action="translate">background_image</custom-field>
+    </custom-fields>
+    <admin-texts>
+		<key name="port">		
+			<key name="logo" />
+			<key name="ttrust_favicon" />
+			<key name="ttrust_custom_css" />
+			<key name="ttrust_color_header" />
+			<key name="ttrust_color_accent" />
+			<key name="ttrust_color_menu_bkg" />
+			<key name="ttrust_color_btn" />
+			<key name="ttrust_color_btn_hover" />
+			<key name="ttrust_color_link" />
+			<key name="ttrust_color_link_hover" />
+			<key name="ttrust_banner_enabled" />
+			<key name="ttrust_home_banner_img" />
+			<key name="ttrust_home_banner_text_main" />
+			<key name="ttrust_home_banner_text_secondary" />
+			<key name="ttrust_banner_text_offset" />
+			<key name="ttrust_recent_projects_title" />
+			<key name="ttrust_recent_projects_description" />
+			<key name="ttrust_home_project_count" />
+			<key name="ttrust_home_project_type" />
+			<key name="ttrust_projects_button_label" />
+			<key name="ttrust_home_testimonial_count" />
+			<key name="ttrust_featured_pages_title" />
+			<key name="ttrust_featured_pages_description" />
+			<key name="ttrust_featured_pages_count" />
+			<key name="ttrust_featured_pages_links_enabled" />
+			<key name="ttrust_featured_pages_bkg" />
+			<key name="ttrust_recent_posts_title" />
+			<key name="ttrust_recent_posts_description" />
+			<key name="ttrust_recent_posts_count" />
+			<key name="ttrust_posts_button_label" />
+			<key name="ttrust_home_content_bkg" />
+			<key name="ttrust_testimonials_title" />
+			<key name="ttrust_testimonials_description" />
+			<key name="ttrust_home_testimonials_count" />
+			<key name="ttrust_testimonials_bkg" />
+			<key name="ttrust_banner_main_font" />
+			<key name="ttrust_banner_secondary_font" />
+			<key name="ttrust_heading_font" />
+			<key name="ttrust_sub_heading_font" />
+			<key name="ttrust_body_font" />
+			<key name="ttrust_menu_font" />
+			<key name="ttrust_slideshow_delay" />
+			<key name="ttrust_slideshow_effect" />
+			<key name="ttrust_portfolio_page" />
+			<key name="ttrust_post_show_author" />
+			<key name="ttrust_post_show_date" />
+			<key name="ttrust_post_show_category" />
+			<key name="ttrust_post_show_comments" />
+			<key name="ttrust_post_featured_img_size" />
+			<key name="ttrust_post_show_featured_image" />
+			<key name="ttrust_post_full_width" />
+			<key name="ttrust_post_show_full" />
+			<key name="ttrust_blog_page" />
+			<key name="ttrust_footer_left" />
+			<key name="ttrust_footer_right" />
+			<key name="ttrust_analytics" />
+		</key>
+    </admin-texts>
+</wpml-config>

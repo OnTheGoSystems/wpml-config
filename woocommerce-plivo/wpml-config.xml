@@ -1,0 +1,14 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wcp_notification_message_pending" />
+        <key name="wcp_notification_message_failed" />
+        <key name="wcp_notification_message_on-hold" />
+        <key name="wcp_notification_message_processing" />
+        <key name="wcp_notification_message_completed" />
+        <key name="wcp_notification_message_refunded" />    
+        <key name="wcp_notification_message_cancelled" />  
+        <key name="wcp_optout_message" />   
+    </admin-texts>    
+</wpml-config>
+
+

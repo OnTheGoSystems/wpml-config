@@ -1,0 +1,5 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_slide_frame_code</custom-field>
+	</custom-fields>
+</wpml-config>

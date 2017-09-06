@@ -1,0 +1,29 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">job_listing</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">job_listing_category</taxonomy>
+    <taxonomy translate="1">job_listing_type</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="copy-once">_filled</custom-field>
+    <custom-field action="copy-once">_featured</custom-field>
+    <custom-field action="copy-once">geolocation_lat</custom-field>
+    <custom-field action="copy-once">geolocation_long</custom-field>
+    <custom-field action="copy-once">geolocation_formatted_address</custom-field>
+    <custom-field action="copy-once">geolocation_city</custom-field>
+    <custom-field action="copy-once">geolocation_state_short</custom-field>
+    <custom-field action="copy-once">geolocation_state_long</custom-field>
+    <custom-field action="copy-once">geolocation_country_short</custom-field>
+    <custom-field action="copy-once">geolocation_country_long</custom-field>
+    <custom-field action="copy-once">geolocated</custom-field>
+    <custom-field action="copy-once">_job_location</custom-field>
+    <custom-field action="copy-once">_application</custom-field>
+    <custom-field action="translate">_company_name</custom-field>
+    <custom-field action="translate">_company_tagline</custom-field>
+    <custom-field action="copy-once">_company_website</custom-field>
+    <custom-field action="copy-once">_company_twitter</custom-field>
+    <custom-field action="copy-once">_company_video</custom-field>
+  </custom-fields>
+</wpml-config>

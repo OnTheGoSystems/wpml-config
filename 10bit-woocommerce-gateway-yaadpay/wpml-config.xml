@@ -1,0 +1,8 @@
+<wpml-config>
+ <admin-texts>
+ 	<key name="woocommerce_yaadpay_settings">
+ 		<key name="yaad_title" />
+ 		<key name="yaad_description" />
+ 	</key>
+ </admin-texts>
+</wpml-config>

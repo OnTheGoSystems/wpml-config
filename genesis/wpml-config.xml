@@ -1,0 +1,19 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">standard_seo_post_level_layout</custom-field>
+        <custom-field action="translate">standard_seo_post_meta_description</custom-field>
+        <custom-field action="copy">_genesis_custom_body_class</custom-field>
+        <custom-field action="copy">_genesis_custom_post_class</custom-field>
+        <custom-field action="translate">_genesis_description</custom-field>
+        <custom-field action="translate">_genesis_keywords</custom-field>
+        <custom-field action="copy">_genesis_layout</custom-field>
+        <custom-field action="translate">_genesis_title</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="genesis-seo-settings">
+            <key name="home_doctitle"/>
+            <key name="home_description"/>
+            <key name="home_keywords"/>
+        </key>
+    </admin-texts>
+</wpml-config>

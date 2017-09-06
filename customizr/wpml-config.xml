@@ -1,0 +1,16 @@
+<wpml-config>
+  <admin-texts>
+    <key name="tc_theme_options">
+      <key name="tc_featured_page_button_text"/>
+      <key name="tc_featured_text_one"/>
+      <key name="tc_featured_text_two"/>
+      <key name="tc_featured_text_three"/>
+      <key name="tc_cat_title"/>
+      <key name="tc_tag_title"/>
+      <key name="tc_author_title"/>
+      <key name="tc_search_title"/>
+      <key name="tc_social_in_sidebar_title"/>
+      <key name="tc_post_metas_update_notice_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>

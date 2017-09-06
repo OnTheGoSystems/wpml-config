@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<admin-texts>
+		<key name="productprint_ops">
+			<key name="button_legend" />
+			<key name="header_image" />
+			<key name="header_text" />
+			<key name="footer_text" />
+		</key>
+	</admin-texts>
+</wpml-config>

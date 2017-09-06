@@ -1,0 +1,8 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_override_tab_layout</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">wc_product_tab</custom-type>
+	</custom-types>
+</wpml-config>

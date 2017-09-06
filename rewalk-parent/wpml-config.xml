@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="DT_THEME_NAME">
+			<key name="dt_custom_slider" />
+			<key name="dt_home_services"/>
+		</key>
+	</admin-texts>
+</wpml-config>

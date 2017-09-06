@@ -1,0 +1,61 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">tt_education</custom-type>
+    <custom-type translate="1">tt_skill</custom-type>
+    <custom-type translate="1">tt_experience</custom-type>
+    <custom-type translate="1">tt_counter</custom-type>
+    <custom-type translate="1">tt_portfolio</custom-type>
+    <custom-type translate="1">tt_testimonial</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio_skills</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">tt_education_school</custom-field>
+    <custom-field action="copy">tt_education_date</custom-field>
+    <custom-field action="translate">tt_education_status</custom-field>
+    <custom-field action="translate">tt_education_field</custom-field>
+    <custom-field action="translate">tt_education_description</custom-field>
+    <custom-field action="translate">tt_skill_title</custom-field>
+    <custom-field action="copy">tt_skill_percent</custom-field>
+    <custom-field action="copy">tt_experience_company</custom-field>
+    <custom-field action="translate">tt_experience_title</custom-field>
+    <custom-field action="copy">tt_experience_date</custom-field>
+    <custom-field action="translate">tt_experience_description</custom-field>
+    <custom-field action="copy">tt_counter_number</custom-field>
+    <custom-field action="translate">tt_counter_title</custom-field>
+    <custom-field action="copy">tt_counter_icon</custom-field>
+    <custom-field action="copy">tt_portfolio_thumbnail-image</custom-field>
+    <custom-field action="copy">tt_portfolio_image</custom-field>
+    <custom-field action="copy">tt_portfolio_media-type</custom-field>
+    <custom-field action="copy">tt_portfolio_audio-type</custom-field>
+    <custom-field action="copy">tt_portfolio_video-type</custom-field>
+    <custom-field action="copy">tt_testimonial_image</custom-field>
+    <custom-field action="copy">tt_testimonial_name</custom-field>
+    <custom-field action="translate">tt_testimonial_profession</custom-field>
+    <custom-field action="translate">tt_testimonial_quote</custom-field>
+    <custom-field action="copy">tt_gallery_images</custom-field>
+    <custom-field action="copy">tt_video_video-type</custom-field>
+    <custom-field action="copy">tt_audio_audio-type</custom-field>
+    <custom-field action="copy">tt_video_video-social</custom-field>
+    <custom-field action="copy">tt_audio_audio-social</custom-field>
+    <custom-field action="copy">tt_portfolio_video-social</custom-field>
+    <custom-field action="copy">tt_portfolio_audio-social</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="theme_mods_emeraldcv">
+      <key name="profile_name_text"/>
+      <key name="profile_job_title_text"/>
+      <key name="profile_description_textarea"/>
+      <key name="education_section_description_textarea"/>
+      <key name="skill_section_description_textarea"/>
+      <key name="skill_section_background_bg_image"/>
+      <key name="experience_section_description_textarea"/>
+      <key name="portfolio_section_description_textarea"/>
+      <key name="testimonial_section_description_textarea"/>
+      <key name="contact_section_description_textarea"/>
+      <key name="blog_header_title_text"/>
+      <key name="blog_header_title_text_transform"/>
+    </key>
+  </admin-texts>
+</wpml-config>

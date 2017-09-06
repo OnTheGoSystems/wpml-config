@@ -1,0 +1,336 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">avia_framework_post</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_entries</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">_aviaLayoutBuilder_active</custom-field>
+        <custom-field action="copy">_avia_builder_shortcode_tree</custom-field>
+        <custom-field action="ignore">_aviaLayoutBuilderCleanData</custom-field>
+    </custom-fields>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#EEEEEE</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#393939</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#F5F5F5</key>
+            <key name="background-current-hover">#FFFFFF</key>
+            <key name="font-other-normal">#393939</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#F5F5F5</key>
+            <key name="background-other-hover">#FFFFFF</key>
+            <key name="border">transparent</key>
+            <key name="background">transparent</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">1</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">1</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">0</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">1</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+        <key name="icl_additional_css">#lang_sel img, #lang_sel_list img, #lang_sel_footer img { display: inline; }</key>
+    </language-switcher-settings>
+    <shortcodes>
+        <shortcode>
+            <tag>av_textblock</tag>
+        </shortcode>
+        <shortcode>
+            <tag>av_heading</tag>
+            <attributes>
+                <attribute>heading</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_icon_box</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_iconlist_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_font_icon</tag>
+            <attributes>
+                <attribute>caption</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_headline_rotator</tag>
+            <attributes>
+                <attribute>before_rotating</attribute>
+                <attribute>after_rotating</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_rotator_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_button</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_button_big</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_content_slider</tag>
+            <attributes>
+                <attribute>heading</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_content_slide</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_notification</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_tab</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_toggle</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>tags</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_promobox</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_contact</tag>
+            <attributes>
+                <attribute>email</attribute>
+                <attribute>title</attribute>
+                <attribute>button</attribute>
+                <attribute>sent</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute>subject</attribute>
+                <attribute>autorespond</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_contact_field</tag>
+            <attributes>
+                <attribute>label</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_magazine</tag>
+            <attributes>
+                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute>heading</attribute>
+                <attribute>heading_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_team_member</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>job</attribute>
+                <attribute>description</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_team_icon</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_table</tag>
+            <attributes>
+                <attribute>caption</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell</tag>
+            <attributes>
+                <attribute>caption</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_progress_bar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_submenu_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_testimonial_single</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>subtitle</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_catalogue_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>price</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_animated_numbers</tag>
+            <attributes>
+                <attribute>number</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_mailchimp</tag>
+            <attributes>
+                <attribute>sent</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_mailchimp_field</tag>
+            <attributes>
+                <attribute>label</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_social_share</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_image</tag>
+            <attributes>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_image_spot</tag>
+            <attributes>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_slide</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_slide_full</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute>link1</attribute>
+                <attribute>button_label</attribute>
+                <attribute>button_label2</attribute>
+                <attribute>link2</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_fullscreen_slide</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>button_label</attribute>
+                <attribute>link1</attribute>
+                <attribute>button_label2</attribute>
+                <attribute>link2</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_slide_accordion</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_layerslider</tag>
+            <attributes>
+                <attribute>id</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_partner</tag>
+            <attributes>
+                <attribute>heading</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_partner_logo</tag>
+            <attributes>
+                <attribute>hover</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute>linktitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_gmap_location</tag>
+            <attributes>
+                <attribute>address</attribute>
+                <attribute>city</attribute>
+                <attribute>country</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_codeblock</tag>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

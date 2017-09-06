@@ -1,0 +1,34 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">features</custom-type>
+    <custom-type translate="1">slide</custom-type>
+    <custom-type translate="1">feedback</custom-type>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">slide-page</taxonomy>
+    <taxonomy translate="1">portfolio-gallery</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="woo_options">
+      <key name="woo_widget_area_message"/>
+      <key name="woo_features_social_text"/>
+      <key name="woo_footer_left_text"/>
+      <key name="woo_footer_right_text"/>
+      <key name="woo_connect_title"/>
+      <key name="woo_connect_content"/>
+      <key name="woo_contact_title"/>
+      <key name="woo_contact_address"/>
+      <key name="woo_maps_callout_text"/>
+    </key>
+    <key name="woo_widget_area_message"/>
+    <key name="woo_features_social_text"/>
+    <key name="woo_footer_left_text"/>
+    <key name="woo_footer_right_text"/>
+    <key name="woo_connect_title"/>
+    <key name="woo_connect_content"/>
+    <key name="woo_contact_title"/>
+    <key name="woo_contact_address"/>
+    <key name="woo_maps_callout_text"/>
+  </admin-texts>
+</wpml-config>

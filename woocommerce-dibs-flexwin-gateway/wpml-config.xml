@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_dibs_settings">
+			<key name="title" />
+			<key name="description" />
+		</key>
+	</admin-texts>
+</wpml-config>

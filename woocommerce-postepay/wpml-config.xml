@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="woocommerce_pp_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="cardholder_name" />
+        </key>
+    </admin-texts>
+</wpml-config>

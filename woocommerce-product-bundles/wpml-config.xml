@@ -1,0 +1,11 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_wc_pb_base_regular_price</custom-field>
+		<custom-field action="copy">_wc_pb_base_sale_price</custom-field>
+		<custom-field action="copy">_wc_pb_base_price</custom-field>
+		<custom-field action="copy">_wc_sw_max_price</custom-field>
+		<custom-field action="copy">_wc_sw_max_regular_price</custom-field>
+		<custom-field action="copy">_wc_pb_layout_style</custom-field>
+		<custom-field action="copy">_wc_pb_edit_in_cart</custom-field>
+	</custom-fields>
+</wpml-config>

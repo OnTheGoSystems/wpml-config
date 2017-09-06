@@ -1,0 +1,5 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_wc_additional_variation_images</custom-field>
+	</custom-fields>
+</wpml-config>

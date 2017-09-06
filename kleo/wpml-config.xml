@@ -1,0 +1,16 @@
+<wpml-config>  
+	<admin-texts>
+        <key name="kleo_kleo">
+            <key name="maintenance_msg" />
+            <key name="footer_text" />
+            <key name="contact_form_title" />
+            <key name="contact_form_text" />
+            <key name="title_info" />
+            <key name="likes_zero_text" />
+            <key name="likes_one_text" />
+            <key name="likes_more_text" />
+            <key name="likes_already" />
+            <key name="like_this_text" />
+        </key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,11 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_wapl_label_type</custom-field>
+		<custom-field action="copy">_wapl_label_style</custom-field>
+		<custom-field action="copy">_wapl_label_align</custom-field>
+		<custom-field action="copy">_wapl_custom_bg_color</custom-field>
+		<custom-field action="copy">_wapl_custom_text_color</custom-field>
+		<custom-field action="copy">_wapl_label_exclude</custom-field>
+		<custom-field action="translate">_wapl_label_text</custom-field>
+	</custom-fields>
+</wpml-config>

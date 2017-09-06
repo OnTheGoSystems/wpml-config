@@ -1,0 +1,22 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_paymill_settings">
+			<key name="enabled" />
+			<key name="title" />
+			<key name="description" />
+			<key name="testmode" />
+			<key name="card-amex" />
+			<key name="card-diners" />
+			<key name="card-jcb" />
+			<key name="card-maestro" />
+			<key name="card-mastercard" />
+			<key name="card-visa" />
+			<key name="test_details" />
+			<key name="test_private_key" />
+			<key name="test_public_key" />
+			<key name="live_details" />
+			<key name="live_private_key" />
+			<key name="live_public_key" />
+		</key>
+	</admin-texts>
+</wpml-config>

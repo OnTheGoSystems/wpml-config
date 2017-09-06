@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wdm_form_data">
+			<key name="default_sub" />
+			<key name="custom_label" />
+			<key name="show_after_summary" />
+		</key>
+	</admin-texts>
+</wpml-config>

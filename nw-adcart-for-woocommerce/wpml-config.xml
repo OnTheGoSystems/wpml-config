@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="nwadcart_plugin_settings">
+			<key name="nwadcart-item-name" />
+			<key name="nwadcart-item-name-plural" />
+		</key>
+	</admin-texts>
+</wpml-config>

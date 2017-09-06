@@ -1,0 +1,255 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">project</custom-type>
+        <custom-type translate="1">et_pb_layout</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">project_category</taxonomy>
+        <taxonomy translate="1">project_tag</taxonomy>
+        <taxonomy translate="1">layout_category</taxonomy>
+        <taxonomy translate="1">layout_type</taxonomy>
+        <taxonomy translate="1">scope</taxonomy>
+        <taxonomy translate="1">module_width</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">_et_pb_predefined_layout</custom-field>
+        <custom-field action="copy">_et_pb_page_layout</custom-field>
+        <custom-field action="copy">_et_pb_side_nav</custom-field>
+        <custom-field action="copy">_et_pb_use_builder</custom-field>
+        <custom-field action="copy">_et_pb_old_content</custom-field>
+        <custom-field action="copy">_et_pb_ab_stats_refresh_interval</custom-field>
+        <custom-field action="copy">_et_pb_ab_bounce_rate_limit</custom-field>
+        <custom-field action="copy">_et_pb_enable_shortcode_tracking</custom-field>
+        <custom-field action="copy">_et_pb_custom_css</custom-field>
+        <custom-field action="copy">_et_pb_light_text_color</custom-field>
+        <custom-field action="copy">_et_pb_dark_text_color</custom-field>
+        <custom-field action="copy">_et_pb_content_area_background_color</custom-field>
+        <custom-field action="copy">_et_post_bg_color</custom-field>
+        <custom-field action="copy">_et_post_bg_layout</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="et_divi">
+            <key name="divi_logo"/>
+            <key name="divi_favicon"/>
+            <key name="divi_seo_home_titletext"/>
+            <key name="divi_seo_home_descriptiontext"/>
+            <key name="divi_seo_home_keywordstext"/>
+			<key name="custom_footer_credits"/>
+        </key>
+    </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>et_pb_accordion_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_cta</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>button_text</attribute>
+                <attribute>button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_map_pin</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_text</tag>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_blurb</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>alt</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_circle_counter</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_contact_field</tag>
+            <attributes>
+                <attribute>field_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_contact_form</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>email</attribute>
+                <attribute>custom_message</attribute>
+                <attribute>success_message</attribute>
+                <attribute>redirect_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_image</tag>
+            <attributes>
+                <attribute>title_text</attribute>
+                <attribute>alt</attribute>
+                <attribute>url</attribute>
+                <attribute>src</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_number_counter</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_post_nav</tag>
+            <attributes>
+                <attribute>prev_text</attribute>
+                <attribute>next_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_pricing_table</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>button_text</attribute>
+                <attribute>button_url</attribute>
+                <attribute>currency</attribute>
+                <attribute>per</attribute>
+                <attribute>sum</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_tab</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_toggle</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_counter</tag>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_button</tag>
+            <attributes>
+                <attribute>button_text</attribute>
+                <attribute>button_url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_code</tag>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_countdown_timer</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_login</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_team_member</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>position</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_post_slider</tag>
+            <attributes>
+                <attribute>more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_search</tag>
+            <attributes>
+                <attribute>placeholder</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_slide</tag>
+            <attributes>
+                <attribute>heading</attribute>
+                <attribute>image_alt</attribute>
+                <attribute>button_text</attribute>
+                <attribute>button_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_signup</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_testimonial</tag>
+            <attributes>
+                <attribute>author</attribute>
+                <attribute>job_title</attribute>
+                <attribute>company_name</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_fullwidth_code</tag>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_fullwidth_post_slider</tag>
+            <attributes>
+                <attribute>more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_fullwidth_header</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subhead</attribute>
+                <attribute>button_one_text</attribute>
+                <attribute>button_one_url</attribute>
+                <attribute>button_two_text</attribute>
+                <attribute>button_two_url</attribute>
+                <attribute>logo_alt_text</attribute>
+                <attribute>logo_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_fullwidth_image</tag>
+            <attributes>
+                <attribute>alt</attribute>
+                <attribute>title_text</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_fullwidth_portfolio</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+		<shortcode>
+            <tag>et_pb_audio</tag>
+            <attributes>
+                <attribute>audio</attribute>
+                <attribute>title</attribute>
+                <attribute>artist_name</attribute>
+                <attribute>album_name</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

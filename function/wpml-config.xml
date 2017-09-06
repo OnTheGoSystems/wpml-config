@@ -1,0 +1,27 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio-gallery</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="woo_portfolio_title"/>
+    <key name="woo_homepage_intro_message"/>
+    <key name="woo_homepage_blog_area_title"/>
+    <key name="woo_homepage_promotion_title"/>
+    <key name="woo_homepage_promotion_subtext"/>
+    <key name="woo_homepage_promotion_button_text"/>
+    <key name="woo_homepage_promotion_button_url"/>
+    <key name="woo_footer_left_text"/>
+    <key name="woo_footer_right_text"/>
+    <key name="woo_connect_title"/>
+    <key name="woo_connect_content"/>
+    <key name="woo_contact_title"/>
+    <key name="woo_contact_address"/>
+    <key name="woo_contact_number"/>
+    <key name="woo_contact_fax"/>
+    <key name="woo_contactform_email"/>
+    <key name="woo_maps_callout_text"/>
+  </admin-texts>
+</wpml-config>

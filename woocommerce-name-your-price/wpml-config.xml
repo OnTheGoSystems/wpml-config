@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_nyp_suggested_text"/>
+        <key name="woocommerce_nyp_minimum_text"/>
+        <key name="woocommerce_nyp_label_text"/>
+        <key name="woocommerce_nyp_button_text" />
+        <key name="woocommerce_nyp_button_text_single"/>
+	</admin-texts>
+</wpml-config>

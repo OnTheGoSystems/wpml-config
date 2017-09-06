@@ -1,0 +1,16 @@
+<wpml-config>
+	<admin-texts>
+		<key name="wpo_wcpdf_template_settings">
+			<key name="header_logo" />
+			<key name="shop_name" />
+			<key name="shop_address" />
+			<key name="footer" />
+			<key name="invoice_number_formatting_prefix" />
+			<key name="invoice_number_formatting_suffix" />
+			<key name="invoice_number_formatting_padding" />
+			<key name="extra_1" />
+			<key name="extra_2" />
+			<key name="extra_3" />
+		</key>
+	</admin-texts>
+</wpml-config>

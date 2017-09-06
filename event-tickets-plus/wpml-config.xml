@@ -1,0 +1,8 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">tribe_wooticket</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">tribe_events_cat</taxonomy>
+  </taxonomies>
+</wpml-config>
