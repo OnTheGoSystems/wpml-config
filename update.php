@@ -1,4 +1,10 @@
 <?php
+error_reporting( E_ALL );
+
+$config = new WPML_Config_Index;
+$config->update();
+exit;
+
 class WPML_Config_Index {
 
 	var $configs;
