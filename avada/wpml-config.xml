@@ -422,7 +422,7 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag type="link">fusion_social_links</tag>
+            <tag>fusion_social_links</tag>
         </shortcode>
         <shortcode>
             <tag>fusion_soundcloud</tag>
