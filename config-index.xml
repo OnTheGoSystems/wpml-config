@@ -13,7 +13,7 @@
 		<item id="productprint" override_local="true">ProductPrint</item>
 		<item id="sensei" override_local="true">Sensei</item>
 		<item id="the-events-calendar">The Events Calendar</item>
-		<item id="woocomerce-brands-pro">Woocomerce Brands Pro</item>
+		<item id="woo-brand">Woocomerce Brands Pro</item>
 		<item id="woocommerce-additional-variation-images" override_local="true">WooCommerce Additional Variation Images</item>
 		<item id="woocommerce-advanced-product-labels">WooCommerce Advanced Product Labels</item>
 		<item id="woocommerce-bookings" override_local="true">WooCommerce Bookings</item>
