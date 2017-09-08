@@ -1,5 +1,5 @@
 <wpml-config>
     <custom-types>
-        <custom-type translate="1">test</custom-type>
+        <custom-type translate="1">testing</custom-type>
     </custom-types>
 </wpml-config>
