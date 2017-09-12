@@ -34,7 +34,7 @@
 		<item id="woocommerce-product-bundles">WooCommerce Product Bundles</item>
 		<item id="woocommerce-product-gift-wrap" override_local="true">WooCommerce Product Gift Wrap</item>
 		<item id="woocommerce-social-media-share-buttons" override_local="true">Woocommerce Social Media Share Buttons</item>
-		<item id="woocommerce-stripe-gateway" override_local="true">WooCommerce Stripe Gateway</item>
+		<item id="woocommerce-gateway-stripe" override_local="true">WooCommerce Stripe Gateway</item>
 		<item id="woocommerce-tab-manager" override_local="true">WooCommerce Tab Manager</item>
 		<item id="woocommerce-video-tab" override_local="true">WooCommerce Video Tab</item>
 		<item id="wp-job-manager">WP Job Manager</item>
