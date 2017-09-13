@@ -1,0 +1,9 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_warranty</custom-field>
+		<custom-field action="copy">_warranty_duration</custom-field>
+		<custom-field action="translate">_warranty_label</custom-field>
+		<custom-field action="copy">_warranty_type</custom-field>
+		<custom-field action="copy">_warranty_unit</custom-field>
+	</custom-fields>
+</wpml-config>
