@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="rg_book_text"/>
+		<key name="rg_book_url"/>
+	</admin-texts>
+</wpml-config>
+
