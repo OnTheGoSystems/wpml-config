@@ -63,6 +63,8 @@
 		<item id="kleo">Kleo</item>
 		<item id="port" override_local="true">Port</item>
 		<item id="pro" override_local="true">Pro</item>
+		<item id="relevanssi" override_local="true">Relevanssi</item>
+		<item id="relevanssi-premium" override_local="true">Relevanssi Premium</item>
 		<item id="resort" override_local="true">Resort</item>
 		<item id="reveal" override_local="true">Reveal</item>
 		<item id="rewalk-parent">ReWalk Parent</item>
