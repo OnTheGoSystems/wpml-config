@@ -55,7 +55,7 @@
         <shortcode>
             <tag>av_heading</tag>
             <attributes>
-                <attribute>heading</attribute>
+                <attribute encoding="allow_html_tags">heading</attribute>
             </attributes>
         </shortcode>
         <shortcode>
