@@ -1,4 +1,7 @@
 <wpml-config>
+	<custom-fields>
+		<custom-field action="ignore">_vc_post_settings</custom-field>
+	</custom-fields>
     <shortcodes>
         <shortcode>
             <tag>vc_column_text</tag>
