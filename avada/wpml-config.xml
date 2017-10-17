@@ -125,7 +125,7 @@
         <custom-field action="translate">pyre_project_url_text</custom-field>
         <custom-field action="translate">pyre_heading</custom-field>
         <custom-field action="translate">pyre_caption</custom-field>
-		<custom-field action="copy">type</custom-field>
+		<custom-field action="copy">pyre_type</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
