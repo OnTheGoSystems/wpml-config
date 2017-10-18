@@ -110,7 +110,7 @@
         <custom-field action="copy-once">pyre_wide_page_bg_full</custom-field>
         <custom-field action="copy-once">pyre_wide_page_bg_repeat</custom-field>
         <custom-field action="copy-once">pyre_width</custom-field>
-        <custom-field action="translate">pyre_wooslider</custom-field>
+        <custom-field action="copy-once">pyre_wooslider</custom-field>
         <custom-field action="copy-once">sbg_selected_sidebar</custom-field>
         <custom-field action="copy-once">sbg_selected_sidebar_replacement</custom-field>
         <custom-field action="copy-once">sbg_selected_sidebar_2</custom-field>
