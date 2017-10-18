@@ -47,7 +47,7 @@
 		<item id="yoast-seo" override_local="true">Yoast SEO</item>
 	</plugins>
 	<themes>
-		<item id="avada">Avada</item>
+		<item id="avada" override_local="true">Avada</item>
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
 		<item id="divi" override_local="true">Divi</item>
