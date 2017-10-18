@@ -1,24 +1,24 @@
 <wpml-config>
     <admin-texts>
         <key name="avada_theme_options">
-            <key name="google_analytics" />
-            <key name="space_head" />
-            <key name="space_body" />
-            <key name="header_number" />
-            <key name="header_email" />
-            <key name="header_tagline" />
-            <key name="breacrumb_prefix" />
-            <key name="footer_text" />
-            <key name="blog_title" />
-            <key name="portfolio_slug" />
-            <key name="gmap_address" />
-            <key name="email_address" />
-            <key name="blog_subtitle" />
-            <key name="date_format" />
-            <key name="map_infobox_content" />
-            <key name="sharing_social_tagline" />
+            <key name="google_analytics"/>
+            <key name="space_head"/>
+            <key name="space_body"/>
+            <key name="header_number"/>
+            <key name="header_email"/>
+            <key name="header_tagline"/>
+            <key name="breacrumb_prefix"/>
+            <key name="footer_text"/>
+            <key name="blog_title"/>
+            <key name="portfolio_slug"/>
+            <key name="gmap_address"/>
+            <key name="email_address"/>
+            <key name="blog_subtitle"/>
+            <key name="date_format"/>
+            <key name="map_infobox_content"/>
+            <key name="sharing_social_tagline"/>
         </key>
-    </admin-texts>   
+    </admin-texts>
     <custom-types>
         <custom-type translate="1">themefusion_elastic</custom-type>
         <custom-type translate="1">slide</custom-type>
@@ -114,7 +114,7 @@
         <custom-field action="copy-once">sbg_selected_sidebar</custom-field>
         <custom-field action="copy-once">sbg_selected_sidebar_replacement</custom-field>
         <custom-field action="copy-once">sbg_selected_sidebar_2</custom-field>
-        <custom-field action="copy-once">sbg_selected_sidebar_2_replacement</custom-field>        
+        <custom-field action="copy-once">sbg_selected_sidebar_2_replacement</custom-field>
         <custom-field action="copy-once">slide_template</custom-field>
         <custom-field action="copy-once">pyre_avada_rev_styles</custom-field>
         <custom-field action="copy-once">pyre_footer_100_width</custom-field>
@@ -125,7 +125,34 @@
         <custom-field action="translate">pyre_project_url_text</custom-field>
         <custom-field action="translate">pyre_heading</custom-field>
         <custom-field action="translate">pyre_caption</custom-field>
-		<custom-field action="copy">pyre_type</custom-field>
+        <custom-field action="copy-once">pyre_type</custom-field>
+        <custom-field action="copy-once">pyre_content_alignment</custom-field>
+        <custom-field action="copy-once">pyre_webm</custom-field>
+        <custom-field action="copy-once">pyre_mp4</custom-field>
+        <custom-field action="copy-once">pyre_ogv</custom-field>
+        <custom-field action="copy-once">pyre_preview_image</custom-field>
+        <custom-field action="copy-once">pyre_video_bg_color</custom-field>
+        <custom-field action="copy-once">pyre_mute_video</custom-field>
+        <custom-field action="copy-once">pyre_autoplay_video</custom-field>
+        <custom-field action="copy-once">pyre_loop_video</custom-field>
+        <custom-field action="copy-once">pyre_hide_video_controls</custom-field>
+        <custom-field action="translate">pyre_youtube_id</custom-field>
+        <custom-field action="copy-once">pyre_aspect_ratio</custom-field>
+        <custom-field action="copy-once">pyre_video_display</custom-field>
+        <custom-field action="translate">pyre_vimeo_id</custom-field>
+        <custom-field action="copy-once">pyre_heading_font_size</custom-field>
+        <custom-field action="copy-once">pyre_heading_color</custom-field>
+        <custom-field action="copy-once">pyre_heading_bg</custom-field>
+        <custom-field action="copy-once">pyre_heading_bg_color</custom-field>
+        <custom-field action="copy-once">pyre_caption_font_size</custom-field>
+        <custom-field action="copy-once">pyre_caption_color</custom-field>
+        <custom-field action="copy-once">pyre_caption_bg</custom-field>
+        <custom-field action="copy-once">pyre_caption_bg_color</custom-field>
+        <custom-field action="copy-once">pyre_link_type</custom-field>
+        <custom-field action="translate">pyre_button_1</custom-field>
+        <custom-field action="translate">pyre_button_2</custom-field>
+        <custom-field action="copy-once">pyre_slide_link</custom-field>
+        <custom-field action="copy-once">pyre_slide_target</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
@@ -294,7 +321,7 @@
         <shortcode>
             <tag>layerslider</tag>
         </shortcode>
-         <shortcode>
+        <shortcode>
             <tag>fusion_lightbox</tag>
             <attributes>
                 <attribute>title</attribute>
@@ -475,7 +502,7 @@
         <shortcode>
             <tag>fusion_accordion</tag>
         </shortcode>
-         <shortcode>
+        <shortcode>
             <tag>fusion_toggle</tag>
             <attributes>
                 <attribute>title</attribute>
