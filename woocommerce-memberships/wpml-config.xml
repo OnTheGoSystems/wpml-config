@@ -1,0 +1,26 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">wc_membership_plan</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">_email_content</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="woocommerce_WC_Memberships_User_Membership_Note_Email_settings">
+      <key name="subject"/>
+      <key name="heading"/>
+    </key>
+    <key name="woocommerce_WC_Memberships_User_Membership_Ending_Soon_Email_settings">
+      <key name="subject"/>
+      <key name="heading"/>
+    </key>
+    <key name="woocommerce_WC_Memberships_User_Membership_Ended_Email_settings">
+      <key name="subject"/>
+      <key name="heading"/>
+    </key>
+    <key name="woocommerce_WC_Memberships_User_Membership_Renewal_Reminder_Email_settings">
+      <key name="subject"/>
+      <key name="heading"/>
+    </key>
+  </admin-texts>
+</wpml-config>
