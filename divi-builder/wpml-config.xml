@@ -42,6 +42,9 @@
             <tag>et_pb_accordion_item</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -50,16 +53,27 @@
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
                 <attribute>button_url</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_map_pin</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_text</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_blurb</tag>
@@ -67,12 +81,18 @@
                 <attribute>title</attribute>
                 <attribute>alt</attribute>
                 <attribute>url</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_circle_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -89,6 +109,10 @@
                 <attribute>custom_message</attribute>
                 <attribute>success_message</attribute>
                 <attribute>redirect_url</attribute>
+                <attribute>submit_button_text</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -98,12 +122,18 @@
                 <attribute>alt</attribute>
                 <attribute>url</attribute>
                 <attribute>src</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_number_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -123,22 +153,36 @@
                 <attribute>currency</attribute>
                 <attribute>per</attribute>
                 <attribute>sum</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_tab</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_toggle</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_counter</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_button</tag>
@@ -149,17 +193,28 @@
         </shortcode>
         <shortcode>
             <tag>et_pb_code</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_countdown_timer</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_login</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -167,18 +222,27 @@
             <attributes>
                 <attribute>name</attribute>
                 <attribute>position</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_post_slider</tag>
             <attributes>
                 <attribute>more_text</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_search</tag>
             <attributes>
                 <attribute>placeholder</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -195,6 +259,9 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -240,15 +307,69 @@
             <tag>et_pb_fullwidth_portfolio</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
-		<shortcode>
+        <shortcode>
             <tag>et_pb_audio</tag>
             <attributes>
                 <attribute>audio</attribute>
                 <attribute>title</attribute>
                 <attribute>artist_name</attribute>
                 <attribute>album_name</attribute>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_section</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_row</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_blog</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_comments</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_divider</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_gallery</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
