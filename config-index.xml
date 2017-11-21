@@ -53,6 +53,7 @@
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
 		<item id="divi" override_local="true">Divi</item>
+		<item id="extra" override_local="true">Extra</item>
 		<item id="emerald-cv" override_local="true">Emerald CV</item>
 		<item id="enfold" override_local="true">Enfold</item>
 		<item id="function" override_local="true">Function</item>
