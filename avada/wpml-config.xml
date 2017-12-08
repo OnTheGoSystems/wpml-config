@@ -473,14 +473,6 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>fusion_tagline_box</tag>
-            <attributes>
-                <attribute type="link">link</attribute>
-                <attribute>title</attribute>
-                <attribute>description</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
             <tag>fusion_testimonials</tag>
         </shortcode>
         <shortcode>
