@@ -16,8 +16,7 @@
             <key name="blog_subtitle"/>
             <key name="date_format"/>
             <key name="map_infobox_content"/>
-            <key name="sharing_social_tagline"/>
-        </key>
+            <key name="sharing_social_tagline"/></key>
     </admin-texts>
     <custom-types>
         <custom-type translate="1">themefusion_elastic</custom-type>
@@ -474,14 +473,6 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>fusion_tagline_box</tag>
-            <attributes>
-                <attribute type="link">link</attribute>
-                <attribute>title</attribute>
-                <attribute>description</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
             <tag>fusion_testimonials</tag>
         </shortcode>
         <shortcode>
@@ -565,6 +556,18 @@
             <tag>fusion_youtube</tag>
             <attributes>
                 <attribute>id</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_table</tag>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_tagline_box</tag>
+            <attributes>
+                <attribute type="link">link</attribute>
+                <attribute>button</attribute>
+                <attribute>title</attribute>
+                <attribute encoding="base64">description</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
