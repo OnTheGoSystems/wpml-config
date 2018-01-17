@@ -328,5 +328,11 @@
                 <attribute>share_text_custom_text</attribute>
             </attributes>
         </shortcode>
+	<shortcode>
+            <tag>contact-form-7</tag>
+            <attributes>
+                <attribute>id</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
