@@ -65,6 +65,7 @@
             <tag>vc_progress_bar</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -78,6 +79,7 @@
             <tag>vc_round_chart</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -101,6 +103,8 @@
             <tag>vc_line_chart</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+				<attribute>x_values</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
