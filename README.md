@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Remote repository for WPML language configuration files
 
 This is the repository that the WPML plugin uses to keep the list of language configuration files always up to date.
