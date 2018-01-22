@@ -14,7 +14,7 @@ Language configuration files can be stored directly in the root folder of the pl
 
 The language configuration repository has:
 
-- An index file `config-index.xml` to keep items organized in plugins and themes.
+- An index file to keep items organized under plugins and themes: [config-index.xml](config-index.xml)
 - A folder for each entry in the index file with a `wpml-config.xml` file inside.
 
 ## Index file format
