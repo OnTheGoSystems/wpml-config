@@ -1,4 +1,10 @@
 <?php
+/**
+ * Parses the XML index file and generates the corresponding JSON file.
+ *
+ * The WPML plugin will read the JSON file to keep up to date with changes.
+ */
+
 error_reporting( E_ALL );
 
 $config = new WPML_Config_Index;
