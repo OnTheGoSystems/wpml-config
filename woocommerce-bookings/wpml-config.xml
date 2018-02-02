@@ -36,6 +36,7 @@
         <custom-field action="translate">_resource_base_costs</custom-field>
         <custom-field action="translate">_resource_block_costs</custom-field>
         <custom-field action="copy">_has_additional_costs</custom-field>
+        <custom-field action="copy">_wc_booking_block_cost</custom-field>
 	</custom-fields>
     <custom-types>
         <custom-type translate="1">bookable_person</custom-type>
