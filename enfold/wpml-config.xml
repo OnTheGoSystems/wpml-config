@@ -73,6 +73,14 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>av_timeline_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute>date</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>av_font_icon</tag>
             <attributes>
                 <attribute>caption</attribute>
