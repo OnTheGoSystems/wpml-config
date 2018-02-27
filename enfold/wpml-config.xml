@@ -7,9 +7,9 @@
         <taxonomy translate="1">portfolio_entries</taxonomy>
     </taxonomies>
     <custom-fields>
-        <custom-field action="copy-once">_aviaLayoutBuilder_active</custom-field>
-        <custom-field action="copy-once">_avia_builder_shortcode_tree</custom-field>
-        <custom-field action="copy-once">_aviaLayoutBuilderCleanData</custom-field>
+        <custom-field action="copy">_aviaLayoutBuilder_active</custom-field>
+        <custom-field action="copy">_avia_builder_shortcode_tree</custom-field>
+        <custom-field action="ignore">_aviaLayoutBuilderCleanData</custom-field>
     </custom-fields>
     <language-switcher-settings>
         <key name="icl_lang_sel_config">
