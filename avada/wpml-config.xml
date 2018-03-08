@@ -177,7 +177,7 @@
             <tag>fusion_li_item</tag>
         </shortcode>
         <shortcode>
-            <tag>fusion_code</tag>
+            <tag encoding="base64" encoding-condition="option:avada_disable_encoding=1">fusion_code</tag>
         </shortcode>
         <shortcode>
             <tag>fusion_builder_row</tag>
