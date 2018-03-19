@@ -1,0 +1,40 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">uncodeblock</custom-type>
+        <custom-type translate="1">uncode_gallery</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">page_category</taxonomy>
+        <taxonomy translate="1">uncodeblock_category</taxonomy>
+        <taxonomy translate="1">uncode_gallery_category</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="ignore">_uncode_gallery_media</custom-field>
+        <custom-field action="ignore">_uncode_gallery_cover</custom-field>
+        <custom-field action="copy-once">_thumbnail_id</custom-field>
+        <custom-field action="copy-once">_uncode_featured_media</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="uncode">
+            <key name="_uncode_menu_bloginfo"/>
+            <key name="_uncode_post_navigation_index_label"/>
+            <key name="_uncode_portfolio_navigation_index_label"/>
+            <key name="_uncode_product_navigation_index_label"/>
+            <key name="_uncode_product_index_content_block"/>
+            <key name="_uncode_footer_text"/>
+        </key>
+    </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>uncode_list</tag>
+        </shortcode>
+        <shortcode>
+            <tag>uncode_counter</tag>
+            <attributes>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
