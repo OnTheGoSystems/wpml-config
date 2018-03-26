@@ -55,7 +55,7 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
-                <attribute>button_url</attribute>
+                <attribute type="link">button_url</attribute>
                 <attribute>background_image</attribute>
                 <attribute>background_video_mp4</attribute>
                 <attribute>background_video_webm</attribute>
@@ -152,7 +152,7 @@
                 <attribute>title</attribute>
                 <attribute>subtitle</attribute>
                 <attribute>button_text</attribute>
-                <attribute>button_url</attribute>
+                <attribute type="link">button_url</attribute>
                 <attribute>currency</attribute>
                 <attribute>per</attribute>
                 <attribute>sum</attribute>
@@ -191,7 +191,7 @@
             <tag>et_pb_button</tag>
             <attributes>
                 <attribute>button_text</attribute>
-                <attribute>button_url</attribute>
+                <attribute type="link">button_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -291,9 +291,9 @@
                 <attribute>title</attribute>
                 <attribute>subhead</attribute>
                 <attribute>button_one_text</attribute>
-                <attribute>button_one_url</attribute>
+                <attribute type="link">button_one_url</attribute>
                 <attribute>button_two_text</attribute>
-                <attribute>button_two_url</attribute>
+                <attribute type="link">button_two_url</attribute>
                 <attribute>logo_alt_text</attribute>
                 <attribute>logo_title</attribute>
             </attributes>
