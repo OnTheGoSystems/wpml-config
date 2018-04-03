@@ -1,53 +1,53 @@
 <wpml-config>
-  <custom-types>
-    <custom-type translate="1">tribe_venue</custom-type>
-    <custom-type translate="1">tribe_organizer</custom-type>
-    <custom-type translate="1">tribe_events</custom-type>
-    <custom-type translate="1">tribe_rsvp_tickets</custom-type>
-	<custom-type translate="1">ticket-meta-fieldset</custom-type>
-  </custom-types>
-  <taxonomies>
-    <taxonomy translate="1">tribe_events_cat</taxonomy>
-  </taxonomies>
-  <custom-fields>
-    <custom-field action="copy">_EventOrigin</custom-field>
-    <custom-field action="copy">_EventShowMapLink</custom-field>
-    <custom-field action="copy">_EventShowMap</custom-field>
-    <custom-field action="copy">_VenueOrigin</custom-field>
-    <custom-field action="copy">_VenueVenue</custom-field>
-    <custom-field action="translate">_VenueAddress</custom-field>
-    <custom-field action="translate">_VenueCity</custom-field>
-    <custom-field action="copy">_VenueCountry</custom-field>
-    <custom-field action="translate">_VenueProvince</custom-field>
-    <custom-field action="translate">_VenueState</custom-field>
-    <custom-field action="copy">_VenueZip</custom-field>
-    <custom-field action="copy">_VenuePhone</custom-field>
-    <custom-field action="copy">_VenueURL</custom-field>
-    <custom-field action="copy">_VenueShowMap</custom-field>
-    <custom-field action="copy">_VenueShowMapLink</custom-field>
-    <custom-field action="translate">_VenueStateProvince</custom-field>
-    <custom-field action="translate">_EventVenueID</custom-field>
-    <custom-field action="copy">_OrganizerOrigin</custom-field>
-    <custom-field action="copy">_OrganizerOrganizerID</custom-field>
-    <custom-field action="copy">_OrganizerOrganizer</custom-field>
-    <custom-field action="copy">_OrganizerPhone</custom-field>
-    <custom-field action="copy">_OrganizerWebsite</custom-field>
-    <custom-field action="copy">_OrganizerEmail</custom-field>
-    <custom-field action="copy">_EventOrganizerID</custom-field>
-    <custom-field action="copy">_EventStartDate</custom-field>
-    <custom-field action="copy">_EventEndDate</custom-field>
-    <custom-field action="copy">_EventStartDateUTC</custom-field>
-    <custom-field action="copy">_EventEndDateUTC</custom-field>
-    <custom-field action="copy">_EventDuration</custom-field>
-    <custom-field action="copy">_EventCurrencySymbol</custom-field>
-    <custom-field action="copy">_EventCurrencyPosition</custom-field>
-    <custom-field action="copy">_EventCost</custom-field>
-    <custom-field action="copy">_EventURL</custom-field>
-    <custom-field action="copy">_EventTimezone</custom-field>
-    <custom-field action="copy">_EventTimezoneAbbr</custom-field>
-	<custom-field action="copy">_VenueLng</custom-field>
-	<custom-field action="copy">_VenueLat</custom-field>
-	<custom-field action="copy">_tribe_tickets_meta_enabled</custom-field>
-	<custom-field action="translate">_tribe_tickets_meta</custom-field>
-  </custom-fields>
+    <custom-types>
+        <custom-type translate="1">tribe_venue</custom-type>
+        <custom-type translate="1">tribe_organizer</custom-type>
+        <custom-type translate="1">tribe_events</custom-type>
+        <custom-type translate="1">tribe_rsvp_tickets</custom-type>
+        <custom-type translate="1">ticket-meta-fieldset</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">tribe_events_cat</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">_EventAllDay</custom-field>
+        <custom-field action="copy">_EventOrigin</custom-field>
+        <custom-field action="copy">_EventShowMapLink</custom-field>
+        <custom-field action="copy">_EventShowMap</custom-field>
+        <custom-field action="copy">_VenueOrigin</custom-field>
+        <custom-field action="copy">_VenueVenue</custom-field>
+        <custom-field action="translate">_VenueAddress</custom-field>
+        <custom-field action="translate">_VenueCity</custom-field>
+        <custom-field action="copy">_VenueCountry</custom-field>
+        <custom-field action="translate">_VenueProvince</custom-field>
+        <custom-field action="translate">_VenueState</custom-field>
+        <custom-field action="copy">_VenueZip</custom-field>
+        <custom-field action="copy">_VenuePhone</custom-field>
+        <custom-field action="translate">_VenueURL</custom-field>
+        <custom-field action="copy">_VenueShowMap</custom-field>
+        <custom-field action="copy">_VenueShowMapLink</custom-field>
+        <custom-field action="translate">_VenueStateProvince</custom-field>
+        <custom-field action="copy">_EventVenueID</custom-field>
+        <custom-field action="copy">_OrganizerOrigin</custom-field>
+        <custom-field action="copy">_OrganizerOrganizerID</custom-field>
+        <custom-field action="copy">_OrganizerOrganizer</custom-field>
+        <custom-field action="copy">_OrganizerPhone</custom-field>
+        <custom-field action="translate">_OrganizerWebsite</custom-field>
+        <custom-field action="copy">_OrganizerEmail</custom-field>
+        <custom-field action="copy">_EventOrganizerID</custom-field>
+        <custom-field action="copy">_EventStartDate</custom-field>
+        <custom-field action="copy">_EventEndDate</custom-field>
+        <custom-field action="copy">_EventStartDateUTC</custom-field>
+        <custom-field action="copy">_EventEndDateUTC</custom-field>
+        <custom-field action="copy">_EventDuration</custom-field>
+        <custom-field action="translate">_EventCurrencySymbol</custom-field>
+        <custom-field action="translate">_EventCost</custom-field>
+        <custom-field action="translate">_EventURL</custom-field>
+        <custom-field action="copy">_EventTimezone</custom-field>
+        <custom-field action="copy">_EventTimezoneAbbr</custom-field>
+        <custom-field action="copy">_VenueLng</custom-field>
+        <custom-field action="copy">_VenueLat</custom-field>
+        <custom-field action="copy">_tribe_tickets_meta_enabled</custom-field>
+        <custom-field action="translate">_tribe_tickets_meta</custom-field>
+    </custom-fields>
 </wpml-config>
