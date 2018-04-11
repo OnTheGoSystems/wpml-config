@@ -570,5 +570,21 @@
                 <attribute encoding="base64">description</attribute>
             </attributes>
         </shortcode>
+		<shortcode>
+            <tag>fusion_chart</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>x_axis_label</attribute>
+                <attribute>y_axis_label</attribute>
+                <attribute>x_axis_labels</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_chart_dataset</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>values</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
