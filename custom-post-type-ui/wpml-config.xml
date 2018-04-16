@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cptui_post_types">
+            <key name="*">
+                <key name="label"/>
+                <key name="singular_label"/>
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>
