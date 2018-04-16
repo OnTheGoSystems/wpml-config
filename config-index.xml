@@ -3,6 +3,7 @@
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
 		<item id="book-now">Book Now</item>
 		<item id="cornerstone" override_local="true">Cornerstone</item>
+		<item id="custom-post-type-ui" override_local="true">Custom Post Type UI</item>
 		<item id="divi-builder" override_local="true">Divi Builder</item>
 		<item id="event-tickets-plus">Event Tickets Plus</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
