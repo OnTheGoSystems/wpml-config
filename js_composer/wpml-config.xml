@@ -117,12 +117,14 @@
             <tag>vc_gallery</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">custom_links</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_images_carousel</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">custom_links</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -147,6 +149,7 @@
             <tag>vc_gmaps</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
