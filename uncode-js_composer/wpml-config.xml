@@ -1,0 +1,344 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="ignore">_vc_post_settings</custom-field>
+	</custom-fields>
+    <shortcodes>
+        <shortcode>
+            <tag>vc_column_text</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_text_separator</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_message</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_toggle</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_accordion</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_tour</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_tabs</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_pageable</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_section</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_custom_heading</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">text</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag encoding="base64">vc_raw_html</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_progress_bar</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_pie</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute>label_value</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_round_chart</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_btn</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_cta</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">h2</attribute>
+                <attribute encoding="allow_html_tags">h4</attribute>
+                <attribute encoding="allow_html_tags">btn_title</attribute>
+                <attribute encoding="vc_link" type="link">btn_link</attribute>
+                <attribute encoding="vc_link" type="link">i_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_line_chart</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+				<attribute>x_values</attribute>
+				<attribute type="area" encoding="urlencoded_json">values</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_single_image</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_gallery</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">custom_links</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_images_carousel</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">custom_links</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_widget_sidebar</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_posts_slider</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_video</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_gmaps</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_flickr</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_search</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_meta</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_recentcomments</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_calendar</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_pages</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_tagcloud</tag>
+            <attributes>
+                <attribute>taxonomy</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_custommenu</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_text</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_posts</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_categories</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_archives</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_rss</tag>
+             <attributes>
+                <attribute>items</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>	
+        <shortcode>
+            <tag>vc_hoverbox</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">primary_title</attribute>
+                <attribute encoding="vc_link" type="link">primary_title_link</attribute>
+                <attribute encoding="allow_html_tags">hover_title</attribute>
+                <attribute>content</attribute>
+                <attribute encoding="vc_link" type="link">hover_title_link</attribute>
+                <attribute encoding="allow_html_tags">hover_btn_title</attribute>
+                <attribute encoding="vc_link" type="link">hover_btn_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_accordion</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_accordion_tab</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_basic_grid</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">btn_custom_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_button</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_link" type="link">href</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_button2</tag>
+            <attributes>
+                <attribute encoding="vc_link" type="link">link</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_carousel</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_cta_button</tag>
+            <attributes>
+                <attribute>call_text</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_link" type="link">href</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_cta_button2</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">h2</attribute>
+                <attribute encoding="allow_html_tags">h4</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_masonry_grid</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">btn_title</attribute>
+                <attribute>btn_outline_custom_hover_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_masonry_media_grid</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">btn_title</attribute>
+                <attribute>btn_custom_text</attribute>
+                <attribute>btn_outline_custom_hover_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_media_grid</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">btn_title</attribute>
+                <attribute>btn_custom_text</attribute>
+                <attribute>btn_outline_custom_hover_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_posts_grid</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tab</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tabs</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tour</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tweetmeme</tag>
+            <attributes>
+                <attribute>share_text_page_title</attribute>
+                <attribute>share_text_custom_text</attribute>
+            </attributes>
+        </shortcode>
+	<shortcode>
+            <tag>contact-form-7</tag>
+            <attributes>
+                <attribute>id</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
