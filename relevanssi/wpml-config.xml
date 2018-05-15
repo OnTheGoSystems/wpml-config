@@ -1,0 +1,6 @@
+<wpml-config>
+    <admin-texts>
+        <key name="relevanssi_show_matches_text"/>
+        <key name="relevanssi_synonyms"/>
+    </admin-texts>
+</wpml-config>
