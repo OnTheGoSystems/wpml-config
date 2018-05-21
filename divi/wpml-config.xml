@@ -262,6 +262,8 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>success_message</attribute>
+                <attribute>success_redirect_url</attribute>
                 <attribute>background_image</attribute>
                 <attribute>background_video_mp4</attribute>
                 <attribute>background_video_webm</attribute>
