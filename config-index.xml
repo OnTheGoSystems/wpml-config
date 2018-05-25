@@ -51,6 +51,7 @@
 		<item id="yith-woocommerce-minimum-maximum-quantity-premium" override_local="true">YITH WooCommerce Minimum Maximum Quantity Premium</item>
 		<item id="yith-woocommerce-quick-view-premium">YITH WooCommerce Quick View Premium</item>
 		<item id="yoast-seo" override_local="true">Yoast SEO</item>
+		<item id="elementor" override_local="true">Elementor</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
