@@ -340,5 +340,11 @@
         <shortcode>
             <tag>av_codeblock</tag>
         </shortcode>
+		<shortcode>
+            <tag>av_video</tag>
+            <attributes>
+                <attribute>src</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
