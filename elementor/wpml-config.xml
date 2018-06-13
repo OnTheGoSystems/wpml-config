@@ -1,6 +1,14 @@
 <wpml-config>
-    <custom-fields>
+   <custom-fields>
         <custom-field action="copy-once">_elementor_page_settings</custom-field>
-        <custom-field action="copy-once">_elementor_css</custom-field>
+        <custom-field action="copy">_elementor_edit_mode</custom-field>
+        <custom-field action="copy">_elementor_template_type</custom-field>
+        <custom-field action="copy">_elementor_version</custom-field>
     </custom-fields>
+    <custom-types>
+        <custom-type translate="1">elementor_library</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="0">elementor_library_type</taxonomy>
+    </taxonomies>
 </wpml-config>
