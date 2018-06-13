@@ -28,6 +28,10 @@
         <custom-field action="copy">_et_pb_content_area_background_color</custom-field>
         <custom-field action="copy">_et_post_bg_color</custom-field>
         <custom-field action="copy">_et_post_bg_layout</custom-field>
+        <custom-field action="copy">_et_pb_use_ab_testing</custom-field>
+        <custom-field action="copy">_et_pb_ab_testing_id</custom-field>
+        <custom-field action="copy">_et_pb_ab_subjects</custom-field>
+        <custom-field action="copy">_et_pb_ab_goal_module</custom-field>
     </custom-fields>
     <admin-texts>
         <key name="et_divi">
@@ -261,6 +265,8 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>success_message</attribute>
+                <attribute>success_redirect_url</attribute>
                 <attribute>background_image</attribute>
                 <attribute>background_video_mp4</attribute>
                 <attribute>background_video_webm</attribute>
