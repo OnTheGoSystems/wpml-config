@@ -49,6 +49,7 @@
         <custom-field action="copy">_VenueLat</custom-field>
         <custom-field action="copy">_tribe_tickets_meta_enabled</custom-field>
         <custom-field action="translate">_tribe_tickets_meta</custom-field>
+        <custom-field action="copy">_EventRecurrence</custom-field>
     </custom-fields>
     <admin-texts>
     <key name="tribe_events_calendar_options">
