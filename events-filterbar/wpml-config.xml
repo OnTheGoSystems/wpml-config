@@ -1,0 +1,42 @@
+<wpml-config>
+  <admin-texts>
+    <key name="tribe_events_filters_current_active_filters">
+      <key name="eventcategory">
+        <key name="title"/>
+      </key>
+      <key name="cost">
+        <key name="title"/>
+      </key>
+      <key name="tags">
+        <key name="title"/>
+      </key>
+      <key name="venues">
+        <key name="title"/>
+      </key>
+      <key name="organizers">
+        <key name="title"/>
+      </key>
+      <key name="dayofweek">
+        <key name="title"/>
+      </key>
+      <key name="timeofday">
+        <key name="title"/>
+      </key>
+      <key name="country">
+        <key name="title"/>
+      </key>
+      <key name="city">
+        <key name="title"/>
+      </key>
+      <key name="state">
+        <key name="title"/>
+      </key>
+      <key name="featuredevent">
+        <key name="title"/>
+      </key>
+      <key name="geofence">
+        <key name="title"/>
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>
