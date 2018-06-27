@@ -20,6 +20,7 @@
             <key name="title-*" />
             <key name="metadesc-*" />
             <key name="metakey-*" />
+            <key name="company_name" />
         </key>
         <key name="wpseo_internallinks">
             <key name="breadcrumbs-sep" />
