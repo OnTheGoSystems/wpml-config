@@ -152,6 +152,25 @@
         <custom-field action="translate">pyre_button_2</custom-field>
         <custom-field action="copy-once">pyre_slide_link</custom-field>
         <custom-field action="copy-once">pyre_slide_target</custom-field>
+		<custom-field action="copy-once">pyre_post_links_target</custom-field>
+        <custom-field action="copy-once">pyre_share_box</custom-field>
+        <custom-field action="copy-once">pyre_post_pagination</custom-field>
+        <custom-field action="copy-once">pyre_author_info</custom-field>
+        <custom-field action="copy-once">pyre_post_meta</custom-field>
+        <custom-field action="copy-once">pyre_header_bg_opacity</custom-field>
+        <custom-field action="copy-once">pyre_sidebar_sticky</custom-field>
+        <custom-field action="copy-once">pyre_sidebar_bg_color</custom-field>
+        <custom-field action="copy-once">pyre_page_title_text_size</custom-field>
+        <custom-field action="copy-once">pyre_page_title_line_height</custom-field>
+        <custom-field action="copy-once">pyre_page_title_custom_subheader_text_size</custom-field>
+        <custom-field action="copy-once">pyre_page_title_font_color</custom-field>
+        <custom-field action="copy-once">pyre_page_title_height</custom-field>
+        <custom-field action="copy-once">pyre_page_title_mobile_height</custom-field>
+        <custom-field action="copy-once">pyre_page_title_bar_borders_color</custom-field>
+        <custom-field action="copy-once">kd_featured-image-2_post_id</custom-field>
+        <custom-field action="copy-once">kd_featured-image-3_post_id</custom-field>
+        <custom-field action="copy-once">kd_featured-image-4_post_id</custom-field>
+        <custom-field action="copy-once">kd_featured-image-5_post_id</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
@@ -586,5 +605,12 @@
                 <attribute>values</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>fusion_image_before_after</tag>
+            <attributes>
+                <attribute>before_label</attribute>
+                <attribute>after_label</attribute>
+            </attributes>
+        </shortcode>		
     </shortcodes>
 </wpml-config>
