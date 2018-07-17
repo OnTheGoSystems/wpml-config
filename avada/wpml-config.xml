@@ -204,14 +204,6 @@
         <shortcode>
             <tag>fusion_builder_column</tag>
             <attributes>
-                <attribute>background_image</attribute>
-                <attribute type="link">link</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_builder_column</tag>
-            <attributes>
-                <attribute>background_image</attribute>
                 <attribute type="link">link</attribute>
             </attributes>
         </shortcode>
@@ -219,20 +211,8 @@
             <tag>fusion_builder_container</tag>
             <attributes>
                 <attribute>menu_anchor</attribute>
-                <attribute>background_image</attribute>
                 <attribute>video_mp4</attribute>
                 <attribute>video_url</attribute>
-                <attribute>video_preview_image</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_builder_container</tag>
-            <attributes>
-                <attribute>menu_anchor</attribute>
-                <attribute>background_image</attribute>
-                <attribute>video_mp4</attribute>
-                <attribute>video_url</attribute>
-                <attribute>video_preview_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -242,7 +222,6 @@
             <tag>fusion_content_box</tag>
             <attributes>
                 <attribute>title</attribute>
-                <attribute>image</attribute>
                 <attribute type="link">link</attribute>
                 <attribute>linktext</attribute>
             </attributes>
@@ -254,7 +233,6 @@
                 <attribute>subheading_text</attribute>
                 <attribute type="link">link_url</attribute>
                 <attribute>link_text</attribute>
-                <attribute>background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -281,7 +259,6 @@
         <shortcode>
             <tag>fusion_faq</tag>
             <attributes>
-                <attribute>featured_image</attribute>
                 <attribute>cats_slug</attribute>
                 <attribute>exclude_cats</attribute>
             </attributes>
@@ -295,12 +272,9 @@
                 <attribute>title_front</attribute>
                 <attribute>title_back</attribute>
                 <attribute>text_front</attribute>
-                <attribute>image</attribute>
             </attributes>
         </shortcode>
-        <shortcode>
-            <tag>fusion_fontawesome</tag>
-        </shortcode>
+
         <shortcode>
             <tag>fusion_fusionslider</tag>
             <attributes>
@@ -322,7 +296,6 @@
             <tag>fusion_image</tag>
             <attributes>
                 <attribute type="link">link</attribute>
-                <attribute>image</attribute>
                 <attribute>alt</attribute>
             </attributes>
         </shortcode>
@@ -331,7 +304,6 @@
             <attributes>
                 <attribute>image_id</attribute>
                 <attribute>gallery_id</attribute>
-                <attribute>lightbox_image</attribute>
                 <attribute>alt</attribute>
                 <attribute type="link">link</attribute>
             </attributes>
@@ -342,11 +314,9 @@
         <shortcode>
             <tag>fusion_lightbox</tag>
             <attributes>
-                <attribute>title</attribute>
-                <attribute type="link">href</attribute>
-                <attribute>data-rel</attribute>
-                <attribute>img src</attribute>
-                <attribute>alt</attribute>
+                <attribute>video_url</attribute>
+                <attribute>description</attribute>
+                <attribute>alt_text</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -372,10 +342,7 @@
             <attributes>
                 <attribute>name</attribute>
                 <attribute>title</attribute>
-                <attribute>picture</attribute>
-                <attribute>pic_link</attribute>
-                <attribute>email</attribute>
-                <attribute>social links</attribute>
+                <attribute type="link">pic_link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -390,20 +357,6 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_portfolio</tag>
-            <attributes>
-                <attribute>cat_slug</attribute>
-                <attribute>exclude_cats</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_postslider</tag>
-            <attributes>
-                <attribute>excerpt</attribute>
-                <attribute>category</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -433,13 +386,6 @@
             <tag>fusion_progress</tag>
         </shortcode>
         <shortcode>
-            <tag>fusion_recent_posts</tag>
-            <attributes>
-                <attribute>cat_slug</attribute>
-                <attribute>exclude_cats</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
             <tag>rev_slider</tag>
         </shortcode>
         <shortcode>
@@ -455,7 +401,6 @@
                 <attribute>title</attribute>
                 <attribute type="link">link</attribute>
                 <attribute>description</attribute>
-                <attribute>pinterest_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -473,13 +418,7 @@
         <shortcode>
             <tag>fusion_soundcloud</tag>
             <attributes>
-                <attribute type="link">url</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_soundcloud</tag>
-            <attributes>
-                <attribute type="link">url</attribute>
+                <attribute>url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -498,7 +437,6 @@
             <tag>fusion_testimonial</tag>
             <attributes>
                 <attribute>name</attribute>
-                <attribute>image</attribute>
                 <attribute>company</attribute>
                 <attribute type="link">link</attribute>
             </attributes>
@@ -560,12 +498,6 @@
             <tag>fusion_widget_area</tag>
             <attributes>
                 <attribute>name</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_products_slider</tag>
-            <attributes>
-                <attribute>cat_slug</attribute>
             </attributes>
         </shortcode>
         <shortcode>
