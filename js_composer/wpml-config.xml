@@ -224,7 +224,6 @@
             <tag>vc_wp_rss</tag>
              <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-                <attribute>url</attribute>
             </attributes>
         </shortcode>	
         <shortcode>
@@ -346,6 +345,12 @@
             <attributes>
                 <attribute>share_text_page_title</attribute>
                 <attribute>share_text_custom_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>contact-form-7</tag>
+            <attributes>
+                <attribute>id</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
