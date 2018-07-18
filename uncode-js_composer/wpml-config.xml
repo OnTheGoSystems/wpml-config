@@ -1,7 +1,7 @@
 <wpml-config>
-	<custom-fields>
-		<custom-field action="ignore">_vc_post_settings</custom-field>
-	</custom-fields>
+    <custom-fields>
+        <custom-field action="ignore">_vc_post_settings</custom-field>
+    </custom-fields>
     <shortcodes>
         <shortcode>
             <tag>vc_column_text</tag>
@@ -59,13 +59,10 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag encoding="base64">vc_raw_html</tag>
-        </shortcode>
-        <shortcode>
             <tag>vc_progress_bar</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-				<attribute type="area" encoding="urlencoded_json">values</attribute>
+                <attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -79,7 +76,7 @@
             <tag>vc_round_chart</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-				<attribute type="area" encoding="urlencoded_json">values</attribute>
+                <attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -103,8 +100,8 @@
             <tag>vc_line_chart</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-				<attribute>x_values</attribute>
-				<attribute type="area" encoding="urlencoded_json">values</attribute>
+                <attribute>x_values</attribute>
+                <attribute type="area" encoding="urlencoded_json">values</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -165,9 +162,15 @@
         </shortcode>
         <shortcode>
             <tag>vc_wp_meta</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_recentcomments</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_calendar</tag>
@@ -177,11 +180,14 @@
         </shortcode>
         <shortcode>
             <tag>vc_wp_pages</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_tagcloud</tag>
             <attributes>
-                <attribute>taxonomy</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -198,19 +204,26 @@
         </shortcode>
         <shortcode>
             <tag>vc_wp_posts</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_categories</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_archives</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_wp_rss</tag>
              <attributes>
-                <attribute>items</attribute>
                 <attribute encoding="allow_html_tags">title</attribute>
-                <attribute>url</attribute>
             </attributes>
         </shortcode>	
         <shortcode>
@@ -332,12 +345,6 @@
             <attributes>
                 <attribute>share_text_page_title</attribute>
                 <attribute>share_text_custom_text</attribute>
-            </attributes>
-        </shortcode>
-	<shortcode>
-            <tag>contact-form-7</tag>
-            <attributes>
-                <attribute>id</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
