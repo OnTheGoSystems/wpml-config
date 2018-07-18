@@ -224,6 +224,7 @@
             <tag>vc_wp_rss</tag>
              <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute>url</attribute>
             </attributes>
         </shortcode>	
         <shortcode>
