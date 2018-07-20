@@ -95,12 +95,6 @@
     </shortcode>
     <shortcode>
       <tag>x_content_band</tag>
-      <attributes>
-        <attribute>bg_pattern</attribute>
-        <attribute>bg_image</attribute>
-        <attribute>bg_video</attribute>
-        <attribute>bg_video_poster</attribute>
-      </attributes>
     </shortcode>
     <shortcode>
       <tag>x_counter</tag>
