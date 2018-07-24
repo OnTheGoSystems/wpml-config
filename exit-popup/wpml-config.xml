@@ -1,6 +1,5 @@
 <wpml-config>
     <admin-texts>
-        <key name="exit_popup_popup_title_color"/>
         <key name="exit_popup_popup_title"/>
         <key name="exit_popup_popup_body"/>
         <key name="exit_popup_popup_footer"/>
