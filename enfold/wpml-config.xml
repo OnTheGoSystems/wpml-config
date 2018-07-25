@@ -14,6 +14,7 @@
         <custom-field action="copy-once">footer</custom-field>
         <custom-field action="copy-once">header_title_bar</custom-field>
         <custom-field action="copy-once">header_transparency</custom-field>
+		<custom-field action="copy-once">layout</custom-field>
     </custom-fields>
     <language-switcher-settings>
         <key name="icl_lang_sel_config">
