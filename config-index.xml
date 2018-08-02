@@ -19,6 +19,7 @@
 		<item id="productprint" override_local="true">ProductPrint</item>
 		<item id="sensei" override_local="true">Sensei</item>
 		<item id="subscriptio">Subscriptio</item>
+		<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>
 		<item id="the-events-calendar" override_local="true">The Events Calendar</item>
 		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
 		<item id="woo-brand">Woocomerce Brands Pro</item>
