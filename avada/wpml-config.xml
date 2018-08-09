@@ -25,6 +25,7 @@
         <custom-type translate="1">revslider</custom-type>
         <custom-type translate="1">avada_faq</custom-type>
         <custom-type translate="1">avada_portfolio</custom-type>
+		<custom-type translate="1">fusion_element</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_category</taxonomy>
