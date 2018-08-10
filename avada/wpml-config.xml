@@ -1,4 +1,5 @@
 <wpml-config>
+    <built-with-page-builder>/\[(fusion_builder_container|fusion_builder_row|fusion_builder_column)/</built-with-page-builder>
     <admin-texts>
         <key name="avada_theme_options">
             <key name="google_analytics"/>

@@ -1,4 +1,5 @@
 <wpml-config>
+    <built-with-page-builder>/\[(et_pb_section|et_pb_row|et_pb_column)/</built-with-page-builder>
     <custom-types>
         <custom-type translate="1">project</custom-type>
         <custom-type translate="1">et_pb_layout</custom-type>
