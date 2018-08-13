@@ -1,5 +1,6 @@
 <wpml-config>
   <built-with-page-builder>/\[cs_content\]/</built-with-page-builder>
+  <shortcode-list>cs_content,cs_element_section,cs_quote,cs_element_row,cs_column,x_accordion_item,cs_alert,x_author,x_blockquote,x_button,x_callout,x_columnize,x_column,x_container,x_content_band,x_counter,x_custom_headline,x_share,x_feature_headline,x_highlight,x_image,x_google_map_marker,x_extra,x_promo,x_prompt,x_pullquote,x_lightbox,cs_pricing_table_column,x_slider,x_responsive_text,x_toc,x_toc_item,x_text_type,cs_text,x_tab_nav_item,x_tab,x_tab_nav,x_tabs,cs_block_grid,cs_block_grid_item,x_card,x_creative_cta,x_feature_box,x_feature_list,cs_icon_list,cs_icon_list_item,x_skill_bar,x_accordion_item,cs_alert,x_author,x_blockquote,x_button,x_callout,x_columnize,x_column,x_container,x_content_band,x_counter,x_custom_headline,x_share,x_feature_headline,x_highlight,x_image,x_google_map_marker,x_extra,x_promo,x_prompt,x_pullquote,x_lightbox,cs_pricing_table_column,x_slider,x_responsive_text,x_toc,x_toc_item,x_text_type,cs_text,x_tab_nav_item,x_tab,x_tab_nav,x_tabs,cs_block_grid,cs_block_grid_item,x_card,x_creative_cta,x_feature_box,x_feature_list,cs_icon_list,cs_icon_list_item,x_skill_bar</shortcode-list>
   <custom-types>
     <custom-type translate="1">x-portfolio</custom-type>
   </custom-types>
