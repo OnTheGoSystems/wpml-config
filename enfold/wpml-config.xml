@@ -1,4 +1,5 @@
 <wpml-config>
+    <built-with-page-builder>/\[av_\]/</built-with-page-builder>
     <custom-types>
         <custom-type translate="0">avia_framework_post</custom-type>
         <custom-type translate="1">portfolio</custom-type>

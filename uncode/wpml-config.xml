@@ -1,4 +1,5 @@
 <wpml-config>
+    <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
     <custom-types>
         <custom-type translate="1">portfolio</custom-type>
         <custom-type translate="1">uncodeblock</custom-type>

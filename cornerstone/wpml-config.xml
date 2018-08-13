@@ -1,4 +1,5 @@
 <wpml-config>
+  <built-with-page-builder>/\[cs_content\]/</built-with-page-builder>
   <custom-types>
     <custom-type translate="1">x-portfolio</custom-type>
   </custom-types>

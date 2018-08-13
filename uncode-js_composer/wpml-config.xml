@@ -1,4 +1,5 @@
 <wpml-config>
+    <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
     <custom-fields>
         <custom-field action="ignore">_vc_post_settings</custom-field>
     </custom-fields>
