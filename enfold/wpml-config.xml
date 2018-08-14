@@ -185,7 +185,6 @@
             <attributes>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute>heading</attribute>
-                <attribute>heading_link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -233,7 +232,6 @@
             <attributes>
                 <attribute>name</attribute>
                 <attribute>subtitle</attribute>
-                <attribute>link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -317,12 +315,6 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>av_layerslider</tag>
-            <attributes>
-                <attribute>id</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
             <tag>av_partner</tag>
             <attributes>
                 <attribute>heading</attribute>
@@ -342,15 +334,6 @@
                 <attribute>address</attribute>
                 <attribute>city</attribute>
                 <attribute>country</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>av_codeblock</tag>
-        </shortcode>
-		<shortcode>
-            <tag>av_video</tag>
-            <attributes>
-                <attribute>src</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
