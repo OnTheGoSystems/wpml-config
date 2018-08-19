@@ -1,0 +1,3 @@
+<wpml-config>
+    <shortcode-list>pmpro_billing,pmpro_cancel,pmpro_checkout,pmpro_confirmation,pmpro_invoice,pmpro_levels</shortcode-list>
+</wpml-config>
