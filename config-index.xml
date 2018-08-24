@@ -56,6 +56,17 @@
 		<item id="wordpress-seo-premium" override_local="true">Yoast SEO Premium</item>
 		<item id="elementor" override_local="true">Elementor</item>
 		<item id="exit-popup">Exit Popup</item>
+		<item id="ninja-forms" override_local="true">Ninja Forms</item>
+		<item id="rezgo" override_local="true">Rezgo Online Booking</item>
+		<item id="master-slider" override_local="true">MasterSlider</item>
+		<item id="comment-form" override_local="true">Advanced Comment Form</item>
+		<item id="search-filter" override_local="true">Search &amp; Filter</item>
+		<item id="kingcomposer" override_local="true">KingComposer</item>
+		<item id="ultimate-member" override_local="true">Ultimate Member</item>
+		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
+		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
+		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
+		<item id="bold-page-builder" override_local="true">Bold Builder</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
