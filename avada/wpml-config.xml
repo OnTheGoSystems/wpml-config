@@ -220,6 +220,9 @@
         </shortcode>
         <shortcode>
             <tag>fusion_content_boxes</tag>
+            <attributes>
+                <attribute type="media-url">image</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_content_box</tag>
@@ -227,6 +230,7 @@
                 <attribute>title</attribute>
                 <attribute type="link">link</attribute>
                 <attribute>linktext</attribute>
+                <attribute type="media-url">image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -268,6 +272,9 @@
         </shortcode>
         <shortcode>
             <tag>fusion_flip_boxes</tag>
+            <attributes>
+                <attribute type="media-url">image</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_flip_box</tag>
@@ -275,6 +282,7 @@
                 <attribute>title_front</attribute>
                 <attribute>title_back</attribute>
                 <attribute>text_front</attribute>
+                <attribute type="media-url">image</attribute>
             </attributes>
         </shortcode>
 
@@ -300,15 +308,17 @@
             <attributes>
                 <attribute type="link">link</attribute>
                 <attribute>alt</attribute>
+                <attribute type="media-url">image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>fusion_imageframe</tag>
+            <tag type="media-url">fusion_imageframe</tag>
             <attributes>
                 <attribute>image_id</attribute>
                 <attribute>gallery_id</attribute>
                 <attribute>alt</attribute>
                 <attribute type="link">link</attribute>
+                <attribute type="media-ids">image_id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -320,6 +330,8 @@
                 <attribute>video_url</attribute>
                 <attribute>description</attribute>
                 <attribute>alt_text</attribute>
+                <attribute type="media-url">full_image</attribute>
+                <attribute type="media-url">thumbnail_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -346,6 +358,7 @@
                 <attribute>name</attribute>
                 <attribute>title</attribute>
                 <attribute type="link">pic_link</attribute>
+                <attribute type="media-url">picture</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -404,13 +417,14 @@
                 <attribute>title</attribute>
                 <attribute type="link">link</attribute>
                 <attribute>description</attribute>
+                <attribute type="media-url">pinterest_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_slider</tag>
         </shortcode>
         <shortcode>
-            <tag>fusion_slide</tag>
+            <tag type="media-url">fusion_slide</tag>
             <attributes>
                 <attribute type="link">link</attribute>
             </attributes>
@@ -545,7 +559,15 @@
             <attributes>
                 <attribute>before_label</attribute>
                 <attribute>after_label</attribute>
+                <attribute type="media-url">before_image</attribute>
+                <attribute type="media-url">after_image</attribute>
             </attributes>
-        </shortcode>		
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">fusion_gallery</tag>
+            <attributes>
+                <attribute type="media-ids">image_ids</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
