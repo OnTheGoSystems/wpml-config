@@ -1,6 +1,6 @@
 <wpml-config>
     <built-with-page-builder>/\[(et_pb_section|et_pb_row|et_pb_column)/</built-with-page-builder>
-	<shortcode-list>et_pb_section,et_pb_row,et_pb_column,et_pb_accordion_item,et_pb_cta,et_pb_map_pin,et_pb_text,et_pb_blurb,et_pb_circle_counter,et_pb_contact_field,et_pb_contact_form,et_pb_image,et_pb_number_counter,et_pb_post_nav,et_pb_pricing_table,et_pb_tab,et_pb_toggle,et_pb_counter,et_pb_button,et_pb_countdown_timer,et_pb_login,et_pb_team_member,et_pb_post_slider,et_pb_search,et_pb_slide,et_pb_signup,et_pb_testimonial,et_pb_fullwidth_post_slider,et_pb_fullwidth_header,et_pb_fullwidth_image,et_pb_fullwidth_portfolio,et_pb_audio,et_pb_line_break_holder,et_pb_blog,et_pb_fullwidth_post_title,et_pb_code</shortcode-list>
+	<shortcode-list>et_pb_section,et_pb_row,et_pb_column,et_pb_accordion_item,et_pb_cta,et_pb_map_pin,et_pb_text,et_pb_blurb,et_pb_circle_counter,et_pb_contact_field,et_pb_contact_form,et_pb_image,et_pb_number_counter,et_pb_post_nav,et_pb_pricing_table,et_pb_tab,et_pb_toggle,et_pb_counter,et_pb_button,et_pb_countdown_timer,et_pb_login,et_pb_team_member,et_pb_post_slider,et_pb_search,et_pb_slide,et_pb_signup,et_pb_testimonial,et_pb_fullwidth_post_slider,et_pb_fullwidth_header,et_pb_fullwidth_image,et_pb_fullwidth_portfolio,et_pb_audio,et_pb_line_break_holder,et_pb_blog,et_pb_fullwidth_post_title,et_pb_code,et_pb_video_slider_item,et_pb_video,et_pb_gallery</shortcode-list>
     <custom-types>
         <custom-type translate="1">project</custom-type>
         <custom-type translate="1">et_pb_layout</custom-type>
@@ -50,6 +50,7 @@
             <tag>et_pb_accordion_item</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -58,34 +59,42 @@
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
                 <attribute type="link">button_url</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_map_pin</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_text</tag>
+            <attributes>
+                <attribute type="url">background_image</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_blurb</tag>
             <attributes>
                 <attribute>title</attribute>
                 <attribute>alt</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_circle_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_contact_field</tag>
             <attributes>
                 <attribute>field_title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -96,6 +105,7 @@
                 <attribute>custom_message</attribute>
                 <attribute>success_message</attribute>
                 <attribute>submit_button_text</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -103,12 +113,15 @@
             <attributes>
                 <attribute>title_text</attribute>
                 <attribute>alt</attribute>
+                <attribute type="media-ids">src</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_number_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -116,6 +129,7 @@
             <attributes>
                 <attribute>prev_text</attribute>
                 <attribute>next_text</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -128,40 +142,49 @@
                 <attribute>currency</attribute>
                 <attribute>per</attribute>
                 <attribute>sum</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_tab</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_toggle</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_counter</tag>
+            <attributes>
+                <attribute type="url">background_image</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_button</tag>
             <attributes>
                 <attribute>button_text</attribute>
                 <attribute type="link">button_url</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_countdown_timer</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_login</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -169,18 +192,22 @@
             <attributes>
                 <attribute>name</attribute>
                 <attribute>position</attribute>
+                <attribute type="media-url">image_url</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_post_slider</tag>
             <attributes>
                 <attribute>more_text</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_search</tag>
             <attributes>
                 <attribute>placeholder</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -189,6 +216,8 @@
                 <attribute>heading</attribute>
                 <attribute>image_alt</attribute>
                 <attribute>button_text</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -197,6 +226,7 @@
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
                 <attribute>success_message</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -205,12 +235,15 @@
                 <attribute>author</attribute>
                 <attribute>job_title</attribute>
                 <attribute>company_name</attribute>
+                <attribute type="media-url">portrait_url</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_fullwidth_post_slider</tag>
             <attributes>
                 <attribute>more_text</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -224,6 +257,7 @@
                 <attribute type="link">button_two_url</attribute>
                 <attribute>logo_alt_text</attribute>
                 <attribute>logo_title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -231,12 +265,14 @@
             <attributes>
                 <attribute>alt</attribute>
                 <attribute>title_text</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_fullwidth_portfolio</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -246,6 +282,28 @@
                 <attribute>title</attribute>
                 <attribute>artist_name</attribute>
                 <attribute>album_name</attribute>
+                <attribute type="media-url">background_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_video_slider_item</tag>
+            <attributes>
+                <attribute type="media-url">image_src</attribute>
+                <attribute type="media-url">background_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_video</tag>
+            <attributes>
+                <attribute type="media-url">image_src</attribute>
+                <attribute type="media-url">background_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_gallery</tag>
+            <attributes>
+                <attribute type="media-ids">gallery_ids</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
