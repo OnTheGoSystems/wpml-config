@@ -1,6 +1,6 @@
 <wpml-config>
     <built-with-page-builder>/\[(av|av_)/</built-with-page-builder>
-	<shortcode-list>av_one_full,av_tab_section,av_tab_sub_section,av_layout_row,av_cell_one_half,av_textblock,av_heading,av_icon_box,av_iconlist_item,av_timeline_item,av_font_icon,av_headline_rotator,av_rotator_item,av_button,av_button_big,av_content_slider,av_content_slide,av_notification,av_tab,av_toggle,av_promobox,av_contact,av_contact_field,av_magazine,av_team_member,av_team_icon,av_table,av_cell,av_progress_bar,av_submenu_item,av_testimonial_single,av_catalogue_item,av_animated_numbers,av_mailchimp,av_mailchimp_field,av_social_share,av_image,av_image_spot,av_slide,av_slide_full,av_fullscreen_slide,av_slide_accordion,av_layerslider,av_partner,av_partner_logo,av_gmap_location,av_codeblock,av_video,av_masonry_entries,av_cell_one_third,av_google_map,av_one_third,av_section,av_row,et_pb_fullwidth_code</shortcode-list>
+	<shortcode-list>av_one_full,av_tab_section,av_tab_sub_section,av_layout_row,av_cell_one_half,av_textblock,av_heading,av_icon_box,av_iconlist_item,av_timeline_item,av_font_icon,av_headline_rotator,av_rotator_item,av_button,av_button_big,av_content_slider,av_content_slide,av_notification,av_tab,av_toggle,av_promobox,av_contact,av_contact_field,av_magazine,av_team_member,av_team_icon,av_table,av_cell,av_progress_bar,av_submenu_item,av_testimonial_single,av_catalogue_item,av_animated_numbers,av_mailchimp,av_mailchimp_field,av_social_share,av_image,av_image_spot,av_slide,av_slide_full,av_fullscreen_slide,av_slide_accordion,av_layerslider,av_partner,av_partner_logo,av_gmap_location,av_codeblock,av_video,av_masonry_entries,av_cell_one_third,av_google_map,av_one_third,av_section,av_row,et_pb_fullwidth_code,av_testimonial_single</shortcode-list>
     <custom-types>
         <custom-type translate="0">avia_framework_post</custom-type>
         <custom-type translate="1">portfolio</custom-type>
@@ -85,6 +85,8 @@
                 <attribute>title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute>date</attribute>
+                <attribute type="media-url">image</attribute>
+                <attribute type="media-ids">attachment</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -193,6 +195,8 @@
                 <attribute>name</attribute>
                 <attribute>job</attribute>
                 <attribute>description</attribute>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -240,6 +244,7 @@
                 <attribute>title</attribute>
                 <attribute>price</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
+                <attribute type="media-ids">id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -334,6 +339,12 @@
                 <attribute>address</attribute>
                 <attribute>city</attribute>
                 <attribute>country</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">av_testimonial_single</tag>
+            <attributes>
+                <attribute type="media-ids">src</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
