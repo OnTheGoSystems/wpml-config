@@ -113,6 +113,7 @@
             <tag>vc_single_image</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute type="media-ids">image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -120,6 +121,7 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_safe">custom_links</attribute>
+                <attribute type="media-ids">images</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -127,6 +129,7 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_safe">custom_links</attribute>
+                <attribute type="media-ids">images</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -230,7 +233,7 @@
              <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
             </attributes>
-        </shortcode>	
+        </shortcode>
         <shortcode>
             <tag>vc_hoverbox</tag>
             <attributes>
@@ -241,6 +244,7 @@
                 <attribute encoding="vc_link" type="link">hover_title_link</attribute>
                 <attribute encoding="allow_html_tags">hover_btn_title</attribute>
                 <attribute encoding="vc_link" type="link">hover_btn_link</attribute>
+                <attribute type="media-ids">image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -311,6 +315,7 @@
                 <attribute encoding="allow_html_tags">btn_title</attribute>
                 <attribute>btn_custom_text</attribute>
                 <attribute>btn_outline_custom_hover_text</attribute>
+                <attribute type="media-ids">include</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -319,6 +324,7 @@
                 <attribute encoding="allow_html_tags">btn_title</attribute>
                 <attribute>btn_custom_text</attribute>
                 <attribute>btn_outline_custom_hover_text</attribute>
+                <attribute type="media-ids">include</attribute>
             </attributes>
         </shortcode>
         <shortcode>
