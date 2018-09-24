@@ -14,6 +14,9 @@
         <custom-field action="translate">_yoast_wpseo_google-plus-description</custom-field>
         <custom-field action="translate">_yoast_wpseo_twitter-title</custom-field>
         <custom-field action="translate">_yoast_wpseo_twitter-description</custom-field>
+		<custom-field action="translate">_yoast_wpseo_opengraph-title</custom-field>
+		<custom-field action="copy-once">_yoast_wpseo_opengraph-image</custom-field>
+		<custom-field action="copy-once">_yoast_wpseo_twitter-image</custom-field>
     </custom-fields>
     <admin-texts>
         <key name="wpseo_titles">
@@ -21,9 +24,7 @@
             <key name="metadesc-*" />
             <key name="metakey-*" />
             <key name="company_name" />
-        </key>
-        <key name="wpseo_internallinks">
-            <key name="breadcrumbs-sep" />
+			<key name="breadcrumbs-sep" />
             <key name="breadcrumbs-home" />
             <key name="breadcrumbs-prefix" />
             <key name="breadcrumbs-archiveprefix" />
