@@ -113,7 +113,7 @@
             <attributes>
                 <attribute>title_text</attribute>
                 <attribute>alt</attribute>
-                <attribute type="media-ids">src</attribute>
+                <attribute type="media-url">src</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
