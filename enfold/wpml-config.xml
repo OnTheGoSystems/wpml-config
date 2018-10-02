@@ -317,6 +317,7 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
+                <attribute type="media-ids">id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
