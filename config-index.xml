@@ -67,6 +67,7 @@
 		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="bold-page-builder" override_local="true">Bold Builder</item>
+		<item id="forminator" override_local="false">Forminator</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
