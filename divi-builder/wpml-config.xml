@@ -194,10 +194,12 @@
         <shortcode>
             <tag>et_pb_signup</tag>
             <attributes>
-                <attribute>title</attribute>
+	    	<attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>description</attribute>
+                <attribute>footer_content</attribute>
                 <attribute>success_message</attribute>
-            </attributes>
+	    </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_testimonial</tag>
