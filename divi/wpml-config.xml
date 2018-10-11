@@ -197,7 +197,9 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
-                <attribute>success_message</attribute>
+		<attribute>description</attribute>
+		<attribute>footer_content</attribute>
+		<attribute>success_message</attribute>
             </attributes>
         </shortcode>
         <shortcode>
