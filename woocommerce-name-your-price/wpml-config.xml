@@ -11,6 +11,8 @@
         <custom-field action="copy">_nyp</custom-field>
         <custom-field action="copy">_suggested_price</custom-field>
         <custom-field action="copy">_min_price</custom-field>
+        <custom-field action="copy">_maximum_price</custom-field> 
+        <custom-field action="copy">_hide_nyp_minimum</custom-field>
         <custom-field action="copy">_variable_billing</custom-field>
         <custom-field action="copy">_suggested_billing_period</custom-field>
         <custom-field action="copy">_minimum_billing_period</custom-field>
