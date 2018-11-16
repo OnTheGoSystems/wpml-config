@@ -68,6 +68,9 @@
         </shortcode>
         <shortcode>
             <tag>et_pb_text</tag>
+            <attributes>
+                <attribute>link_option_url</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_blurb</tag>
