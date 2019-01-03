@@ -131,6 +131,7 @@
         <attribute type="link">href</attribute>
         <attribute>title</attribute>
         <attribute>info_content</attribute>
+        <attribute type="media-url">src</attribute>
       </attributes>
     </shortcode>
     <shortcode>
@@ -151,6 +152,7 @@
       <tag>x_promo</tag>
       <attributes>
         <attribute>alt</attribute>
+        <attribute type="media-url">image</attribute>
       </attributes>
     </shortcode>
     <shortcode>
@@ -239,6 +241,7 @@
         <attribute>back_text</attribute>
         <attribute>back_button_text</attribute>
         <attribute type="link">back_button_link</attribute>
+        <attribute type="media-url">front_image</attribute>
       </attributes>
     </shortcode>
     <shortcode>
@@ -246,6 +249,7 @@
       <attributes>
         <attribute>text</attribute>
         <attribute type="link">link</attribute>
+        <attribute type="media-url">image</attribute>
       </attributes>
     </shortcode>
     <shortcode>
@@ -255,6 +259,7 @@
         <attribute>link_text</attribute>
         <attribute type="link">href</attribute>
         <attribute>href_title</attribute>
+        <attribute type="media-url">graphic_image</attribute>
       </attributes>
     </shortcode>
     <shortcode>
