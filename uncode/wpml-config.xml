@@ -160,5 +160,13 @@
                 <attribute>text</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>vc_custom_heading</tag>
+            <attributes>
+                <attribute>text</attribute>
+                <attribute>link</attribute>
+                <attribute>subheading</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
