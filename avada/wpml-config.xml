@@ -36,6 +36,7 @@
         <taxonomy translate="1">portfolio_tags</taxonomy>
         <taxonomy translate="1">themefusion_es_groups</taxonomy>
         <taxonomy translate="1">slide-page</taxonomy>
+        <taxonomy translate="1">element_category</taxonomy>
     </taxonomies>
     <custom-fields>
         <custom-field action="copy-once">avada_post_views_count</custom-field>
@@ -174,6 +175,7 @@
         <custom-field action="copy-once">kd_featured-image-3_post_id</custom-field>
         <custom-field action="copy-once">kd_featured-image-4_post_id</custom-field>
         <custom-field action="copy-once">kd_featured-image-5_post_id</custom-field>
+        <custom-field action="copy-once">fusion_builder_status</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
