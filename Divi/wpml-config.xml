@@ -84,6 +84,7 @@
                 <attribute>alt</attribute>
                 <attribute type="media-url">background_image</attribute>
 				<attribute type="link">link_option_url</attribute>
+				<attribute type="link">url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
