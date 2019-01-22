@@ -16,7 +16,7 @@
         <custom-field action="copy-once">footer</custom-field>
         <custom-field action="copy-once">header_title_bar</custom-field>
         <custom-field action="copy-once">header_transparency</custom-field>
-		<custom-field action="copy-once">layout</custom-field>
+        <custom-field action="copy-once">layout</custom-field>
     </custom-fields>
     <language-switcher-settings>
         <key name="icl_lang_sel_config">
@@ -346,6 +346,12 @@
             <tag ignore-content="1">av_testimonial_single</tag>
             <attributes>
                 <attribute type="media-ids">src</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_tab_sub_section</tag>
+            <attributes>
+                <attribute>tab_title</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
