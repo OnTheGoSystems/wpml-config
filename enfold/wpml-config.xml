@@ -354,11 +354,5 @@
                 <attribute>tab_title</attribute>
             </attributes>
         </shortcode>
-		<shortcode>
-            <tag>av_tab_sub_section</tag>
-            <attributes>
-                <attribute>tab_title</attribute>
-            </attributes>
-        </shortcode>
     </shortcodes>
 </wpml-config>
