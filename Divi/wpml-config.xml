@@ -315,4 +315,8 @@
             </attributes>
         </shortcode>
     </shortcodes>
+	<!-- Fixes and issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
+	 <gutenberg-blocks>
+        <gutenberg-block type="divi/placeholder" translate="0" />
+    </gutenberg-blocks>
 </wpml-config>

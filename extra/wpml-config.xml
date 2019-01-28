@@ -97,6 +97,7 @@
             <tag>et_pb_text</tag>
             <attributes>
                 <attribute type="media-url">background_image</attribute>
+				<attribute type="link">link_option_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -105,6 +106,8 @@
                 <attribute>title</attribute>
                 <attribute>alt</attribute>
                 <attribute type="media-url">background_image</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="link">url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -137,7 +140,7 @@
             <attributes>
                 <attribute>title_text</attribute>
                 <attribute>alt</attribute>
-                <attribute type="media-ids">src</attribute>
+                <attribute type="media-url">src</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -331,4 +334,8 @@
             </attributes>
         </shortcode>
     </shortcodes>
+	<!-- Fixes and issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
+	 <gutenberg-blocks>
+        <gutenberg-block type="divi/placeholder" translate="0" />
+    </gutenberg-blocks>
 </wpml-config>
