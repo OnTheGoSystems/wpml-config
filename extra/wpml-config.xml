@@ -84,6 +84,7 @@
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
                 <attribute type="link">button_url</attribute>
+                <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -140,6 +141,7 @@
             <attributes>
                 <attribute>title_text</attribute>
                 <attribute>alt</attribute>
+                <attribute type="link">url</attribute>
                 <attribute type="media-url">src</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
@@ -252,6 +254,9 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>description</attribute>
+                <attribute>footer_content</attribute>
+                <attribute>success_message</attribute>
                 <attribute>success_message</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
