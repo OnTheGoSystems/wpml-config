@@ -43,7 +43,7 @@
             <key name="divi_seo_home_titletext"/>
             <key name="divi_seo_home_descriptiontext"/>
             <key name="divi_seo_home_keywordstext"/>
-			<key name="custom_footer_credits"/>
+            <key name="custom_footer_credits"/>
         </key>
     </admin-texts>
     <shortcodes>
@@ -74,7 +74,7 @@
             <tag>et_pb_text</tag>
             <attributes>
                 <attribute type="media-url">background_image</attribute>
-				<attribute type="link">link_option_url</attribute>
+                <attribute type="link">link_option_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -83,8 +83,8 @@
                 <attribute>title</attribute>
                 <attribute>alt</attribute>
                 <attribute type="media-url">background_image</attribute>
-				<attribute type="link">link_option_url</attribute>
-				<attribute type="link">url</attribute>
+                <attribute type="link">link_option_url</attribute>
+                <attribute type="link">url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -283,7 +283,7 @@
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
-		<shortcode>
+        <shortcode>
             <tag>et_pb_audio</tag>
             <attributes>
                 <attribute>audio</attribute>
