@@ -221,6 +221,8 @@
                 <attribute>heading</attribute>
                 <attribute>image_alt</attribute>
                 <attribute>button_text</attribute>
+				<attribute type="link">button_link</attribute>
+				<attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">image</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
