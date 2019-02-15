@@ -8,7 +8,7 @@
 		<item id="event-tickets-plus">Event Tickets Plus</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
-		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
+		<item id="uncode-js_composer">Uncode Page Builder (Visual Composer)</item>
 		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
 		<item id="members">Members</item>
@@ -92,7 +92,7 @@
 		<item id="reveal" override_local="true">Reveal</item>
 		<item id="rewalk-parent">ReWalk Parent</item>
 		<item id="scrollider">Scrollider</item>
-		<item id="uncode" override_local="true">Uncode</item>
+		<item id="uncode">Uncode</item>
 		<item id="x" override_local="true">X</item>
 	</themes>
 </configurations>
