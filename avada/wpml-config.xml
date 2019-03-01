@@ -572,4 +572,7 @@
             </attributes>
         </shortcode>
     </shortcodes>
+    <custom-term-fields>
+        <custom-term-field action="copy">fusion_slider_options</custom-term-field>
+    </custom-term-fields>
 </wpml-config>
