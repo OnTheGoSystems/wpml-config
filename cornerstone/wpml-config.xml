@@ -110,6 +110,7 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <!-- This block is already registered through the API, we don't want to register it twice -->
             <tag ignore-content="1">x_custom_headline</tag>
         </shortcode>
         <shortcode>
@@ -121,6 +122,7 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <!-- This block is already registered through the API, we don't want to register it twice -->
             <tag ignore-content="1">x_feature_headline</tag>
         </shortcode>
         <shortcode>
