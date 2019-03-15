@@ -81,6 +81,7 @@
 		<item id="emerald-cv" override_local="true">Emerald CV</item>
 		<item id="enfold" override_local="true">Enfold</item>
 		<item id="function" override_local="true">Function</item>
+		<item id="generatepress" override_local="true">GeneratePress</item>
 		<item id="genesis" override_local="true">Genesis</item>
 		<item id="idstore-responsive-wordpress-theme" override_local="true">IDStore - Responsive WordPress Theme</item>
 		<item id="kleo">Kleo</item>
