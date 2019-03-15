@@ -1,0 +1,20 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">gp_elements</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="translate">_generate_element_content</custom-field>
+        <custom-field action="copy-once">_generate-sidebar-layout-meta</custom-field>
+        <custom-field action="copy-once">_generate-full-width-content</custom-field>
+        <custom-field action="copy-once">_generate-disable-headline</custom-field>
+        <custom-field action="copy-once">_generate_element_type</custom-field>
+        <custom-field action="copy-once">_generate_element_display_conditions</custom-field>
+        <custom-field action="copy-once">_generate-disable-footer</custom-field>
+        <custom-field action="copy-once">_generate-blog-post-class</custom-field>
+        <custom-field action="copy-once">_generate-disable-nav</custom-field>
+        <custom-field action="copy-once">_generate-disable-secondary-nav</custom-field>
+        <custom-field action="copy-once">_generate-disable-header</custom-field>
+        <custom-field action="copy-once">_generate-disable-post-image</custom-field>
+        <custom-field action="copy-once">_generate-footer-widget-meta</custom-field>
+    </custom-fields>
+</wpml-config>
