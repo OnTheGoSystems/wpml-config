@@ -571,6 +571,9 @@
                 <attribute type="media-ids">image_ids</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>fusion_dropcap</tag>
+        </shortcode>		
     </shortcodes>
     <custom-term-fields>
         <custom-term-field action="copy">fusion_slider_options</custom-term-field>
