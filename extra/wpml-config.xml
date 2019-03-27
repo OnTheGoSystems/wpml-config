@@ -45,6 +45,7 @@
 	<custom-field action="copy-once">_gallery_autoplay</custom-field>
 	<custom-field action="translate">_extra_project_details_short_desc</custom-field>
 	<custom-field action="copy-once">_post_extra_title_meta_hide_single</custom-field>
+	<custom-field action="copy-once">_extra_layout_home</custom-field>
     </custom-fields>
     <admin-texts>
         <key name="et_extra">
