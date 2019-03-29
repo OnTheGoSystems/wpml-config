@@ -354,5 +354,12 @@
                 <attribute>tab_title</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>av_buttonrow_item</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
