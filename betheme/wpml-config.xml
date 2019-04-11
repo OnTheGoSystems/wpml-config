@@ -1,0 +1,61 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">mfn-meta-seo-title</custom-field>
+        <custom-field action="translate">mfn-meta-seo-description</custom-field>
+        <custom-field action="translate">mfn-meta-seo-keywords</custom-field>
+        <custom-field action="ignore">mfn-page-items-seo</custom-field>
+        <custom-field action="translate">mfn-page-items</custom-field>
+        <custom-field action="copy">mfn-post-slider</custom-field>
+        <custom-field action="copy">mfn-post-slider-layer</custom-field>
+        <custom-field action="copy">mfn-post-slider-shortcode</custom-field>
+        <custom-field action="copy">mfn-post-custom-layout</custom-field>
+        <custom-field action="copy">mfn-post-layout</custom-field>
+        <custom-field action="copy">mfn-post-hide-content</custom-field>
+        <custom-field action="copy">mfn-post-hide-title</custom-field>
+        <custom-field action="copy">mfn-post-one-page</custom-field>
+        <custom-field action="copy">mfn-post-remove-padding</custom-field>
+        <custom-field action="copy">mfn-post-menu</custom-field>
+        <custom-field action="copy">mfn-post-css</custom-field>
+    </custom-fields>
+    <custom-fields-texts>
+        <key name="mfn-page-items">
+            <key name="*">
+                <key name="attr">
+                    <key name="title"/></key>
+                <key name="wraps">
+                    <key name="*">
+                        <key name="items">
+                            <key name="*">
+                                <key name="fields">
+                                    <key name="address" />
+                                    <key name="alt" />
+                                    <key name="btn_text" />
+                                    <key name="button_title" />
+                                    <key name="blockquote" />
+                                    <key name="caption" />
+                                    <key name="content" />
+                                    <key name="content1" />
+                                    <key name="content2" />
+                                    <key name="heading" />
+                                    <key name="label" />
+                                    <key name="link_title" />
+                                    <key name="period" />
+                                    <key name="prefix" />
+                                    <key name="slogan" />
+                                    <key name="title" />
+                                    <key name="title1" />
+                                    <key name="title2" />
+                                    <key name="tabs">
+                                        <key name="*">
+                                            <key name="title" />
+                                            <key name="content" /></key>
+                                    </key>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </custom-fields-texts>
+</wpml-config>
