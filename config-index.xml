@@ -72,6 +72,7 @@
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
+		<item id="betheme" override_local="true">Betheme</item>
 		<item id="brooklyn" override_local="false">Brooklyn</item>
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>

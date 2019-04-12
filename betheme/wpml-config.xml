@@ -1,0 +1,438 @@
+<wpml-config>
+
+	<custom-types>
+		<custom-type translate="1">client</custom-type>
+		<custom-type translate="1">offer</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">slide</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+	</custom-types>
+
+	<taxonomies>
+		<taxonomy translate="1">portfolio-types</taxonomy>
+	</taxonomies>
+
+	<custom-fields>
+		<custom-field action="translate">mfn-page-items</custom-field>
+		<custom-field action="translate">mfn-meta-seo-title</custom-field>
+		<custom-field action="translate">mfn-meta-seo-description</custom-field>
+		<custom-field action="translate">mfn-meta-seo-keywords</custom-field>
+		<custom-field action="ignore">mfn-page-items-seo</custom-field>
+		<custom-field action="copy">mfn-post-slider</custom-field>
+		<custom-field action="copy">mfn-post-slider-layer</custom-field>
+		<custom-field action="copy">mfn-post-slider-shortcode</custom-field>
+		<custom-field action="copy">mfn-post-custom-layout</custom-field>
+		<custom-field action="copy">mfn-post-layout</custom-field>
+		<custom-field action="copy">mfn-post-hide-content</custom-field>
+		<custom-field action="copy">mfn-post-hide-title</custom-field>
+		<custom-field action="copy">mfn-post-one-page</custom-field>
+		<custom-field action="copy">mfn-post-remove-padding</custom-field>
+		<custom-field action="copy">mfn-post-menu</custom-field>
+		<custom-field action="copy">mfn-post-css</custom-field>
+	</custom-fields>
+
+	<custom-fields-texts>
+		<key name="mfn-page-items">
+			<key name="*">
+				<key name="attr">
+					<key name="title"/>
+				</key>
+				<key name="wraps">
+					<key name="*">
+						<key name="items">
+							<key name="*">
+								<key name="fields">
+									<key name="address" />
+									<key name="alt" />
+									<key name="btn_text" />
+									<key name="button_title" />
+									<key name="blockquote" />
+									<key name="caption" />
+									<key name="content" />
+									<key name="content1" />
+									<key name="content2" />
+									<key name="heading" />
+									<key name="label" />
+									<key name="link_title" />
+									<key name="period" />
+									<key name="prefix" />
+									<key name="slogan" />
+									<key name="title" />
+									<key name="title1" />
+									<key name="title2" />
+									<key name="tabs">
+										<key name="*">
+											<key name="title" />
+											<key name="content" />
+										</key>
+									</key>
+								</key>
+							</key>
+						</key>
+					</key>
+				</key>
+			</key>
+		</key>
+	</custom-fields-texts>
+
+	<shortcodes>
+		<shortcode>
+			<tag>article_box</tag>
+			<attributes>
+				<attribute>slogan</attribute>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>blockquote</tag>
+			<attributes>
+				<attribute>author</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>blog_news</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+				<attribute>link_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>blog_slider</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>call_to_action</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>button_title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>chart</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>clients_slider</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>code</tag>
+		</shortcode>
+		<shortcode>
+			<tag>contact_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>address</attribute>
+				<attribute>telephone</attribute>
+				<attribute>telephone_2</attribute>
+				<attribute>fax</attribute>
+				<attribute>email</attribute>
+				<attribute>www</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>counter</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>prefix</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>fancy_heading</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>slogan</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>feature_list</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>flat_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>helper</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>title1</attribute>
+				<attribute>content1</attribute>
+				<attribute>link1</attribute>
+				<attribute>title2</attribute>
+				<attribute>content2</attribute>
+				<attribute>link2</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>hover_box</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>hover_color</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>how_it_works</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>icon_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>info_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>list</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>map</tag>
+			<attributes>
+				<attribute>lat</attribute>
+				<attribute>lng</attribute>
+				<attribute>title</attribute>
+				<attribute>telephone</attribute>
+				<attribute>email</attribute>
+				<attribute>www</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>opening_hours</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>our_team</tag>
+			<attributes>
+				<attribute>heading</attribute>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>phone</attribute>
+				<attribute>email</attribute>
+				<attribute>facebook</attribute>
+				<attribute>twitter</attribute>
+				<attribute>linkedin</attribute>
+				<attribute>blockquote</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>our_team_list</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>phone</attribute>
+				<attribute>email</attribute>
+				<attribute>facebook</attribute>
+				<attribute>twitter</attribute>
+				<attribute>linkedin</attribute>
+				<attribute>blockquote</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>photo_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>pricing_item</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>price</attribute>
+				<attribute>currency</attribute>
+				<attribute>period</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>link_title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>progress_bars</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>promo_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>btn_text</attribute>
+				<attribute>btn_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>quick_fact</tag>
+			<attributes>
+				<attribute>heading</attribute>
+				<attribute>prefix</attribute>
+				<attribute>label</attribute>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>sliding_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>story_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>trailer_box</tag>
+			<attributes>
+				<attribute>slogan</attribute>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>zoom_box</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+
+	<admin-texts>
+		<key name="betheme">
+			<key name="logo-img" />
+			<key name="retina-logo-img" />
+			<key name="sticky-logo-img" />
+			<key name="sticky-retina-logo-img" />
+			<key name="responsive-logo-img" />
+			<key name="responsive-retina-logo-img" />
+			<key name="responsive-sticky-logo-img" />
+			<key name="responsive-sticky-retina-logo-img" />
+			<key name="logo-text" />
+			<key name="meta-description" />
+			<key name="meta-keywords" />
+			<key name="single-sidebar" />
+			<key name="blog-page" />
+			<key name="portfolio-page" />
+			<key name="portfolio-slug" />
+			<key name="construction-title" />
+			<key name="construction-text" />
+			<key name="construction-date" />
+			<key name="construction-offset" />
+			<key name="construction-contact" />
+			<key name="footer-call-to-action" />
+			<key name="footer-copy" />
+			<key name="header-action-title" />
+			<key name="header-action-link" />
+			<key name="header-banner" />
+			<key name="header-slogan" />
+			<key name="header-phone" />
+			<key name="header-phone-2" />
+			<key name="header-email" />
+			<key name="popup-contact-form" />
+			<key name="hook-top" />
+			<key name="hook-content-before" />
+			<key name="hook-content-after" />
+			<key name="hook-bottom" />
+			<key name="social-skype" />
+			<key name="social-facebook" />
+			<key name="social-googleplus" />
+			<key name="social-twitter" />
+			<key name="social-vimeo" />
+			<key name="social-youtube" />
+			<key name="social-flickr" />
+			<key name="social-linkedin" />
+			<key name="social-pinterest" />
+			<key name="social-dribbble" />
+			<key name="social-instagram" />
+			<key name="social-behance" />
+			<key name="social-tumblr" />
+			<key name="social-vkontakte" />
+			<key name="social-viadeo" />
+			<key name="social-xing" />
+			<key name="social-custom-icon" />
+			<key name="social-custom-link" />
+			<key name="translate-search-placeholder" />
+			<key name="translate-search-results" />
+			<key name="translate-home" />
+			<key name="translate-prev" />
+			<key name="translate-next" />
+			<key name="translate-load-more" />
+			<key name="translate-wpml-no" />
+			<key name="translate-before" />
+			<key name="translate-after" />
+			<key name="translate-days" />
+			<key name="translate-hours" />
+			<key name="translate-minutes" />
+			<key name="translate-seconds" />
+			<key name="translate-filter" />
+			<key name="translate-tags" />
+			<key name="translate-authors" />
+			<key name="translate-all" />
+			<key name="translate-item-all" />
+			<key name="translate-published" />
+			<key name="translate-at" />
+			<key name="translate-categories" />
+			<key name="translate-tags" />
+			<key name="translate-readmore" />
+			<key name="translate-like" />
+			<key name="translate-related" />
+			<key name="translate-client" />
+			<key name="translate-date" />
+			<key name="translate-website" />
+			<key name="translate-view" />
+			<key name="translate-task" />
+			<key name="translate-404-title" />
+			<key name="translate-404-subtitle" />
+			<key name="translate-404-text" />
+			<key name="translate-404-btn" />
+			<key name="translate-search-title" />
+			<key name="translate-search-subtitle" />
+		</key>
+	</admin-texts>
+
+	<language-switcher-settings>
+		<key name="additional_css">.wpml-ls-display{display:inline!important;}</key>
+	</language-switcher-settings>
+
+</wpml-config>
