@@ -9,6 +9,7 @@
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
 		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
+		<item id="uncode-js_composer" override_local="true">Uncode WPBakery Page Builder</item>
 		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
 		<item id="members">Members</item>
