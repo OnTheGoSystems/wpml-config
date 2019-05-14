@@ -36,7 +36,7 @@
         <taxonomy translate="1">portfolio_tags</taxonomy>
         <taxonomy translate="1">themefusion_es_groups</taxonomy>
         <taxonomy translate="1">slide-page</taxonomy>
-        <taxonomy translate="1">element_category</taxonomy>
+        <taxonomy translate="0">element_category</taxonomy>
     </taxonomies>
     <custom-fields>
         <custom-field action="copy-once">avada_post_views_count</custom-field>
