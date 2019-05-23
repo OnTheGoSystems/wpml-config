@@ -10,8 +10,9 @@
         <taxonomy translate="1">project_tag</taxonomy>
         <taxonomy translate="1">layout_category</taxonomy>
         <taxonomy translate="0">layout_type</taxonomy>
-        <taxonomy translate="1">scope</taxonomy>
-        <taxonomy translate="1">module_width</taxonomy>
+        <taxonomy translate="0">scope</taxonomy>
+        <taxonomy translate="0">module_width</taxonomy>
+        <taxonomy translate="0">layout_pack</taxonomy>
     </taxonomies>
     <custom-fields>
         <custom-field action="copy">_et_pb_predefined_layout</custom-field>
