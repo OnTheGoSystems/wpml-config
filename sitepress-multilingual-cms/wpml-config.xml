@@ -89,8 +89,7 @@
             <xpath>//figure/img/@alt</xpath>
         </gutenberg-block>
         <gutenberg-block type="core/list" translate="1">
-            <xpath>//ul/li</xpath>
-            <xpath>//ol/li</xpath>
+            <xpath>//ul/li|//ol/li</xpath>
         </gutenberg-block>
         <gutenberg-block type="core/quote" translate="1">
             <xpath>//blockquote/p</xpath>
