@@ -1,0 +1,5 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy-once">ale_assigned_agent</custom-field>
+    </custom-fields>
+</wpml-config>
