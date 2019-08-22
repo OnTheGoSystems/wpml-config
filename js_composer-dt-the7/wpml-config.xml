@@ -370,5 +370,17 @@
         <shortcode>
             <tag raw-html="1" encoding="base64">md_live_text</tag>
         </shortcode>
+        <shortcode>
+            <tag>vc_column_inner</tag>
+            <attributes>
+                <attribute type="link">column_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_column</tag>
+            <attributes>
+                <attribute type="link">column_link</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
