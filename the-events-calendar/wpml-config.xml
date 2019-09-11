@@ -60,5 +60,10 @@
       <key name="dateTimeSeparator"/>
       <key name="timeRangeSeparator"/>
     </key>
+    <key name="tribe_events_filters_current_active_filters">
+      <key name="*">
+        <key name="title" />
+      </key>
+    </key>
   </admin-texts>
 </wpml-config>
