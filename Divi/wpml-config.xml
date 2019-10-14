@@ -317,6 +317,12 @@
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
+	<shortcode>
+            <tag>et_pb_section</tag>
+            <attributes>
+                <attribute>module_id</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
     <!-- Fixes and issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
     <gutenberg-blocks>
