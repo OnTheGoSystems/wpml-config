@@ -180,6 +180,15 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_code</tag>
+            <attributes>
+                <attribute>background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+                <attribute type="link">link_option_url</attribute>
+            </attributes>
+        </shortcode>        
+        <shortcode>
             <tag>et_pb_countdown_timer</tag>
             <attributes>
                 <attribute>title</attribute>
