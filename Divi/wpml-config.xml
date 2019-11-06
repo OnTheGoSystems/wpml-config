@@ -177,8 +177,6 @@
                 <attribute>button_text</attribute>
                 <attribute type="link">button_url</attribute>
                 <attribute type="media-url">background_image</attribute>
-                <attributetype="link">link_option_url</attribute>
-                <attribute>admin_label</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -188,6 +186,7 @@
                 <attribute>background_video_mp4</attribute>
                 <attribute>background_video_webm</attribute>
                 <attribute type="link">link_option_url</attribute>
+                <attribute>admin_label</attribute>
             </attributes>
         </shortcode>
         <shortcode>
