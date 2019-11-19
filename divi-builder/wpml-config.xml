@@ -35,6 +35,7 @@
         <custom-field action="copy">_et_pb_ab_testing_id</custom-field>
         <custom-field action="copy">_et_pb_ab_subjects</custom-field>
         <custom-field action="copy">_et_pb_ab_goal_module</custom-field>
+        <custom-field action="copy">_et_pb_show_page_creation</custom-field>
         <custom-field action="copy-once">et_pb_post_hide_nav</custom-field>
     </custom-fields>
     <admin-texts>

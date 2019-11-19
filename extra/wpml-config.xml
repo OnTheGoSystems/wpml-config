@@ -27,6 +27,7 @@
         <custom-field action="copy">_et_pb_light_text_color</custom-field>
         <custom-field action="copy">_et_pb_dark_text_color</custom-field>
         <custom-field action="copy">_et_pb_content_area_background_color</custom-field>
+        <custom-field action="copy">_et_pb_show_page_creation</custom-field>
         <custom-field action="copy">_et_post_bg_color</custom-field>
         <custom-field action="copy">_et_post_bg_layout</custom-field>
         <custom-field action="copy-once">et_pb_post_hide_nav</custom-field>
