@@ -17,7 +17,6 @@
         <custom-field action="copy-once">header_title_bar</custom-field>
         <custom-field action="copy-once">header_transparency</custom-field>
         <custom-field action="copy-once">layout</custom-field>
-	<custom-field action="copy">_av_alb_posts_elements_state</custom-field>
         <custom-field action="copy-once">_portfolio_custom_link</custom-field>
         <custom-field action="copy-once">_portfolio_custom_link_url</custom-field>
         <custom-field action="copy-once">_preview_ids</custom-field>
@@ -29,6 +28,7 @@
         <custom-field action="copy">_av_alb_element_mgr_version</custom-field>
         <custom-field action="copy">_av_el_mgr_version</custom-field>
         <custom-field action="copy">_avia_sc_parser_state</custom-field>
+        <custom-field action="copy">_av_alb_posts_elements_state</custom-field>
     </custom-fields>
     <language-switcher-settings>
         <key name="icl_lang_sel_config">
