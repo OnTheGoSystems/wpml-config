@@ -25,12 +25,14 @@
         <custom-field action="copy">_et_pb_product_page_layout</custom-field>
         <custom-field action="copy">_et_pb_woo_page_content_status</custom-field>
         <custom-field action="copy">_et_pb_ab_current_shortcode</custom-field>
+        <custom-field action="copy">_et_pb_ab_stats_refresh_interval</custom-field>
         <custom-field action="copy">_et_pb_ab_bounce_rate_limit</custom-field>
         <custom-field action="copy">_et_pb_enable_shortcode_tracking</custom-field>
         <custom-field action="copy">_et_pb_custom_css</custom-field>
         <custom-field action="copy">_et_pb_light_text_color</custom-field>
         <custom-field action="copy">_et_pb_dark_text_color</custom-field>
         <custom-field action="copy">_et_pb_content_area_background_color</custom-field>
+        <custom-field action="copy">_et_pb_show_page_creation</custom-field>
         <custom-field action="copy">_et_post_bg_color</custom-field>
         <custom-field action="copy">_et_post_bg_layout</custom-field>
         <custom-field action="copy">_et_pb_use_ab_testing</custom-field>
