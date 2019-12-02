@@ -2,8 +2,6 @@
 	<plugins>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
 		<item id="book-now">Book Now</item>
-		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Lite Version)</item>
-		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Pro Version)</item>
 		<item id="cornerstone" override_local="true">Cornerstone</item>
 		<item id="custom-post-type-ui" override_local="true">Custom Post Type UI</item>
 		<item id="divi-builder" override_local="true">Divi Builder</item>

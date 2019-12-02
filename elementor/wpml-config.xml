@@ -6,7 +6,6 @@
         <custom-field action="copy">_elementor_version</custom-field>
         <custom-field action="copy-once">_elementor_data</custom-field>
         <custom-field action="ignore">_elementor_css</custom-field>
-        <custom-field action="copy">_elementor_edit_mode</custom-field>
     </custom-fields>
     <custom-types>
         <custom-type translate="1" display-as-translated="1">elementor_library</custom-type>
