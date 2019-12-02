@@ -21,7 +21,10 @@
         <custom-field action="copy">_et_pb_post_hide_nav</custom-field>
         <custom-field action="copy">_et_pb_show_title</custom-field>
         <custom-field action="copy">_et_pb_use_builder</custom-field>
-        <custom-field action="copy">_et_pb_old_content</custom-field>
+        <custom-field action="translate">_et_pb_old_content</custom-field>
+        <custom-field action="copy">_et_pb_product_page_layout</custom-field>
+        <custom-field action="copy">_et_pb_woo_page_content_status</custom-field>
+        <custom-field action="copy">_et_pb_ab_current_shortcode</custom-field>
         <custom-field action="copy">_et_pb_ab_stats_refresh_interval</custom-field>
         <custom-field action="copy">_et_pb_ab_bounce_rate_limit</custom-field>
         <custom-field action="copy">_et_pb_enable_shortcode_tracking</custom-field>
@@ -29,6 +32,7 @@
         <custom-field action="copy">_et_pb_light_text_color</custom-field>
         <custom-field action="copy">_et_pb_dark_text_color</custom-field>
         <custom-field action="copy">_et_pb_content_area_background_color</custom-field>
+        <custom-field action="copy">_et_pb_show_page_creation</custom-field>
         <custom-field action="copy">_et_post_bg_color</custom-field>
         <custom-field action="copy">_et_post_bg_layout</custom-field>
         <custom-field action="copy">_et_pb_use_ab_testing</custom-field>
@@ -36,7 +40,7 @@
         <custom-field action="copy">_et_pb_ab_subjects</custom-field>
         <custom-field action="copy">_et_pb_ab_goal_module</custom-field>
         <custom-field action="copy">_et_pb_show_page_creation</custom-field>
-	<custom-field action="copy">_et_pb_excluded_global_options</custom-field>
+        <custom-field action="copy">_et_pb_excluded_global_options</custom-field>
         <custom-field action="copy-once">et_pb_post_hide_nav</custom-field>
     </custom-fields>
     <admin-texts>
@@ -224,8 +228,8 @@
                 <attribute>heading</attribute>
                 <attribute>image_alt</attribute>
                 <attribute>button_text</attribute>
-	<attribute type="link">button_link</attribute>
-	<attribute type="link">link_option_url</attribute>
+                <attribute type="link">button_link</attribute>
+                <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">image</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
@@ -319,7 +323,7 @@
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
-	<shortcode>
+        <shortcode>
             <tag>et_pb_section</tag>
             <attributes>
                 <attribute>module_id</attribute>
