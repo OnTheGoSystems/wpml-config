@@ -1,0 +1,15 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_mnm_base_price</custom-field>
+        <custom-field action="copy">_mnm_base_regular_price</custom-field>
+        <custom-field action="copy">_mnm_base_sale_price</custom-field>
+        <custom-field action="copy">_mnm_layout_style</custom-field>
+        <custom-field action="copy">_mnm_add_to_cart_form_location</custom-field>
+        <custom-field action="copy">_mnm_min_container_size</custom-field>
+        <custom-field action="copy">_mnm_max_container_size</custom-field>
+        <custom-field action="copy">_mnm_data</custom-field>
+        <custom-field action="copy">_mnm_per_product_pricing</custom-field>
+        <custom-field action="copy">_mnm_per_product_discount</custom-field>
+        <custom-field action="copy">_mnm_per_product_shipping</custom-field>
+    </custom-fields>
+</wpml-config>

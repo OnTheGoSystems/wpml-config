@@ -70,6 +70,7 @@
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="bold-page-builder" override_local="true">Bold Builder</item>
 		<item id="forminator" override_local="false">Forminator</item>
+		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
