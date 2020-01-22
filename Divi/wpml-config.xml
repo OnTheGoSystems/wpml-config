@@ -59,6 +59,8 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -66,6 +68,12 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>button_text_tablet</attribute>
+                <attribute>button_text_phone</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
                 <attribute type="link">button_url</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
@@ -74,6 +82,8 @@
             <tag>et_pb_map_pin</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -82,23 +92,33 @@
             <attributes>
                 <attribute type="media-url">background_image</attribute>
                 <attribute type="link">link_option_url</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_blurb</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
                 <attribute>alt</attribute>
                 <attribute type="media-url">image</attribute>
                 <attribute type="media-url">background_image</attribute>
                 <attribute type="link">link_option_url</attribute>
                 <attribute type="link">url</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_circle_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>number_phone</attribute>
+                <attribute>number_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -106,6 +126,8 @@
             <tag>et_pb_contact_field</tag>
             <attributes>
                 <attribute>field_title</attribute>
+                <attribute>field_title_phone</attribute>
+                <attribute>field_title_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -113,10 +135,14 @@
             <tag>et_pb_contact_form</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute>email</attribute>
                 <attribute>custom_message</attribute>
                 <attribute>success_message</attribute>
                 <attribute>submit_button_text</attribute>
+                <attribute>submit_button_text_tablet</attribute>
+                <attribute>submit_button_text_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -127,6 +153,8 @@
                 <attribute>alt</attribute>
                 <attribute type="link">url</attribute>
                 <attribute type="media-url">src</attribute>
+                <attribute type="media-url">src_phone</attribute>
+                <attribute type="media-url">src_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -134,6 +162,11 @@
             <tag>et_pb_number_counter</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>number_phone</attribute>
+                <attribute>number_tablet</attribute>
+                <attribute>number</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -142,6 +175,10 @@
             <attributes>
                 <attribute>prev_text</attribute>
                 <attribute>next_text</attribute>
+                <attribute>prev_text_phone</attribute>
+                <attribute>next_text_phone</attribute>
+                <attribute>prev_text_tablet</attribute>
+                <attribute>next_text_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -149,19 +186,37 @@
             <tag>et_pb_pricing_table</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>subtitle_tablet</attribute>
                 <attribute>subtitle</attribute>
+                <attribute>subtitle_phone</attribute>
                 <attribute>button_text</attribute>
+                <attribute>button_text_phone</attribute>
+                <attribute>button_text_tablet</attribute>
                 <attribute type="link">button_url</attribute>
                 <attribute>currency</attribute>
+                <attribute>currency_phone</attribute>
+                <attribute>currency_tablet</attribute>
+                <attribute>per_tablet</attribute>
                 <attribute>per</attribute>
+                <attribute>per_phone</attribute>
                 <attribute>sum</attribute>
+                <attribute>sum_tablet</attribute>
+                <attribute>sum_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_tab</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -169,7 +224,11 @@
             <tag>et_pb_toggle</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -182,6 +241,8 @@
             <tag>et_pb_button</tag>
             <attributes>
                 <attribute>button_text</attribute>
+                <attribute>button_text_phone</attribute>
+                <attribute>button_text_tablet</attribute>
                 <attribute type="link">button_url</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
@@ -200,6 +261,8 @@
             <tag>et_pb_countdown_timer</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -207,7 +270,11 @@
             <tag>et_pb_login</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -223,6 +290,8 @@
             <tag>et_pb_post_slider</tag>
             <attributes>
                 <attribute>more_text</attribute>
+                <attribute>more_text_phone</attribute>
+                <attribute>more_text_tablet</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -230,6 +299,8 @@
             <tag>et_pb_search</tag>
             <attributes>
                 <attribute>placeholder</attribute>
+                <attribute>placeholder_tablet</attribute>
+                <attribute>placeholder_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -237,12 +308,18 @@
             <tag>et_pb_slide</tag>
             <attributes>
                 <attribute>heading</attribute>
+                <attribute>heading_tablet</attribute>
+                <attribute>heading_phone</attribute>
                 <attribute>image_alt</attribute>
                 <attribute>button_text</attribute>
+                <attribute>button_text_tablet</attribute>
+                <attribute>button_text_phone</attribute>
                 <attribute type="link">button_link</attribute>
                 <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">image</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -261,16 +338,26 @@
             <tag>et_pb_testimonial</tag>
             <attributes>
                 <attribute>author</attribute>
+                <attribute>author_tablet</attribute>
+                <attribute>author_phone</attribute>
                 <attribute>job_title</attribute>
+                <attribute>job_title_tablet</attribute>
+                <attribute>job_title_phone</attribute>
                 <attribute>company_name</attribute>
+                <attribute>company_name_phone</attribute>
+                <attribute>company_name_tablet</attribute>
                 <attribute type="media-url">portrait_url</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_fullwidth_post_slider</tag>
             <attributes>
                 <attribute>more_text</attribute>
+                <attribute>more_text_tablet</attribute>
+                <attribute>more_text_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -278,14 +365,24 @@
             <tag>et_pb_fullwidth_header</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute>subhead</attribute>
+                <attribute>subhead_tablet</attribute>
+                <attribute>subhead_phone</attribute>
                 <attribute>button_one_text</attribute>
+                <attribute>button_one_text_tablet</attribute>
+                <attribute>button_one_text_phone</attribute>
                 <attribute type="link">button_one_url</attribute>
                 <attribute>button_two_text</attribute>
+                <attribute>button_two_text_tablet</attribute>
+                <attribute>button_two_text_phone</attribute>
                 <attribute type="link">button_two_url</attribute>
                 <attribute>logo_alt_text</attribute>
                 <attribute>logo_title</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -294,12 +391,17 @@
                 <attribute>alt</attribute>
                 <attribute>title_text</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-url">src_phone</attribute>
+                <attribute type="media-url">src_tablet</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_fullwidth_portfolio</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -308,8 +410,14 @@
             <attributes>
                 <attribute>audio</attribute>
                 <attribute>title</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>title_phone</attribute>
                 <attribute>artist_name</attribute>
+                <attribute>artist_name_tablet</attribute>
+                <attribute>artist_name_phone</attribute>
+                <attribute>album_name_tablet</attribute>
                 <attribute>album_name</attribute>
+                <attribute>album_name_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
@@ -341,7 +449,7 @@
             </attributes>
         </shortcode>
     </shortcodes>
-    <!-- Fixes and issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
+    <!-- Fixes an issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
     <gutenberg-blocks>
         <gutenberg-block type="divi/placeholder" translate="0" />
     </gutenberg-blocks>
