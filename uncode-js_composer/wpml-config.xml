@@ -113,6 +113,7 @@
             <tag>vc_single_image</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_link" type="link">media_link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -265,7 +266,7 @@
             <tag>vc_button</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-                <attribute encoding="vc_link" type="link">href</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
