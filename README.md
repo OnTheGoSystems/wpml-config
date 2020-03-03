@@ -10,6 +10,17 @@ https://wpml.org/documentation/support/language-configuration-files/
 
 Language configuration files can be stored directly in the root folder of the plugin / theme where they belong or they can be added to this repository. The WPML plugin will periodically read this repository to keep up to date.
 
+## Validating XML files
+
+With `xmllint` and `wpml-config.xsd` we can validate XML files:
+
+* Instructions for installing `xmllint` will vary according to your OS. A quick Google search should help you.
+* The `wpml-config.xsd` file can be found in the `res/xsd` folder of the main WPML plugin.
+
+```
+xmllint --schema wpml-config.xsd --noout <path-to-wpml-config.xml>
+```
+
 ## Repository structure
 
 The language configuration repository has:
