@@ -1,6 +1,6 @@
 <wpml-config>
     <built-with-page-builder>/\[(fusion_builder_container|fusion_builder_row|fusion_builder_column)/</built-with-page-builder>
-	<shortcode-list>fusion_alert,fusion_blog,fusion_button,fusion_checklist,fusion_li_item,fusion_code,fusion_builder_row,fusion_builder_column,fusion_builder_container,fusion_content_boxes,fusion_content_box,fusion_countdown,fusion_counters_box,fusion_counter_box,fusion_counters_circle,fusion_counter_circle,fusion_dropcap,fusion_events,fusion_faq,fusion_flip_boxes,fusion_flip_box,fusion_fontawesome,fusion_fusionslider,fusion_map,fusion_images,fusion_image,fusion_imageframe,layerslider,fusion_lightbox,fusion_menu_anchor,fusion_modal,fusion_modal_text_link,fusion_one_page_text_link,fusion_person,fusion_popover,fusion_popover,fusion_portfolio,fusion_postslider,fusion_pricing_table,fusion_pricing_column,fusion_pricing_price,fusion_pricing_row,fusion_pricing_footer,fusion_progress,fusion_recent_posts,rev_slider,fusion_section_separator,fusion_separator,fusion_sharing,fusion_slider,fusion_slide,fusion_social_links,fusion_soundcloud,fusion_soundcloud,fusion_tabs,fusion_tab,fusion_tagline_box,fusion_testimonials,fusion_testimonial,fusion_text,fusion_title,fusion_accordion,fusion_toggle,fusion_tooltip,fusion_login,fusion_lost_password,fusion_register,fusion_vimeo,fusion_widget_area,fusion_products_slider,fusion_featured_products_slider,fusion_youtube</shortcode-list>
+    <shortcode-list>fusion_alert,fusion_blog,fusion_button,fusion_checklist,fusion_li_item,fusion_code,fusion_builder_row,fusion_builder_column,fusion_builder_container,fusion_content_boxes,fusion_content_box,fusion_countdown,fusion_counters_box,fusion_counter_box,fusion_counters_circle,fusion_counter_circle,fusion_dropcap,fusion_events,fusion_faq,fusion_flip_boxes,fusion_flip_box,fusion_fontawesome,fusion_fusionslider,fusion_map,fusion_images,fusion_image,fusion_imageframe,layerslider,fusion_lightbox,fusion_menu_anchor,fusion_modal,fusion_modal_text_link,fusion_one_page_text_link,fusion_person,fusion_popover,fusion_portfolio,fusion_postslider,fusion_pricing_table,fusion_pricing_column,fusion_pricing_price,fusion_pricing_row,fusion_pricing_footer,fusion_progress,fusion_recent_posts,rev_slider,fusion_section_separator,fusion_separator,fusion_sharing,fusion_slider,fusion_slide,fusion_social_links,fusion_soundcloud,fusion_soundcloud,fusion_tabs,fusion_tab,fusion_tagline_box,fusion_testimonials,fusion_testimonial,fusion_text,fusion_title,fusion_accordion,fusion_toggle,fusion_tooltip,fusion_login,fusion_lost_password,fusion_register,fusion_vimeo,fusion_widget_area,fusion_products_slider,fusion_featured_products_slider,fusion_youtube,fusion_gallery</shortcode-list>
     <admin-texts>
         <key name="avada_theme_options">
             <key name="google_analytics"/>
@@ -18,7 +18,8 @@
             <key name="blog_subtitle"/>
             <key name="date_format"/>
             <key name="map_infobox_content"/>
-            <key name="sharing_social_tagline"/></key>
+            <key name="sharing_social_tagline"/>
+        </key>
     </admin-texts>
     <custom-types>
         <custom-type translate="1">themefusion_elastic</custom-type>
@@ -27,7 +28,7 @@
         <custom-type translate="1">revslider</custom-type>
         <custom-type translate="1">avada_faq</custom-type>
         <custom-type translate="1">avada_portfolio</custom-type>
-		<custom-type translate="1">fusion_element</custom-type>
+        <custom-type translate="1">fusion_element</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_category</taxonomy>
@@ -156,7 +157,7 @@
         <custom-field action="translate">pyre_button_2</custom-field>
         <custom-field action="copy-once">pyre_slide_link</custom-field>
         <custom-field action="copy-once">pyre_slide_target</custom-field>
-		<custom-field action="copy-once">pyre_post_links_target</custom-field>
+        <custom-field action="copy-once">pyre_post_links_target</custom-field>
         <custom-field action="copy-once">pyre_share_box</custom-field>
         <custom-field action="copy-once">pyre_post_pagination</custom-field>
         <custom-field action="copy-once">pyre_author_info</custom-field>
@@ -180,6 +181,9 @@
     <shortcodes>
         <shortcode>
             <tag>fusion_alert</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_blog</tag>
@@ -192,6 +196,7 @@
             <attributes>
                 <attribute type="link">link</attribute>
                 <attribute>title</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -199,6 +204,9 @@
         </shortcode>
         <shortcode>
             <tag>fusion_li_item</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag encoding="base64" encoding-condition="option:avada_disable_encoding=1">fusion_code</tag>
@@ -233,6 +241,7 @@
                 <attribute type="link">link</attribute>
                 <attribute>linktext</attribute>
                 <attribute type="media-url">image</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -242,6 +251,7 @@
                 <attribute>subheading_text</attribute>
                 <attribute type="link">link_url</attribute>
                 <attribute>link_text</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -249,12 +259,18 @@
         </shortcode>
         <shortcode>
             <tag>fusion_counter_box</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_counters_circle</tag>
         </shortcode>
         <shortcode>
             <tag>fusion_counter_circle</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_dropcap</tag>
@@ -285,9 +301,15 @@
                 <attribute>title_back</attribute>
                 <attribute>text_front</attribute>
                 <attribute type="media-url">image</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
-
+        <shortcode>
+            <tag>fusion_fontawesome</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
+        </shortcode>
         <shortcode>
             <tag>fusion_fusionslider</tag>
             <attributes>
@@ -321,6 +343,7 @@
                 <attribute>alt</attribute>
                 <attribute type="link">link</attribute>
                 <attribute type="media-ids">image_id</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -334,6 +357,7 @@
                 <attribute>alt_text</attribute>
                 <attribute type="media-url">full_image</attribute>
                 <attribute type="media-url">thumbnail_image</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -343,10 +367,14 @@
             <tag>fusion_modal</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_modal_text_link</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_one_page_text_link</tag>
@@ -361,6 +389,7 @@
                 <attribute>title</attribute>
                 <attribute type="link">pic_link</attribute>
                 <attribute type="media-url">picture</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -368,13 +397,7 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>fusion_popover</tag>
-            <attributes>
-                <attribute>title</attribute>
-                <attribute>content</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -420,6 +443,7 @@
                 <attribute type="link">link</attribute>
                 <attribute>description</attribute>
                 <attribute type="media-url">pinterest_image</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -433,6 +457,9 @@
         </shortcode>
         <shortcode>
             <tag>fusion_social_links</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_soundcloud</tag>
@@ -442,6 +469,9 @@
         </shortcode>
         <shortcode>
             <tag>fusion_tabs</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_tab</tag>
@@ -462,9 +492,15 @@
         </shortcode>
         <shortcode>
             <tag>fusion_text</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_title</tag>
+            <attributes>
+                <attribute>dynamic_params</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_accordion</tag>
@@ -473,6 +509,7 @@
             <tag>fusion_toggle</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -538,9 +575,10 @@
                 <attribute>button</attribute>
                 <attribute>title</attribute>
                 <attribute encoding="base64">description</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
-		<shortcode>
+        <shortcode>
             <tag>fusion_chart</tag>
             <attributes>
                 <attribute>title</attribute>
@@ -569,11 +607,12 @@
             <tag ignore-content="1">fusion_gallery</tag>
             <attributes>
                 <attribute type="media-ids">image_ids</attribute>
+                <attribute>dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>fusion_dropcap</tag>
-        </shortcode>		
+        </shortcode>
     </shortcodes>
     <custom-term-fields>
         <custom-term-field action="copy">fusion_slider_options</custom-term-field>
