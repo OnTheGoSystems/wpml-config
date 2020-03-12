@@ -1,24 +1,37 @@
 <wpml-config>
-    <built-with-page-builder>/\[(fusion_builder_container|fusion_builder_row|fusion_builder_column)/</built-with-page-builder>
-    <shortcode-list>fusion_alert,fusion_blog,fusion_button,fusion_checklist,fusion_li_item,fusion_code,fusion_builder_row,fusion_builder_column,fusion_builder_container,fusion_content_boxes,fusion_content_box,fusion_countdown,fusion_counters_box,fusion_counter_box,fusion_counters_circle,fusion_counter_circle,fusion_dropcap,fusion_events,fusion_faq,fusion_flip_boxes,fusion_flip_box,fusion_fontawesome,fusion_fusionslider,fusion_map,fusion_images,fusion_image,fusion_imageframe,layerslider,fusion_lightbox,fusion_menu_anchor,fusion_modal,fusion_modal_text_link,fusion_one_page_text_link,fusion_person,fusion_popover,fusion_portfolio,fusion_postslider,fusion_pricing_table,fusion_pricing_column,fusion_pricing_price,fusion_pricing_row,fusion_pricing_footer,fusion_progress,fusion_recent_posts,rev_slider,fusion_section_separator,fusion_separator,fusion_sharing,fusion_slider,fusion_slide,fusion_social_links,fusion_soundcloud,fusion_soundcloud,fusion_tabs,fusion_tab,fusion_tagline_box,fusion_testimonials,fusion_testimonial,fusion_text,fusion_title,fusion_accordion,fusion_toggle,fusion_tooltip,fusion_login,fusion_lost_password,fusion_register,fusion_vimeo,fusion_widget_area,fusion_products_slider,fusion_featured_products_slider,fusion_youtube,fusion_gallery</shortcode-list>
+    <built-with-page-builder>/\[(fusion_builder_container|fusion_builder_row|fusion_builder_row_inner|fusion_builder_column|fusion_builder_column_inner)/</built-with-page-builder>
+    <shortcode-list>fusion_alert,fusion_blog,fusion_button,fusion_checklist,fusion_li_item,fusion_code,fusion_builder_row,fusion_builder_row_inner,fusion_builder_column,fusion_builder_column_inner,fusion_builder_container,fusion_content_boxes,fusion_content_box,fusion_countdown,fusion_counters_box,fusion_counter_box,fusion_counters_circle,fusion_counter_circle,fusion_dropcap,fusion_events,fusion_faq,fusion_flip_boxes,fusion_flip_box,fusion_fontawesome,fusion_fusionslider,fusion_map,fusion_images,fusion_image,fusion_imageframe,layerslider,fusion_lightbox,fusion_menu_anchor,fusion_modal,fusion_modal_text_link,fusion_one_page_text_link,fusion_person,fusion_popover,fusion_popover,fusion_portfolio,fusion_postslider,fusion_pricing_table,fusion_pricing_column,fusion_pricing_price,fusion_pricing_row,fusion_pricing_footer,fusion_progress,fusion_recent_posts,rev_slider,fusion_section_separator,fusion_separator,fusion_sharing,fusion_slider,fusion_slide,fusion_social_links,fusion_soundcloud,fusion_soundcloud,fusion_tabs,fusion_tab,fusion_tagline_box,fusion_testimonials,fusion_testimonial,fusion_text,fusion_title,fusion_accordion,fusion_toggle,fusion_tooltip,fusion_login,fusion_lost_password,fusion_register,fusion_vimeo,fusion_widget_area,fusion_products_slider,fusion_featured_products_slider,fusion_youtube,fusion_tb_author,fusion_tb_comments,fusion_tb_content,fusion_tb_featured_slider,fusion_tb_pagination,fusion_tb_related,fusion_tb_results,fusion_tb_project_details,fusion_contact_form,fusion_privacy,fusion_audio,fusion_breadcrumbs,fusion_convert_plus,fusion_highlight,fusion_search,fusion_syntax_highlighter,fusion_video,fusion_widget</shortcode-list>
     <admin-texts>
-        <key name="avada_theme_options">
-            <key name="google_analytics"/>
-            <key name="space_head"/>
-            <key name="space_body"/>
+        <key name="fusion_options">
             <key name="header_number"/>
             <key name="header_email"/>
             <key name="header_tagline"/>
             <key name="breacrumb_prefix"/>
+            <key name="breadcrumb_separator"/>
             <key name="footer_text"/>
             <key name="blog_title"/>
+            <key name="blog_subtitle"/>
+            <key name="alternate_date_format_month_year"/>
+            <key name="alternate_date_format_day"/>
+            <key name="timeline_date_format"/>
+            <key name="date_format"/>
             <key name="portfolio_slug"/>
+            <key name="sharing_social_tagline"/>
+            <key name="email_address"/>
+            <key name="contact_form_privacy_label"/>
             <key name="gmap_address"/>
             <key name="email_address"/>
             <key name="blog_subtitle"/>
             <key name="date_format"/>
             <key name="map_infobox_content"/>
             <key name="sharing_social_tagline"/>
+            <key name="privacy_bar_text"/>
+            <key name="privacy_bar_more_text"/>
+            <key name="privacy_bar_update_text"/>
+            <key name="google_analytics"/>
+            <key name="space_head"/>
+            <key name="space_body"/>
+            <key name="syntax_highlighter_copy_to_clipboard_text"/>
         </key>
     </admin-texts>
     <custom-types>
@@ -28,7 +41,9 @@
         <custom-type translate="1">revslider</custom-type>
         <custom-type translate="1">avada_faq</custom-type>
         <custom-type translate="1">avada_portfolio</custom-type>
+        <custom-type translate="1">fusion_tb_section</custom-type>
         <custom-type translate="1">fusion_element</custom-type>
+        <custom-type translate="0">fusion_icons</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_category</taxonomy>
@@ -37,6 +52,7 @@
         <taxonomy translate="1">portfolio_tags</taxonomy>
         <taxonomy translate="1">themefusion_es_groups</taxonomy>
         <taxonomy translate="1">slide-page</taxonomy>
+        <taxonomy translate="1">fusion_tb_category</taxonomy>
         <taxonomy translate="0">element_category</taxonomy>
     </taxonomies>
     <custom-fields>
@@ -177,6 +193,11 @@
         <custom-field action="copy-once">kd_featured-image-4_post_id</custom-field>
         <custom-field action="copy-once">kd_featured-image-5_post_id</custom-field>
         <custom-field action="copy-once">fusion_builder_status</custom-field>
+        <custom-field action="ignore">fusion_demo_import</custom-field>
+        <custom-field action="copy-once">_fusion_is_global</custom-field>
+        <custom-field action="ignore">fusion_builder_status</custom-field>
+        <custom-field action="copy-once">_fusion_builder_custom_css</custom-field>
+        <custom-field action="copy-once">_fusion</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
@@ -216,6 +237,12 @@
         </shortcode>
         <shortcode>
             <tag>fusion_builder_column</tag>
+            <attributes>
+                <attribute type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_builder_column_inner</tag>
             <attributes>
                 <attribute type="link">link</attribute>
             </attributes>
@@ -612,6 +639,19 @@
         </shortcode>
         <shortcode>
             <tag>fusion_dropcap</tag>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_video</tag>
+            <attributes>
+                <attribute>video</attribute>
+                <attribute>video_webm</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_audio</tag>
+            <attributes>
+                <attribute>src</attribute>
+            </attributes>
         </shortcode>
     </shortcodes>
     <custom-term-fields>
