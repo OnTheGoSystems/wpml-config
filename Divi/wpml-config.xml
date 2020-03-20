@@ -133,6 +133,9 @@
                 <attribute>field_title</attribute>
                 <attribute>field_title_phone</attribute>
                 <attribute>field_title_tablet</attribute>
+                <attribute encoding="divi_options">checkbox_options</attribute>
+                <attribute encoding="divi_options">radio_options</attribute>
+                <attribute encoding="divi_options">select_options</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
