@@ -1,6 +1,7 @@
 <wpml-config>
   <custom-types>
     <custom-type translate="1">wc_membership_plan</custom-type>
+    <custom-type translate="1">wc_user_membership</custom-type>
   </custom-types>
   <custom-fields>
     <custom-field action="translate">_email_content</custom-field>
