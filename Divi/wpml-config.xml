@@ -60,6 +60,16 @@
     </admin-texts>
     <shortcodes>
         <shortcode>
+            <tag>et_pb_row</tag>
+            <attributes>
+                <attribute type="link">link_option_url</attribute>
+                <attribute type="media-url">background_image</attribute>
+                <attribute>background_video_mp4</attribute>
+                <attribute>background_video_webm</attribute>
+                <attribute>admin_label</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_column</tag>
             <attributes>
                 <attribute type="link">link_option_url</attribute>
