@@ -1,5 +1,5 @@
 <wpml-config>
-    <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
+    <built-with-page-builder>/\[vc_/</built-with-page-builder>
     <shortcodes>
         <shortcode>
             <tag>dt_fancy_title</tag>
