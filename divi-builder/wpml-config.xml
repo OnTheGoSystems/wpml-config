@@ -4,6 +4,11 @@
     <custom-types>
         <custom-type translate="1">project</custom-type>
         <custom-type translate="1">et_pb_layout</custom-type>
+        <custom-type translate="1" display-as-translated="1">et_header_layout</custom-type>
+        <custom-type translate="1" display-as-translated="1">et_body_layout</custom-type>
+        <custom-type translate="1" display-as-translated="1">et_footer_layout</custom-type>
+        <custom-type translate="0">et_theme_builder</custom-type>
+        <custom-type translate="0">et_template</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">project_category</taxonomy>
@@ -148,6 +153,9 @@
                 <attribute>field_title</attribute>
                 <attribute>field_title_phone</attribute>
                 <attribute>field_title_tablet</attribute>
+                <attribute encoding="divi_options">checkbox_options</attribute>
+                <attribute encoding="divi_options">radio_options</attribute>
+                <attribute encoding="divi_options">select_options</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
