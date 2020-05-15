@@ -101,5 +101,6 @@
 		<item id="scrollider">Scrollider</item>
 		<item id="uncode" override_local="true">Uncode</item>
 		<item id="x" override_local="true">X</item>
+		<item id="generatepress">GeneratePress</item>
 	</themes>
 </configurations>
