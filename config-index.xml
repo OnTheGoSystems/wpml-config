@@ -75,7 +75,7 @@
 		<item id="forminator" override_local="false">Forminator</item>
 		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
 		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
-		<item id="ultimate-addons-for-gutenberg" override_local="true">Gutenberg Blocks – Ultimate Addons for Gutenberg</item>
+		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
