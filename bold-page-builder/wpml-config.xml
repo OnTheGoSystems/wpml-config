@@ -1,3 +1,52 @@
 <wpml-config>
-    <shortcode-list>bt_bb_headline,bt_bb_service</shortcode-list>
+    
+    
+    <shortcodes>
+        
+        <shortcode>
+            <tag>bt_accordion_items</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">headline</attribute>
+                <attribute encoding="allow_html_tags">headline</attribute>
+            </attributes>
+        </shortcode>
+    
+        <shortcode>
+            <tag>bt_header</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">superheadline</attribute>
+                <attribute encoding="allow_html_tags">headline</attribute>
+                <attribute encoding="allow_html_tags">subheadline</attribute>
+            </attributes>
+        </shortcode>
+        
+        <shortcode>
+            <tag>bt_button</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">text</attribute>
+                <attribute type="link">url</attribute>
+            </attributes>
+        </shortcode>
+        
+         <shortcode>
+            <tag>bt_image</tag>
+            <attributes>
+                <attribute type="media-ids">image</attribute>
+                <attribute encoding="allow_html_tags">caption_text</attribute>
+                <attribute encoding="allow_html_tags">caption_title</attribute>
+                <attribute type="link">url</attribute>
+            </attributes>
+        </shortcode>
+        
+        <shortcode>
+            <tag>bt_service</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">headline</attribute>
+                <attribute encoding="allow_html_tags">text</attribute>
+                <attribute encoding="allow_html_tags">caption_title</attribute>
+                <attribute type="link">url</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
 </wpml-config>
+
