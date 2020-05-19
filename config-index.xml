@@ -103,5 +103,6 @@
 		<item id="uncode" override_local="true">Uncode</item>
 		<item id="x" override_local="true">X</item>
 		<item id="generatepress">GeneratePress</item>
+		<item id="Sydney-Pro" override_local="true">Sydney Pro</item>
 	</themes>
 </configurations>
