@@ -29,6 +29,7 @@
 	<admin-texts>
 		<key name="wpseo_titles">
 			<key name="title-*" />
+			<key name="bctitle-*" />
 			<key name="metadesc-*" />
 			<key name="metakey-*" />
 			<key name="company_name" />
