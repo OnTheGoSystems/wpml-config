@@ -347,7 +347,7 @@
             <tag>fusion_map</tag>
             <attributes>
                 <attribute>address</attribute>
-                <attribute>infobox_content</attribute>
+                <attribute encoding="base64">infobox_content</attribute>
                 <attribute>infobox</attribute>
             </attributes>
         </shortcode>
