@@ -82,6 +82,7 @@
         <gutenberg-block type="core/image" translate="1">
             <xpath>//figure/figcaption</xpath>
             <xpath>//figure/img/@alt</xpath>
+            <xpath>//figure/img/@title</xpath>
             <xpath type='link'>//figure/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="core/gallery" translate="1">
