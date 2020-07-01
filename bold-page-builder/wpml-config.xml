@@ -1,10 +1,9 @@
 <wpml-config>
-	<shortcode-list>bt_bb_headline,bt_bb_service</shortcode-list>
+	<shortcode-list>bt_bb_headline,bt_bb_service,bt_text</shortcode-list>
 	<shortcodes>
 		<shortcode>
 			<tag>bt_accordion_items</tag>
 			<attributes>
-				<attribute encoding="allow_html_tags">headline</attribute>
 				<attribute encoding="allow_html_tags">headline</attribute>
 			</attributes>
 		</shortcode>
@@ -40,6 +39,15 @@
 				<attribute encoding="allow_html_tags">caption_title</attribute>
 				<attribute type="link">url</attribute>
 			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>bt_tabs_items</tag>
+			<attributes>
+				<attribute encoding="allow_html_tags">headline</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>bt_text</tag>
 		</shortcode>
 	</shortcodes>
 </wpml-config>
