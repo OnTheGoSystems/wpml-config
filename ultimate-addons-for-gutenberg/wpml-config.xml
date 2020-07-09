@@ -79,8 +79,8 @@
 			<xpath>//a/@href</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/buttons-child" translate="1">
-			<xpath>//a[@class="uagb-button__link"]</xpath>
-			<xpath>//a[@class="uagb-button__link"]/@href</xpath>
+			<xpath>//*[@class="uagb-button__link"]</xpath>
+			<xpath>//*[@class="uagb-buttons-repeater"]/@href</xpath>
 		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
