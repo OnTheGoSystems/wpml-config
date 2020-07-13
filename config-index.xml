@@ -76,6 +76,7 @@
 		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
 		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
 		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
+		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>

@@ -1,0 +1,91 @@
+<wpml-config>
+    <gutenberg-blocks>
+        <gutenberg-block type="advgb/adv-tabs" translate="1">
+            <xpath>//li[@class="advgb-tab"]/a/span</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/tab" translate="1">
+            <xpath>//div[@class="advgb-tab-body-header"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/accordion-item" translate="1">
+            <xpath>//*[@class="advgb-accordion-header-title"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/button" translate="1">
+            <xpath>//a</xpath>
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/image" translate="1">
+            <xpath>//a/@href</xpath>
+            <xpath>//h4</xpath>
+            <xpath>//p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/list" translate="1">
+            <xpath>//li</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/contact-form" translate="1">
+            <xpath>//input/@placeholder</xpath>
+            <xpath>//textarea/@placeholder</xpath>
+            <xpath>//button[@class="advgb-form-submit"]</xpath>
+            <xpath>//button[@class="advgb-form-submit"]/@*[name()="data-success" or name()="data-alert"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/count-up" translate="1">
+            <xpath>//h4</xpath>
+            <xpath>//span</xpath>
+            <xpath>//p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/images-slider" translate="1">
+            <xpath>//h4</xpath>
+            <xpath>//a/@href</xpath>
+            <xpath>//p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/map" translate="1">
+            <xpath>//div[@class="advgb-map-content"]/@data-title</xpath>
+            <key name="markerTitle"/>
+            <key name="markerDesc"/>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/newsletter" translate="1">
+            <xpath>//input/@placeholder</xpath>
+            <xpath>//button[@class="advgb-form-submit"]</xpath>
+            <xpath>//button[@class="advgb-form-submit"]/@*[name()="data-success" or name()="data-alert"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/recent-posts" translate="1">
+            <key name="readMoreLbl"/>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/summary" translate="1">
+            <xpath>//a</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/testimonial" translate="1">
+            <xpath>//h4</xpath>
+            <xpath>//p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/icon" translate="1">
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/infobox" translate="1">
+            <xpath>//*[@class="advgb-infobox-title"]</xpath>
+            <xpath>//*[@class="advgb-infobox-text"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/search-bar" translate="1">
+            <xpath>//input[@class="advgb-search-bar-input"]/@placeholder</xpath>
+            <xpath>//button</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/login-form" translate="1">
+            <xpath>//*[@class="advgb-lores-form-welcome"]</xpath>
+            <xpath>//span[@class="advgb-register-text"]</xpath>
+            <xpath>//a[@class="advgb-register-link"]</xpath>
+            <xpath>//a[@class="advgb-lost-password-link"]</xpath>
+            <xpath>//div[@class="remember-me-switch"]/span</xpath>
+            <xpath>//input[@class="advgb-lores-input"]/@placeholder</xpath>
+            <xpath>//input[@class="advgb-register-email"]/@placeholder</xpath>
+            <xpath>//label[@for="advgb-login-user"]</xpath>
+            <xpath>//label[@for="advgb-register-username"]</xpath>
+            <xpath>//label[@for="advgb-login-password"]</xpath>
+            <xpath>//label[@for="advgb-register-email"]</xpath>
+            <xpath>//button[@name="wp-submit"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="advgb/accordions" translate="0"/>
+        <gutenberg-block type="advgb/video" translate="0"/>
+        <gutenberg-block type="advgb/container" translate="0"/>
+        <gutenberg-block type="advgb/social-links" translate="0"/>
+        <gutenberg-block type="advgb/woo-products" translate="0"/>
+    </gutenberg-blocks>
+</wpml-config>
