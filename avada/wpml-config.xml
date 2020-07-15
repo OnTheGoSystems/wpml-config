@@ -197,8 +197,27 @@
         <custom-field action="copy-once">_fusion_is_global</custom-field>
         <custom-field action="ignore">fusion_builder_status</custom-field>
         <custom-field action="copy-once">_fusion_builder_custom_css</custom-field>
-        <custom-field action="copy-once">_fusion</custom-field>
+        <custom-field action="translate">_fusion</custom-field>
     </custom-fields>
+    <custom-fields-texts>
+        <key name="_fusion">
+            <key name="page_title_custom_text" />
+            <key name="page_title_custom_subheader" />
+            <key name="video" />
+            <key name="link_icon_url" />
+            <key name="video_url" />
+            <key name="project_url" />
+            <key name="project_url_text" />
+            <key name="copy_url" />
+            <key name="copy_url_text" />
+            <key name="youtube_id" />
+            <key name="heading" />
+            <key name="caption" />
+            <key name="button_1" />
+            <key name="button_2" />
+            <key name="vimeo_id" />
+        </key>
+    </custom-fields-texts>
     <shortcodes>
         <shortcode>
             <tag>fusion_alert</tag>
