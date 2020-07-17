@@ -1,0 +1,18 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="copy">ast-main-header-display</custom-field>
+    <custom-field action="copy">footer-sml-layout</custom-field>
+    <custom-field action="copy">site-post-title</custom-field>
+    <custom-field action="copy">site-sidebar-layout</custom-field>
+    <custom-field action="copy">site-content-layout</custom-field>
+    <custom-field action="copy">ast-featured-img</custom-field>
+    <custom-field action="copy">ast-breadcrumbs-content</custom-field>
+    <custom-field action="copy">theme-transparent-header-meta</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="astra-settings">
+      <key name="footer-sml-section-1-credit"/>
+      <key name="footer-sml-section-2-credit"/>
+    </key>
+  </admin-texts>
+</wpml-config>
