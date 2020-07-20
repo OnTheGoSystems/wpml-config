@@ -374,4 +374,10 @@
             </attributes>
         </shortcode>
     </shortcodes>
+    <!-- Temporary fix for wpmlcore-7375 -->
+    <gutenberg-blocks>
+        <gutenberg-block type="core/shortcode" translate="1">
+            <xpath>/*</xpath>
+        </gutenberg-block>
+    </gutenberg-blocks>
 </wpml-config>
