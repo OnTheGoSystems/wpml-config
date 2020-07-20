@@ -77,6 +77,7 @@
 		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
 		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
 		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
+		<item id="click-to-chat-for-whatsapp" override_local="true">Click to Chat</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>
