@@ -3,28 +3,20 @@
 		<gutenberg-block type="uagb/advanced-heading" translate="1">
 			<xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
 			<xpath>//div/p[@class="uagb-desc-text"]</xpath>
-			<key name="customUrl" />
+			<key name="customUrl"/>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/post-masonry" translate="1">
-			<key name="ctaText" />
+			<key name="ctaText"/>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/post-grid" translate="1">
-			<key name="ctaText" />
+			<key name="ctaText"/>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/post-timeline" translate="1">
-			<key name="readMoreText" />
+			<key name="readMoreText"/>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/post-carousel" translate="1">
-			<key name="ctaText" />
+			<key name="ctaText"/>
 		</gutenberg-block>
-		<gutenberg-block type="uagb/section" translate="0"/>
-		<gutenberg-block type="uagb/buttons" translate="0"/>
-		<gutenberg-block type="uagb/icon-list" translate="0"/>
-		<gutenberg-block type="uagb/columns" translate="0"/>
-		<gutenberg-block type="uagb/column" translate="0"/>
-		<gutenberg-block type="uagb/social-share" translate="0"/>
-		<gutenberg-block type="uagb/social-share-child" translate="0"/>
-		<gutenberg-block type="uagb/google-map" translate="0"/>
 		<gutenberg-block type="uagb/info-box" translate="1">
 			<xpath>//span[@class="uagb-ifb-title-prefix"]</xpath>
 			<xpath>//a/@href</xpath>
@@ -82,5 +74,43 @@
 			<xpath>//*[@class="uagb-button__link"]</xpath>
 			<xpath>//*[@class="uagb-buttons-repeater"]/@href</xpath>
 		</gutenberg-block>
+		<gutenberg-block type="uagb/wp-search" translate="1">
+			<xpath>//input[@class="uagb-search-form__input"]/@title</xpath>
+			<xpath>//input[@class="uagb-search-form__input"]/@placeholder</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="uagb/inline-notice" translate="1">
+			<xpath>//*[@class="uagb-notice-title"]</xpath>
+			<xpath>//*[@class="uagb-notice-text"]/p</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="uagb/faq-child" translate="1">
+			<xpath>//*[@class="uagb-question"]</xpath>
+			<xpath>//*[@class="uagb-faq-content"]/span/p</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="uagb/how-to" translate="1">
+			<xpath>//*[@class="uagb-howto-heading-text"]</xpath>
+			<xpath>//*[@class="uagb-howto-desc-text"]</xpath>
+			<xpath>//*[@class="uagb-howto-timeNeeded-text"]</xpath>
+			<xpath>//*[@class="uagb-howto-timeNeeded-value"]</xpath>
+			<xpath>//*[@class="uagb-howto-timeINmin-text"]</xpath>
+			<xpath>//*[@class="uagb-howto-estcost-text"]</xpath>
+			<xpath>//*[@class="uagb-howto-estcost-value"]</xpath>
+			<xpath>//*[@class="uagb-howto-estcost-type"]</xpath>
+			<xpath>//*[@class="uagb-howto-req-tools-text"]</xpath>
+			<xpath>//*[@class="uagb-tools__label"]</xpath>
+			<xpath>//*[@class="uagb-howto-req-materials-text"]</xpath>
+			<xpath>//*[@class="uagb-materials__label"]</xpath>
+			<xpath>//*[@class="uagb-howto-req-steps-text"]</xpath>
+			<xpath>//*[@class="uagb-ifb-title"]</xpath>
+			<xpath>//*[@class="uagb-ifb-desc"]</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="uagb/faq" translate="0"/>
+		<gutenberg-block type="uagb/section" translate="0"/>
+		<gutenberg-block type="uagb/buttons" translate="0"/>
+		<gutenberg-block type="uagb/icon-list" translate="0"/>
+		<gutenberg-block type="uagb/columns" translate="0"/>
+		<gutenberg-block type="uagb/column" translate="0"/>
+		<gutenberg-block type="uagb/social-share" translate="0"/>
+		<gutenberg-block type="uagb/social-share-child" translate="0"/>
+		<gutenberg-block type="uagb/google-map" translate="0"/>
 	</gutenberg-blocks>
 </wpml-config>
