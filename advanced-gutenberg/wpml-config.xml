@@ -39,6 +39,7 @@
         </gutenberg-block>
         <gutenberg-block type="advgb/map" translate="1">
             <xpath>//div[@class="advgb-map-content"]/@data-title</xpath>
+            <xpath>//div[@class="advgb-map-content"]/@data-desc</xpath>
             <key name="markerTitle"/>
             <key name="markerDesc"/>
         </gutenberg-block>
