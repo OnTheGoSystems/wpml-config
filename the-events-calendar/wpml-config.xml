@@ -59,6 +59,8 @@
       <key name="weekDayFormat"/>
       <key name="dateTimeSeparator"/>
       <key name="timeRangeSeparator"/>
+      <key name="tribeEventsBeforeHTML"/>
+      <key name="tribeEventsAfterHTML"/>
     </key>
     <key name="tribe_events_filters_current_active_filters">
       <key name="*">
