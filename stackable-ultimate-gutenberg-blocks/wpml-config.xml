@@ -1,0 +1,115 @@
+<wpml-config>
+    <gutenberg-blocks>
+        <gutenberg-block type="ugb/blog-posts" translate="1">
+            <key name="readmoreText"/>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/heading" translate="1">
+            <xpath>//*[@class="ugb-heading__title"]</xpath>
+            <xpath>//*[@class="ugb-heading__subtitle"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/accordion" translate="1">
+            <xpath>//*[@class="ugb-accordion__title"]</xpath>
+            <xpath>//*[@class="ugb-accordion__content-inner"]/p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/blockquote" translate="1">
+            <xpath>//*[@class="ugb-blockquote__text"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/button" translate="1">
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/count-up" translate="1">
+            <xpath>//*[@class='ugb-countup__title']</xpath>
+            <xpath>//*[@class='ugb-countup__counter']</xpath>
+            <xpath>//*[@class='ugb-countup__description']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/card" translate="1">
+            <xpath>//*[@class='ugb-card__title']</xpath>
+            <xpath>//*[@class='ugb-card__subtitle']</xpath>
+            <xpath>//*[@class='ugb-card__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/cta" translate="1">
+            <xpath>//*[@class='ugb-cta__title']</xpath>
+            <xpath>//*[@class='ugb-cta__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/feature-grid" translate="1">
+            <xpath>//*[@class='ugb-feature-grid__title']</xpath>
+            <xpath>//*[@class='ugb-feature-grid__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/expand" translate="1">
+            <xpath>//*[@class='ugb-expand__title']</xpath>
+            <xpath>//*[@class='ugb-expand__less-text']/p</xpath>
+            <xpath>//*[@class='ugb-expand__more-text']/p</xpath>
+            <xpath>//*[@class='ugb-expand__more-toggle-text']</xpath>
+            <xpath>//*[@class='ugb-expand__less-toggle-text']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/header" translate="1">
+            <xpath>//*[@class='ugb-header__title']</xpath>
+            <xpath>//*[@class='ugb-header__subtitle']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/image-box" translate="1">
+            <xpath>//*[@class='ugb-image-box__subtitle']</xpath>
+            <xpath>//*[@class='ugb-image-box__title']</xpath>
+            <xpath>//*[@class='ugb-image-box__description']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/number-box" translate="1">
+            <xpath>//*[@class='ugb-number-box__number']</xpath>
+            <xpath>//*[@class='ugb-number-box__title']</xpath>
+            <xpath>//*[@class='ugb-number-box__description']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/pricing-box" translate="1">
+            <xpath>//*[@class='ugb-pricing-box__title']</xpath>
+            <xpath>//*[@class='ugb-pricing-box__price-prefix']</xpath>
+            <xpath>//*[@class='ugb-pricing-box__price']</xpath>
+            <xpath>//*[@class='ugb-pricing-box__price-suffix']</xpath>
+            <xpath>//*[@class='ugb-pricing-box__subprice']</xpath>
+            <xpath>//*[@class='ugb-pricing-box__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/icon-list" translate="1">
+            <xpath>//*[contains(@class, 'wp-block-ugb-icon-list')]//li</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/notification" translate="1">
+            <xpath>//*[@class='ugb-notification__title']</xpath>
+            <xpath>//*[@class='ugb-notification__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/team-member" translate="1">
+            <xpath>//*[@class='ugb-team-member__name']</xpath>
+            <xpath>//*[@class='ugb-team-member__position']</xpath>
+            <xpath>//*[@class='ugb-team-member__description']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/testimonial" translate="1">
+            <xpath>//*[@class='ugb-testimonial__body']</xpath>
+            <xpath>//*[@class='ugb-testimonial__name']</xpath>
+            <xpath>//*[@class='ugb-testimonial__position']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/text" translate="1">
+            <xpath>//*[@class='ugb-text__text']/p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/feature" translate="1">
+            <xpath>//*[@class='ugb-feature__title']</xpath>
+            <xpath>//*[@class='ugb-feature__description']</xpath>
+            <xpath>//a[contains(@class, 'ugb-button')]/@href</xpath>
+            <xpath>//*[@class="ugb-button--inner"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/icon" translate="1">
+            <xpath>//a[@class='ugb-icon__icon']/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="ugb/separator" translate="0"/>
+        <gutenberg-block type="ugb/spacer" translate="0"/>
+        <gutenberg-block type="ugb/container" translate="0"/>
+        <gutenberg-block type="ugb/divider" translate="0"/>
+        <gutenberg-block type="ugb/video-popup" translate="0"/>
+    </gutenberg-blocks>
+</wpml-config>
