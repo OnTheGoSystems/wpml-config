@@ -2,6 +2,7 @@
     <gutenberg-blocks>
         <gutenberg-block type="ugb/blog-posts" translate="1">
             <key name="readmoreText"/>
+            <xpath>//*[contains(@class, 'ugb-blog-posts__load-more-button')]/*[@class="ugb-button--inner"]</xpath>
         </gutenberg-block>
         <gutenberg-block type="ugb/heading" translate="1">
             <xpath>//*[@class="ugb-heading__title"]</xpath>
