@@ -80,6 +80,7 @@
 		<item id="click-to-chat-for-whatsapp" override_local="true">Click to Chat</item>
 		<item id="seo-by-rank-math" override_local="true">Rank Math SEO</item>
 		<item id="stackable-ultimate-gutenberg-blocks" override_local="true">Stackable - Gutenberg Blocks</item>
+		<item id="simple-job-board" override_local="true">Simple Job Board</item>
 	</plugins>
 	<themes>
 		<item id="avada" override_local="true">Avada</item>

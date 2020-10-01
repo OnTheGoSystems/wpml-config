@@ -1,0 +1,37 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">jobpost</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">jobpost_category</taxonomy>
+		<taxonomy translate="1">jobpost_job_type</taxonomy>
+		<taxonomy translate="1">jobpost_location</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="job_board_job_category_slug"/>
+		<key name="job_board_job_location_slug"/>
+		<key name="job_board_job_type_slug"/>
+		<key name="job_board_jobpost_slug"/>
+		<key name="job_board_privacy_policy_content"/>
+		<key name="job_board_privacy_policy_label"/>
+		<key name="job_board_term_conditions_content"/>
+		<key name="job_board_term_conditions_label"/>
+		<key name="jobapp_settings_options">
+			<key name="*">
+				<key name="label"/>
+			</key>
+		</key>
+		<key name="jobfeature_settings_options">
+			<key name="*">
+				<key name="label"/>
+				<key name="value"/>
+			</key>
+		</key>
+	</admin-texts>
+	<custom-fields>
+		<custom-field action="translate">simple_job_board_company_name</custom-field>
+		<custom-field action="translate">simple_job_board_company_website</custom-field>
+		<custom-field action="translate">simple_job_board_company_tagline</custom-field>
+		<custom-field action="copy">simple_job_board_company_logo</custom-field>
+	</custom-fields>
+</wpml-config>
