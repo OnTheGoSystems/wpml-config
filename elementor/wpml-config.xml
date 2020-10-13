@@ -14,4 +14,11 @@
     <taxonomies>
         <taxonomy translate="0">elementor_library_type</taxonomy>
     </taxonomies>
+   <elementor-widgets>
+        <widget name="shortcode">
+            <fields>
+                <field type="Shortcode">shortcode</field>
+            </fields>
+        </widget>
+    </elementor-widgets>
 </wpml-config>
