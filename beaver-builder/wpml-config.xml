@@ -2,4 +2,36 @@
 	<custom-fields>
 		<custom-field action="copy">_fl_builder_enabled</custom-field>
 	</custom-fields>
+	<beaver-builder-widgets>
+		<widget name="button-group">
+			<fields-in-item items_of="items">
+				<field type="Button label" editor_type="LINE">text</field>
+				<field type="Button link" editor_type="LINK">link</field>
+				<field type="Lightbox HTML" editor_type="TEXTAREA">lightbox_content_html</field>
+			</fields-in-item>
+		</widget>
+		<widget name="list">
+			<fields-in-item items_of="list_items">
+				<field type="List heading" editor_type="LINE">heading</field>
+				<field type="List content" editor_type="VISUAL">content</field>
+			</fields-in-item>
+		</widget>
+		<widget name="login-form">
+			<fields>
+				<field type="Login name field" editor_type="LINE">name_field_text</field>
+				<field type="Login password field" editor_type="LINE">password_field_text</field>
+				<field type="Login button label" editor_type="LINE">btn_text</field>
+				<field type="Login button URL" editor_type="LINK">success_url</field>
+				<field type="Logout button label" editor_type="LINE">lo_btn_text</field>
+				<field type="Logout button URL" editor_type="LINK">lo_success_url</field>
+			</fields>
+		</widget>
+		<widget name="search">
+			<fields>
+				<field type="Search placeholder" editor_type="LINE">placeholder</field>
+				<field type="Search button label" editor_type="LINE">btn_text</field>
+				<field type="Search no results message" editor_type="LINE">no_results_message</field>
+			</fields>
+		</widget>
+	</beaver-builder-widgets>
 </wpml-config>
