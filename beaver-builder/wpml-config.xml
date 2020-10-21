@@ -7,7 +7,7 @@
 			<fields-in-item items_of="items">
 				<field type="Button label" editor_type="LINE">text</field>
 				<field type="Button link" editor_type="LINK">link</field>
-				<field type="Lightbox HTML" editor_type="TEXTAREA">lightbox_content_html</field>
+				<field type="Lightbox HTML" editor_type="AREA">lightbox_content_html</field>
 			</fields-in-item>
 		</widget>
 		<widget name="list">
