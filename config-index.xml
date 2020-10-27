@@ -20,7 +20,6 @@
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
-		<item id="productprint" override_local="true">ProductPrint</item>
 		<item id="sensei" override_local="true">Sensei</item>
 		<item id="subscriptio">Subscriptio</item>
 		<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>
@@ -71,7 +70,6 @@
 		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
 		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
-		<item id="bold-page-builder" override_local="true">Bold Builder</item>
 		<item id="forminator" override_local="false">Forminator</item>
 		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
 		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
@@ -95,7 +93,6 @@
 		<item id="function" override_local="true">Function</item>
 		<item id="genesis" override_local="true">Genesis</item>
 		<item id="idstore-responsive-wordpress-theme" override_local="true">IDStore - Responsive WordPress Theme</item>
-		<item id="kleo">Kleo</item>
 		<item id="luster">Luster</item>
 		<item id="port" override_local="true">Port</item>
 		<item id="pro" override_local="true">Pro</item>
@@ -108,6 +105,5 @@
 		<item id="uncode" override_local="true">Uncode</item>
 		<item id="x" override_local="true">X</item>
 		<item id="generatepress">GeneratePress</item>
-		<item id="Sydney-Pro" override_local="true">Sydney Pro</item>
 	</themes>
 </configurations>
