@@ -1,4 +1,7 @@
 <wpml-config>
+	<taxonomies>
+		<taxonomy translate="0">fl-builder-template-type</taxonomy>
+	</taxonomies>
 	<custom-fields>
 		<custom-field action="copy">_fl_builder_enabled</custom-field>
 	</custom-fields>
