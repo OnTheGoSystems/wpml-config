@@ -48,5 +48,10 @@
                 <field type="Shortcode">shortcode</field>
             </fields>
         </widget>
+        <widget name="lottie">
+            <fields>
+                <field field_id="source_external_url" type="Lottie: External URL" editor_type="LINK">source_external_url>url</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
