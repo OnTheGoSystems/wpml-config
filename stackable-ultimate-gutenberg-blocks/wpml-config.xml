@@ -135,9 +135,15 @@
             <xpath>//*[@class='ugb-block-title']</xpath>
             <xpath>//*[@class='ugb-block-description']</xpath>
         </gutenberg-block>
+        <gutenberg-block type="ugb/columns" translate="1">
+            <xpath>//*[@class='ugb-block-title']</xpath>
+            <xpath>//*[@class='ugb-block-description']</xpath>
+        </gutenberg-block>
         <gutenberg-block type="ugb/separator" translate="0"/>
         <gutenberg-block type="ugb/spacer" translate="0"/>
         <gutenberg-block type="ugb/container" translate="0"/>
         <gutenberg-block type="ugb/divider" translate="0"/>
+        <gutenberg-block type="ugb/column" translate="0"/>
+        <gutenberg-block type="ugb/design-library" translate="0"/>
     </gutenberg-blocks>
 </wpml-config>
