@@ -20,7 +20,7 @@
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
-		<item id="sensei" override_local="true">Sensei</item>
+		<item id="sensei">Sensei LMS</item>
 		<item id="subscriptio">Subscriptio</item>
 		<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>
 		<item id="the-events-calendar" override_local="true">The Events Calendar</item>
