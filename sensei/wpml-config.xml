@@ -10,17 +10,22 @@
 	<custom-types>
 		<custom-type translate="1">course</custom-type>
 		<custom-type translate="1">lesson</custom-type>
-		<custom-type translate="1" display-as-translated="1">multiple_question</custom-type>
+		<custom-type translate="1">quiz</custom-type>
 		<custom-type translate="1">question</custom-type>
-		<custom-type translate="1" display-as-translated="1">quiz</custom-type>
+		<custom-type translate="1">multiple_question</custom-type>
+		<custom-type translate="1">sensei_message</custom-type>
 	</custom-types>
 	<taxonomies>
-		<taxonomy translate="1">course-category</taxonomy>
 		<taxonomy translate="1">lesson-tag</taxonomy>
-		<taxonomy translate="1">module</taxonomy>
-		<taxonomy translate="1">question-category</taxonomy>
+		<taxonomy translate="1">course-category</taxonomy>
 	</taxonomies>
 	<admin-texts>
+		<key name="woothemes-sensei-settings">
+			<key name="course_archive_more_link_text" />
+			<key name="heading" />
+			<key name="email_footer_text" />
+			<key name="email_footer_text_2" />
+		</key>
 		<key name="sensei-settings">
 			<key name="course_archive_more_link_text" />
 			<key name="email_footer_text" />
