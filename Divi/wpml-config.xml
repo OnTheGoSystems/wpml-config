@@ -476,6 +476,13 @@
                 <attribute>module_id</attribute>
             </attributes>
         </shortcode>
+        <!-- Generic media attributes -->
+        <shortcode>
+            <tag ignore-content="1">*</tag>
+            <attributes>
+                <attribute type="media-url">background_video_mp4</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
     <!-- Fixes an issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
     <gutenberg-blocks>
