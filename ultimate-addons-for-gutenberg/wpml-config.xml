@@ -38,7 +38,7 @@
 			<xpath>//span[@class="uagb-icon-list__label"]</xpath>
 			<xpath>//div[contains(@class, "wp-block-uagb-icon-list-child")]/a/@href</xpath>
 		</gutenberg-block>
-		<gutenberg-block type="uagb/restaurant-menu" translate="1">
+		<gutenberg-block type="uagb/restaurant-menu-child" translate="1">
 			<xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
 			<xpath>//div[@class="uagb-rm__desc"]</xpath>
 			<xpath>//span[@class="uagb-rm__price"]</xpath>
