@@ -619,7 +619,7 @@
             <attributes>
                 <attribute type="link">link</attribute>
                 <attribute>button</attribute>
-                <attribute>title</attribute>
+                <attribute encoding="base64">title</attribute>
                 <attribute encoding="base64">description</attribute>
                 <attribute>dynamic_params</attribute>
             </attributes>
