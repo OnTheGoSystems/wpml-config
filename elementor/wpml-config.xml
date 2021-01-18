@@ -51,9 +51,6 @@
             </fields>
         </widget>
         <widget name="wc-add-to-cart">
-            <conditions>
-                <condition key="widgetType">wc-add-to-cart</condition>
-            </conditions>
             <fields>
                 <field type="Button Text" editor_type="LINE">text</field>
             </fields>
