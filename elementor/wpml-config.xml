@@ -50,5 +50,10 @@
                 <field type="Shortcode">shortcode</field>
             </fields>
         </widget>
+        <widget name="wc-add-to-cart">
+            <fields>
+                <field type="Button Text" editor_type="LINE">text</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
