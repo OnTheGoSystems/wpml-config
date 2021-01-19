@@ -198,6 +198,7 @@
         <custom-field action="ignore">fusion_builder_status</custom-field>
         <custom-field action="copy-once">_fusion_builder_custom_css</custom-field>
         <custom-field action="translate">_fusion</custom-field>
+        <custom-field action="copy-once">_menu_item_fusion_megamenu</custom-field>
     </custom-fields>
     <custom-fields-texts>
         <key name="_fusion">
