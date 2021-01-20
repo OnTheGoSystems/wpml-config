@@ -43,7 +43,7 @@
 			<xpath>//div[@class="uagb-rm__desc"]</xpath>
 			<xpath>//span[@class="uagb-rm__price"]</xpath>
 		</gutenberg-block>
-		<gutenberg-block type="uagb/content-timeline" translate="1">
+		<gutenberg-block type="uagb/content-timeline-child" translate="1">
 			<xpath>//div[@class="uagb-timeline__date-new"]/div</xpath>
 			<xpath>//div[@class="uagb-timeline__inner-date-new"]</xpath>
 			<xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
@@ -112,5 +112,7 @@
 		<gutenberg-block type="uagb/social-share" translate="0"/>
 		<gutenberg-block type="uagb/social-share-child" translate="0"/>
 		<gutenberg-block type="uagb/google-map" translate="0"/>
+		<gutenberg-block type="uagb/restaurant-menu" translate="0"/>
+		<gutenberg-block type="uagb/content-timeline" translate="0"/>
 	</gutenberg-blocks>
 </wpml-config>
