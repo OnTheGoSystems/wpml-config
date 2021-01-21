@@ -13,6 +13,15 @@
     <key name="astra-settings">
       <key name="footer-sml-section-1-credit"/>
       <key name="footer-sml-section-2-credit"/>
+      <key name="header-html-1"/>
+      <key name="header-html-2"/>
+      <key name="header-button1-text"/>
+      <key name="header-button1-link-option">
+        <key name="url"/>
+      </key>
+      <key name="footer-html-1"/>
+      <key name="footer-html-2"/>
+      <key name="footer-copyright-editor"/>
     </key>
   </admin-texts>
 </wpml-config>
