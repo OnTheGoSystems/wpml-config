@@ -1,4 +1,3 @@
 /config-index.json
-/nbproject
-.DS_Store
-.idea
+/vendor
+/wpml-config.xsd
