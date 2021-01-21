@@ -29,17 +29,25 @@ class WPML_Config_Index {
 	}
 
 	function validate_paths() {
-		$this->errors = array();
+		$this->errors = array_merge(
+			$this->validate_path( $this->configs->plugins->item ),
+			$this->validate_path( $this->configs->themes->item )
+		);
 
-		foreach ( $this->configs->plugins->item as $config ) {
+		return empty( $this->errors );
+	}
+
+	function validate_path( $items ) {
+		$errors = array();
+		foreach ( $items as $config ) {
 			$slug = $config->attributes()['id'];
 			$path = $slug . '/wpml-config.xml';
 			if ( ! file_exists( $path ) ) {
-				$this->errors[] = "File <$path> not found.";
+				$errors[] = "File <$path> not found.";
 			}
 		}
 
-		return empty( $this->errors );
+		return $errors;
 	}
 
 	function save_json() {
