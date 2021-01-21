@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+if ( $argc !== 2 || ! isset( $argv[1] ) || ! file_exists( $argv[1] ) ) {
+	echo 'File does not exist.' . PHP_EOL;
+	exit( 1 );
+}
+
+$file    = $argv[1];
+$content = file_get_contents( $file );
+
+libxml_use_internal_errors( true );
+$xml = new DOMDocument();
+$xml->loadXML( $content );
+$xml->schemaValidate( 'wpml-config.xsd' );
+
+$errors = array_column( libxml_get_errors(), 'message' );
+if ( ! empty( $errors ) ) {
+	$errors = array_unique( $errors );
+
+	$RED="\033[41m";
+	$NC="\033[0m";
+	echo "$RED Failed validating $file $NC" . PHP_EOL;
+	echo implode( '', $errors );
+	exit( 2 );
+}

@@ -1,0 +1,24 @@
+{
+    "name": "otgs/wpml-config",
+    "description": "Remote repository for WPML language configuration files",
+    "type": "project",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "David Garcia Watkins",
+            "email": "david.gw@onthegosystems.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "ext-dom": "*"
+    },
+    "scripts": {
+        "post-install-cmd": "@validate",
+        "post-update-cmd": "@validate",
+        "validate": [
+            "wget -q -nc http://cdn.wpml.org/wp-content/plugins/sitepress-multilingual-cms/res/xsd/wpml-config.xsd",
+            "find . -name wpml-config.xml | xargs -n1 bin/validate"
+        ]
+    }
+}
