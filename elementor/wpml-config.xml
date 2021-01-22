@@ -1,7 +1,7 @@
 <wpml-config>
    <custom-fields>
         <custom-field action="copy-once">_elementor_page_settings</custom-field>
-        <custom-field action="copy">_elementor_edit_mode</custom-field>
+        <custom-field action="copied">_elementor_edit_mode</custom-field>
         <custom-field action="copy">_elementor_template_type</custom-field>
         <custom-field action="copy">_elementor_version</custom-field>
         <custom-field action="copy-once">_elementor_data</custom-field>
