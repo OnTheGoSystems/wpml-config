@@ -12,14 +12,7 @@ Language configuration files can be stored directly in the root folder of the pl
 
 ## Validating XML files
 
-With `xmllint` and `wpml-config.xsd` we can validate XML files:
-
-* Instructions for installing `xmllint` will vary according to your OS. A quick Google search should help you.
-* The `wpml-config.xsd` file can be found in the `res/xsd` folder of the main WPML plugin.
-
-```
-xmllint --schema wpml-config.xsd --noout <path-to-wpml-config.xml>
-```
+Run `composer install --no-autoloader` to validate XML files.
 
 ## Repository structure
 
