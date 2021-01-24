@@ -122,6 +122,7 @@
 			<xpath>//pre</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/table" translate="1">
+			<xpath>//th</xpath>
 			<xpath>//td</xpath>
 			<xpath>//figure/figcaption</xpath>
 		</gutenberg-block>
