@@ -15,6 +15,7 @@
         <custom-field action="copy-once">_uncode_gallery_media</custom-field>
         <custom-field action="copy-once">_uncode_gallery_cover</custom-field>
         <custom-field action="copy-once">_thumbnail_id</custom-field>
+        <custom-field action="copy-once">_uncode_secondary_thumbnail_id</custom-field>
         <custom-field action="copy-once">_uncode_featured_media</custom-field>
         <custom-field action="copy-once">_uncode_poster_image</custom-field>
         <custom-field action="copy-once">_uncode_team_member</custom-field>
