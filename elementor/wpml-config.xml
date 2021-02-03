@@ -55,5 +55,10 @@
                 <field type="Button Text" editor_type="LINE">text</field>
             </fields>
         </widget>
+        <widget name="wp-widget-recent-posts">
+            <fields>
+                <field type="Title" editor_type="LINE">wp>title</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
