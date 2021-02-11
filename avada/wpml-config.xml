@@ -676,6 +676,92 @@
         <shortcode>
             <tag>fusion_woo_cart_table</tag>
         </shortcode>
+        <shortcode>
+            <tag>fusion_form_email</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_notice</tag>
+            <attributes>
+                <attribute encoding="base64">success</attribute>
+                <attribute encoding="base64">error</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_checkbox</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+                <attribute encoding="base64">options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_radio</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+                <attribute encoding="base64">options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_select</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+                <attribute encoding="base64">options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_range</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_rating</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_date</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">fusion_form_image_select</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_date</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_textarea</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_submit</tag>
+        </shortcode>
     </shortcodes>
     <custom-term-fields>
         <custom-term-field action="copy">fusion_slider_options</custom-term-field>
