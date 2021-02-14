@@ -26,7 +26,7 @@
         <custom-field action="copy">_et_pb_post_hide_nav</custom-field>
         <custom-field action="copy">_et_pb_show_title</custom-field>
         <custom-field action="copy">_et_pb_use_builder</custom-field>
-        <custom-field action="translate">_et_pb_old_content</custom-field>
+        <custom-field action="translate" style="visual">_et_pb_old_content</custom-field>
         <custom-field action="copy">_et_pb_product_page_layout</custom-field>
         <custom-field action="copy">_et_pb_woo_page_content_status</custom-field>
         <custom-field action="copy">_et_pb_ab_current_shortcode</custom-field>
