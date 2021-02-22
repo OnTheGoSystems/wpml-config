@@ -172,6 +172,7 @@
                 <attribute>submit_button_text_tablet</attribute>
                 <attribute>submit_button_text_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute type="link">redirect_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
