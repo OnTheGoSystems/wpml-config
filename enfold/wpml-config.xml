@@ -80,7 +80,7 @@
         <shortcode>
             <tag>av_icon_box</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
