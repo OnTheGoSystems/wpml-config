@@ -4,6 +4,7 @@
     <custom-types>
         <custom-type translate="0">avia_framework_post</custom-type>
         <custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">alb_elements</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_entries</taxonomy>
