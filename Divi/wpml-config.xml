@@ -346,6 +346,8 @@
                 <attribute type="link">button_link</attribute>
                 <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">image</attribute>
+                <attribute type="media-url">image_tablet</attribute>
+                <attribute type="media-url">image_phone</attribute>
                 <attribute type="media-url">background_image</attribute>
                 <attribute encoding="allow_html_tags">content_tablet</attribute>
                 <attribute encoding="allow_html_tags">content_phone</attribute>
