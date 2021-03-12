@@ -300,11 +300,6 @@
                 <field type="Author headline">heading</field>
             </fields>
         </widget>
-        <widget name="classic:author">
-            <fields>
-                <field type="Author headline">heading</field>
-            </fields>
-        </widget>
         <widget name="classic:accordion">
             <fields-in-item items_of="classic:accordion-item">
                 <field type="Accordion item title">title</field>
