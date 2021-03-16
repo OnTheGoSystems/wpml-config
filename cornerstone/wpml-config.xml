@@ -188,6 +188,9 @@
             <tag>x_slider</tag>
         </shortcode>
         <shortcode>
+            <tag>x_slide</tag>
+        </shortcode>
+        <shortcode>
             <tag>x_responsive_text</tag>
         </shortcode>
         <shortcode>
@@ -468,6 +471,11 @@
                 <field type="Feature box link href">href</field>
                 <field type="Feature box link title">href_title</field>
             </fields>
+        </widget>
+        <widget name="classic:slider">
+            <fields-in-item items_of="classic:slide">
+                <field type="Slide content">content</field>
+            </fields-in-item>
         </widget>
     </cornerstone-widgets>
 </wpml-config>
