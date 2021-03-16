@@ -459,5 +459,15 @@
                 <field type="Google map marker info">info</field>
             </fields-in-item>
         </widget>
+        <widget name="classic:feature-box">
+            <fields>
+                <field type="Feature box title">title</field>
+                <field type="Feature box content">content</field>
+                <field type="Feature box image alt">graphic_image_alt_text</field>
+                <field type="Feature box link text">link_text</field>
+                <field type="Feature box link href">href</field>
+                <field type="Feature box link title">href_title</field>
+            </fields>
+        </widget>
     </cornerstone-widgets>
 </wpml-config>
