@@ -16,35 +16,35 @@
     <taxonomies>
         <taxonomy translate="0">elementor_library_type</taxonomy>
     </taxonomies>
-   <elementor-widgets>
-       <widget name="form">
-           <fields>
-               <field type="Form: name" editor_type="LINE">form_name</field>
-               <field type="Form: Button text" editor_type="LINE">button_text</field>
-               <field type="Form: Email subject" editor_type="LINE">email_subject</field>
-               <field type="Form: Email from name" editor_type="LINE">email_from_name</field>
-               <field type="Form: Email Content" editor_type="AREA">email_content</field>
-               <field type="Form: Email subject 2" editor_type="LINE">email_subject_2</field>
-               <field type="Form: Email Content 2" editor_type="AREA">email_content_2</field>
-               <field type="Form: Success message" editor_type="LINE">success_message</field>
-               <field type="Form: Error message" editor_type="LINE">error_message</field>
-               <field type="Form: Required message" editor_type="LINE">required_message</field>
-               <field type="Form: Invalid message" editor_type="LINE">invalid_message</field>
-               <field type="Form: Required message" editor_type="LINE">required_field_message</field>
-               <field type="Form: Redirect to URL" editor_type="LINE">redirect_to</field>
-           </fields>
-           <fields-in-item items_of="form_fields">
-               <field type="Form: Field label" editor_type="LINE">field_label</field>
-               <field type="Form: Field placeholder" editor_type="LINE">placeholder</field>
-               <field type="Form: Field HTML" editor_type="AREA">field_html</field>
-               <field type="Form: Acceptance Text" editor_type="LINE">acceptance_text</field>
-               <field type="Form: Checkbox Options" editor_type="AREA">field_options</field>
-               <field type="Form: Step Next Label" editor_type="LINE">step_next_label</field>
-               <field type="Form: Step Previous Label" editor_type="LINE">step_previous_label</field>
-               <field type="Form: Previous Button" editor_type="LINE">previous_button</field>
-               <field type="Form: Next Button" editor_type="LINE">next_button</field>
-           </fields-in-item>
-       </widget>
+    <elementor-widgets>
+        <widget name="form">
+            <fields>
+                <field type="Form: name" editor_type="LINE">form_name</field>
+                <field type="Form: Button text" editor_type="LINE">button_text</field>
+                <field type="Form: Email subject" editor_type="LINE">email_subject</field>
+                <field type="Form: Email from name" editor_type="LINE">email_from_name</field>
+                <field type="Form: Email Content" editor_type="AREA">email_content</field>
+                <field type="Form: Email subject 2" editor_type="LINE">email_subject_2</field>
+                <field type="Form: Email Content 2" editor_type="AREA">email_content_2</field>
+                <field type="Form: Success message" editor_type="LINE">success_message</field>
+                <field type="Form: Error message" editor_type="LINE">error_message</field>
+                <field type="Form: Required message" editor_type="LINE">required_message</field>
+                <field type="Form: Invalid message" editor_type="LINE">invalid_message</field>
+                <field type="Form: Required message" editor_type="LINE">required_field_message</field>
+                <field type="Form: Redirect to URL" editor_type="LINE">redirect_to</field>
+            </fields>
+            <fields-in-item items_of="form_fields">
+                <field type="Form: Field label" editor_type="LINE">field_label</field>
+                <field type="Form: Field placeholder" editor_type="LINE">placeholder</field>
+                <field type="Form: Field HTML" editor_type="AREA">field_html</field>
+                <field type="Form: Acceptance Text" editor_type="LINE">acceptance_text</field>
+                <field type="Form: Checkbox Options" editor_type="AREA">field_options</field>
+                <field type="Form: Step Next Label" editor_type="LINE">step_next_label</field>
+                <field type="Form: Step Previous Label" editor_type="LINE">step_previous_label</field>
+                <field type="Form: Previous Button" editor_type="LINE">previous_button</field>
+                <field type="Form: Next Button" editor_type="LINE">next_button</field>
+            </fields-in-item>
+        </widget>
         <widget name="shortcode">
             <fields>
                 <field type="Shortcode">shortcode</field>
