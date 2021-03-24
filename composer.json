@@ -17,7 +17,6 @@
         "post-install-cmd": "@validate-xml",
         "post-update-cmd": "@validate-xml",
         "validate-xml": [
-            "wget -q -nc http://cdn.wpml.org/wp-content/plugins/sitepress-multilingual-cms/res/xsd/wpml-config.xsd",
             "find . -name wpml-config.xml | xargs -n1 bin/validate"
         ]
     }
