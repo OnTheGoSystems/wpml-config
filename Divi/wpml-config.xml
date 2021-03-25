@@ -119,6 +119,7 @@
                 <attribute type="link">link_option_url</attribute>
                 <attribute encoding="allow_html_tags">content_tablet</attribute>
                 <attribute encoding="allow_html_tags">content_phone</attribute>
+                <attribute encoding="allow_html_tags">content__hover</attribute>
             </attributes>
         </shortcode>
         <shortcode>
