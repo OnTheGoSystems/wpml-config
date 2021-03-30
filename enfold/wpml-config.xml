@@ -198,7 +198,7 @@
         <shortcode>
             <tag>av_magazine</tag>
             <attributes>
-                <attribute type="link" encoding="av_link">link</attribute>
+                <attribute type="link" encoding="av_link">heading_link</attribute>
                 <attribute>heading</attribute>
             </attributes>
         </shortcode>
