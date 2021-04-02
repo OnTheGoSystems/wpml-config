@@ -673,6 +673,9 @@
                 <attribute>src</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>fusion_woo_cart_table</tag>
+        </shortcode>
     </shortcodes>
     <custom-term-fields>
         <custom-term-field action="copy">fusion_slider_options</custom-term-field>
