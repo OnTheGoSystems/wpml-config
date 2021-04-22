@@ -71,5 +71,11 @@
                 <field type="Slide Video Link" editor_type="LINE" key_of="video">url</field>
             </fields-in-item>
         </widget>
+        <widget name="text-path">
+            <fields>
+                <field type="Text path">text</field>
+                <field type="Text path link" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
