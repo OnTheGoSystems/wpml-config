@@ -1,31 +1,52 @@
 <configurations>
 	<plugins>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
+		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
+		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
+		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
 		<item id="atomic-blocks" override_local="true">Atomic Blocks</item>
-		<item id="book-now">Book Now</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Lite Version)</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Pro Version)</item>
+		<item id="book-now">Book Now</item>
+		<item id="click-to-chat-for-whatsapp" override_local="true">Click to Chat</item>
+		<item id="comment-form" override_local="true">Advanced Comment Form</item>
 		<item id="cornerstone" override_local="true">Cornerstone</item>
 		<item id="custom-post-type-ui" override_local="true">Custom Post Type UI</item>
 		<item id="divi-builder" override_local="true">Divi Builder</item>
+		<item id="elementor" override_local="true">Elementor</item>
 		<item id="event-tickets-plus">Event Tickets Plus</item>
-		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
+		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
+		<item id="exit-popup">Exit Popup</item>
+		<item id="forminator" override_local="false">Forminator</item>
+		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
-		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
-		<item id="uncode-js_composer" override_local="true">Uncode WPBakery Page Builder</item>
+		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
 		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item>
+		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
+		<item id="kingcomposer" override_local="true">KingComposer</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
+		<item id="master-slider" override_local="true">MasterSlider</item>
 		<item id="members">Members</item>
 		<item id="multibanco-ifthenpay-gateway-for-woocommerce">Multibanco (IfthenPay gateway) for WooCommerce</item>
+		<item id="ninja-forms" override_local="true">Ninja Forms</item>
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
+		<item id="oxygen" override_local="true">Oxygen Builder</item>
+		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
-		<item id="sensei">Sensei</item>
+		<item id="rezgo" override_local="true">Rezgo Online Booking</item>
+		<item id="search-filter" override_local="true">Search &amp; Filter</item>
 		<item id="sensei">Sensei LMS</item>
-		<item id="subscriptio">Subscriptio</item>
+		<item id="sensei">Sensei</item>
+		<item id="seo-by-rank-math" override_local="true">Rank Math SEO</item>
 		<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>
+		<item id="stackable-ultimate-gutenberg-blocks" override_local="true">Stackable - Gutenberg Blocks</item>
+		<item id="subscriptio">Subscriptio</item>
 		<item id="the-events-calendar" override_local="true">The Events Calendar</item>
-		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
+		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
+		<item id="ultimate-member" override_local="true">Ultimate Member</item>
+		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
+		<item id="uncode-js_composer" override_local="true">Uncode WPBakery Page Builder</item>
 		<item id="woo-brand">Woocomerce Brands Pro</item>
 		<item id="woocommerce-additional-variation-images" override_local="true">WooCommerce Additional Variation Images</item>
 		<item id="woocommerce-advanced-product-labels">WooCommerce Advanced Product Labels</item>
@@ -35,9 +56,11 @@
 		<item id="woocommerce-currency-converter" override_local="true">WooCommerce Currency Converter</item>
 		<item id="woocommerce-dibs-flexwin-gateway" override_local="true">WooCommerce DIBS FlexWin Gateway</item>
 		<item id="woocommerce-embed-slides" override_local="true">WooCommerce Embed Slides</item>
+		<item id="woocommerce-gateway-stripe" override_local="true">WooCommerce Stripe Gateway</item>
 		<item id="woocommerce-local-pickup-plus" override_local="true">WooCommerce Local Pickup Plus</item>
-		<item id="woocommerce-multilingual" override_local="true">WooCommerce Multilingual</item>
 		<item id="woocommerce-memberships" override_local="true">WooCommerce Memberships</item>
+		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
+		<item id="woocommerce-multilingual" override_local="true">WooCommerce Multilingual</item>
 		<item id="woocommerce-name-your-price" override_local="true">WooCommerce Name Your Price</item>
 		<item id="woocommerce-paymill-gateway" override_local="true">WooCommerce Paymill Gateway</item>
 		<item id="woocommerce-pdf-invoices-packing-slips" override_local="true">WooCommerce PDF Invoices &amp; Packing Slips</item>
@@ -48,49 +71,27 @@
 		<item id="woocommerce-product-bundles">WooCommerce Product Bundles</item>
 		<item id="woocommerce-product-gift-wrap" override_local="true">WooCommerce Product Gift Wrap</item>
 		<item id="woocommerce-social-media-share-buttons" override_local="true">Woocommerce Social Media Share Buttons</item>
-		<item id="woocommerce-gateway-stripe" override_local="true">WooCommerce Stripe Gateway</item>
 		<item id="woocommerce-tab-manager" override_local="true">WooCommerce Tab Manager</item>
 		<item id="woocommerce-video-tab" override_local="true">WooCommerce Video Tab</item>
+		<item id="wordpress-seo" override_local="true">Yoast SEO</item>
+		<item id="wordpress-seo-premium" override_local="true">Yoast SEO Premium</item>
 		<item id="wp-job-manager">WP Job Manager</item>
 		<item id="wpml-test-config" override_local="true">WPML Test Config</item>
 		<item id="yoast-seo" override_local="true">Yoast SEO</item>
-		<item id="wordpress-seo" override_local="true">Yoast SEO</item>
-		<item id="wordpress-seo-premium" override_local="true">Yoast SEO Premium</item>
-		<item id="elementor" override_local="true">Elementor</item>
-		<item id="exit-popup">Exit Popup</item>
-		<item id="ninja-forms" override_local="true">Ninja Forms</item>
-		<item id="rezgo" override_local="true">Rezgo Online Booking</item>
-		<item id="master-slider" override_local="true">MasterSlider</item>
-		<item id="comment-form" override_local="true">Advanced Comment Form</item>
-		<item id="search-filter" override_local="true">Search &amp; Filter</item>
-		<item id="kingcomposer" override_local="true">KingComposer</item>
-		<item id="ultimate-member" override_local="true">Ultimate Member</item>
-		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
-		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
-		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
-		<item id="forminator" override_local="false">Forminator</item>
-		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
-		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
-		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
-		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
-		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
-		<item id="click-to-chat-for-whatsapp" override_local="true">Click to Chat</item>
-		<item id="seo-by-rank-math" override_local="true">Rank Math SEO</item>
-		<item id="stackable-ultimate-gutenberg-blocks" override_local="true">Stackable - Gutenberg Blocks</item>
-		<item id="oxygen" override_local="true">Oxygen Builder</item>
 	</plugins>
 	<themes>
-		<item id="avada" override_local="true">Avada</item>
 		<item id="astra" override_local="true">Astra</item>
+		<item id="avada" override_local="true">Avada</item>
 		<item id="brooklyn" override_local="false">Brooklyn</item>
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
 		<item id="Divi" override_local="true">Divi</item>
 		<item id="dt-the7" override_local="true">The7</item>
-		<item id="extra" override_local="true">Extra</item>
 		<item id="emerald-cv" override_local="true">Emerald CV</item>
 		<item id="enfold" override_local="true">Enfold</item>
+		<item id="extra" override_local="true">Extra</item>
 		<item id="function" override_local="true">Function</item>
+		<item id="generatepress">GeneratePress</item>
 		<item id="genesis" override_local="true">Genesis</item>
 		<item id="idstore-responsive-wordpress-theme" override_local="true">IDStore - Responsive WordPress Theme</item>
 		<item id="luster">Luster</item>
@@ -104,6 +105,5 @@
 		<item id="scrollider">Scrollider</item>
 		<item id="uncode" override_local="true">Uncode</item>
 		<item id="x" override_local="true">X</item>
-		<item id="generatepress">GeneratePress</item>
 	</themes>
 </configurations>
