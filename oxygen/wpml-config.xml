@@ -1,0 +1,40 @@
+<wpml-config>
+    <shortcodes>
+        <shortcode>
+            <tag>ct_text_block</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>oxy_rich_text</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_link_text</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_link_2</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_link_button</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_headline</tag>
+            <attributes>
+                <attribute type="area" encoding="oxygen_ct_json">ct_options</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
