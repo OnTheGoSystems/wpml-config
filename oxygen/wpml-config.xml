@@ -1,0 +1,28 @@
+<wpml-config>
+    <shortcodes>
+        <shortcode>
+            <tag>ct_headline</tag>
+            <attributes>
+                <attribute type="area" encoding="ct_options">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_text_block</tag>
+            <attributes>
+                <attribute type="area" encoding="ct_options">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_paragraph</tag>
+            <attributes>
+                <attribute type="area" encoding="ct_options">ct_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ct_link_text</tag>
+            <attributes>
+                <attribute type="area" encoding="ct_options">ct_options</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
