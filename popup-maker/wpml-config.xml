@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy-once">popup_settings</custom-field>
+        <custom-field action="copy-once">popup_title</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">popup</custom-type>
+    </custom-types>
+</wpml-config>
