@@ -1,5 +1,6 @@
 <configurations>
 	<plugins>
+		<item id="popup-maker" override_local="true">Popup Maker</item>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
 		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
 		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
