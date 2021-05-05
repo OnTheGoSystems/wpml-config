@@ -73,7 +73,7 @@
             <xpath>//*[@class="advgb-lores-form-welcome"]</xpath>
             <xpath>//span[@class="advgb-register-text"]</xpath>
             <xpath>//a[@class="advgb-register-link"]</xpath>
-            <xpath>//a[@class="advgb-lost-password-link"]</xpath>
+            <xpath>//a[@class="advgb-lost-password"]</xpath>
             <xpath>//div[@class="remember-me-switch"]/span</xpath>
             <xpath>//input[@class="advgb-lores-input"]/@placeholder</xpath>
             <xpath>//input[@class="advgb-register-email"]/@placeholder</xpath>
