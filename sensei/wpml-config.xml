@@ -18,6 +18,7 @@
 	<taxonomies>
 		<taxonomy translate="1">lesson-tag</taxonomy>
 		<taxonomy translate="1">course-category</taxonomy>
+		<taxonomy translate="0">question-type</taxonomy>
 	</taxonomies>
 	<admin-texts>
 		<key name="woothemes-sensei-settings">
