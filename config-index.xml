@@ -6,6 +6,7 @@
 		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
 		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
 		<item id="atomic-blocks" override_local="true">Atomic Blocks</item>
+		<item id="atomic-blocks" override_local="true">Atomic Blocks - Gutenberg Blocks Collection</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Lite Version)</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Pro Version)</item>
 		<item id="book-now">Book Now</item>
