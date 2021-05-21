@@ -486,5 +486,10 @@
                 <field type="Slide content">content</field>
             </fields-in-item>
         </widget>
+        <widget name="testimonial">
+            <fields>
+                <field type="Testimonial">testimonial_content</field>
+            </fields>
+        </widget>
     </cornerstone-widgets>
 </wpml-config>
