@@ -20,7 +20,8 @@
     <custom-field action="copy">_x_portfolio_index_media</custom-field>
     <custom-field action="copy">_x_portfolio_project_link</custom-field>
     <custom-field action="copy">_x_portfolio_embed</custom-field>
-	<custom-field action="copy">_cornerstone_data</custom-field>
+    <custom-field action="translate">_x_entry_alternate_index_title</custom-field>
+    <custom-field action="copy">_cornerstone_data</custom-field>
   </custom-fields>
   <admin-texts>
     <key name="x_integrity_blog_title"/>

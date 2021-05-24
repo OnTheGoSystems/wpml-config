@@ -22,6 +22,7 @@
         <custom-field action="copy">_x_portfolio_index_media</custom-field>
         <custom-field action="copy">_x_portfolio_project_link</custom-field>
         <custom-field action="copy">_x_portfolio_embed</custom-field>
+        <custom-field action="translate">_x_entry_alternate_index_title</custom-field>
         <custom-field action="copy">_cornerstone_data</custom-field>
         <custom-field action="copy">_cornerstone_override</custom-field>
         <custom-field action="copy">menu-item-anchor_graphic_menu_item_display</custom-field>
@@ -484,6 +485,11 @@
             <fields-in-item items_of="classic:slide">
                 <field type="Slide content">content</field>
             </fields-in-item>
+        </widget>
+        <widget name="testimonial">
+            <fields>
+                <field type="Testimonial">testimonial_content</field>
+            </fields>
         </widget>
     </cornerstone-widgets>
 </wpml-config>
