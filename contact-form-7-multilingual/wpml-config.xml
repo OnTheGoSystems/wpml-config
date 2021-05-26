@@ -1,6 +1,6 @@
 <wpml-config>
     <custom-types>
-        <custom-type translate="1">wpcf7_contact_form</custom-type>
+        <custom-type translate="1" automatic="0">wpcf7_contact_form</custom-type>
     </custom-types>
     <custom-fields>
         <custom-field action="translate">_form</custom-field>
