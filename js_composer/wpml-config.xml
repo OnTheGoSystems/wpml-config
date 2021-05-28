@@ -383,5 +383,11 @@
                 <attribute type="link">column_link</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>vc_icon</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
