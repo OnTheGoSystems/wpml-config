@@ -22,6 +22,7 @@
       <key name="footer-html-1"/>
       <key name="footer-html-2"/>
       <key name="footer-copyright-editor"/>
+      <key name="related-posts-title"/>
     </key>
   </admin-texts>
 </wpml-config>
