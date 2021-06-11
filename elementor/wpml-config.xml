@@ -82,5 +82,10 @@
                 <field type="Text path link" editor_type="LINK">link>url</field>
             </fields>
         </widget>
+        <widget name="star-rating">
+            <fields>
+                <field type="Title" editor_type="LINE">title</field>
+            </fields>
+        </widget>        
     </elementor-widgets>
 </wpml-config>
