@@ -86,6 +86,29 @@
             <fields>
                 <field type="Title" editor_type="LINE">title</field>
             </fields>
-        </widget>        
+        </widget>
+        <widget name="video-playlist">
+            <fields>
+                <field type="Video Playlist: Title">playlist_title</field>
+                <field type="Video Playlist: Tab title 1">inner_tab_title_1</field>
+                <field type="Video Playlist: Tab title 2">inner_tab_title_2</field>
+                <field type="Video Playlist: Show more">inner_tab_label_show_more</field>
+                <field type="Video Playlist: Show less">inner_tab_label_show_less</field>
+            </fields>
+            <fields-in-item items_of="tabs">
+                <field type="Video Playlist: Title">title</field>
+                <field type="Video Playlist: Youtube URL" editor_type="LINK">youtube_url</field>
+                <field type="Video Playlist: External URL" editor_type="LINK">external_url>url</field>
+                <field type="Video Playlist: Tab 1 content" editor_type="VISUAL">inner_tab_content_1</field>
+                <field type="Video Playlist: Tab 2 content" editor_type="VISUAL">inner_tab_content_2</field>
+            </fields-in-item>
+        </widget>
+        <widget name="hotspot">
+            <fields-in-item items_of="hotspot">
+                <field type="Hotspot: Label">hotspot_label</field>
+                <field type="Hotspot: URL" editor_type="LINK">hotspot_link>url</field>
+                <field type="Hotspot: Content" editor_type="VISUAL">hotspot_tooltip_content</field>
+            </fields-in-item>
+        </widget>
     </elementor-widgets>
 </wpml-config>
