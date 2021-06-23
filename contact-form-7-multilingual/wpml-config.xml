@@ -8,7 +8,7 @@
         <custom-field action="translate">_mail_2</custom-field>
         <custom-field action="translate">_messages</custom-field>
         <custom-field action="copy">_additional_settings</custom-field>
-        <custom-field action="translate">_locale</custom-field>
+        <custom-field action="copy">_locale</custom-field>
     </custom-fields>
     <custom-fields-texts>
         <key name="_mail">
