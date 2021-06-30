@@ -256,6 +256,11 @@
         <field type="Hero button link title">button>attributes>title</field>
       </fields-in-item>
     </widget>
+    <widget name="SiteOrigin_Widget_GoogleMap_Widget">
+      <fields-in-item items_of="markers>marker_positions">
+        <field type="Marker info" editor_type="VISUAL">info</field>
+      </fields-in-item>
+    </widget>
     <widget name="SiteOrigin_Widget_Image_Widget">
       <fields>
         <field type="Image title">title</field>
