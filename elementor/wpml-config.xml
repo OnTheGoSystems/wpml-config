@@ -32,6 +32,7 @@
                 <field type="Form: Invalid message" editor_type="LINE">invalid_message</field>
                 <field type="Form: Required message" editor_type="LINE">required_field_message</field>
                 <field type="Form: Redirect to URL" editor_type="LINE">redirect_to</field>
+		    <field type="Form: MailChimp tags" editor_type="LINE">mailchimp_tags</field>
             </fields>
             <fields-in-item items_of="form_fields">
                 <field type="Form: Field label" editor_type="LINE">field_label</field>
