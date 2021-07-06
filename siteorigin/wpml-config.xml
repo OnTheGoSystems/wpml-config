@@ -1,5 +1,11 @@
 <wpml-config>
   <built-with-page-builder>/\[siteorigin_widget.*\]/</built-with-page-builder>
+  <admin-texts>
+    <key name="so_widget_settings[SiteOrigin_Widget_GoogleMap_Widget]">
+      <key name="map_consent_btn_text" />
+      <key name="map_consent_notice" />
+    </key>
+  </admin-texts>
   <gutenberg-blocks>
     <gutenberg-block type="sowb/widget-block" translate="1">
       <key name="widgetData">
