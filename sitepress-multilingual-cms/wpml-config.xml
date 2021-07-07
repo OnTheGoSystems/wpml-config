@@ -111,6 +111,11 @@
 		<gutenberg-block type="core/cover" translate="1">
 			<xpath>//div/p</xpath>
 		</gutenberg-block>
+		<gutenberg-block type="core/search" translate="1">
+			<key name="label" />
+			<key name="placeholder" />
+			<key name="buttonText" />
+		</gutenberg-block>
 		<!-- Since WP 5.0.0 core/cover-image is replaced with core/cover -->
 		<gutenberg-block type="core/cover-image" translate="1">
 			<xpath>//div/p</xpath>
