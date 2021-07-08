@@ -114,6 +114,7 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="media-ids">image</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
