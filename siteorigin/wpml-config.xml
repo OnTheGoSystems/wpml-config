@@ -448,7 +448,7 @@
     </widget>
     <widget name="SiteOrigin_Widget_GoogleMap_Widget">
       <fields-in-item items_of="markers>marker_positions">
-        <field type="Map marker info" editor_type="VISUAL">marker_positions>info</field>
+        <field type="Map marker info" editor_type="VISUAL">info</field>
       </fields-in-item>
     </widget>
     <widget name="SiteOrigin_Widget_Headline_Widget">
