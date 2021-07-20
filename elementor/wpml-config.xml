@@ -111,5 +111,10 @@
                 <field type="Hotspot: Content" editor_type="VISUAL">hotspot_tooltip_content</field>
             </fields-in-item>
         </widget>
+        <widget name="image-carousel">
+            <fields>
+                <field type="Heading: Link URL" editor_type="LINK" key_of="link">url</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
