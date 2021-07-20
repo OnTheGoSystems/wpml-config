@@ -15,7 +15,7 @@
             <tag>vc_text_separator</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
-                <attribute encoding="allow_html_tags">sub_title</attribute>
+                <attribute encoding="allow_html_tags"sub_title</attribute>
             </attributes>
         </shortcode>
         <shortcode>
