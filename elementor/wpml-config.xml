@@ -113,7 +113,7 @@
         </widget>
         <widget name="image-carousel">
             <fields>
-                <field type="Heading: Link URL" editor_type="LINK" key_of="link">url</field>
+                <field type="Heading: Link URL" editor_type="LINK">link>url</field>
             </fields>
         </widget>
     </elementor-widgets>
