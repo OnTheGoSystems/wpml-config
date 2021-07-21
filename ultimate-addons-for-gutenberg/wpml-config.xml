@@ -114,5 +114,13 @@
 		<gutenberg-block type="uagb/google-map" translate="0"/>
 		<gutenberg-block type="uagb/restaurant-menu" translate="0"/>
 		<gutenberg-block type="uagb/content-timeline" translate="0"/>
+		<gutenberg-block type="uagb/tabs" translate="1">
+			<xpath>//span</xpath>
+			<xpath>//li[@class="uagb-tab"]/li</xpath>
+			<xpath>//div[(@class="uagb-tabs__body")]/div</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="uagb/forms" translate="1">
+			<xpath>//button/div</xpath>
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
