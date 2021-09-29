@@ -80,6 +80,9 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_menu</tag>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_accordion_item</tag>
             <attributes>
                 <attribute>title</attribute>
