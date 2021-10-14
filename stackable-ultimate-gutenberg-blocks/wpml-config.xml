@@ -39,7 +39,7 @@
             <xpath>//*[contains(@class, "stk-block-icon-list")]//li</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/icon" translate="1">
-            <xpath>//*[contains(@class, "stk--inner-svg")]/svg/@alt</xpath>
+            <xpath>//*[contains(@class, "stk--inner-svg")]/svg/@aria-label</xpath>
             <xpath>//*[contains(@class,"stk-block-icon")]/a/@title</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/image-box" translate="1">
