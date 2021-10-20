@@ -9,6 +9,12 @@
     </custom-fields>
     <shortcodes>
         <shortcode>
+            <tag>vc_row</tag>
+            <attributes>
+                <attribute>el_id</attribute>
+            </attributes>            
+        </shortcode>    
+        <shortcode>
             <tag>vc_column_text</tag>
         </shortcode>
         <shortcode>
