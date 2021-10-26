@@ -118,5 +118,45 @@
                 <field type="Heading: Link URL" editor_type="LINK">link>url</field>
             </fields>
         </widget>
+	<widget name="woocommerce-cart">
+            <conditions>
+                <condition key="widgetType">woocommerce-cart</condition>
+            </conditions>
+            <fields>
+                <field type="Cart: Update button text" editor_type="LINE">update_cart_button_text</field>
+                <field type="Cart: Apply coupon botton text" editor_type="LINE">apply_coupon_button_text</field>
+                <field type="Cart: Totals section title" editor_type="LINE">totals_section_title</field>
+                <field type="Cart: Update shipping button text" editor_type="LINE">update_shipping_button_text</field>
+                <field type="Cart: Checkout button text" editor_type="LINE">checkout_button_text</field>
+            </fields>
+        </widget>
+        <widget name="woocommerce-checkout-page">
+            <conditions>
+                <condition key="widgetType">woocommerce-checkout-page</condition>
+            </conditions>
+            <fields>
+                <field type="Checkout: Billing details section title" editor_type="LINE">billing_details_section_title</field>
+                <field type="Checkout: Billing forms items" editor_type="LINE">title_field</field>
+                <field type="Checkout: Shipping details section title" editor_type="LINE">shipping_details_section_title</field>
+                <field type="Checkout: Create account text" editor_type="LINE">create_account_text</field>
+                <field type="Checkout: Order summary section title" editor_type="LINE">order_summary_section_title</field>
+                <field type="Checkout: Terms and conditions message text" editor_type="LINE">terms_conditions_message_text</field>
+                <field type="Checkout: Terms and conditions link text" editor_type="LINE">terms_conditions_link_text</field>
+                <field type="Checkout: Coupon title text" editor_type="LINE">coupon_section_title_text</field>
+                <field type="Checkout: Coupon link text" editor_type="LINE">coupon_section_title_link_text</field>
+            </fields>
+            <fields-in-item items_of="billing_details_form_fields">
+                <field type="Checkout: Billing forms items label" editor_type="LINE">label</field>
+                <field type="Checkout: Billing forms items placeholder" editor_type="LINE">placeholder</field>
+            </fields-in-item>
+            <fields-in-item items_of="shipping_details_form_fields">
+                <field type="Checkout: Shipping forms items label" editor_type="LINE">label</field>
+                <field type="Checkout: Shipping forms items placeholder" editor_type="LINE">placeholder</field>
+            </fields-in-item>
+            <fields-in-item items_of="additional_information_form_fields">
+                <field type="Checkout: Additional information forms items label" editor_type="LINE">label</field>
+                <field type="Checkout: Additional information forms items placeholder" editor_type="LINE">placeholder</field>
+            </fields-in-item>
+        </widget>
     </elementor-widgets>
 </wpml-config>
