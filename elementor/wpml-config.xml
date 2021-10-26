@@ -119,9 +119,6 @@
             </fields>
         </widget>
 	<widget name="woocommerce-cart">
-            <conditions>
-                <condition key="widgetType">woocommerce-cart</condition>
-            </conditions>
             <fields>
                 <field type="Cart: Update button text" editor_type="LINE">update_cart_button_text</field>
                 <field type="Cart: Apply coupon botton text" editor_type="LINE">apply_coupon_button_text</field>
@@ -131,9 +128,6 @@
             </fields>
         </widget>
         <widget name="woocommerce-checkout-page">
-            <conditions>
-                <condition key="widgetType">woocommerce-checkout-page</condition>
-            </conditions>
             <fields>
                 <field type="Checkout: Billing details section title" editor_type="LINE">billing_details_section_title</field>
                 <field type="Checkout: Billing forms items" editor_type="LINE">title_field</field>
@@ -158,5 +152,10 @@
                 <field type="Checkout: Additional information forms items placeholder" editor_type="LINE">placeholder</field>
             </fields-in-item>
         </widget>
+	<widget name="woocommerce-my-account">
+	    <fields-in-item items_of="tabs">
+		<field type="My Account: Tab name" editor_type="LINE">tab_name</field>
+	    </fields-in-item>
+   	</widget>
     </elementor-widgets>
 </wpml-config>
