@@ -41,8 +41,8 @@
 		<custom-field action="copy">_wc_booking_restricted_days</custom-field>
 	</custom-fields>
 	<custom-types>
-		<custom-type translate="1">bookable_person</custom-type>
-		<custom-type translate="1">bookable_resource</custom-type>
+		<custom-type translate="1" automatic="0">bookable_person</custom-type>
+		<custom-type translate="1" automatic="0">bookable_resource</custom-type>
 		<custom-type translate="1">wc_booking</custom-type>
 	</custom-types>
 </wpml-config>
