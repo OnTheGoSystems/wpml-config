@@ -162,6 +162,7 @@
             <tag>vc_gmaps</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
