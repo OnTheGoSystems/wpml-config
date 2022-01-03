@@ -45,6 +45,7 @@
         <custom-type translate="1">fusion_element</custom-type>
         <custom-type translate="0">fusion_icons</custom-type>
         <custom-type translate="1" automatic="0">fusion_form</custom-type>
+        <custom-type translate="1" display-as-translated="1">awb_off_canvas</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_category</taxonomy>
