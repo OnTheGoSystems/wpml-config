@@ -219,6 +219,9 @@
             <key name="vimeo_id" />
         </key>
     </custom-fields-texts>
+    <custom-term-fields>
+        <custom-term-field action="copy">_fusion</custom-term-field>
+    </custom-term-fields>
     <shortcodes>
         <shortcode>
             <tag>fusion_alert</tag>
