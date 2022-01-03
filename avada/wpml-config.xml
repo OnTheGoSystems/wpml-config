@@ -220,6 +220,7 @@
         </key>
     </custom-fields-texts>
     <custom-term-fields>
+        <custom-term-field action="copy">fusion_slider_options</custom-term-field>
         <custom-term-field action="copy">_fusion</custom-term-field>
     </custom-term-fields>
     <shortcodes>
@@ -769,7 +770,4 @@
             <tag>fusion_form_submit</tag>
         </shortcode>
     </shortcodes>
-    <custom-term-fields>
-        <custom-term-field action="copy">fusion_slider_options</custom-term-field>
-    </custom-term-fields>
 </wpml-config>
