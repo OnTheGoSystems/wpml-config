@@ -90,9 +90,16 @@
         <shortcode>
             <tag>et_pb_cta</tag>
             <attributes>
-                <attribute>title</attribute>
+               <attribute>title</attribute>
                 <attribute>button_text</attribute>
+                <attribute>title_phone</attribute>
+                <attribute>title_tablet</attribute>
+                <attribute>button_text_tablet</attribute>
+                <attribute>button_text_phone</attribute>
+                <attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute encoding="allow_html_tags">content_phone</attribute>
                 <attribute type="link">button_url</attribute>
+                <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>
