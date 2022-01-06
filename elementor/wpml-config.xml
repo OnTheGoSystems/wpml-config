@@ -138,6 +138,7 @@
                 <field type="Checkout: Terms and conditions link text" editor_type="LINE">terms_conditions_link_text</field>
                 <field type="Checkout: Coupon title text" editor_type="LINE">coupon_section_title_text</field>
                 <field type="Checkout: Coupon link text" editor_type="LINE">coupon_section_title_link_text</field>
+                <field type="Checkout: Additional information section title" editor_type="LINE">additional_information_section_title</field>
             </fields>
             <fields-in-item items_of="billing_details_form_fields">
                 <field type="Checkout: Billing forms items label" editor_type="LINE">label</field>
