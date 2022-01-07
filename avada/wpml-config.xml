@@ -390,7 +390,6 @@
         <shortcode>
             <tag type="media-url">fusion_imageframe</tag>
             <attributes>
-                <attribute>image_id</attribute>
                 <attribute>gallery_id</attribute>
                 <attribute>alt</attribute>
                 <attribute type="link">link</attribute>
