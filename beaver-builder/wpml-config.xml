@@ -46,6 +46,9 @@
 				<field type="Ribbon Text" editor_type="LINE">ribbon_text</field>
 				<field type="Button Text" editor_type="LINE">button_text</field>
 				<field type="Button URL" editor_type="LINK">button_url</field>
+				<field type="Price" editor_type="LINE">price</field>
+				<field type="Duration" editor_type="LINE">duration</field>
+				<field type="Price (Option 2)" editor_type="LINE">price_option_2</field>     
 			</fields-in-item>
 		</widget>
 		<widget name="search">
