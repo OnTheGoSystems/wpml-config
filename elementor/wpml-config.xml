@@ -153,10 +153,25 @@
                 <field type="Checkout: Additional information forms items placeholder" editor_type="LINE">placeholder</field>
             </fields-in-item>
         </widget>
-	<widget name="woocommerce-my-account">
-	    <fields-in-item items_of="tabs">
-		<field type="My Account: Tab name" editor_type="LINE">tab_name</field>
-	    </fields-in-item>
-   	</widget>
+        <widget name="woocommerce-my-account">
+            <fields-in-item items_of="tabs">
+                <field type="My Account: Tab name" editor_type="LINE">tab_name</field>
+            </fields-in-item>
+        </widget>
+        <widget name="woocommerce-purchase-summary">
+            <fields>
+                <field type="Confirmation message text">confirmation_message_text</field>
+                <field type="Payment details number">payment_details_number</field>
+                <field type="Payment details date">payment_details_date</field>
+                <field type="Payment details email">payment_details_email</field>
+                <field type="Payment details total">payment_details_total</field>
+                <field type="Payment details payment">payment_details_payment</field>
+                <field type="Bank details text">bank_details_text</field>
+                <field type="Download text">downloads_text</field>
+                <field type="Order summary">order_summary_text</field>
+                <field type="Billing details text">billing_details_text</field>
+                <field type="Shipping details text">shipping_details_text</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
