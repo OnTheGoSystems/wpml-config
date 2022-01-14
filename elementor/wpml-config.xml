@@ -69,6 +69,142 @@
                 <field type="Text" editor_type="VISUAL">wp>text</field>
             </fields>
         </widget>
+        <widget name="wp-widget-search">
+            <fields>
+                <field type="Search title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-categories">
+            <fields>
+                <field type="Categories title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-pages">
+            <fields>
+                <field type="Pages title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-calendar">
+            <fields>
+                <field type="Calendar title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-archives">
+            <fields>
+                <field type="Archives title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-media_audio">
+            <fields>
+                <field type="Media audio title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-media_image">
+            <fields>
+                <field type="Media image title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-media_gallery">
+            <fields>
+                <field type="Media gallery title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-media_video">
+            <fields>
+                <field type="Media video title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-meta">
+            <fields>
+                <field type="Meta title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-recent-comments">
+            <fields>
+                <field type="Recent comments title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-rss">
+            <fields>
+                <field type="RSS title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-tag_cloud">
+            <fields>
+                <field type="Tag cloud title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-custom_html">
+            <fields>
+                <field type="Custom HTML title">wp>title</field>
+                <field type="Custom HTML content" editor_type="VISUAL">wp>content</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-block">
+            <fields>
+                <field type="Block content" editor_type="AREA">wp>content</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_widget_cart">
+            <fields>
+                <field type="WC Cart title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_layered_nav_filters">
+            <fields>
+                <field type="WC Layered nav filters title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_layered_nav">
+            <fields>
+                <field type="WC Layered nav title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_price_filter">
+            <fields>
+                <field type="WC Price filter title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_product_categories">
+            <fields>
+                <field type="WC Product categories title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_product_search">
+            <fields>
+                <field type="WC Product search title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_product_tag_cloud">
+            <fields>
+                <field type="WC Product tags title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_recently_viewed_products">
+            <fields>
+                <field type="WC Recently viewed products title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_top_rated_products">
+            <fields>
+                <field type="WC Top rated products title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_recent_reviews">
+            <fields>
+                <field type="WC Recent reviews title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_rating_filter">
+            <fields>
+                <field type="WC Rating filter title">wp>title</field>
+            </fields>
+        </widget>
+        <widget name="wp-widget-woocommerce_products">
+            <fields>
+                <field type="Products list title">wp>title</field>
+            </fields>
+        </widget>
 	    <widget name="media-carousel">
             <fields-in-item items_of="slides">
                 <field type="Slide Video Link" editor_type="LINE" key_of="video">url</field>
