@@ -767,6 +767,22 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>fusion_form_text</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_phone_number</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>placeholder</attribute>
+                <attribute>tooltip</attribute>
+            </attributes>
+        </shortcode>    
+        <shortcode>
             <tag>fusion_form_submit</tag>
         </shortcode>
     </shortcodes>
