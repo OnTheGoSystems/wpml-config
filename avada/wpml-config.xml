@@ -395,6 +395,8 @@
                 <attribute type="link">link</attribute>
                 <attribute type="media-ids">image_id</attribute>
                 <attribute>dynamic_params</attribute>
+                <attribute>caption_title</attribute>
+                <attribute>caption_text</attribute>                
             </attributes>
         </shortcode>
         <shortcode>
