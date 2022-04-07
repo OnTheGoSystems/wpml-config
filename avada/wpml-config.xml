@@ -671,6 +671,7 @@
             <attributes>
                 <attribute>video</attribute>
                 <attribute>video_webm</attribute>
+                <attribute>preview_image</attribute>
             </attributes>
         </shortcode>
         <shortcode>
