@@ -279,6 +279,7 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_link" type="link">href</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
