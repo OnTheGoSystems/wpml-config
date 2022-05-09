@@ -130,6 +130,7 @@
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_safe">custom_links</attribute>
                 <attribute type="media-ids">images</attribute>
+                <attribute encoding="base64">items</attribute>
             </attributes>
         </shortcode>
         <shortcode>
