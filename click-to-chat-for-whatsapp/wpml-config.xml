@@ -1,13 +1,15 @@
 <wpml-config>
-  <admin-texts>
-    <key name="ht_ctc_chat_options">
-      <key name="number"/>
-      <key name="pre_filled"/>
-      <key name="call_to_action"/>
-      <key name="list_hideon_pages"/>
-      <key name="list_hideon_cat"/>
-      <key name="list_showon_pages"/>
-      <key name="list_showon_cat"/>
-    </key>
-  </admin-texts>
+	<admin-texts>
+		<key name="ht_ctc_chat_options">
+			<key name="number"/>
+			<key name="pre_filled"/>
+			<key name="call_to_action"/>
+			<key name="display">
+				<key name="list_hideon_pages"/>
+				<key name="list_hideon_cat"/>
+				<key name="list_showon_pages"/>
+				<key name="list_showon_cat"/>
+			</key>
+		</key>
+	</admin-texts>
 </wpml-config>
