@@ -17,6 +17,15 @@
         <taxonomy translate="0">elementor_library_type</taxonomy>
     </taxonomies>
     <elementor-widgets>
+        <widget name="stripe-button">
+            <fields>
+                <field type="Stripe button: Product name">product_name</field>
+                <field type="Stripe button: Button text">text</field>
+                <field type="Stripe button: Global error message">error_message_global</field>
+                <field type="Stripe button: Payment error message">error_message_payment</field>
+                <field type="Stripe button: Redirect after success URL" editor_type="LINK">redirect_after_success>url</field>
+            </fields>
+        </widget>
         <widget name="form">
             <fields>
                 <field type="Form: name" editor_type="LINE">form_name</field>
