@@ -27,7 +27,7 @@
         <gutenberg-block type="stackable/feature-grid" translate="0" />
         <gutenberg-block type="stackable/feature" translate="0" />
         <gutenberg-block type="stackable/heading" translate="1">
-            <xpath>//*[contains(@class,"stk-block-heading__text")]</xpath>
+            <xpath>//*[@class="stk-block-heading__text"]</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/hero" translate="0" />
         <gutenberg-block type="stackable/icon-box" translate="1">
