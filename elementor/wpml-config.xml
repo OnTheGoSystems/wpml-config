@@ -321,7 +321,6 @@
         <widget name="wc-archive-products">
             <fields>
                 <field type="Archive Product: Nothing Found Message" editor_type="LINE">nothing_found_message</field>
-               
             </fields>
         </widget>
     </elementor-widgets>
