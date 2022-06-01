@@ -318,5 +318,11 @@
                 <field type="Shipping details text">shipping_details_text</field>
             </fields>
         </widget>
+        <widget name="wc-archive-products">
+            <fields>
+                <field type="Archive Product: Nothing Found Message" editor_type="LINE">nothing_found_message</field>
+               
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
