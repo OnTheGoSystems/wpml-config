@@ -254,7 +254,8 @@
         <widget name="hotspot">
             <fields-in-item items_of="hotspot">
                 <field type="Hotspot: Label">hotspot_label</field>
-                <field type="Hotspot: URL" editor_type="LINK">hotspot_link>url</field>
+        	<field type="Hotspot: URL" key_of="hotspot_link">url</field>
+		<field type="Hotspot: URL" key_of="__dynamic__">hotspot_link</field>   
                 <field type="Hotspot: Content" editor_type="VISUAL">hotspot_tooltip_content</field>
             </fields-in-item>
         </widget>
