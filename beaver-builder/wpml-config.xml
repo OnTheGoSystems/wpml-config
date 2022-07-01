@@ -1,6 +1,6 @@
 <wpml-config>
 	<custom-types>
-		<custom-type translate="1" display-as-translated="1">fl-builder-template</custom-type>
+		<custom-type translate="1">fl-builder-template</custom-type>
 	</custom-types>
 	<taxonomies>
 		<taxonomy translate="0">fl-builder-template-type</taxonomy>
