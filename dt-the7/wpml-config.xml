@@ -1,504 +1,770 @@
 <wpml-config>
-    <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
-    <shortcodes>
-        <shortcode>
-            <tag>dt_fancy_title</tag>
-            <attributes>
-                <attribute>title</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_quote</tag>
-            <attributes>
-                <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_call_to_action</tag>
-            <attributes>
-                <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_teaser</tag>
-            <attributes>
-                <attribute>image_alt</attribute>
-                <attribute>misc_link</attribute>
-                <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_banner</tag>
-            <attributes>
-                <attribute>content</attribute>
-                <attribute>link</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_contact_form</tag>
-            <attributes>
-                <attribute>button_title</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_fancy_image</tag>
-            <attributes>
-                <attribute>image_link</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_button</tag>
-            <attributes>
-                <attribute>content</attribute>
-                <attribute>link</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_vc_list</tag>
-            <attributes>
-                <attribute>content</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_carousel</tag>
-            <attributes>
-                <attribute>dt_title_general</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>dt_blog_carousel</tag>
-            <attributes>
-                <attribute>dt_title</attribute>
-                <attribute>dt_title_general</attribute>
-                <attribute>read_more_button_text</attribute>
-            </attributes>
-        </shortcode>
-    </shortcodes>
-    <custom-types>
-        <custom-type translate="1">dt_portfolio</custom-type>
-        <custom-type translate="1">dt_testimonials</custom-type>
-        <custom-type translate="1">dt_team</custom-type>
-        <custom-type translate="1">dt_logos</custom-type>
-        <custom-type translate="1">dt_benefits</custom-type>
-        <custom-type translate="1">dt_gallery</custom-type>
-        <custom-type translate="1">dt_slideshow</custom-type>
-    </custom-types>
-    <taxonomies>
-        <taxonomy translate="1">dt_portfolio_category</taxonomy>
-        <taxonomy translate="1">dt_testimonials_category</taxonomy>
-        <taxonomy translate="1">dt_team_category</taxonomy>
-        <taxonomy translate="1">dt_logos_category</taxonomy>
-        <taxonomy translate="1">dt_benefits_category</taxonomy>
-        <taxonomy translate="1">dt_gallery_category</taxonomy>
-    </taxonomies>
-    <custom-fields>
-        <custom-field action="copy">_dt_albums_display</custom-field>
-        <custom-field action="copy">_dt_albums_media_display</custom-field>
-        <custom-field action="copy">_dt_albums_options_bg_under_masonry_posts</custom-field>
-        <custom-field action="copy">_dt_albums_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_albums_options_description</custom-field>
-        <custom-field action="copy">_dt_albums_options_full_width</custom-field>
-        <custom-field action="copy">_dt_albums_options_hide_last_row</custom-field>
-        <custom-field action="copy">_dt_albums_options_hover_animation</custom-field>
-        <custom-field action="copy">_dt_albums_options_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_albums_options_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_albums_options_image_layout</custom-field>
-        <custom-field action="copy">_dt_albums_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_albums_options_jgrid_description</custom-field>
-        <custom-field action="copy">_dt_albums_options_jgrid_hover_animation</custom-field>
-        <custom-field action="copy">_dt_albums_options_jgrid_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_albums_options_jgrid_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_albums_options_jgrid_show_round_miniatures</custom-field>
-        <custom-field action="copy">_dt_albums_options_layout</custom-field>
-        <custom-field action="copy">_dt_albums_options_load_effect</custom-field>
-        <custom-field action="copy">_dt_albums_options_load_style</custom-field>
-        <custom-field action="copy">_dt_albums_options_order</custom-field>
-        <custom-field action="copy">_dt_albums_options_orderby</custom-field>
-        <custom-field action="copy">_dt_albums_options_posts_same_width</custom-field>
-        <custom-field action="copy">_dt_albums_options_post_content_alignment</custom-field>
-        <custom-field action="copy">_dt_albums_options_ppp</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_all_pages</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_author_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_categories_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_comments_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_date_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_exerpts</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_filter</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_numbers_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_order</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_orderby</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_ordering</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_round_miniatures</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_terms</custom-field>
-        <custom-field action="copy">_dt_albums_options_show_titles</custom-field>
-        <custom-field action="copy">_dt_albums_options_target_height</custom-field>
-        <custom-field action="copy">_dt_albums_options_target_width</custom-field>
-        <custom-field action="copy">_dt_albums_options_thumb_proportions</custom-field>
-        <custom-field action="copy-once">_dt_album_media_items</custom-field>
-        <custom-field action="copy">_dt_album_options_exclude_featured_image</custom-field>
-        <custom-field action="copy">_dt_album_options_gallery_columns</custom-field>
-        <custom-field action="copy">_dt_album_options_gallery_make_first_big</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_autoplay</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_bg_color</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_bottom_padding</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_inactive_opacity</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_landscape_images_mode</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_layout</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_ls_fill_dt</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_ls_fill_mob</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_ls_max_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_ls_min_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_overlay</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_portrait_images_mode</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_pt_fill_dt</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_pt_fill_mob</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_pt_max_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_pt_min_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_side_paddings</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_slides_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_slide_max_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_height</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_visibility</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_width</custom-field>
-        <custom-field action="copy">_dt_album_options_photo_scroller_top_padding</custom-field>
-        <custom-field action="copy">_dt_album_options_preview</custom-field>
-        <custom-field action="copy">_dt_album_options_slider_proportions</custom-field>
-        <custom-field action="copy">_dt_album_options_type</custom-field>
-        <custom-field action="copy">_dt_benefits_options_retina_image</custom-field>
-        <custom-field action="copy">_dt_blog_display</custom-field>
-        <custom-field action="copy">_dt_blog_options_bg_under_list_posts</custom-field>
-        <custom-field action="copy">_dt_blog_options_bg_under_masonry_posts</custom-field>
-        <custom-field action="copy">_dt_blog_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_blog_options_enable_fancy_date</custom-field>
-        <custom-field action="copy">_dt_blog_options_full_width</custom-field>
-        <custom-field action="copy">_dt_blog_options_image_layout</custom-field>
-        <custom-field action="copy">_dt_blog_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_blog_options_layout</custom-field>
-        <custom-field action="copy">_dt_blog_options_list_layout</custom-field>
-        <custom-field action="copy">_dt_blog_options_load_effect</custom-field>
-        <custom-field action="copy">_dt_blog_options_load_style</custom-field>
-        <custom-field action="copy">_dt_blog_options_order</custom-field>
-        <custom-field action="copy">_dt_blog_options_orderby</custom-field>
-        <custom-field action="copy">_dt_blog_options_posts_same_width</custom-field>
-        <custom-field action="copy">_dt_blog_options_post_content_alignment</custom-field>
-        <custom-field action="copy">_dt_blog_options_ppp</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_all_pages</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_author_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_categories_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_comments_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_date_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_details</custom-field>
-        <custom-field action="copy">_dt_blog_options_show_exerpts</custom-field>
-        <custom-field action="copy">_dt_blog_options_target_width</custom-field>
-        <custom-field action="copy">_dt_blog_options_thumb_proportions</custom-field>
-        <custom-field action="copy">_dt_blog_options_thumb_width</custom-field>
-        <custom-field action="copy">_dt_content_display</custom-field>
-        <custom-field action="copy">_dt_content_position</custom-field>
-        <custom-field action="copy">_dt_custom_header_logo_hd</custom-field>
-        <custom-field action="copy">_dt_custom_header_logo_regular</custom-field>
-        <custom-field action="copy">_dt_sidebar_hide_on_mobile</custom-field>
-        <custom-field action="copy">_dt_footer_hide_on_mobile</custom-field>
-        <custom-field action="copy">_dt_header_background_below_slideshow</custom-field>
-        <custom-field action="copy">_dt_header_transparent_bg_color_scheme</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_color</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_fixed</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_fullscreen</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_image</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_position_x</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_position_y</custom-field>
-        <custom-field action="copy">_dt_fancy_header_bg_repeat</custom-field>
-        <custom-field action="copy">_dt_fancy_header_breadcrumbs</custom-field>
-        <custom-field action="copy">_dt_fancy_header_breadcrumbs_bg_color</custom-field>
-        <custom-field action="copy">_dt_fancy_header_breadcrumbs_text_color</custom-field>
-        <custom-field action="copy">_dt_fancy_header_height</custom-field>
-        <custom-field action="copy">_dt_fancy_header_parallax_speed</custom-field>
-        <custom-field action="translate">_dt_fancy_header_subtitle</custom-field>
-        <custom-field action="copy">_dt_fancy_header_subtitle_color</custom-field>
-        <custom-field action="copy">_dt_fancy_header_subtitle_color_mode</custom-field>
-        <custom-field action="copy">_dt_fancy_header_subtitle_size</custom-field>
-        <custom-field action="translate">_dt_fancy_header_title</custom-field>
-        <custom-field action="copy">_dt_fancy_header_title_aligment</custom-field>
-        <custom-field action="copy">_dt_fancy_header_title_color</custom-field>
-        <custom-field action="copy">_dt_fancy_header_title_color_mode</custom-field>
-        <custom-field action="copy">_dt_fancy_header_title_size</custom-field>
-        <custom-field action="copy-once">_dt_footer_show</custom-field>
-        <custom-field action="copy-once">_dt_footer_widgetarea_id</custom-field>
-        <custom-field action="copy">_dt_header_background</custom-field>
-        <custom-field action="copy">_dt_header_title</custom-field>
-        <custom-field action="copy">_dt_header_transparent_bg_color</custom-field>
-        <custom-field action="copy">_dt_header_transparent_bg_opacity</custom-field>
-        <custom-field action="copy">_dt_header_transparent_bg_style</custom-field>
-        <custom-field action="copy">_dt_header_transparent_menu_hover_color_mode</custom-field>
-        <custom-field action="copy">_dt_header_transparent_menu_text_color_mode</custom-field>
-        <custom-field action="copy">_dt_header_transparent_menu_top_bar_color_mode</custom-field>
-        <custom-field action="copy">_dt_logo_options_link</custom-field>
-        <custom-field action="copy">_dt_logo_options_retina_logo</custom-field>
-        <custom-field action="copy">_dt_media_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_media_options_description</custom-field>
-        <custom-field action="copy">_dt_media_options_full_width</custom-field>
-        <custom-field action="copy">_dt_media_options_hide_last_row</custom-field>
-        <custom-field action="copy">_dt_media_options_hover_animation</custom-field>
-        <custom-field action="copy">_dt_media_options_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_media_options_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_media_options_image_layout</custom-field>
-        <custom-field action="copy">_dt_media_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_media_options_jgrid_description</custom-field>
-        <custom-field action="copy">_dt_media_options_jgrid_hover_animation</custom-field>
-        <custom-field action="copy">_dt_media_options_jgrid_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_media_options_jgrid_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_media_options_layout</custom-field>
-        <custom-field action="copy">_dt_media_options_load_effect</custom-field>
-        <custom-field action="copy">_dt_media_options_load_style</custom-field>
-        <custom-field action="copy">_dt_media_options_order</custom-field>
-        <custom-field action="copy">_dt_media_options_orderby</custom-field>
-        <custom-field action="copy">_dt_media_options_show_all_pages</custom-field>
-        <custom-field action="copy">_dt_media_options_show_exerpts</custom-field>
-        <custom-field action="copy">_dt_media_options_show_titles</custom-field>
-        <custom-field action="copy">_dt_media_options_target_height</custom-field>
-        <custom-field action="copy">_dt_media_options_target_width</custom-field>
-        <custom-field action="copy">_dt_media_options_thumb_proportions</custom-field>
-        <custom-field action="translate">_dt_microsite_main_logo_regular</custom-field>
-        <custom-field action="translate">_dt_microsite_main_logo_hd</custom-field>
-        <custom-field action="translate">_dt_microsite_transparent_logo_regular</custom-field>
-        <custom-field action="translate">_dt_microsite_transparent_logo_hd</custom-field>
-        <custom-field action="translate">_dt_microsite_mixed_logo_regular</custom-field>
-        <custom-field action="translate">_dt_microsite_mixed_logo_hd</custom-field>
-        <custom-field action="translate">_dt_microsite_floating_logo_regular</custom-field>
-        <custom-field action="translate">_dt_microsite_floating_logo_hd</custom-field>
-        <custom-field action="translate">_dt_microsite_mobile_logo_regular</custom-field>
-        <custom-field action="translate">_dt_microsite_mobile_logo_hd</custom-field>
-        <custom-field action="copy">_dt_microsite_favicon</custom-field>
-        <custom-field action="copy">_dt_microsite_hidden_parts</custom-field>
-        <custom-field action="copy">_dt_microsite_page_layout</custom-field>
-        <custom-field action="copy">_dt_microsite_page_loading</custom-field>
-        <custom-field action="copy-once">_dt_microsite_primary_menu</custom-field>
-        <custom-field action="copy-once">_dt_microsite_split_left_menu</custom-field>
-        <custom-field action="copy-once">_dt_microsite_split_right_menu</custom-field>
-        <custom-field action="copy-once">_dt_microsite_mobile_menu</custom-field>
-        <custom-field action="copy">_dt_portfolio_display</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_bg_under_list_posts</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_bg_under_masonry_posts</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_description</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_full_width</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_hide_last_row</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_hover_animation</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_image_layout</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_jgrid_description</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_jgrid_hover_animation</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_jgrid_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_jgrid_hover_content_visibility</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_jgrid_under_image_buttons</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_list_hover_bg_color</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_list_layout</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_load_effect</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_load_style</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_masonry_layout</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_order</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_orderby</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_posts_same_width</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_post_content_alignment</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_ppp</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_all_pages</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_author_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_categories_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_comments_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_date_in_post_meta</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_details</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_details_buttons</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_exerpts</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_filter</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_links</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_order</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_orderby</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_ordering</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_terms</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_titles</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_show_zoom</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_target_height</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_target_width</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_thumb_proportions</custom-field>
-        <custom-field action="copy">_dt_portfolio_options_under_image_buttons</custom-field>
-        <custom-field action="copy">_dt_post_options_hide_thumbnail</custom-field>
-        <custom-field action="copy">_dt_post_options_preview</custom-field>
-        <custom-field action="copy">_dt_post_options_preview_style_gallery</custom-field>
-        <custom-field action="copy">_dt_post_options_preview_style_video</custom-field>
-        <custom-field action="copy">_dt_post_options_related_categories</custom-field>
-        <custom-field action="copy">_dt_post_options_related_mode</custom-field>
-        <custom-field action="copy">_dt_post_options_slider_proportions</custom-field>
-        <custom-field action="translate">_dt_project_media_items</custom-field>
-        <custom-field action="copy">_dt_project_media_options_enable_floationg_content</custom-field>
-        <custom-field action="copy">_dt_project_media_options_gallery_columns</custom-field>
-        <custom-field action="copy">_dt_project_media_options_gallery_make_first_big</custom-field>
-        <custom-field action="copy">_dt_project_media_options_layout</custom-field>
-        <custom-field action="copy">_dt_project_media_options_slider_proportions</custom-field>
-        <custom-field action="copy">_dt_project_media_options_type</custom-field>
-        <custom-field action="copy">_dt_project_options_hide_thumbnail</custom-field>
-        <custom-field action="copy">_dt_project_options_link</custom-field>
-        <custom-field action="translate">_dt_project_options_link_name</custom-field>
-        <custom-field action="copy">_dt_project_options_link_target</custom-field>
-        <custom-field action="copy">_dt_project_options_open_thumbnail_in_lightbox</custom-field>
-        <custom-field action="copy">_dt_project_options_preview</custom-field>
-        <custom-field action="copy">_dt_project_options_preview_style</custom-field>
-        <custom-field action="copy">_dt_project_options_related_categories</custom-field>
-        <custom-field action="copy">_dt_project_options_related_mode</custom-field>
-        <custom-field action="copy">_dt_project_options_show_link</custom-field>
-        <custom-field action="copy">_dt_project_options_slider_proportions</custom-field>
-        <custom-field action="copy-once">_dt_sidebar_position</custom-field>
-        <custom-field action="copy-once">_dt_sidebar_widgetarea_id</custom-field>
-        <custom-field action="copy-once">_dt_slider_media_items</custom-field>
-        <custom-field action="copy">_dt_slideshow_3d_layout</custom-field>
-        <custom-field action="copy">_dt_slideshow_3d_slider_proportions</custom-field>
-        <custom-field action="copy">_dt_slideshow_autoplay</custom-field>
-        <custom-field action="copy">_dt_slideshow_autoslide_interval</custom-field>
-        <custom-field action="copy">_dt_slideshow_hide_captions</custom-field>
-        <custom-field action="copy">_dt_slideshow_layer_show_bg_and_paddings</custom-field>
-        <custom-field action="copy-once">_dt_slideshow_layer_slider</custom-field>
-        <custom-field action="copy">_dt_slideshow_layout</custom-field>
-        <custom-field action="copy">_dt_slideshow_mode</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_autoplay</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_autoplay_speed</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_bg_color</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_bottom_padding</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_inactive_opacity</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_layout</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_ls_fill_dt</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_ls_fill_mob</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_ls_max_width</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_ls_min_width</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_overlay</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_pt_fill_dt</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_pt_fill_mob</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_pt_max_width</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_pt_min_width</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_side_paddings</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_thumbnails_height</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_thumbnails_visibility</custom-field>
-        <custom-field action="copy">_dt_slideshow_photo_scroller_top_padding</custom-field>
-        <custom-field action="copy-once">_dt_slideshow_revolution_slider</custom-field>
-        <custom-field action="copy">_dt_slideshow_scaling</custom-field>
-        <custom-field action="copy-once">_dt_slideshow_sliders</custom-field>
-        <custom-field action="copy">_dt_slideshow_slider_proportions</custom-field>
-        <custom-field action="copy">_dt_slideshow_slides_in_column</custom-field>
-        <custom-field action="copy">_dt_slideshow_slides_in_raw</custom-field>
-        <custom-field action="copy">_dt_teammate_options_dribbble</custom-field>
-        <custom-field action="copy">_dt_teammate_options_facebook</custom-field>
-        <custom-field action="copy">_dt_teammate_options_go_to_single</custom-field>
-        <custom-field action="copy">_dt_teammate_options_mail</custom-field>
-        <custom-field action="translate">_dt_teammate_options_position</custom-field>
-        <custom-field action="copy">_dt_teammate_options_twitter</custom-field>
-        <custom-field action="copy">_dt_team_display</custom-field>
-        <custom-field action="copy">_dt_team_options_bg_under_posts</custom-field>
-        <custom-field action="copy">_dt_team_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_team_options_full_width</custom-field>
-        <custom-field action="copy">_dt_team_options_image_layout</custom-field>
-        <custom-field action="copy">_dt_team_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_team_options_masonry_layout</custom-field>
-        <custom-field action="copy">_dt_team_options_show_exerpts</custom-field>
-        <custom-field action="copy">_dt_team_options_target_width</custom-field>
-        <custom-field action="copy">_dt_team_options_thumb_proportions</custom-field>
-        <custom-field action="copy">_dt_testimonials_display</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_columns_number</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_full_width</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_item_padding</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_load_effect</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_load_style</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_masonry_layout</custom-field>
-        <custom-field action="copy">_dt_testimonials_options_target_width</custom-field>
-        <custom-field action="copy">_dt_testimonial_options_link</custom-field>
-        <custom-field action="translate">_dt_testimonial_options_position</custom-field>
-    </custom-fields>
-    <admin-texts>
-        <key name="the7">
-            <key name="widgetareas">
-                <key name="1">
-                    <key name="sidebar_name"/>
-                    <key name="sidebar_desc"/>
-                </key>
-                <key name="2">
-                    <key name="sidebar_name"/>
-                    <key name="sidebar_desc"/>
-                </key>
-            </key>
-            <key name="header-elements-text"/>
-            <key name="header-elements-text-2"/>
-            <key name="header-elements-text-3"/>
-            <key name="header-elements-login-url"/>
-            <key name="header-elements-logout-caption"/>
-            <key name="header-elements-login-caption"/>
-            <key name="header-elements-contact-clock-caption"/>
-            <key name="header-elements-contact-skype-caption"/>
-            <key name="header-elements-contact-email-caption"/>
-            <key name="header-elements-contact-phone-caption"/>
-            <key name="header-elements-contact-address-caption"/>
-            <key name="header-elements-search-caption"/>
-            <key name="header-elements-woocommerce_cart-caption"/>
-            <key name="bottom_bar-copyrights"/>
-            <key name="bottom_bar-text"/>
-            <key name="header-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-mobile-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-mobile-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-transparent-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-transparent-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-mixed-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-mixed-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-floating-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="header-style-floating-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="bottom_bar-logo_regular">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="bottom_bar-logo_hd">
-                <key name="0"/>
-                <key name="1"/>
-            </key>
-            <key name="general-post_back_button_target_page_id"/>
-            <key name="general-project_back_button_target_page_id"/>
-            <key name="general-album_back_button_target_page_id"/>
-            <key name="general-rel_posts_head_title"/>
-            <key name="general-rel_projects_head_title"/>
-            <key name="social_buttons-post-button_title"/>
-            <key name="social_buttons-portfolio_post-button_title"/>
-            <key name="social_buttons-photo-button_title"/>
-            <key name="social_buttons-page-button_title"/>
-            <key name="social_buttons-product-button_title"/>
-            <key name="custom_error_messages_validation"/>
-            <key name="custom_error_messages"/>
-            <key name="custom_success_messages"/>
+  <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
+  <elementor-widgets>
+    <widget name="the7-woocommerce-product-add-to-cart-v2">
+      <fields>
+        <field type="Text" editor_type="LINE">button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-product-related">
+      <fields>
+        <field type="Title" editor_type="LINE">heading_title</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-product-upsell">
+      <fields>
+        <field type="Title" editor_type="LINE">heading_title</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-product-navigation">
+      <fields>
+        <field type="Link" editor_type="LINK" key_of="back_link">url</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-menu-cart">
+      <fields>
+        <field type="Title" editor_type="LINE">title_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_product-categories">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="Maximum depth" editor_type="LINE">max_depth</field>
+      </fields>
+    </widget>
+    <widget name="the7-elements-woo-simple-products">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="Button Text" editor_type="LINE">pagination_load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-elements-woo-simple-products-carousel">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-filter-attribute">
+      <fields>
+        <field type="Widget Title" editor_type="LINE">title_text</field>
+        <field type="Show More Items Text" editor_type="LINE">navigation_items_more_button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-filter-price">
+      <fields>
+        <field type="Widget Title" editor_type="LINE">title_text</field>
+        <field type="Min Price Label" editor_type="LINE">min_text</field>
+        <field type="Max Price Label" editor_type="LINE">max_text</field>
+        <field type="Price Label" editor_type="LINE">price_text</field>
+        <field type="Button Text" editor_type="LINE">button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-filter-active">
+      <fields>
+        <field type="Widget Title" editor_type="LINE">title_text</field>
+        <field type="Button Name" editor_type="LINE">clear_all_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-woocommerce-product-review">
+      <fields>
+        <field type="Text" editor_type="LINE">button_text</field>
+      </fields>
+      <fields-in-item items_of="form_fields">
+        <field type="Label" editor_type="LINE">field_label</field>
+        <field type="Placeholder" editor_type="LINE">placeholder</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7-elements-simple-product-categories">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="No Products" editor_type="LINE">string_no_products</field>
+        <field type="One Product" editor_type="LINE">string_one_product</field>
+        <field type="Products" editor_type="LINE">string_products</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+        <field type="Button Text" editor_type="LINE">pagination_load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-simple-product-categories-carousel">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="No Products" editor_type="LINE">string_no_products</field>
+        <field type="One Product" editor_type="LINE">string_one_product</field>
+        <field type="Products" editor_type="LINE">string_products</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_button_widget">
+      <fields>
+        <field type="Text" editor_type="LINE">button_text</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Button ID" editor_type="LINE">button_css_id</field>
+      </fields>
+    </widget>
+    <widget name="the7_icon_widget">
+      <fields>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="the7_icon_box_widget">
+      <fields>
+        <field type="Title &amp; Description" editor_type="LINE">title_text</field>
+        <field type="" editor_type="AREA">description_text</field>
+        <field type="Button Text" editor_type="LINE">button_text</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="the7_icon_box_grid_widget">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+      </fields>
+      <fields-in-item items_of="icon_boxes_items">
+        <field type="Title &amp; Description" editor_type="LINE">title_text</field>
+        <field type="" editor_type="AREA">description_text</field>
+        <field type="Button Text" editor_type="LINE">button_text</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7_image_box_widget">
+      <fields>
+        <field type="Title &amp; Description" editor_type="LINE">title_text</field>
+        <field type="" editor_type="AREA">description_text</field>
+        <field type="Button Text" editor_type="LINE">button_text</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="the7_image_box_grid_widget">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+      </fields>
+      <fields-in-item items_of="icon_boxes_items">
+        <field type="Title &amp; Description" editor_type="LINE">title_text</field>
+        <field type="" editor_type="AREA">description_text</field>
+        <field type="Button Text" editor_type="LINE">button_text</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7_elements">
+      <fields>
+        <field type="Link Meta Field" editor_type="LINE">article_link_meta_field</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+        <field type="&quot;All&quot; Filter Label" editor_type="LINE">filter_all_text</field>
+        <field type="Button Text" editor_type="LINE">pagination_load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_elements_carousel">
+      <fields>
+        <field type="Link Meta Field" editor_type="LINE">article_link_meta_field</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_nav-menu">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_horizontal-menu">
+      <fields>
+        <field type="Toggle Text" editor_type="LINE">toggle_text</field>
+      </fields>
+    </widget>
+    <widget name="the7_content_carousel">
+      <fields-in-item items_of="list">
+        <field type="Title" editor_type="LINE">list_title</field>
+        <field type="Subtitle" editor_type="AREA">list_content</field>
+        <field type="Button text" editor_type="LINE">button</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7_testimonials_carousel">
+      <fields-in-item items_of="list">
+        <field type="Title" editor_type="LINE">list_title</field>
+        <field type="Subtitle" editor_type="LINE">list_subtitle</field>
+        <field type="Text" editor_type="AREA">list_content</field>
+        <field type="Button text" editor_type="LINE">button</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7-accordion">
+      <fields-in-item items_of="tabs">
+        <field type="Title &amp; Description" editor_type="LINE">tab_title</field>
+        <field type="Content" editor_type="VISUAL">tab_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7-elements-simple-posts">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="Link Meta Field" editor_type="LINE">article_link_meta_field</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+        <field type="Button Text" editor_type="LINE">pagination_load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-elements-simple-posts-carousel">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="Link Meta Field" editor_type="LINE">article_link_meta_field</field>
+        <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-taxonomy-filter">
+      <fields>
+        <field type="&quot;All&quot; Filter Label" editor_type="LINE">filter_all_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-tabs">
+      <fields-in-item items_of="tabs">
+        <field type="Title &amp; Description" editor_type="LINE">tab_title</field>
+        <field type="Content" editor_type="VISUAL">tab_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7-wc-products">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+        <field type="Button Text" editor_type="LINE">pagination_load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-wc-products-carousel">
+      <fields>
+        <field type="Title" editor_type="LINE">widget_title_text</field>
+      </fields>
+    </widget>
+  </elementor-widgets>
+  <shortcodes>
+    <shortcode>
+      <tag>dt_fancy_title</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_quote</tag>
+      <attributes>
+        <attribute>content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_call_to_action</tag>
+      <attributes>
+        <attribute>content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_teaser</tag>
+      <attributes>
+        <attribute>image_alt</attribute>
+        <attribute>misc_link</attribute>
+        <attribute>content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_banner</tag>
+      <attributes>
+        <attribute>content</attribute>
+        <attribute>link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_contact_form</tag>
+      <attributes>
+        <attribute>button_title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_fancy_image</tag>
+      <attributes>
+        <attribute>image_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_button</tag>
+      <attributes>
+        <attribute>content</attribute>
+        <attribute>link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_vc_list</tag>
+      <attributes>
+        <attribute>content</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_carousel</tag>
+      <attributes>
+        <attribute>dt_title_general</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dt_blog_carousel</tag>
+      <attributes>
+        <attribute>dt_title</attribute>
+        <attribute>dt_title_general</attribute>
+        <attribute>read_more_button_text</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+  <custom-types>
+    <custom-type translate="1">dt_portfolio</custom-type>
+    <custom-type translate="1">dt_testimonials</custom-type>
+    <custom-type translate="1">dt_team</custom-type>
+    <custom-type translate="1">dt_logos</custom-type>
+    <custom-type translate="1">dt_benefits</custom-type>
+    <custom-type translate="1">dt_gallery</custom-type>
+    <custom-type translate="1">dt_slideshow</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">dt_portfolio_category</taxonomy>
+    <taxonomy translate="1">dt_testimonials_category</taxonomy>
+    <taxonomy translate="1">dt_team_category</taxonomy>
+    <taxonomy translate="1">dt_logos_category</taxonomy>
+    <taxonomy translate="1">dt_benefits_category</taxonomy>
+    <taxonomy translate="1">dt_gallery_category</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="ignore">_wpb_shortcodes_custom_css</custom-field>
+    <custom-field action="copy">_dt_albums_display</custom-field>
+    <custom-field action="copy">_dt_albums_media_display</custom-field>
+    <custom-field action="copy">_dt_albums_options_bg_under_masonry_posts</custom-field>
+    <custom-field action="copy">_dt_albums_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_albums_options_description</custom-field>
+    <custom-field action="copy">_dt_albums_options_full_width</custom-field>
+    <custom-field action="copy">_dt_albums_options_hide_last_row</custom-field>
+    <custom-field action="copy">_dt_albums_options_hover_animation</custom-field>
+    <custom-field action="copy">_dt_albums_options_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_albums_options_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_albums_options_image_layout</custom-field>
+    <custom-field action="copy">_dt_albums_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_albums_options_jgrid_description</custom-field>
+    <custom-field action="copy">_dt_albums_options_jgrid_hover_animation</custom-field>
+    <custom-field action="copy">_dt_albums_options_jgrid_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_albums_options_jgrid_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_albums_options_jgrid_show_round_miniatures</custom-field>
+    <custom-field action="copy">_dt_albums_options_layout</custom-field>
+    <custom-field action="copy">_dt_albums_options_load_effect</custom-field>
+    <custom-field action="copy">_dt_albums_options_load_style</custom-field>
+    <custom-field action="copy">_dt_albums_options_order</custom-field>
+    <custom-field action="copy">_dt_albums_options_orderby</custom-field>
+    <custom-field action="copy">_dt_albums_options_posts_same_width</custom-field>
+    <custom-field action="copy">_dt_albums_options_post_content_alignment</custom-field>
+    <custom-field action="copy">_dt_albums_options_ppp</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_all_pages</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_author_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_categories_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_comments_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_date_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_exerpts</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_filter</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_numbers_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_order</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_orderby</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_ordering</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_round_miniatures</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_terms</custom-field>
+    <custom-field action="copy">_dt_albums_options_show_titles</custom-field>
+    <custom-field action="copy">_dt_albums_options_target_height</custom-field>
+    <custom-field action="copy">_dt_albums_options_target_width</custom-field>
+    <custom-field action="copy">_dt_albums_options_thumb_proportions</custom-field>
+    <custom-field action="translate">_dt_album_media_items</custom-field>
+    <custom-field action="copy">_dt_album_options_exclude_featured_image</custom-field>
+    <custom-field action="copy">_dt_album_options_gallery_columns</custom-field>
+    <custom-field action="copy">_dt_album_options_gallery_make_first_big</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_autoplay</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_bg_color</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_bottom_padding</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_inactive_opacity</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_landscape_images_mode</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_layout</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_ls_fill_dt</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_ls_fill_mob</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_ls_max_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_ls_min_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_overlay</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_portrait_images_mode</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_pt_fill_dt</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_pt_fill_mob</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_pt_max_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_pt_min_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_side_paddings</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_slides_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_slide_max_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_height</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_visibility</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_thumbnails_width</custom-field>
+    <custom-field action="copy">_dt_album_options_photo_scroller_top_padding</custom-field>
+    <custom-field action="copy">_dt_album_options_preview</custom-field>
+    <custom-field action="copy">_dt_album_options_slider_proportions</custom-field>
+    <custom-field action="copy">_dt_album_options_type</custom-field>
+    <custom-field action="copy">_dt_benefits_options_retina_image</custom-field>
+    <custom-field action="copy">_dt_blog_display</custom-field>
+    <custom-field action="copy">_dt_blog_options_bg_under_list_posts</custom-field>
+    <custom-field action="copy">_dt_blog_options_bg_under_masonry_posts</custom-field>
+    <custom-field action="copy">_dt_blog_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_blog_options_enable_fancy_date</custom-field>
+    <custom-field action="copy">_dt_blog_options_full_width</custom-field>
+    <custom-field action="copy">_dt_blog_options_image_layout</custom-field>
+    <custom-field action="copy">_dt_blog_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_blog_options_layout</custom-field>
+    <custom-field action="copy">_dt_blog_options_list_layout</custom-field>
+    <custom-field action="copy">_dt_blog_options_load_effect</custom-field>
+    <custom-field action="copy">_dt_blog_options_load_style</custom-field>
+    <custom-field action="copy">_dt_blog_options_order</custom-field>
+    <custom-field action="copy">_dt_blog_options_orderby</custom-field>
+    <custom-field action="copy">_dt_blog_options_posts_same_width</custom-field>
+    <custom-field action="copy">_dt_blog_options_post_content_alignment</custom-field>
+    <custom-field action="copy">_dt_blog_options_ppp</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_all_pages</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_author_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_categories_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_comments_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_date_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_details</custom-field>
+    <custom-field action="copy">_dt_blog_options_show_exerpts</custom-field>
+    <custom-field action="copy">_dt_blog_options_target_width</custom-field>
+    <custom-field action="copy">_dt_blog_options_thumb_proportions</custom-field>
+    <custom-field action="copy">_dt_blog_options_thumb_width</custom-field>
+    <custom-field action="copy">_dt_content_display</custom-field>
+    <custom-field action="copy">_dt_content_position</custom-field>
+    <custom-field action="copy">_dt_custom_header_logo_hd</custom-field>
+    <custom-field action="copy">_dt_custom_header_logo_regular</custom-field>
+    <custom-field action="copy">_dt_sidebar_hide_on_mobile</custom-field>
+    <custom-field action="copy">_dt_footer_hide_on_mobile</custom-field>
+    <custom-field action="copy">_dt_header_background_below_slideshow</custom-field>
+    <custom-field action="copy">_dt_header_transparent_bg_color_scheme</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_color</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_fixed</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_fullscreen</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_image</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_position_x</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_position_y</custom-field>
+    <custom-field action="copy">_dt_fancy_header_bg_repeat</custom-field>
+    <custom-field action="copy">_dt_fancy_header_breadcrumbs</custom-field>
+    <custom-field action="copy">_dt_fancy_header_breadcrumbs_bg_color</custom-field>
+    <custom-field action="copy">_dt_fancy_header_breadcrumbs_text_color</custom-field>
+    <custom-field action="copy">_dt_fancy_header_height</custom-field>
+    <custom-field action="copy">_dt_fancy_header_parallax_speed</custom-field>
+    <custom-field action="translate">_dt_fancy_header_subtitle</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_color</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_color_mode</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_size</custom-field>
+    <custom-field action="translate">_dt_fancy_header_title</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_aligment</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_color</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_color_mode</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_size</custom-field>
+    <custom-field action="copy-once">_dt_footer_show</custom-field>
+    <custom-field action="copy-once">_dt_footer_widgetarea_id</custom-field>
+    <custom-field action="copy">_dt_header_background</custom-field>
+    <custom-field action="copy">_dt_header_title</custom-field>
+    <custom-field action="copy">_dt_header_transparent_bg_color</custom-field>
+    <custom-field action="copy">_dt_header_transparent_bg_opacity</custom-field>
+    <custom-field action="copy">_dt_header_transparent_bg_style</custom-field>
+    <custom-field action="copy">_dt_header_transparent_menu_hover_color_mode</custom-field>
+    <custom-field action="copy">_dt_header_transparent_menu_text_color_mode</custom-field>
+    <custom-field action="copy">_dt_header_transparent_menu_top_bar_color_mode</custom-field>
+    <custom-field action="copy">_dt_logo_options_link</custom-field>
+    <custom-field action="copy">_dt_logo_options_retina_logo</custom-field>
+    <custom-field action="copy">_dt_media_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_media_options_description</custom-field>
+    <custom-field action="copy">_dt_media_options_full_width</custom-field>
+    <custom-field action="copy">_dt_media_options_hide_last_row</custom-field>
+    <custom-field action="copy">_dt_media_options_hover_animation</custom-field>
+    <custom-field action="copy">_dt_media_options_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_media_options_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_media_options_image_layout</custom-field>
+    <custom-field action="copy">_dt_media_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_media_options_jgrid_description</custom-field>
+    <custom-field action="copy">_dt_media_options_jgrid_hover_animation</custom-field>
+    <custom-field action="copy">_dt_media_options_jgrid_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_media_options_jgrid_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_media_options_layout</custom-field>
+    <custom-field action="copy">_dt_media_options_load_effect</custom-field>
+    <custom-field action="copy">_dt_media_options_load_style</custom-field>
+    <custom-field action="copy">_dt_media_options_order</custom-field>
+    <custom-field action="copy">_dt_media_options_orderby</custom-field>
+    <custom-field action="copy">_dt_media_options_show_all_pages</custom-field>
+    <custom-field action="copy">_dt_media_options_show_exerpts</custom-field>
+    <custom-field action="copy">_dt_media_options_show_titles</custom-field>
+    <custom-field action="copy">_dt_media_options_target_height</custom-field>
+    <custom-field action="copy">_dt_media_options_target_width</custom-field>
+    <custom-field action="copy">_dt_media_options_thumb_proportions</custom-field>
+    <custom-field action="translate">_dt_microsite_main_logo_regular</custom-field>
+    <custom-field action="translate">_dt_microsite_main_logo_hd</custom-field>
+    <custom-field action="translate">_dt_microsite_transparent_logo_regular</custom-field>
+    <custom-field action="translate">_dt_microsite_transparent_logo_hd</custom-field>
+    <custom-field action="translate">_dt_microsite_mixed_logo_regular</custom-field>
+    <custom-field action="translate">_dt_microsite_mixed_logo_hd</custom-field>
+    <custom-field action="translate">_dt_microsite_floating_logo_regular</custom-field>
+    <custom-field action="translate">_dt_microsite_floating_logo_hd</custom-field>
+    <custom-field action="translate">_dt_microsite_mobile_logo_regular</custom-field>
+    <custom-field action="translate">_dt_microsite_mobile_logo_hd</custom-field>
+    <custom-field action="copy">_dt_microsite_favicon</custom-field>
+    <custom-field action="copy">_dt_microsite_hidden_parts</custom-field>
+    <custom-field action="copy">_dt_microsite_page_layout</custom-field>
+    <custom-field action="copy">_dt_microsite_page_loading</custom-field>
+    <custom-field action="copy-once">_dt_microsite_primary_menu</custom-field>
+    <custom-field action="copy-once">_dt_microsite_split_left_menu</custom-field>
+    <custom-field action="copy-once">_dt_microsite_split_right_menu</custom-field>
+    <custom-field action="copy-once">_dt_microsite_mobile_menu</custom-field>
+    <custom-field action="copy">_dt_portfolio_display</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_bg_under_list_posts</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_bg_under_masonry_posts</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_description</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_full_width</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_hide_last_row</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_hover_animation</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_image_layout</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_jgrid_description</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_jgrid_hover_animation</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_jgrid_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_jgrid_hover_content_visibility</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_jgrid_under_image_buttons</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_list_hover_bg_color</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_list_layout</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_load_effect</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_load_style</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_masonry_layout</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_order</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_orderby</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_posts_same_width</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_post_content_alignment</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_ppp</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_all_pages</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_author_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_categories_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_comments_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_date_in_post_meta</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_details</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_details_buttons</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_exerpts</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_filter</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_links</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_order</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_orderby</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_ordering</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_terms</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_titles</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_show_zoom</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_target_height</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_target_width</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_thumb_proportions</custom-field>
+    <custom-field action="copy">_dt_portfolio_options_under_image_buttons</custom-field>
+    <custom-field action="copy">_dt_post_options_hide_thumbnail</custom-field>
+    <custom-field action="copy">_dt_post_options_preview</custom-field>
+    <custom-field action="copy">_dt_post_options_preview_style_gallery</custom-field>
+    <custom-field action="copy">_dt_post_options_preview_style_video</custom-field>
+    <custom-field action="copy">_dt_post_options_related_categories</custom-field>
+    <custom-field action="copy">_dt_post_options_related_mode</custom-field>
+    <custom-field action="copy">_dt_post_options_slider_proportions</custom-field>
+    <custom-field action="translate">_dt_project_media_items</custom-field>
+    <custom-field action="copy">_dt_project_media_options_enable_floationg_content</custom-field>
+    <custom-field action="copy">_dt_project_media_options_gallery_columns</custom-field>
+    <custom-field action="copy">_dt_project_media_options_gallery_make_first_big</custom-field>
+    <custom-field action="copy">_dt_project_media_options_layout</custom-field>
+    <custom-field action="copy">_dt_project_media_options_slider_proportions</custom-field>
+    <custom-field action="copy">_dt_project_media_options_type</custom-field>
+    <custom-field action="copy">_dt_project_options_hide_thumbnail</custom-field>
+    <custom-field action="copy">_dt_project_options_link</custom-field>
+    <custom-field action="translate">_dt_project_options_link_name</custom-field>
+    <custom-field action="copy">_dt_project_options_link_target</custom-field>
+    <custom-field action="copy">_dt_project_options_open_thumbnail_in_lightbox</custom-field>
+    <custom-field action="copy">_dt_project_options_preview</custom-field>
+    <custom-field action="copy">_dt_project_options_preview_style</custom-field>
+    <custom-field action="copy">_dt_project_options_related_categories</custom-field>
+    <custom-field action="copy">_dt_project_options_related_mode</custom-field>
+    <custom-field action="copy">_dt_project_options_show_link</custom-field>
+    <custom-field action="copy">_dt_project_options_slider_proportions</custom-field>
+    <custom-field action="copy-once">_dt_sidebar_position</custom-field>
+    <custom-field action="copy-once">_dt_sidebar_widgetarea_id</custom-field>
+    <custom-field action="copy-once">_dt_slider_media_items</custom-field>
+    <custom-field action="copy">_dt_slideshow_3d_layout</custom-field>
+    <custom-field action="copy">_dt_slideshow_3d_slider_proportions</custom-field>
+    <custom-field action="copy">_dt_slideshow_autoplay</custom-field>
+    <custom-field action="copy">_dt_slideshow_autoslide_interval</custom-field>
+    <custom-field action="copy">_dt_slideshow_hide_captions</custom-field>
+    <custom-field action="copy">_dt_slideshow_layer_show_bg_and_paddings</custom-field>
+    <custom-field action="copy-once">_dt_slideshow_layer_slider</custom-field>
+    <custom-field action="copy">_dt_slideshow_layout</custom-field>
+    <custom-field action="copy">_dt_slideshow_mode</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_autoplay</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_autoplay_speed</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_bg_color</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_bottom_padding</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_inactive_opacity</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_layout</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_ls_fill_dt</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_ls_fill_mob</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_ls_max_width</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_ls_min_width</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_overlay</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_pt_fill_dt</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_pt_fill_mob</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_pt_max_width</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_pt_min_width</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_side_paddings</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_thumbnails_height</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_thumbnails_visibility</custom-field>
+    <custom-field action="copy">_dt_slideshow_photo_scroller_top_padding</custom-field>
+    <custom-field action="copy-once">_dt_slideshow_revolution_slider</custom-field>
+    <custom-field action="copy">_dt_slideshow_scaling</custom-field>
+    <custom-field action="copy-once">_dt_slideshow_sliders</custom-field>
+    <custom-field action="copy">_dt_slideshow_slider_proportions</custom-field>
+    <custom-field action="copy">_dt_slideshow_slides_in_column</custom-field>
+    <custom-field action="copy">_dt_slideshow_slides_in_raw</custom-field>
+    <custom-field action="copy">_dt_teammate_options_dribbble</custom-field>
+    <custom-field action="copy">_dt_teammate_options_facebook</custom-field>
+    <custom-field action="copy">_dt_teammate_options_go_to_single</custom-field>
+    <custom-field action="copy">_dt_teammate_options_mail</custom-field>
+    <custom-field action="translate">_dt_teammate_options_position</custom-field>
+    <custom-field action="copy">_dt_teammate_options_twitter</custom-field>
+    <custom-field action="copy">_dt_team_display</custom-field>
+    <custom-field action="copy">_dt_team_options_bg_under_posts</custom-field>
+    <custom-field action="copy">_dt_team_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_team_options_full_width</custom-field>
+    <custom-field action="copy">_dt_team_options_image_layout</custom-field>
+    <custom-field action="copy">_dt_team_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_team_options_masonry_layout</custom-field>
+    <custom-field action="copy">_dt_team_options_show_exerpts</custom-field>
+    <custom-field action="copy">_dt_team_options_target_width</custom-field>
+    <custom-field action="copy">_dt_team_options_thumb_proportions</custom-field>
+    <custom-field action="copy">_dt_testimonials_display</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_columns_number</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_full_width</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_item_padding</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_load_effect</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_load_style</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_masonry_layout</custom-field>
+    <custom-field action="copy">_dt_testimonials_options_target_width</custom-field>
+    <custom-field action="copy">_dt_testimonial_options_link</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsiveness_heading</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsiveness</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsiveness_switch</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_height</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_font_size</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_title_line_height </custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_subtitle_font_size</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_subtitle_line_height</custom-field>
+    <custom-field action="copy">_dt_fancy_header_responsive_breadcrumbs</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_line_height</custom-field>
+    <custom-field action="copy">_dt_fancy_header_title_font_size</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_font_size</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_line_height</custom-field>
+    <custom-field action="copy">_dt_fancy_header_subtitle_text_transform</custom-field>
+    <custom-field action="copy">_dt_fancy_header_text_transform</custom-field>
+    <custom-field action="translate">_dt_testimonial_options_position</custom-field>
+    <custom-field action="copy">_dt_header_disabled_background</custom-field>
+    <custom-field action="copy">_dt_header_disabled_transparent_bg_color_scheme</custom-field>
+    <custom-field action="copy">_dt_header_disabled_transparent_top_bar_bg_color</custom-field>
+    <custom-field action="copy">_dt_header_disabled_transparent_top_bar_bg_opacity</custom-field>
+    <custom-field action="copy">_dt_header_disabled_transparent_bg_color</custom-field>
+    <custom-field action="copy">_dt_header_disabled_transparent_bg_opacity</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="the7">
+      <key name="widgetareas">
+        <key name="1">
+          <key name="sidebar_name"/>
+          <key name="sidebar_desc"/>
         </key>
-    </admin-texts>
+        <key name="2">
+          <key name="sidebar_name"/>
+          <key name="sidebar_desc"/>
+        </key>
+      </key>
+      <key name="header-elements-text"/>
+      <key name="header-elements-text-2"/>
+      <key name="header-elements-text-3"/>
+      <key name="header-elements-text-4"/>
+      <key name="header-elements-text-5"/>
+      <key name="header-elements-login-url"/>
+      <key name="header-elements-logout-caption"/>
+      <key name="header-elements-login-caption"/>
+      <key name="header-elements-contact-clock-caption"/>
+      <key name="header-elements-contact-skype-caption"/>
+      <key name="header-elements-contact-email-caption"/>
+      <key name="header-elements-contact-phone-caption"/>
+      <key name="header-elements-contact-address-caption"/>
+      <key name="header-elements-contact-multipurpose_1-caption"/>
+      <key name="header-elements-contact-multipurpose_2-caption"/>
+      <key name="header-elements-contact-multipurpose_3-caption"/>
+      <key name="header-elements-contact-multipurpose_4-caption"/>
+      <key name="header-elements-search-caption"/>
+      <key name="header-elements-search-input-caption"/>
+      <key name="header-elements-woocommerce_cart-caption"/>
+      <key name="header-elements-button-1-name"/>
+      <key name="header-elements-button-1-url"/>
+      <key name="header-elements-button-2-name"/>
+      <key name="header-elements-button-2-url"/>
+      <key name="bottom_bar-copyrights"/>
+      <key name="bottom_bar-text"/>
+      <key name="header-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-mobile-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-mobile-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-transparent-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-transparent-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-mixed-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-mixed-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-floating-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="header-style-floating-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="bottom_bar-logo_regular">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="bottom_bar-logo_hd">
+        <key name="0"/>
+        <key name="1"/>
+      </key>
+      <key name="general-post_back_button_target_page_url"/>
+      <key name="general-project_back_button_target_page_url"/>
+      <key name="general-album_back_button_target_page_url"/>
+      <key name="general-rel_posts_head_title"/>
+      <key name="general-rel_projects_head_title"/>
+      <key name="social_buttons-post-button_title"/>
+      <key name="social_buttons-portfolio_post-button_title"/>
+      <key name="social_buttons-photo-button_title"/>
+      <key name="social_buttons-page-button_title"/>
+      <key name="social_buttons-product-button_title"/>
+      <key name="custom_error_messages_validation"/>
+      <key name="custom_error_messages"/>
+      <key name="custom_success_messages"/>
+      <key name="header-mobile-menu_icon-caption-text"/>
+      <key name="header-mobile-menu-close_icon-caption-text"/>
+      <key name="portfolio-breadcrumbs-text"/>
+    </key>
+    <key name="the7_dashboard_settings">
+      <key name="portfolio-breadcrumbs-text"/>
+    </key>
+  </admin-texts>
 </wpml-config>
