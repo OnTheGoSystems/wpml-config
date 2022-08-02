@@ -193,6 +193,7 @@
             <tag>av_contact_field</tag>
             <attributes>
                 <attribute>label</attribute>
+		<attribute>options</attribute>
             </attributes>
         </shortcode>
         <shortcode>

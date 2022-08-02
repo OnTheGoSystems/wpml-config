@@ -1,0 +1,16 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_gift_card_received_settings">
+			<key name="subject" />
+			<key name="heading" />
+			<key name="intro_content" />
+			<key name="additional_content" />
+		</key>
+		<key name="woocommerce_gift_card_send_to_buyer_settings">
+			<key name="subject" />
+			<key name="heading" />
+			<key name="intro_content" />
+			<key name="additional_content" />
+		</key>
+	</admin-texts>
+</wpml-config>

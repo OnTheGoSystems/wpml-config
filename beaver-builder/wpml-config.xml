@@ -13,6 +13,13 @@
 				<field type="Lightbox HTML" editor_type="AREA">lightbox_content_html</field>
 			</fields-in-item>
 		</widget>
+		<widget name="icon-group">
+			<fields-in-item items_of="icons">
+				<field type="Icon Link" editor_type="LINK">link</field>
+				<field type="Icon Text" editor_type="LINE">text</field>
+				<field type="Screen Reader Text" editor_type="LINE">sr_text</field>
+			</fields-in-item>
+		</widget>
 		<widget name="list">
 			<fields-in-item items_of="list_items">
 				<field type="List heading" editor_type="LINE">heading</field>
@@ -28,6 +35,21 @@
 				<field type="Logout button label" editor_type="LINE">lo_btn_text</field>
 				<field type="Logout button URL" editor_type="LINK">lo_success_url</field>
 			</fields>
+		</widget>
+		<widget name="pricing-table">
+			<fields>
+				<field type="Billing Option 1" editor_type="LINE">billing_option_1</field>
+				<field type="Billing Option 2" editor_type="LINE">billing_option_2</field>
+			</fields>
+			<fields-in-item items_of="pricing_columns">
+				<field type="Title" editor_type="LINE">title</field>
+				<field type="Ribbon Text" editor_type="LINE">ribbon_text</field>
+				<field type="Button Text" editor_type="LINE">button_text</field>
+				<field type="Button URL" editor_type="LINK">button_url</field>
+				<field type="Price" editor_type="LINE">price</field>
+				<field type="Duration" editor_type="LINE">duration</field>
+				<field type="Price (Option 2)" editor_type="LINE">price_option_2</field>     
+			</fields-in-item>
 		</widget>
 		<widget name="search">
 			<fields>

@@ -80,9 +80,6 @@
 		<taxonomy translate="0">product_visibility</taxonomy>
 		<taxonomy translate="1">product_shipping_class</taxonomy>
 	</taxonomies>
-	<custom-term-fields>
-		<custom-term-field action="copy">thumbnail_id</custom-term-field>
-	</custom-term-fields>
 	<admin-texts>
 		<key name="woocommerce_shop_page_title" />
 		<key name="woocommerce_email_footer_text" />

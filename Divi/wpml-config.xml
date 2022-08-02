@@ -80,6 +80,9 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_menu</tag>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_accordion_item</tag>
             <attributes>
                 <attribute>title</attribute>
@@ -100,6 +103,7 @@
                 <attribute encoding="allow_html_tags">content_tablet</attribute>
                 <attribute encoding="allow_html_tags">content_phone</attribute>
                 <attribute type="link">button_url</attribute>
+                <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
         </shortcode>

@@ -19,6 +19,7 @@
 		<custom-field action="copy-once">_yoast_wpseo_opengraph-image</custom-field>
 		<custom-field action="copy-once">_yoast_wpseo_twitter-image</custom-field>
 		<custom-field action="copy">_yoast_wpseo_primary_category</custom-field>
+		<custom-field action="copy">_yoast_wpseo_primary_product_cat</custom-field>
 	</custom-fields>
 	<custom-fields-texts>
 		<key name="_yoast_wpseo_focuskeywords">
