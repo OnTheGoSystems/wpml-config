@@ -487,9 +487,69 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>et_pb_wc_add_to_cart</tag>
+            <tag ignore-content="1">et_pb_wc_add_to_cart</tag>
             <attributes>
-                <attribute>product</attribute>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_additional_info</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_description</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_meta</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_price</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_rating</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_related_products</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_reviews</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_tabs</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_title</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">et_pb_wc_upsells</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="product">product</attribute>
             </attributes>
         </shortcode>
         <!-- Generic media attributes -->
