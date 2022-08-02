@@ -109,6 +109,9 @@
 			<key name="footer-sml-section-2-credit"/>
 			<key name="edd-archive-add-to-cart-button-text"/>
 			<key name="edd-archive-variable-button-text"/>
+			<key name="woo-cart-button-text"/>
+			<key name="single-product-shipping-text"/>
+			<key name="woo-header-cart-label-display"/>
 		</key>
 	</admin-texts>
 </wpml-config>
