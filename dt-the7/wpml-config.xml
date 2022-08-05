@@ -92,6 +92,19 @@
         <field type="Button Text" editor_type="LINE">read_more_button_text</field>
       </fields>
     </widget>
+    <widget name="the7-woocommerce-cart-preview">
+      <fields>
+        <field type="Widget Title" editor_type="LINE">widget_title_text</field>
+        <field type="Subtotal Title" editor_type="LINE">subtotal_text</field>
+        <field type="Button Name" editor_type="LINE">shop_button_text</field>
+        <field type="Link" editor_type="LINK">shop_button_link>url</field>
+        <field type="Button Name" editor_type="LINE">view_cart_button_text</field>
+        <field type="Checkout Text" editor_type="LINE">checkout_button_text</field>
+        <field type="Empty Cart Text" editor_type="LINE">empty_cart_text</field>
+        <field type="Button Text" editor_type="LINE">empty_cart_button_shop_text</field>
+        <field type="Link" editor_type="LINK">empty_cart_button_link>url</field>
+      </fields>
+    </widget>
     <widget name="the7_button_widget">
       <fields>
         <field type="Text" editor_type="LINE">button_text</field>
@@ -202,6 +215,11 @@
         <field type="Title" editor_type="LINE">widget_title_text</field>
         <field type="Link Meta Field" editor_type="LINE">article_link_meta_field</field>
         <field type="Button Text" editor_type="LINE">read_more_button_text</field>
+      </fields>
+    </widget>
+    <widget name="the7-search-form-widget">
+      <fields>
+        <field type="Placeholder" editor_type="LINE">placeholder</field>
       </fields>
     </widget>
     <widget name="the7-taxonomy-filter">
