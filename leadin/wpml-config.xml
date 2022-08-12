@@ -1,0 +1,10 @@
+<wpml-config>
+  <shortcodes>
+    <shortcode>
+      <tag>hubspot</tag>
+      <attributes>
+        <attribute>id</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
