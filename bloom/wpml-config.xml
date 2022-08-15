@@ -1,0 +1,11 @@
+<wpml-config>
+  <admin-texts>
+    <key name="et_bloom_options">
+      <key name="optin_*">
+        <key name="email_list"/>
+        <key name="pages_include"/>  
+        <key name="pages_exclude"/>        
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>
