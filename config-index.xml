@@ -2,6 +2,7 @@
 	<plugins>
 		<item id="popup-maker" override_local="true">Popup Maker</item>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
+		<item id="activecampaign-subscription-forms" override_local="false">ActiveCampaign</item>
 		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
 		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
 		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
@@ -20,14 +21,16 @@
 		<item id="elementor" override_local="true">Elementor</item>
 		<item id="event-tickets-plus">Event Tickets Plus</item>
 		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
-		<item id="exit-popup">Exit Popup</item>
-		<item id="forminator" override_local="false">Forminator</item>
+		<item id="exit-popup">Exit Popup</item>		
+		<item id="fluent-crm" override_local="false">FluentCRM - Marketing Automation For WordPress</item>
+		<item id="forminator" override_local="false">Forminator</item>		
 		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
 		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item>
 		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
 		<item id="kingcomposer" override_local="true">KingComposer</item>
+		<item id="leadin" override_local="false">HubSpot All-In-One Marketing - Forms, Popups, Live Chat</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
 		<item id="master-slider" override_local="true">MasterSlider</item>
 		<item id="members">Members</item>

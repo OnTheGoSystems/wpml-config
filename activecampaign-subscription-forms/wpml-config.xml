@@ -1,0 +1,10 @@
+<wpml-config>
+  <shortcodes>
+    <shortcode>
+      <tag>activecampaign</tag>
+      <attributes>
+        <attribute>form</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
