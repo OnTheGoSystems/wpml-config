@@ -2,10 +2,24 @@
   <admin-texts>
     <key name="et_bloom_options">
       <key name="optin_*">
-        <key name="email_list"/>
-        <key name="pages_include"/>  
-        <key name="pages_exclude"/>        
+        <key name="email_list" />
+        <key name="pages_include" />
+        <key name="pages_exclude" />
       </key>
     </key>
   </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>et_bloom_inline</tag>
+      <attributes>
+        <attribute>optin_id</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>et_bloom_locked</tag>
+      <attributes>
+        <attribute>optin_id</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
 </wpml-config>
