@@ -8,4 +8,18 @@
       </key>
     </key>
   </admin-texts>
+  <shortcodes>
+  	<shortcode>
+    	 <tag>et_bloom_inline</tag>
+      <attributes>
+        <attribute>optin_id</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+    	 <tag>et_bloom_locked</tag>
+      <attributes>
+        <attribute>optin_id</attribute>
+      </attributes>
+    </shortcode>    
+  </shortcodes>
 </wpml-config>
