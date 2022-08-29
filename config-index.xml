@@ -39,6 +39,7 @@
 		<item id="ninja-forms" override_local="true">Ninja Forms</item>
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="oxygen" override_local="true">Oxygen Builder</item>
+		<item id="optinmonster" override_local="false">OptinMonster</item>	
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
