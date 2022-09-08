@@ -1,0 +1,5 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="0">omapi</custom-type>
+	</custom-types>
+</wpml-config>
