@@ -2,9 +2,11 @@
   <admin-texts>
     <key name="et_bloom_options">
       <key name="optin_*">
-        <key name="email_list" />
+        <key name="post_categories" />
         <key name="pages_include" />
         <key name="pages_exclude" />
+        <key name="posts_include" />
+        <key name="posts_exclude"  />
       </key>
     </key>
   </admin-texts>
