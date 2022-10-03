@@ -454,6 +454,12 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>fusion_post_cards</tag>
+            <attributes>
+                <attribute type="post-ids">post_card</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>fusion_pricing_table</tag>
         </shortcode>
         <shortcode>
