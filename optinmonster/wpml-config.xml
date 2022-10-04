@@ -1,4 +1,9 @@
 <wpml-config>
+	<gutenberg-blocks>
+		<gutenberg-block type="optinmonster/campaign-selector" translate="1">
+			<key name="slug" />       
+		</gutenberg-block>
+	</gutenberg-blocks>
 	<custom-types>
 		<custom-type translate="0">omapi</custom-type>
 	</custom-types>
