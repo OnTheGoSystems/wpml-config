@@ -18,7 +18,7 @@
     </widget>
     <widget name="the7-woocommerce-product-navigation">
       <fields>
-        <field type="Link" editor_type="LINK" key_of="back_link">url</field>
+        <field type="Link" editor_type="LINK">back_link>url</field>
       </fields>
     </widget>
     <widget name="the7-woocommerce-menu-cart">
@@ -97,24 +97,24 @@
         <field type="Widget Title" editor_type="LINE">widget_title_text</field>
         <field type="Subtotal Title" editor_type="LINE">subtotal_text</field>
         <field type="Button Name" editor_type="LINE">shop_button_text</field>
-        <field type="Link" editor_type="LINK" key_of="shop_button_link">url</field>
+        <field type="Link" editor_type="LINK">shop_button_link>url</field>
         <field type="Button Name" editor_type="LINE">view_cart_button_text</field>
         <field type="Checkout Text" editor_type="LINE">checkout_button_text</field>
         <field type="Empty Cart Text" editor_type="LINE">empty_cart_text</field>
         <field type="Button Text" editor_type="LINE">empty_cart_button_shop_text</field>
-        <field type="Link" editor_type="LINK" key_of="empty_cart_button_link">url</field>
+        <field type="Link" editor_type="LINK">empty_cart_button_link>url</field>
       </fields>
     </widget>
     <widget name="the7_button_widget">
       <fields>
         <field type="Text" editor_type="LINE">button_text</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
         <field type="Button ID" editor_type="LINE">button_css_id</field>
       </fields>
     </widget>
     <widget name="the7_icon_widget">
       <fields>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields>
     </widget>
     <widget name="the7_icon_box_widget">
@@ -122,7 +122,7 @@
         <field type="Title &amp; Description" editor_type="LINE">title_text</field>
         <field type="" editor_type="AREA">description_text</field>
         <field type="Button Text" editor_type="LINE">button_text</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields>
     </widget>
     <widget name="the7_icon_box_grid_widget">
@@ -133,7 +133,7 @@
         <field type="Title &amp; Description" editor_type="LINE">title_text</field>
         <field type="" editor_type="AREA">description_text</field>
         <field type="Button Text" editor_type="LINE">button_text</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields-in-item>
     </widget>
     <widget name="the7_image_box_widget">
@@ -141,7 +141,7 @@
         <field type="Title &amp; Description" editor_type="LINE">title_text</field>
         <field type="" editor_type="AREA">description_text</field>
         <field type="Button Text" editor_type="LINE">button_text</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields>
     </widget>
     <widget name="the7_image_box_grid_widget">
@@ -152,7 +152,7 @@
         <field type="Title &amp; Description" editor_type="LINE">title_text</field>
         <field type="" editor_type="AREA">description_text</field>
         <field type="Button Text" editor_type="LINE">button_text</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields-in-item>
     </widget>
     <widget name="the7_elements">
@@ -184,7 +184,7 @@
         <field type="Title" editor_type="LINE">list_title</field>
         <field type="Subtitle" editor_type="AREA">list_content</field>
         <field type="Button text" editor_type="LINE">button</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields-in-item>
     </widget>
     <widget name="the7_testimonials_carousel">
@@ -193,7 +193,7 @@
         <field type="Subtitle" editor_type="LINE">list_subtitle</field>
         <field type="Text" editor_type="AREA">list_content</field>
         <field type="Button text" editor_type="LINE">button</field>
-        <field type="Link" editor_type="LINK" key_of="link">url</field>
+        <field type="Link" editor_type="LINK">link>url</field>
       </fields-in-item>
     </widget>
     <widget name="the7-accordion">
