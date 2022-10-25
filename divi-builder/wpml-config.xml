@@ -313,6 +313,7 @@
                 <attribute>position</attribute>
                 <attribute type="media-url">image_url</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute type="link">link_option_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
