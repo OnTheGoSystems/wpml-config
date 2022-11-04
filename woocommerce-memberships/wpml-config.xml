@@ -4,9 +4,15 @@
     <custom-type translate="1">wc_user_membership</custom-type>
   </custom-types>
   <custom-fields>
-    <custom-field action="translate">_email_content</custom-field>
+    <custom-field action="translate" style="visual">_email_content</custom-field>
     <custom-field action="copy">_start_date</custom-field>
     <custom-field action="copy">_end_date</custom-field>
+    <custom-field action="copy">_wc_memberships_use_custom_product_viewing_restricted_message</custom-field>
+    <custom-field action="translate" style="visual">_wc_memberships_product_viewing_restricted_message</custom-field>
+    <custom-field action="copy">_wc_memberships_use_custom_product_purchasing_restricted_message</custom-field>
+    <custom-field action="translate" style="visual">_wc_memberships_product_purchasing_restricted_message</custom-field>
+    <custom-field action="copy">_wc_memberships_force_public</custom-field>
+    <custom-field action="copy">_wc_memberships_exclude_discounts</custom-field>
   </custom-fields>
   <admin-texts>
     <key name="woocommerce_WC_Memberships_User_Membership_Note_Email_settings">
