@@ -1,0 +1,62 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">download</custom-type>
+        <custom-type translate="0">edd_payment</custom-type>
+	<custom-type translate="1" display-as-translated="1">edd-checkout-fields</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="ignore">_edd_download_earnings</custom-field>
+        <custom-field action="ignore">_edd_download_sales</custom-field>
+        <custom-field action="copy">edd_price</custom-field>
+        <custom-field action="copy">edd_variable_prices</custom-field>
+        <custom-field action="copy">_variable_pricing</custom-field>
+        <custom-field action="copy">_edd_price_options_mode</custom-field>
+        <custom-field action="copy">_edd_purchase_style</custom-field>
+        <custom-field action="copy">_edd_purchase_color</custom-field>
+        <custom-field action="translate">_edd_purchase_text</custom-field>
+        <custom-field action="translate">edd_product_notes</custom-field>
+        <custom-field action="translate">cfm-form</custom-field>
+        <custom-field action="copy">cfm-form-class</custom-field>
+        <custom-field action="copy">cfm-form-name</custom-field>
+        <custom-field action="translate">edd_download_files</custom-field>
+        <custom-field action="translate">edd_variable_prices</custom-field>
+    </custom-fields>
+    <custom-fields-texts>
+        <key name="edd_download_files">
+            <key name="*">
+                <key name="name" />
+                <key name="file" />
+            </key>
+        </key>
+        <key name="edd_variable_prices">
+            <key name="*">
+                <key name="name" />
+            </key>
+        </key>
+    </custom-fields-texts>
+    <taxonomies>
+        <taxonomy translate="1">download_category</taxonomy>
+        <taxonomy translate="1">download_tag</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="edd_settings">
+            <key name="from_name" />
+            <key name="from_email" />
+            <key name="purchase_subject" />
+            <key name="purchase_receipt" />
+            <key name="sale_notification_subject" />
+            <key name="sale_notification" />
+            <key name="agree_label" />
+            <key name="agree_text" />
+            <key name="checkout_label" />
+            <key name="add_to_cart_text" />
+        </key>
+    </admin-texts>
+    <gutenberg-blocks>
+        <gutenberg-block type="edd/buy-button" translate="1">
+            <key name="download_id" type="post-ids" sub-type="download"/>
+        </gutenberg-block>
+    </gutenberg-blocks>
+</wpml-config>
+
+

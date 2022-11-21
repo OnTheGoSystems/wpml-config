@@ -124,6 +124,8 @@
         </xs:sequence>
         <xs:attribute type="xs:string" name="name" use="required"/>
         <xs:attribute type="xs:string" name="label" use="optional"/>
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+        <xs:attribute type="xs:string" name="sub-type" use="optional"/>
         <xs:attribute name="encoding" use="optional">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
@@ -279,13 +281,13 @@
     </xs:complexType>
     <!-- Custom Terms Meta/Fields: end -->
 
-    <!-- Shortcode list: start -->
-    <xs:simpleType name="wpml-shortcode-list">
-        <xs:restriction base="xs:token">
-            <xs:pattern value="[^,]+(, ?[^,]+)*"/>
-        </xs:restriction>
-    </xs:simpleType>
-    <!-- Shortcode list: end -->
+	<!-- Shortcode list: start -->
+	<xs:simpleType name="wpml-shortcode-list">
+		<xs:restriction base="xs:token">
+			<xs:pattern value="[^,]+(, ?[^,]+)*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Shortcode list: end -->
 
 
     <!-- Gutenberg: start -->
@@ -316,6 +318,7 @@
         <xs:simpleContent>
             <xs:extension base="xs:string">
                 <xs:attribute type="xs:string" name="type" use="optional"/>
+                <xs:attribute type="xs:string" name="sub-type" use="optional"/>
                 <xs:attribute type="xs:string" name="label" use="optional"/>
             </xs:extension>
         </xs:simpleContent>
