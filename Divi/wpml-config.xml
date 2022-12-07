@@ -81,6 +81,11 @@
         </shortcode>
         <shortcode>
             <tag>et_pb_menu</tag>
+            <attributes>
+                <attribute type="media-url">logo</attribute>
+                <attribute type="media-url">logo_tablet</attribute>
+                <attribute type="media-url">logo_phone</attribute>
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>et_pb_accordion_item</tag>
