@@ -323,5 +323,19 @@
                 <field type="Archive Product: Nothing Found Message" editor_type="LINE">nothing_found_message</field>
             </fields>
         </widget>
+        <widget name="nested-tabs">
+            <fields-in-item items_of="tabs">
+                <field type="Tab title">tab_title</field>
+            </fields-in-item>
+        </widget>
+        <widget name="countdown">
+            <fields>
+                <field type="Countdown: days label">label_days</field>
+                <field type="Countdown: hours label">label_hours</field>
+                <field type="Countdown: minutes label">label_minutes</field>
+                <field type="Countdown: seconds label">label_seconds</field>
+                <field type="Countdown: message after expire">message_after_expire</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
