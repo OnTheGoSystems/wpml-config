@@ -560,6 +560,11 @@
             <tag>fusion_title</tag>
             <attributes>
                 <attribute>dynamic_params</attribute>
+                <attribute>highlight_text</attribute>
+                <attribute>before_text</attribute>
+                <attribute>after_text</attribute>
+                <attribute>after_text</attribute>
+                <attribute>rotation_text</attribute>
             </attributes>
         </shortcode>
         <shortcode>
