@@ -305,6 +305,13 @@
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
+	 <shortcode>
+            <tag>av_icon_circle_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+		<attribute>description</attribute>
+            </attributes>
+        </shortcode>
         <shortcode>
             <tag>av_slide_full</tag>
             <attributes>
