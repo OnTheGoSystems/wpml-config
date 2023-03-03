@@ -341,8 +341,7 @@
             <fields-in-item items_of="price_list">
                 <field type="Pricing list: title">title</field>
                 <field type="Pricing list: description">item_description</field>
-                <field type="Pricing list: price">price</field>
-                <field type="Pricing list: link">link>url</field>        
+                <field type="Pricing list: link" editor_type="LINK">link>url</field>
             </fields-in-item>
         </widget>	    
     </elementor-widgets>
