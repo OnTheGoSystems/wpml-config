@@ -58,5 +58,15 @@
 		<gutenberg-block type="kadence/column" translate="0"/>
 		<gutenberg-block type="kadence/tab" translate="0"/>
 		<gutenberg-block type="kadence/accordion" translate="0"/>
+		<gutenberg-block type="kadence/singlebtn" translate="1">
+			<key name="text" />
+			<key name="link" />
+		</gutenberg-block>   
+		<gutenberg-block type="kadence/testimonial" translate="1">
+			<key name="title" />
+			<key name="content" />
+			<key name="name" />
+			<key name="occupation" />                  
+		</gutenberg-block>  
 	</gutenberg-blocks>
 </wpml-config>
