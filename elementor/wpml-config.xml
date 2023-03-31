@@ -343,6 +343,12 @@
                 <field type="Pricing list: description">item_description</field>
                 <field type="Pricing list: link" editor_type="LINK">link>url</field>
             </fields-in-item>
+        </widget>
+        <widget name="mega-menu">
+            <fields-in-item items_of="menu_items">
+                <field type="Mega Menu: Title" editor_type="LINE">item_title</field>
+                <field type="Mega Menu: URL" key_of="item_link" editor_type="LINK">url</field>
+            </fields-in-item>
         </widget>	    
     </elementor-widgets>
 </wpml-config>
