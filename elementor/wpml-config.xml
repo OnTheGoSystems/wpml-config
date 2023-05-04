@@ -349,6 +349,16 @@
                 <field type="Mega Menu: Title" editor_type="LINE">item_title</field>
                 <field type="Mega Menu: URL" key_of="item_link" editor_type="LINK">url</field>
             </fields-in-item>
+        </widget>
+        <widget name="posts">
+            <fields>
+                <field type="Button: Read more" editor_type="LINE">classic_read_more_text</field>        
+                <field type="Button: Read more" editor_type="LINE">cards_read_more_text</field>
+                <field type="Pagination: Previous" editor_type="LINE">pagination_prev_label</field>
+                <field type="Pagination: Next" editor_type="LINE">pagination_next_label</field>
+                <field type="Button: Load more" editor_type="LINE">text</field>
+                <field type="Text: No more posts" editor_type="LINE">load_more_no_posts_custom_message</field>
+            </fields>
         </widget>	    
     </elementor-widgets>
 </wpml-config>
