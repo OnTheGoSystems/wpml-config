@@ -16,53 +16,60 @@
         <field type="Lightbox HTML" editor_type="AREA">lightbox_content_html</field>
       </fields-in-item>
     </widget>
+	<widget name="icon-group">
+		<fields-in-item items_of="icons">
+			<field type="Icon Link" editor_type="LINK">link</field>
+			<field type="Icon Text" editor_type="LINE">text</field>
+			<field type="Screen Reader Text" editor_type="LINE">sr_text</field>
+		</fields-in-item>
+	</widget>
     <widget name="list">
-			<fields-in-item items_of="list_items">
-				<field type="List heading" editor_type="LINE">heading</field>
-				<field type="List content" editor_type="VISUAL">content</field>
-			</fields-in-item>
-		</widget>
-    <widget name="login-form">
-			<fields>
-				<field type="Login name field" editor_type="LINE">name_field_text</field>
-				<field type="Login password field" editor_type="LINE">password_field_text</field>
-				<field type="Login button label" editor_type="LINE">btn_text</field>
-				<field type="Login button URL" editor_type="LINK">success_url</field>
-				<field type="Logout button label" editor_type="LINE">lo_btn_text</field>
-				<field type="Logout button URL" editor_type="LINK">lo_success_url</field>
-			</fields>
-		</widget>
-    <widget name="pricing-table">
-			<fields>
-				<field type="Billing Option 1" editor_type="LINE">billing_option_1</field>
-				<field type="Billing Option 2" editor_type="LINE">billing_option_2</field>
-			</fields>
-			<fields-in-item items_of="pricing_columns">
-				<field type="Title" editor_type="LINE">title</field>
-				<field type="Ribbon Text" editor_type="LINE">ribbon_text</field>
-				<field type="Button Text" editor_type="LINE">button_text</field>
-				<field type="Button URL" editor_type="LINK">button_url</field>
-				<field type="Price" editor_type="LINE">price</field>
-				<field type="Duration" editor_type="LINE">duration</field>
-				<field type="Price (Option 2)" editor_type="LINE">price_option_2</field>
-			</fields-in-item>
-		</widget>
-    <widget name="subscribe-form">
-			<fields>
-				<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
-				<field type="Subscribe Form: e-mail" editor_type="LINE">email_field_text</field>
-        <field type="Subscribe Form: terms checkbox text" editor_type="LINE">terms_checkbox_text</field>
-        <field type="Subscribe Form: terms_text" editor_type="LINE">terms_text</field>
-        <field type="Subscribe Form: success message" editor_type="LINE">success_message</field>
-        <field type="Subscribe Form: success message" editor_type="LINE">btn_text</field>				
-      </fields>		
-		</widget>    
-		<widget name="search">
-			<fields>
-				<field type="Search placeholder" editor_type="LINE">placeholder</field>
-				<field type="Search button label" editor_type="LINE">btn_text</field>
-				<field type="Search no results message" editor_type="LINE">no_results_message</field>
-			</fields>
-		</widget>
+		<fields-in-item items_of="list_items">
+			<field type="List heading" editor_type="LINE">heading</field>
+			<field type="List content" editor_type="VISUAL">content</field>
+		</fields-in-item>
+	</widget>
+	<widget name="login-form">
+		<fields>
+			<field type="Login name field" editor_type="LINE">name_field_text</field>
+			<field type="Login password field" editor_type="LINE">password_field_text</field>
+			<field type="Login button label" editor_type="LINE">btn_text</field>
+			<field type="Login button URL" editor_type="LINK">success_url</field>
+			<field type="Logout button label" editor_type="LINE">lo_btn_text</field>
+			<field type="Logout button URL" editor_type="LINK">lo_success_url</field>
+		</fields>
+	</widget>
+	<widget name="pricing-table">
+		<fields>
+			<field type="Billing Option 1" editor_type="LINE">billing_option_1</field>
+			<field type="Billing Option 2" editor_type="LINE">billing_option_2</field>
+		</fields>
+		<fields-in-item items_of="pricing_columns">
+			<field type="Title" editor_type="LINE">title</field>
+			<field type="Ribbon Text" editor_type="LINE">ribbon_text</field>
+			<field type="Button Text" editor_type="LINE">button_text</field>
+			<field type="Button URL" editor_type="LINK">button_url</field>
+			<field type="Price" editor_type="LINE">price</field>
+			<field type="Duration" editor_type="LINE">duration</field>
+			<field type="Price (Option 2)" editor_type="LINE">price_option_2</field>
+		</fields-in-item>
+	</widget>
+	<widget name="subscribe-form">
+		<fields>
+			<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
+			<field type="Subscribe Form: e-mail" editor_type="LINE">email_field_text</field>
+			<field type="Subscribe Form: terms checkbox text" editor_type="LINE">terms_checkbox_text</field>
+			<field type="Subscribe Form: terms_text" editor_type="LINE">terms_text</field>
+			<field type="Subscribe Form: success message" editor_type="LINE">success_message</field>
+			<field type="Subscribe Form: success message" editor_type="LINE">btn_text</field>				
+		</fields>		
+	</widget>    
+	<widget name="search">
+		<fields>
+			<field type="Search placeholder" editor_type="LINE">placeholder</field>
+			<field type="Search button label" editor_type="LINE">btn_text</field>
+			<field type="Search no results message" editor_type="LINE">no_results_message</field>
+		</fields>
+	</widget>
   </beaver-builder-widgets>
 </wpml-config>
