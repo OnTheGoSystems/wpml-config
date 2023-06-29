@@ -360,7 +360,7 @@
         <shortcode>
             <tag>fusion_fontawesome</tag>
             <attributes>
-                <attribute>dynamic_params</attribute>
+                <attribute encoding="base64">dynamic_params</attribute>
             </attributes>
         </shortcode>
         <shortcode>
