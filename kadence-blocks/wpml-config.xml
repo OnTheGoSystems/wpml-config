@@ -52,6 +52,7 @@
 			<xpath>//div[contains(@class, "kadence-blocks-form-field")]/textarea</xpath>
 			<xpath>//div[contains(@class, "kadence-blocks-form-field")]/span</xpath>
 			<xpath>//div[contains(@class, "kadence-blocks-form-field")]/button</xpath>
+			<xpath>//div[contains(@class, "kb-radio-item")]/label/text()</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="kadence/spacer" translate="0"/>
 		<gutenberg-block type="kadence/rowlayout" translate="0"/>
