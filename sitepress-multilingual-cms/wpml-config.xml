@@ -21,6 +21,7 @@
 	</custom-fields>
 	<taxonomies>
 		<taxonomy translate="1">translation_priority</taxonomy>
+		<taxonomy translate="0">wp_theme</taxonomy>
 	</taxonomies>
 	<language-switcher-settings>
 		<key name="link_empty">0</key>
