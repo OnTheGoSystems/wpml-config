@@ -19,6 +19,13 @@
 		<custom-field action="copy">ast-featured-img</custom-field>
 		<custom-field action="copy">ast-breadcrumbs-content</custom-field>
 		<custom-field action="copy">theme-transparent-header-meta</custom-field>
+		<custom-field action="copy">ast-advanced-hook-layout</custom-field>
+		<custom-field action="copy">ast-advanced-hook-location</custom-field>
+		<custom-field action="copy">ast-advanced-hook-exclusion</custom-field>
+		<custom-field action="copy">ast-advanced-hook-users</custom-field>
+		<custom-field action="copy">ast-advanced-time-duration</custom-field>
+		<custom-field action="copy">editor_type</custom-field>
+		<custom-field action="copy">ast-advanced-display-device</custom-field>
 	</custom-fields>
 	<admin-texts>
 		<key name="astra-settings">
