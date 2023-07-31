@@ -359,6 +359,11 @@
                 <field type="Button: Load more" editor_type="LINE">text</field>
                 <field type="Text: No more posts" editor_type="LINE">load_more_no_posts_custom_message</field>
             </fields>
+        </widget>
+        <widget name="nested-accordion">
+            <fields-in-item items_of="items">
+                <field type="Accordion Item: Title">item_title</field>
+            </fields-in-item>
         </widget>	    
     </elementor-widgets>
 </wpml-config>
