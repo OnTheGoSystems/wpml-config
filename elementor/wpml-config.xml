@@ -364,6 +364,19 @@
             <fields-in-item items_of="items">
                 <field type="Accordion Item: Title">item_title</field>
             </fields-in-item>
+        </widget>
+        <widget name="taxonomy-filter">
+            <fields>
+                <field type="Taxonomy filter: First item title">first_item_title</field>
+            </fields>
+        </widget>
+        <widget name="loop-grid">
+            <fields>
+                <field type="Loop Grid: Pagination previous label">pagination_prev_label</field>
+                <field type="Loop Grid: Pagination next label">pagination_next_label</field>
+                <field type="Loop Grid: Load more">text</field>
+                <field type="Loop Grid: Load more/No posts custom message">load_more_no_posts_custom_message</field>
+            </fields>
         </widget>	    
     </elementor-widgets>
 </wpml-config>
