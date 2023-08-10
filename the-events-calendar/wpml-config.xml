@@ -8,6 +8,8 @@
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">tribe_events_cat</taxonomy>
+        <taxonomy translate="1">tec_organizer_category</taxonomy>
+        <taxonomy translate="1">tec_venue_category</taxonomy>
     </taxonomies>
     <custom-fields>
         <custom-field action="copy">_EventAllDay</custom-field>
