@@ -6,7 +6,7 @@
         <gutenberg-block type="stackable/button" translate="1">
             <xpath>//*[contains(@class,"stk-button__inner-text")]</xpath>
             <xpath>//*[contains(@class,"stk-block-button")]/a/@title</xpath>
-            <xpath>//*[contains(@class,"stk-block-button")]/a/@href</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-button")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/call-to-action" translate="1">
             <xpath>//*[contains(@class,"stk-block-call-to-action__content")]/a/@title</xpath>
