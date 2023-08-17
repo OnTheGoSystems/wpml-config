@@ -6,6 +6,7 @@
         <gutenberg-block type="stackable/button" translate="1">
             <xpath>//*[contains(@class,"stk-button__inner-text")]</xpath>
             <xpath>//*[contains(@class,"stk-block-button")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-button")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/call-to-action" translate="1">
             <xpath>//*[contains(@class,"stk-block-call-to-action__content")]/a/@title</xpath>
@@ -64,6 +65,9 @@
         <gutenberg-block type="stackable/subtitle" translate="1">
             <xpath>//*[contains(@class, "stk-block-subtitle__text")]</xpath>
         </gutenberg-block>
+        <gutenberg-block type="stackable/tab-labels" translate="1">
+            <xpath>//*[contains(@class, "stk-block-tab-labels__text")]/span</xpath>
+        </gutenberg-block>
         <gutenberg-block type="stackable/team-member" translate="1">
             <xpath>//*[contains(@class, "stk-block-team-member__content")]/a/@title</xpath>
         </gutenberg-block>
@@ -72,6 +76,9 @@
         </gutenberg-block>
         <gutenberg-block type="stackable/text" translate="1">
             <xpath>//*[contains(@class, "stk-block-text__text")]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="stackable/timeline" translate="1">
+            <xpath>//*[contains(@class, "stk-block-timeline__date")]</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/video-popup" translate="1">
             <xpath>//*[contains(@class, "stk-block-video-popup")]/button/@aria-label</xpath>
