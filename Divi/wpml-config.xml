@@ -288,6 +288,9 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_et_pb_icon</tag>            
+        </shortcode>
+        <shortcode>
             <tag>et_pb_code</tag>
             <attributes>
                 <attribute>background_image</attribute>
