@@ -38,10 +38,10 @@
             <xpath>//*[contains(@class, "stk-block-icon-box__content")]/a/@title</xpath>
             <xpath type='link'>//*[contains(@class, "stk-block-icon-box__content")]/a/@href</xpath>
         </gutenberg-block>
-        <gutenberg-block type="stackable/icon-button" translate="1" />
+        <gutenberg-block type="stackable/icon-button" translate="1">
             <xpath>//*[contains(@class,"stk-block-icon-button")]/a/@title</xpath>
             <xpath type='link'>//*[contains(@class,"stk-block-icon-button")]/a/@href</xpath>
-        <gutenberg-block>
+        </gutenberg-block>
         <gutenberg-block type="stackable/icon-label" translate="0" />
         <gutenberg-block type="stackable/icon-list" translate="1">
             <xpath>//*[contains(@class, "stk-block-icon-list")]//li</xpath>
