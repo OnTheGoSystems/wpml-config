@@ -10,13 +10,16 @@
         </gutenberg-block>
         <gutenberg-block type="stackable/call-to-action" translate="1">
             <xpath>//*[contains(@class,"stk-block-call-to-action__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-call-to-action__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/card" translate="1">
             <xpath>//*[contains(@class,"stk-block-card__image")]/img/@alt</xpath>
             <xpath>//*[contains(@class,"stk-block-card__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-card__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/column" translate="1">
             <xpath>//*[contains(@class,"stk-block-column__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-column__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/columns" translate="0" />
         <gutenberg-block type="stackable/count-up" translate="1">
@@ -33,6 +36,7 @@
         <gutenberg-block type="stackable/hero" translate="0" />
         <gutenberg-block type="stackable/icon-box" translate="1">
             <xpath>//*[contains(@class, "stk-block-icon-box__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-icon-box__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/icon-button" translate="0" />
         <gutenberg-block type="stackable/icon-label" translate="0" />
@@ -45,12 +49,14 @@
         </gutenberg-block>
         <gutenberg-block type="stackable/image-box" translate="1">
             <xpath>//*[contains(@class, "stk-block-image-box__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-image-box__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/image" translate="1">
             <xpath>//*[contains(@class, "stk-img-wrapper")]/img/@alt</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/notification" translate="1">
             <xpath>//*[contains(@class, "stk-block-notification__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-notification__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/number-box" translate="0" />
         <gutenberg-block type="stackable/posts" translate="1">
@@ -59,6 +65,7 @@
         <gutenberg-block type="stackable/price" translate="0" />
         <gutenberg-block type="stackable/pricing-box" translate="1">
             <xpath>//*[contains(@class, "stk-block-pricing-box__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-pricing-box__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/separator" translate="0" />
         <gutenberg-block type="stackable/spacer" translate="0" />
@@ -70,9 +77,11 @@
         </gutenberg-block>
         <gutenberg-block type="stackable/team-member" translate="1">
             <xpath>//*[contains(@class, "stk-block-team-member__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-team-member__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/testimonial" translate="1">
             <xpath>//*[contains(@class, "stk-block-testimonial__content")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class, "stk-block-testimonial__content")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/text" translate="1">
             <xpath>//*[contains(@class, "stk-block-text__text")]</xpath>
