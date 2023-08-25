@@ -38,7 +38,10 @@
             <xpath>//*[contains(@class, "stk-block-icon-box__content")]/a/@title</xpath>
             <xpath type='link'>//*[contains(@class, "stk-block-icon-box__content")]/a/@href</xpath>
         </gutenberg-block>
-        <gutenberg-block type="stackable/icon-button" translate="0" />
+        <gutenberg-block type="stackable/icon-button" translate="1" />
+            <xpath>//*[contains(@class,"stk-block-icon-button")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-icon-button")]/a/@href</xpath>
+        <gutenberg-block>
         <gutenberg-block type="stackable/icon-label" translate="0" />
         <gutenberg-block type="stackable/icon-list" translate="1">
             <xpath>//*[contains(@class, "stk-block-icon-list")]//li</xpath>
@@ -46,6 +49,7 @@
         <gutenberg-block type="stackable/icon" translate="1">
             <xpath>//*[contains(@class, "stk--inner-svg")]/svg/@aria-label</xpath>
             <xpath>//*[contains(@class,"stk-block-icon")]/a/@title</xpath>
+            <xpath type='link'>//*[contains(@class,"stk-block-icon")]/a/@href</xpath>
         </gutenberg-block>
         <gutenberg-block type="stackable/image-box" translate="1">
             <xpath>//*[contains(@class, "stk-block-image-box__content")]/a/@title</xpath>
