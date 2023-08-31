@@ -58,6 +58,7 @@
         <gutenberg-block type="stackable/image" translate="1">
             <xpath>//*[contains(@class, "stk-img-wrapper")]/img/@alt</xpath>
         </gutenberg-block>
+        <gutenberg-block type="stackable/map" translate="0" />
         <gutenberg-block type="stackable/notification" translate="1">
             <xpath>//*[contains(@class, "stk-block-notification__content")]/a/@title</xpath>
             <xpath type='link'>//*[contains(@class, "stk-block-notification__content")]/a/@href</xpath>
