@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name="widget_newsletterwidgetminimal">
+      <key name="*">
+        <key name="button"/>
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>
