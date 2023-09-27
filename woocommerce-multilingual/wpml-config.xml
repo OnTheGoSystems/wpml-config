@@ -81,6 +81,7 @@
 		<taxonomy translate="1">product_shipping_class</taxonomy>
 	</taxonomies>
 	<admin-texts>
+		<key name="woocommerce_email_header_image" />
 		<key name="woocommerce_shop_page_title" />
 		<key name="woocommerce_email_footer_text" />
 		<key name="woocommerce_new_order_settings">
