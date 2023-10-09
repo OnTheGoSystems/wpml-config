@@ -97,6 +97,12 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_heading</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_cta</tag>
             <attributes>
                 <attribute>title</attribute>
