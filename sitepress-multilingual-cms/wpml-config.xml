@@ -148,6 +148,8 @@
 		<gutenberg-block type="core/navigation-link" translate="1">
 			<key name="label" />
 			<key name="url" />
+			<key name="title" />
+			<key name="description" />
 		</gutenberg-block>
 		<gutenberg-block type="core/navigation-submenu" translate="1">
 			<key name="label" />
