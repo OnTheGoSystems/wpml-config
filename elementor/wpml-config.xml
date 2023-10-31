@@ -26,6 +26,15 @@
                 <field type="Stripe button: Redirect after success URL" editor_type="LINK">redirect_after_success>url</field>
             </fields>
         </widget>
+        <widget name="paypal-button">
+            <fields>
+                <field type="PayPal button: Product name">product_name</field>
+                <field type="PayPal button: Button text">text</field>
+                <field type="PayPal button: Global error message">error_message_global</field>
+                <field type="PayPal button: Payment error message">error_message_payment</field>
+                <field type="PayPal button: Redirect after success URL" editor_type="LINK">redirect_after_success>url</field>
+            </fields>
+        </widget>	    
         <widget name="form">
             <fields>
                 <field type="Form: name" editor_type="LINE">form_name</field>
