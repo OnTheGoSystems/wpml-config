@@ -579,5 +579,907 @@
     <!-- Fixes an issue with Divi, Extra and Divi Builder. See compsupp-3566 and compsupp-3605 -->
     <gutenberg-blocks>
         <gutenberg-block type="divi/placeholder" translate="0" />
+        <gutenberg-block type="divi/row" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="meta">
+                    <key name="adminLabel">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/column" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="meta">
+                    <key name="adminLabel">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/menu" translate="1">
+            <key name="logo">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/accordion-item" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/heading" translate="1">
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/cta" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                            <key name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                    <key name="phone">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/map" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/map-pin" translate="1">
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/text" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/circle-counter" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="number">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/image" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="image">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="*">
+                            <key name="src" />
+                            <key name="linkUrl" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/number-counter" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="number">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/pricing-table" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="currencyFrequency">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="currency" />
+                            <key name="per" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="currency" />
+                            <key name="per" />
+                        </key>
+                    </key>
+                    <key name="phone">
+                        <key name="value">
+                            <key name="currency" />
+                            <key name="per" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="subtitle">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="price">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                            <key name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                    <key name="phone">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/tab" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/toggle" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/counter" translate="1">
+            <key name="barCounter">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="barProgress">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="color" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/button" translate="1">
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                            <key name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                    <key name="phone">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/icon" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="meta">
+                    <key name="adminLabel">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="icon">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="linkUrl" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/code" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="meta">
+                    <key name="adminLabel">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/countdown-timer" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                    <key name="tablet">
+                        <key name="value" />
+                    </key>
+                    <key name="phone">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/login" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/team-member" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url"/>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="name">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="position">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="image">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="url"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/slide" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url"/>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="image">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                            <key name="linkUrl"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
     </gutenberg-blocks>
 </wpml-config>
