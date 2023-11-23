@@ -1348,7 +1348,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url"/>
+                                    <key name="url" />
                                 </key>
                             </key>
                         </key>
@@ -1358,14 +1358,14 @@
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1376,7 +1376,7 @@
                     <key name="link">
                         <key name="*">
                             <key name="value">
-                                <key name="url"/>
+                                <key name="url" />
                             </key>
                         </key>
                     </key>
@@ -1386,7 +1386,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url"/>
+                                    <key name="url" />
                                 </key>
                             </key>
                         </key>
@@ -1396,14 +1396,14 @@
             <key name="name">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
             <key name="position">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1411,7 +1411,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="url"/>
+                            <key name="url" />
                         </key>
                     </key>
                 </key>
@@ -1419,7 +1419,7 @@
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1430,7 +1430,7 @@
                     <key name="link">
                         <key name="*">
                             <key name="value">
-                                <key name="url"/>
+                                <key name="url" />
                             </key>
                         </key>
                     </key>
@@ -1440,7 +1440,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url"/>
+                                    <key name="url" />
                                 </key>
                             </key>
                         </key>
@@ -1451,7 +1451,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="src"/>
+                            <key name="src" />
                         </key>
                     </key>
                 </key>
@@ -1459,7 +1459,7 @@
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1467,8 +1467,8 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="text"/>
-                            <key name="linkUrl"/>
+                            <key name="text" />
+                            <key name="linkUrl" />
                         </key>
                     </key>
                 </key>
@@ -1476,7 +1476,163 @@
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/testimonial" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="company">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="author">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="jobTitle">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="portrait">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="url" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/audio" translate="1">
+            <key name="artistName">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="albumName">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="audio">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="image">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/video-slider-item" translate="1">
+            <key name="video">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="thumbnail">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/video" translate="1">
+            <key name="video">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src"/>
+                            <key name="webm"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="thumbnail">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="src"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/section" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" />
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="advanced">
+                    <key name="htmlAttributes">
+                        <key name="*">
+                            <key name="value">
+                                <key name="id" />
+                            </key>
+                        </key>
                     </key>
                 </key>
             </key>
