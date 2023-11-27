@@ -34,7 +34,7 @@
                 <field type="PayPal button: Payment error message">error_message_payment</field>
                 <field type="PayPal button: Redirect after success URL" editor_type="LINK">redirect_after_success>url</field>
             </fields>
-        </widget>	    
+        </widget>
         <widget name="form">
             <fields>
                 <field type="Form: name" editor_type="LINE">form_name</field>
@@ -52,7 +52,7 @@
                 <field type="Form: Redirect to URL" editor_type="LINE">redirect_to</field>
                 <field type="Form: MailChimp Tags" editor_type="LINE">mailchimp_tags</field>
                 <field type="Form: Previous Button" editor_type="LINE">step_previous_label</field>
-                <field type="Form: Step Next Label" editor_type="LINE">step_next_label</field>		    
+                <field type="Form: Step Next Label" editor_type="LINE">step_next_label</field>
             </fields>
             <fields-in-item items_of="form_fields">
                 <field type="Form: Field label" editor_type="LINE">field_label</field>
@@ -232,7 +232,7 @@
             <fields-in-item items_of="slides">
                 <field type="Slide Image Link" editor_type="LINE" key_of="image_link_to">url</field>
             </fields-in-item>
-        </widget>        
+        </widget>
         <widget name="text-path">
             <fields>
                 <field type="Text path">text</field>
@@ -263,7 +263,7 @@
         <widget name="hotspot">
             <fields-in-item items_of="hotspot">
                 <field type="Hotspot: Label">hotspot_label</field>
-        	<field type="Hotspot: URL" key_of="hotspot_link">url</field>  
+        	<field type="Hotspot: URL" key_of="hotspot_link">url</field>
                 <field type="Hotspot: Content" editor_type="VISUAL">hotspot_tooltip_content</field>
             </fields-in-item>
         </widget>
@@ -361,7 +361,7 @@
         </widget>
         <widget name="posts">
             <fields>
-                <field type="Button: Read more" editor_type="LINE">classic_read_more_text</field>        
+                <field type="Button: Read more" editor_type="LINE">classic_read_more_text</field>
                 <field type="Button: Read more" editor_type="LINE">cards_read_more_text</field>
                 <field type="Pagination: Previous" editor_type="LINE">pagination_prev_label</field>
                 <field type="Pagination: Next" editor_type="LINE">pagination_next_label</field>
@@ -385,7 +385,8 @@
                 <field type="Loop Grid: Pagination next label">pagination_next_label</field>
                 <field type="Loop Grid: Load more">text</field>
                 <field type="Loop Grid: Load more/No posts custom message">load_more_no_posts_custom_message</field>
+                <field type="Loop Grid: Nothing found message">nothing_found_message_text</field>
             </fields>
-        </widget>	    
+        </widget>
     </elementor-widgets>
 </wpml-config>
