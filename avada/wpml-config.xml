@@ -458,6 +458,7 @@
             <tag>fusion_post_cards</tag>
             <attributes>
                 <attribute type="post-ids">post_card</attribute>
+                <attribute type="taxonomy-ids">include_product_cat</attribute>
             </attributes>
         </shortcode>
         <shortcode>
