@@ -397,6 +397,13 @@
             <tag>vc_icon</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_pricing_table</tag>
+            <attributes>
+                <attribute encoding="vc_link" type="link">btn_link</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
