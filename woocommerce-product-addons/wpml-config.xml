@@ -1,0 +1,6 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_product_addons</custom-field>
+		<custom-field action="copy">_product_addons_exclude_global</custom-field>
+	</custom-fields>
+</wpml-config>
