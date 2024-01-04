@@ -10,10 +10,6 @@ https://wpml.org/documentation/support/language-configuration-files/
 
 Language configuration files can be stored directly in the root folder of the plugin / theme where they belong or they can be added to this repository. The WPML plugin will periodically read this repository to keep up to date.
 
-## Validating XML files
-
-Run `composer install --no-autoloader` to validate XML files.
-
 ## Repository structure
 
 The language configuration repository has:
@@ -32,6 +28,36 @@ There are a couple of requisites:
 For example:
 
 `<item id="sitepress-multilingual-cms" override_local="true">WPML Multilingual CMS</item>`
+
+## Validating XML files
+
+Run `composer install --no-autoloader` to validate XML files.
+
+## Testing Instructions
+
+1. **Clone the Repository:**
+   Clone into the WordPress root directory:
+   ```
+   git clone [repository-url] /path/to/wordpress/wpml-config/
+   ```
+
+2. **Run Update Script:**
+   Navigate to the `/wpml-config/` folder and run the update script:
+   ```
+   cd /path/to/wordpress/wpml-config/ && php bin/update.php
+   ```
+
+3. **Configure WordPress:**
+   In `wp-config.php`, add:
+   ```
+   define( 'ICL_REMOTE_WPML_CONFIG_FILES_INDEX', 'http://your-wordpress-url/' );
+   ```
+   Replace `http://your-wordpress-url/` with your WordPress installation URL.
+
+4. **Test:**
+   Verify functionality in your WordPress environment.
+
+Report any issues or bugs encountered during the testing process.
 
 ## Contributing
 
