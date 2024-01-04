@@ -83,8 +83,8 @@
         </widget>
         <widget name="wp-widget-text">
             <fields>
-                <field type="Title" editor_type="LINE">wp>title</field>
-                <field type="Text" editor_type="VISUAL">wp>text</field>
+                <field type="Widget: Title" editor_type="LINE">wp>title</field>
+                <field type="Widget: Text" editor_type="VISUAL">wp>text</field>
             </fields>
         </widget>
         <widget name="wp-widget-search">
@@ -154,8 +154,8 @@
         </widget>
         <widget name="wp-widget-custom_html">
             <fields>
-                <field type="Custom HTML title">wp>title</field>
-                <field type="Custom HTML content" editor_type="VISUAL">wp>content</field>
+                <field type="Custom HTML: title">wp>title</field>
+                <field type="Custom HTML: content" editor_type="VISUAL">wp>content</field>
             </fields>
         </widget>
         <widget name="wp-widget-block">
@@ -225,18 +225,14 @@
         </widget>
 	    <widget name="media-carousel">
             <fields-in-item items_of="slides">
-                <field type="Slide Video Link" editor_type="LINE" key_of="video">url</field>
-            </fields-in-item>
-        </widget>
-        <widget name="media-carousel">
-            <fields-in-item items_of="slides">
-                <field type="Slide Image Link" editor_type="LINE" key_of="image_link_to">url</field>
+                <field type="Slide: Video Link" editor_type="LINE" key_of="video">url</field>
+                <field type="Slide: Image Link" editor_type="LINE" key_of="image_link_to">url</field>
             </fields-in-item>
         </widget>
         <widget name="text-path">
             <fields>
-                <field type="Text path">text</field>
-                <field type="Text path link" editor_type="LINK">link>url</field>
+                <field type="Text path: text">text</field>
+                <field type="Text path: link" editor_type="LINK">link>url</field>
             </fields>
         </widget>
         <widget name="star-rating">
@@ -263,7 +259,7 @@
         <widget name="hotspot">
             <fields-in-item items_of="hotspot">
                 <field type="Hotspot: Label">hotspot_label</field>
-        	<field type="Hotspot: URL" key_of="hotspot_link">url</field>
+        	    <field type="Hotspot: URL" key_of="hotspot_link">url</field>
                 <field type="Hotspot: Content" editor_type="VISUAL">hotspot_tooltip_content</field>
             </fields-in-item>
         </widget>
@@ -314,17 +310,17 @@
         </widget>
         <widget name="woocommerce-purchase-summary">
             <fields>
-                <field type="Confirmation message text">confirmation_message_text</field>
-                <field type="Payment details number">payment_details_number</field>
-                <field type="Payment details date">payment_details_date</field>
-                <field type="Payment details email">payment_details_email</field>
-                <field type="Payment details total">payment_details_total</field>
-                <field type="Payment details payment">payment_details_payment</field>
-                <field type="Bank details text">bank_details_text</field>
-                <field type="Download text">downloads_text</field>
-                <field type="Order summary">order_summary_text</field>
-                <field type="Billing details text">billing_details_text</field>
-                <field type="Shipping details text">shipping_details_text</field>
+                <field type="Purchase Summary: Confirmation message text">confirmation_message_text</field>
+                <field type="Purchase Summary: Payment details number">payment_details_number</field>
+                <field type="Purchase Summary: Payment details date">payment_details_date</field>
+                <field type="Purchase Summary: Payment details email">payment_details_email</field>
+                <field type="Purchase Summary: Payment details total">payment_details_total</field>
+                <field type="Purchase Summary: Payment details payment">payment_details_payment</field>
+                <field type="Purchase Summary: Bank details text">bank_details_text</field>
+                <field type="Purchase Summary: Download text">downloads_text</field>
+                <field type="Purchase Summary: Order summary">order_summary_text</field>
+                <field type="Purchase Summary: Billing details text">billing_details_text</field>
+                <field type="Purchase Summary: Shipping details text">shipping_details_text</field>
             </fields>
         </widget>
         <widget name="wc-archive-products">
@@ -334,7 +330,7 @@
         </widget>
         <widget name="nested-tabs">
             <fields-in-item items_of="tabs">
-                <field type="Tab title">tab_title</field>
+                <field type="Tabs: title">tab_title</field>
             </fields-in-item>
         </widget>
         <widget name="countdown">
@@ -361,12 +357,12 @@
         </widget>
         <widget name="posts">
             <fields>
-                <field type="Button: Read more" editor_type="LINE">classic_read_more_text</field>
-                <field type="Button: Read more" editor_type="LINE">cards_read_more_text</field>
-                <field type="Pagination: Previous" editor_type="LINE">pagination_prev_label</field>
-                <field type="Pagination: Next" editor_type="LINE">pagination_next_label</field>
-                <field type="Button: Load more" editor_type="LINE">text</field>
-                <field type="Text: No more posts" editor_type="LINE">load_more_no_posts_custom_message</field>
+                <field type="Posts: Button Read more" editor_type="LINE">classic_read_more_text</field>
+                <field type="Posts: Button Read more" editor_type="LINE">cards_read_more_text</field>
+                <field type="Posts: Pagination Previous" editor_type="LINE">pagination_prev_label</field>
+                <field type="Posts: Pagination Next" editor_type="LINE">pagination_next_label</field>
+                <field type="Posts: Button Load more" editor_type="LINE">text</field>
+                <field type="Posts: No more posts text" editor_type="LINE">load_more_no_posts_custom_message</field>
             </fields>
         </widget>
         <widget name="nested-accordion">

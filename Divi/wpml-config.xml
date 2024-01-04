@@ -103,23 +103,23 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>et_pb_cta</tag>
+            <tag label="Call To Action: Content">et_pb_cta</tag>
             <attributes>
-                <attribute>title</attribute>
-                <attribute>admin_label</attribute>
-                <attribute>button_text</attribute>
-                <attribute>title_phone</attribute>
-                <attribute encoding="allow_html_tags">title__hover</attribute>
-                <attribute encoding="allow_html_tags">content__hover</attribute>
-                <attribute>title_tablet</attribute>
-                <attribute>button_text_tablet</attribute>
-                <attribute>button_text_phone</attribute>
-                <attribute encoding="allow_html_tags">content_tablet</attribute>
-                <attribute encoding="allow_html_tags">content_phone</attribute>
-                <attribute type="link">button_url</attribute>
-                <attribute type="link">link_option_url</attribute>
-                <attribute type="media-url">background_image</attribute>
-                <attribute type="media-url">background_image__hover</attribute>
+                <attribute label="Call To Action: Title">title</attribute>
+                <attribute label="Call To Action: Title (phone)">title_phone</attribute>
+                <attribute label="Call To Action: Title (tablet)">title_tablet</attribute>
+                <attribute label="Call To Action: Title (hover)" encoding="allow_html_tags">title__hover</attribute>
+                <attribute label="Call To Action: Admin Label">admin_label</attribute>
+                <attribute label="Call To Action: Content (phone)" encoding="allow_html_tags">content_phone</attribute>
+                <attribute label="Call To Action: Content (tablet)" encoding="allow_html_tags">content_tablet</attribute>
+                <attribute label="Call To Action: Content (hover)" encoding="allow_html_tags">content__hover</attribute>
+                <attribute label="Call To Action: Button Text">button_text</attribute>
+                <attribute label="Call To Action: Button Text (phone)">button_text_phone</attribute>
+                <attribute label="Call To Action: Button Text (tablet)">button_text_tablet</attribute>
+                <attribute label="Call To Action: Button URL" type="link">button_url</attribute>
+                <attribute label="Call To Action: Option URL" type="link">link_option_url</attribute>
+                <attribute label="Call To Action: Background Image" type="media-url">background_image</attribute>
+                <attribute label="Call To Action: Background Image (hover)" type="media-url">background_image__hover</attribute>
             </attributes>
         </shortcode>
         <shortcode>
