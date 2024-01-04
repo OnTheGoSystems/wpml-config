@@ -59,47 +59,47 @@
     <cornerstone-widgets>
         <widget name="classic:alert">
             <fields>
-                <field type="Alert title">heading</field>
-                <field type="Alert content">content</field>
+                <field type="Alert: title">heading</field>
+                <field type="Alert: content">content</field>
             </fields>
         </widget>
         <widget name="classic:author">
             <fields>
-                <field type="Author headline">heading</field>
+                <field type="Author: headline">heading</field>
             </fields>
         </widget>
         <widget name="classic:accordion">
             <fields-in-item items_of="classic:accordion-item">
-                <field type="Accordion item title">title</field>
-                <field type="Accordion item content">content</field>
+                <field type="Accordion: item title">title</field>
+                <field type="Accordion: item content">content</field>
             </fields-in-item>
         </widget>
         <widget name="classic:blockquote">
             <fields>
-                <field type="Blockquote content">content</field>
-                <field type="Blockquote cite">cite</field>
+                <field type="Blockquote: content">content</field>
+                <field type="Blockquote: cite">cite</field>
             </fields>
         </widget>
         <widget name="classic:button">
             <fields>
-                <field type="Button label">content</field>
-                <field type="Button link" editor_type="LINK">href</field>
-                <field type="Button link title">href_title</field>
+                <field type="Button: label">content</field>
+                <field type="Button: link" editor_type="LINK">href</field>
+                <field type="Button: link title">href_title</field>
             </fields>
         </widget>
         <widget name="classic:callout">
             <fields>
-                <field type="Callout heading">heading</field>
-                <field type="Callout message">message</field>
-                <field type="Callout button text">button_text</field>
-                <field type="Callout button link" editor_type="LINK">href</field>
-                <field type="Callout button link title">href_title</field>
+                <field type="Callout: heading">heading</field>
+                <field type="Callout: message">message</field>
+                <field type="Callout: button text">button_text</field>
+                <field type="Callout: button link" editor_type="LINK">href</field>
+                <field type="Callout: button link title">href_title</field>
             </fields>
         </widget>
         <widget name="classic:creative-cta">
             <fields>
-                <field type="Creative CTA text">text</field>
-                <field type="Creative CTA link" editor_type="LINK">link</field>
+                <field type="Creative CTA: text">text</field>
+                <field type="Creative CTA: link" editor_type="LINK">link</field>
             </fields>
         </widget>
         <widget name="classic:columnize">
@@ -109,61 +109,61 @@
         </widget>
         <widget name="classic:counter">
             <fields>
-                <field type="Counter prefix">num_prefix</field>
-                <field type="Counter suffix">num_suffix</field>
-                <field type="Counter text above">text_above</field>
-                <field type="Counter text below">text_below</field>
+                <field type="Counter: prefix">num_prefix</field>
+                <field type="Counter: suffix">num_suffix</field>
+                <field type="Counter: text above">text_above</field>
+                <field type="Counter: text below">text_below</field>
             </fields>
         </widget>
         <widget name="classic:social-sharing">
             <fields>
-                <field type="Share heading">heading</field>
-                <field type="Share title">share_title</field>
-                <field type="Share email subject">email_subject</field>
+                <field type="Share: heading">heading</field>
+                <field type="Share: title">share_title</field>
+                <field type="Share: email subject">email_subject</field>
             </fields>
         </widget>
         <widget name="classic:feature-headline">
             <fields>
-                <field type="Feature headline">content</field>
+                <field type="Feature: headline">content</field>
             </fields>
         </widget>
         <widget name="classic:block-grid">
             <fields-in-item items_of="classic:block-grid-item">
-                <field type="Block grid item title">title</field>
-                <field type="Block grid item content">content</field>
+                <field type="Block grid: item title">title</field>
+                <field type="Block grid: item content">content</field>
             </fields-in-item>
         </widget>
         <widget name="classic:icon-list">
             <fields-in-item items_of="classic:icon-list-item">
-                <field type="Icon list item title">title</field>
-                <field type="Icon list item link url" editor_type="LINK">link_url</field>
-                <field type="Icon list item link title">link_title</field>
+                <field type="Icon list: item title">title</field>
+                <field type="Icon list: item link url" editor_type="LINK">link_url</field>
+                <field type="Icon list: item link title">link_title</field>
             </fields-in-item>
         </widget>
         <widget name="classic:feature-list">
             <fields-in-item items_of="classic:feature-list-item">
-                <field type="Feature list item title">title</field>
-                <field type="Feature list item text">text</field>
-                <field type="Feature list item content">content</field>
-                <field type="Feature list item link text">link_text</field>
-                <field type="Feature list item link href" editor_type="LINK">href</field>
-                <field type="Feature list item link title">href_title</field>
+                <field type="Feature list: item title">title</field>
+                <field type="Feature list: item text">text</field>
+                <field type="Feature list: item content">content</field>
+                <field type="Feature list: item link text">link_text</field>
+                <field type="Feature list: item link href" editor_type="LINK">href</field>
+                <field type="Feature list: item link title">href_title</field>
             </fields-in-item>
         </widget>
         <widget name="classic:tabs">
             <fields-in-item items_of="classic:tab">
-                <field type="Tab title">title</field>
-                <field type="Tab content">content</field>
+                <field type="Tab: title">title</field>
+                <field type="Tab: content">content</field>
             </fields-in-item>
         </widget>
         <widget name="classic:pricing-table">
             <fields-in-item items_of="classic:pricing-table-column">
-                <field type="Pricing table column title">title</field>
-                <field type="Pricing table column content">content</field>
-                <field type="Pricing table column featured">featured_sub</field>
-                <field type="Pricing table column currency">currency</field>
-                <field type="Pricing table column price">price</field>
-                <field type="Pricing table column interval">interval</field>
+                <field type="Pricing table: column title">title</field>
+                <field type="Pricing table: column content">content</field>
+                <field type="Pricing table: column featured">featured_sub</field>
+                <field type="Pricing table: column currency">currency</field>
+                <field type="Pricing table: column price">price</field>
+                <field type="Pricing table: column interval">interval</field>
             </fields-in-item>
         </widget>
         <widget name="classic:text">
@@ -173,25 +173,25 @@
         </widget>
         <widget name="classic:skill-bar">
             <fields>
-                <field type="Skill bar heading">heading</field>
-                <field type="Skill bar text">bar_text</field>
+                <field type="Skill bar: heading">heading</field>
+                <field type="Skill bar: text">bar_text</field>
             </fields>
         </widget>
         <widget name="classic:card">
             <fields>
-                <field type="Card front title">front_title</field>
-                <field type="Card front text">front_text</field>
-                <field type="Card back title">back_title</field>
-                <field type="Card back text">back_text</field>
-                <field type="Card back button text">back_button_text</field>
-                <field type="Card back button link" editor_type="LINK">back_button_link</field>
+                <field type="Card: front title">front_title</field>
+                <field type="Card: front text">front_text</field>
+                <field type="Card: back title">back_title</field>
+                <field type="Card: back text">back_text</field>
+                <field type="Card: back button text">back_button_text</field>
+                <field type="Card: back button link" editor_type="LINK">back_button_link</field>
             </fields>
         </widget>
         <widget name="classic:text-type">
             <fields>
-                <field type="Text type prefix">prefix</field>
-                <field type="Text type strings">strings</field>
-                <field type="Text type suffix">suffix</field>
+                <field type="Text type: prefix">prefix</field>
+                <field type="Text type: strings">strings</field>
+                <field type="Text type: suffix">suffix</field>
             </fields>
         </widget>
         <widget name="classic:custom-headline">
@@ -201,40 +201,40 @@
         </widget>
         <widget name="classic:image">
             <fields>
-                <field type="Image alternative text">alt</field>
-                <field type="Image link" editor_type="LINK">href</field>
-                <field type="Image link title">href_title</field>
+                <field type="Image: alternative text">alt</field>
+                <field type="Image: link" editor_type="LINK">href</field>
+                <field type="Image: link title">href_title</field>
             </fields>
         </widget>
         <widget name="classic:promo">
             <fields>
-                <field type="Promo alternative text">alt</field>
-                <field type="Promo content">content</field>
+                <field type="Promo: alternative text">alt</field>
+                <field type="Promo: content">content</field>
             </fields>
         </widget>
         <widget name="classic:prompt">
             <fields>
-                <field type="Prompt heading">heading</field>
-                <field type="Prompt message">message</field>
-                <field type="Prompt button text">button_text</field>
-                <field type="Prompt button link" editor_type="LINK">href</field>
-                <field type="Prompt button link title">href_title</field>
+                <field type="Prompt: heading">heading</field>
+                <field type="Prompt: message">message</field>
+                <field type="Prompt: button text">button_text</field>
+                <field type="Prompt: button link" editor_type="LINK">href</field>
+                <field type="Prompt: button link title">href_title</field>
             </fields>
         </widget>
         <widget name="classic:google-map">
             <fields-in-item items_of="classic:google-map-marker">
-                <field type="Google map marker title">title</field>
-                <field type="Google map marker info">info</field>
+                <field type="Google map: marker title">title</field>
+                <field type="Google map: marker info">info</field>
             </fields-in-item>
         </widget>
         <widget name="classic:feature-box">
             <fields>
-                <field type="Feature box title">title</field>
-                <field type="Feature box content">content</field>
-                <field type="Feature box image alt">graphic_image_alt_text</field>
-                <field type="Feature box link text">link_text</field>
-                <field type="Feature box link href">href</field>
-                <field type="Feature box link title">href_title</field>
+                <field type="Feature box: title">title</field>
+                <field type="Feature box: content">content</field>
+                <field type="Feature box: image alt">graphic_image_alt_text</field>
+                <field type="Feature box: link text">link_text</field>
+                <field type="Feature box: link href">href</field>
+                <field type="Feature box: link title">href_title</field>
             </fields>
         </widget>
         <widget name="classic:slider">

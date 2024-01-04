@@ -80,21 +80,21 @@
 			<xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/button" translate="1">
-			<xpath>//a</xpath>
-			<xpath type='link'>//a/@href</xpath>
+			<xpath label="Button Text">//a</xpath>
+			<xpath label="Button URL" type="link">//a/@href</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/image" translate="1">
-			<xpath>//figure/figcaption</xpath>
-			<xpath>//figure//img/@alt</xpath>
-			<xpath>//figure//img/@title</xpath>
-			<xpath type='link'>//figure/a/@href</xpath>
+			<xpath label="Caption">//figure/figcaption</xpath>
+			<xpath label="Title">//figure//img/@title</xpath>
+			<xpath label="Alt Text">//figure//img/@alt</xpath>
+			<xpath label="URL" type='link'>//figure/a/@href</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/gallery" translate="1">
-			<xpath>//figure/figcaption</xpath>
-			<xpath>//figure/img/@alt</xpath>
+			<xpath label="Caption">//figure/figcaption</xpath>
+			<xpath label="Alt Text">//figure/img/@alt</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/media-text" translate="1">
-			<xpath>//figure/img/@alt</xpath>
+			<xpath label="Alt Text">//figure/img/@alt</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/list" translate="1">
 			<xpath>//ul/li|//ol/li</xpath>
