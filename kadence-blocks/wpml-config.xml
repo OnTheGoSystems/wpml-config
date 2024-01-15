@@ -70,6 +70,9 @@
 			<key name="content" />
 			<key name="name" />
 			<key name="occupation" />                  
-		</gutenberg-block>  
+		</gutenberg-block>
+		<gutenberg-block type="kadence/postgrid" translate="1">
+			<key name="readMoreText" />
+		</gutenberg-block>		
 	</gutenberg-blocks>
 </wpml-config>
