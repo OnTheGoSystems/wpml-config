@@ -269,5 +269,8 @@
 		<gutenberg-block type="core/html" translate="1">
 			<xpath>/*</xpath>
 		</gutenberg-block>
+		<gutenberg-block type="core/details" translate="1">
+			<xpath>//summary</xpath>
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
