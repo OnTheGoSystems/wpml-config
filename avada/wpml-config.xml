@@ -386,6 +386,8 @@
                 <attribute type="link">link</attribute>
                 <attribute>alt</attribute>
                 <attribute type="media-url">image</attribute>
+                <attribute>image_title</attribute>
+                <attribute>image_caption</attribute>
             </attributes>
         </shortcode>
         <shortcode>
