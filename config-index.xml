@@ -22,9 +22,9 @@
 		<item id="elementor" override_local="true">Elementor</item>
 		<item id="event-tickets-plus">Event Tickets Plus</item>
 		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
-		<item id="exit-popup">Exit Popup</item>		
+		<item id="exit-popup">Exit Popup</item>
 		<item id="fluent-crm" override_local="false">FluentCRM - Marketing Automation For WordPress</item>
-		<item id="forminator" override_local="false">Forminator</item>		
+		<item id="forminator" override_local="false">Forminator</item>
 		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
 		<item id="hummingbird-performance" override_local="true">Hummingbird</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
@@ -41,7 +41,7 @@
 		<item id="ninja-forms" override_local="true">Ninja Forms</item>
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="oxygen" override_local="true">Oxygen Builder</item>
-		<item id="optinmonster" override_local="false">OptinMonster</item>	
+		<item id="optinmonster" override_local="false">OptinMonster</item>
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
@@ -62,16 +62,22 @@
 		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
 		<item id="uncode-js_composer" override_local="true">Uncode WPBakery Page Builder</item>
 		<item id="woo-brand">Woocomerce Brands Pro</item>
+		<item id="woo-brand">Woo Brands Pro</item>
 		<item id="woocommerce-additional-variation-images" override_local="true">WooCommerce Additional Variation Images</item>
+		<item id="woocommerce-additional-variation-images" override_local="true">Woo Additional Variation Images</item>
 		<item id="woocommerce-advanced-product-labels">WooCommerce Advanced Product Labels</item>
 		<item id="woocommerce-bookings" override_local="true">WooCommerce Bookings</item>
+		<item id="woocommerce-bookings" override_local="true">Woo Bookings</item>
 		<item id="woocommerce-catalog-visibility-options" override_local="true">WooCommerce Catalog Visibility Options</item>
 		<item id="woocommerce-composite-products">WooCommerce Composite Products</item>
+		<item id="woocommerce-composite-products">Woo Composite Products</item>
 		<item id="woocommerce-currency-converter" override_local="true">WooCommerce Currency Converter</item>
 		<item id="woocommerce-dibs-flexwin-gateway" override_local="true">WooCommerce DIBS FlexWin Gateway</item>
 		<item id="woocommerce-embed-slides" override_local="true">WooCommerce Embed Slides</item>
 		<item id="woocommerce-gateway-stripe" override_local="true">WooCommerce Stripe Gateway</item>
+		<item id="woocommerce-gateway-stripe" override_local="true">Woo Stripe Gateway</item>
 		<item id="woocommerce-gift-cards" override_local="true">WooCommerce Gift Cards</item>
+		<item id="woocommerce-gift-cards" override_local="true">Woo Gift Cards</item>
 		<item id="woocommerce-local-pickup-plus" override_local="true">WooCommerce Local Pickup Plus</item>
 		<item id="woocommerce-memberships" override_local="true">WooCommerce Memberships</item>
 		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
@@ -86,6 +92,7 @@
 		<item id="woocommerce-product-addons" override_local="true">WooCommerce Product Add-ons</item>
 		<item id="woocommerce-product-addons" override_local="true">Woo Product Add-ons</item>
 		<item id="woocommerce-product-bundles">WooCommerce Product Bundles</item>
+		<item id="woocommerce-product-bundles">Woo Product Bundles</item>
 		<item id="woocommerce-product-gift-wrap" override_local="true">WooCommerce Product Gift Wrap</item>
 		<item id="woocommerce-social-media-share-buttons" override_local="true">Woocommerce Social Media Share Buttons</item>
 		<item id="woocommerce-tab-manager" override_local="true">WooCommerce Tab Manager</item>
