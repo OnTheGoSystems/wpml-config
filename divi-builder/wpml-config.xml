@@ -277,6 +277,12 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag ignore-content="1">et_pb_blog</tag>
+            <attributes>
+                <attribute type="media-url">meta_date</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_code</tag>
             <attributes>
                 <attribute>background_image</attribute>
