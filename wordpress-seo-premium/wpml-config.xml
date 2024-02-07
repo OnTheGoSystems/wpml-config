@@ -35,6 +35,8 @@
 			<key name="metadesc-*" />
 			<key name="metakey-*" />
 			<key name="company_name" />
+			<key name="company_alternate_name" />
+			<key name="org-description" />
 			<key name="breadcrumbs-sep" />
 			<key name="breadcrumbs-home" />
 			<key name="breadcrumbs-prefix" />
