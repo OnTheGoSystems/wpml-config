@@ -277,7 +277,7 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag ignore-content="1">et_pb_blog</tag>
+            <tag>et_pb_blog</tag>
             <attributes>
                 <attribute>meta_date</attribute>
             </attributes>
