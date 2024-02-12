@@ -279,7 +279,7 @@
         <shortcode>
             <tag ignore-content="1">et_pb_blog</tag>
             <attributes>
-                <attribute type="media-url">meta_date</attribute>
+                <attribute>meta_date</attribute>
             </attributes>
         </shortcode>
         <shortcode>
