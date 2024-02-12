@@ -357,9 +357,9 @@
         <shortcode>
             <tag>et_pb_slide</tag>
             <attributes>
-                <attribute>heading</attribute>
-                <attribute>heading_tablet</attribute>
-                <attribute>heading_phone</attribute>
+                <attribute encoding="allow_html_tags">heading</attribute>
+                <attribute encoding="allow_html_tags">heading_tablet</attribute>
+                <attribute encoding="allow_html_tags">heading_phone</attribute>
                 <attribute>image_alt</attribute>
                 <attribute>button_text</attribute>
                 <attribute>button_text_tablet</attribute>
