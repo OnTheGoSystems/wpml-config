@@ -73,6 +73,9 @@
 		</gutenberg-block>
 		<gutenberg-block type="kadence/postgrid" translate="1">
 			<key name="readMoreText" />
+		</gutenberg-block>
+		<gutenberg-block type="kadence/image" translate="1">
+			<key name="id" type="post-ids" sub-type="attachment" />
 		</gutenberg-block>		
 	</gutenberg-blocks>
 </wpml-config>
