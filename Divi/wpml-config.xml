@@ -106,8 +106,11 @@
             <tag>et_pb_cta</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute>admin_label</attribute>
                 <attribute>button_text</attribute>
                 <attribute>title_phone</attribute>
+                <attribute>title__hover</attribute>
+                <attribute>content__hover</attribute>
                 <attribute>title_tablet</attribute>
                 <attribute>button_text_tablet</attribute>
                 <attribute>button_text_phone</attribute>
@@ -116,6 +119,7 @@
                 <attribute type="link">button_url</attribute>
                 <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">background_image</attribute>
+                <attribute type="media-url">background_image__hover</attribute>
             </attributes>
         </shortcode>
         <shortcode>
