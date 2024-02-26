@@ -103,6 +103,8 @@
 		<item id="wpml-test-config" override_local="true">WPML Test Config</item>
 		<item id="yoast-seo" override_local="true">Yoast SEO</item>
 		<item id="edd-multilingual" override_local="true">Easy Digital Downloads Multilingual</item>
+		<item id="advanced-custom-fields" override_local="true">Advanced Custom Fields</item>
+		<item id="advanced-custom-fields" override_local="true">Advanced Custom Fields PRO</item>
 	</plugins>
 	<themes>
 		<item id="astra" override_local="true">Astra</item>
