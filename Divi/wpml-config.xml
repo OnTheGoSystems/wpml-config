@@ -109,8 +109,8 @@
                 <attribute>admin_label</attribute>
                 <attribute>button_text</attribute>
                 <attribute>title_phone</attribute>
-                <attribute>title__hover</attribute>
-                <attribute>content__hover</attribute>
+                <attribute encoding="allow_html_tags">title__hover</attribute>
+                <attribute encoding="allow_html_tags">content__hover</attribute>
                 <attribute>title_tablet</attribute>
                 <attribute>button_text_tablet</attribute>
                 <attribute>button_text_phone</attribute>
