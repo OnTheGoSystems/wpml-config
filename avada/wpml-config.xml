@@ -799,7 +799,13 @@
                 <attribute>placeholder</attribute>
                 <attribute>tooltip</attribute>
             </attributes>
-        </shortcode>    
+        </shortcode>
+        <shortcode>
+            <tag>fusion_form_consent</tag>
+            <attributes>
+                <attribute encoding="base64">description</attribute>
+            </attributes>
+        </shortcode>        
         <shortcode>
             <tag>fusion_form_submit</tag>
         </shortcode>
