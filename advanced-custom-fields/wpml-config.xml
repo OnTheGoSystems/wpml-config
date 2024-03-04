@@ -2,5 +2,6 @@
 	<custom-types>
 		<custom-type translate="0">acf-post-type</custom-type>
 		<custom-type translate="0">acf-taxonomy</custom-type>
+		<custom-type translate="0">acf-ui-options-page</custom-type>
 	</custom-types>
 </wpml-config>
