@@ -70,6 +70,66 @@
     </language-switcher-settings>
     <shortcodes>
         <shortcode>
+            <tag>av_one_half</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_one_full</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_one_third</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_one_fourth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_one_fifth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_two_third</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_three_fourth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_two_fifth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_three_fifth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_four_fifth</tag>
+            <attributes>
+                <attribute type="post-ids" sub-type="attachment">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>av_textblock</tag>
         </shortcode>
         <shortcode>
