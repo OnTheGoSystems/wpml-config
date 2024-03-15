@@ -384,5 +384,13 @@
                 <field type="Loop Grid: Nothing found message">nothing_found_message_text</field>
             </fields>
         </widget>
+        <widget name="lottie">
+            <fields>
+                <field type="Lottie: Media File" editor_type="LINK">source_json>url</field>
+                <field type="Lottie: External URL" editor_type="LINK">source_external_url>url</field>
+                <field type="Lottie: Caption" editor_type="LINE">caption</field>
+                <field type="Lottie: Link" editor_type="LINK">custom_link>url</field>
+            </fields>
+        </widget>	    
     </elementor-widgets>
 </wpml-config>
