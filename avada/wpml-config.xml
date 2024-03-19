@@ -391,15 +391,14 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag type="media-url">fusion_imageframe</tag>
+            <tag ignore-content="1">fusion_imageframe</tag>
             <attributes>
-                <attribute>gallery_id</attribute>
-                <attribute>alt</attribute>
-                <attribute type="link">link</attribute>
+                <attribute label="Image: Alt Text">alt</attribute>
+                <attribute label="Image: Link" type="link">link</attribute>
                 <attribute type="media-ids">image_id</attribute>
-                <attribute>dynamic_params</attribute>
-                <attribute>caption_title</attribute>
-                <attribute>caption_text</attribute>                
+                <attribute label="Image: Dynamic Params">dynamic_params</attribute>
+                <attribute label="Image: Title">caption_title</attribute>
+                <attribute label="Image: Caption">caption_text</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -676,6 +675,14 @@
             <attributes>
                 <attribute type="media-ids">image_ids</attribute>
                 <attribute>dynamic_params</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag ignore-content="1">fusion_gallery_image</tag>
+            <attributes>
+                <attribute type="media-ids">image_id</attribute>
+                <attribute label="Gallery Image: Title">image_title</attribute>
+                <attribute label="Gallery Image: Caption">image_caption</attribute>
             </attributes>
         </shortcode>
         <shortcode>
