@@ -113,7 +113,7 @@
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
 		<item id="Divi" override_local="true">Divi</item>
-		<item id="dt-the7" override_local="true">The7</item>
+		<item id="dt-the7" override_local="false">The7</item>
 		<item id="emerald-cv" override_local="true">Emerald CV</item>
 		<item id="enfold" override_local="true">Enfold</item>
 		<item id="extra" override_local="true">Extra</item>
