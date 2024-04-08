@@ -388,9 +388,9 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute>button_label</attribute>
-                <attribute>link1</attribute>
+                <attribute type="link" encoding="av_link">link1</attribute>
                 <attribute>button_label2</attribute>
-                <attribute>link2</attribute>
+                <attribute type="link" encoding="av_link">link2</attribute>
             </attributes>
         </shortcode>
         <shortcode>
