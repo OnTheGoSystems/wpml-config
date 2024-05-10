@@ -272,5 +272,8 @@
 		<gutenberg-block type="core/details" translate="1">
 			<xpath>//summary</xpath>
 		</gutenberg-block>
+		<gutenberg-block type="core/social-link" translate="1">
+			<key name="url" type="link" />
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
