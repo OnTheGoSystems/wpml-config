@@ -19,7 +19,7 @@
 		</gutenberg-block>
 		<gutenberg-block type="uagb/info-box" translate="1">
 			<xpath label="Title Prefix">//span[@class="uagb-ifb-title-prefix"]</xpath>
-			<xpath label="Title">//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p]</xpath>
+			<xpath label="Title">//*[@class="uagb-ifb-title"]</xpath>
 			<xpath label="Description">//p[@class="uagb-ifb-desc"]</xpath>
 			<xpath label="Button Text">//span[contains(@class, 'uagb-inline-editing')]</xpath>
 			<xpath label="Button Link" type="link">//a/@href</xpath>
