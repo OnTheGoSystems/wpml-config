@@ -156,6 +156,8 @@
 			<key name="url" type="link" />
 		</gutenberg-block>
 		<gutenberg-block type="core/column" translate="0" />
+		<gutenberg-block type="wpml/language-switcher" translate="0" />
+		<gutenberg-block type="wpml/navigation-language-switcher" translate="0" />
 		<gutenberg-block type="core/columns" translate="0" />
 		<gutenberg-block type="core/code" translate="0" />
 		<gutenberg-block type="core/more" translate="0" />
