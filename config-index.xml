@@ -30,7 +30,6 @@
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
 		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item>
-		<item id="kadence-blocks" override_local="true">Kadence Blocks - Gutenberg Page Builder Toolkit</item>
 		<item id="kingcomposer" override_local="true">KingComposer</item>
 		<item id="leadin" override_local="false">HubSpot All-In-One Marketing - Forms, Popups, Live Chat</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
