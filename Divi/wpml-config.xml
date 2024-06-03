@@ -546,6 +546,7 @@
             <tag ignore-content="1">et_pb_wc_related_products</tag>
             <attributes>
                 <attribute type="post-ids" sub-type="product">product</attribute>
+                <attribute type="taxonomy-ids" sub-type="category">include_categories</attribute>
             </attributes>
         </shortcode>
         <shortcode>
