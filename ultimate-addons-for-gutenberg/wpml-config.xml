@@ -54,8 +54,8 @@
 			<xpath>//p[@class="uagb-cta__desc"]</xpath>
 			<xpath type="link">//a[contains(@class,"uagb-cta__block-link")]/@href</xpath>
 			<xpath>//span[@class="uagb-cta__link-content-inner"]/span</xpath>
-			<xpath>//*[@class="uagb-cta__buttons"]</xpath>
-      			<xpath>//a[@class="uagb-cta__button-link-wrapper"]</xpath>
+			<xpath>//*[@class="uagb-cta__buttons"]/a</xpath>
+			<xpath type="link">//*[@class="uagb-cta__buttons"]/a/@href</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/blockquote" translate="1">
 			<xpath>//div[@class="uagb-blockquote__content"]</xpath>
