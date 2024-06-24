@@ -145,6 +145,31 @@
 		<key name="woocommerce_checkout_terms_and_conditions_checkbox_text" />
 	</admin-texts>
 	<gutenberg-blocks>
+		<gutenberg-block type="woocommerce/checkout-contact-information-block" translate="1">
+			<key name="title" />
+			<key name="description" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/checkout-shipping-address-block" translate="1">
+			<key name="title" />
+			<key name="description" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/checkout-shipping-methods-block" translate="1">
+			<key name="title" />
+			<key name="description" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/checkout-payment-block" translate="1">
+			<key name="title" />
+			<key name="description" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/checkout-terms-block" translate="1">
+			<key name="text" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/cart-order-summary-heading-block" translate="1">
+			<key name="content" />
+		</gutenberg-block>
+		<gutenberg-block type="woocommerce/proceed-to-checkout-block" translate="1">
+			<key name="buttonLabel" />
+		</gutenberg-block>
 		<gutenberg-block type="woocommerce/product-search" translate="1">
 			<xpath>//*[contains(@class, "wc-block-product-search__label")]</xpath>
 			<xpath>//*[contains(@class, "wc-block-product-search__field")]/@placeholder</xpath>
