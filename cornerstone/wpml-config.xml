@@ -247,5 +247,11 @@
                 <field type="Testimonial: Content">testimonial_content</field>
             </fields>
         </widget>
+        <widget name="button">
+            <fields>
+                <field type="Button: Button Text" editor_type="LINE">anchor_text_primary_content</field>
+                <field type="Button: Link URL" editor_type="LINK">anchor_href</field>
+            </fields>
+        </widget>
     </cornerstone-widgets>
 </wpml-config>
