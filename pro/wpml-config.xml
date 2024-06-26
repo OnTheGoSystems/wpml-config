@@ -478,7 +478,7 @@
     </widget>
     <widget name="button">
       <fields>
-        <field type="Button" editor_type="LINE">anchor_text_primary_content</field>
+        <field type="Button: Button Text" editor_type="LINE">anchor_text_primary_content</field>
         <field type="Button: Link URL" editor_type="LINK">anchor_href</field>
       </fields>
     </widget>    
