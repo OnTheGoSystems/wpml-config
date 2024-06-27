@@ -87,6 +87,8 @@
 		<gutenberg-block type="uagb/faq-child" translate="1">
 			<xpath>//*[@class="uagb-question"]</xpath>
 			<xpath>//*[@class="uagb-faq-content"]/span/p</xpath>
+			<key name="question" />
+			<key name="answer" />
 		</gutenberg-block>
 		<gutenberg-block type="uagb/how-to" translate="1">
 			<xpath>//*[@class="uagb-howto-heading-text"]</xpath>
