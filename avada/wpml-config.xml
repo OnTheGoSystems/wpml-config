@@ -391,7 +391,7 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag ignore-content="1">fusion_imageframe</tag>
+            <tag>fusion_imageframe</tag>
             <attributes>
                 <attribute label="Image: Alt Text">alt</attribute>
                 <attribute label="Image: Link" type="link">link</attribute>
