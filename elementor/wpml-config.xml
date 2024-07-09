@@ -391,6 +391,13 @@
                 <field type="Lottie: Caption" editor_type="LINE">caption</field>
                 <field type="Lottie: Link" editor_type="LINK">custom_link>url</field>
             </fields>
-        </widget>	    
+        </widget>
+        <widget name="search">
+            <fields>
+                <field>search_input_placeholder_text</field>
+                <field>submit_button_text</field>
+                <field>nothing_found_message_text</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
