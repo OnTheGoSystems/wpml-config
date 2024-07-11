@@ -12,6 +12,7 @@
     <custom-types>
         <custom-type translate="1" display-as-translated="1">elementor_library</custom-type>
         <custom-type translate="1" display-as-translated="1">e-landing-page</custom-type>
+        <custom-type translate="1" display-as-translated="1">e-floating-buttons</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="0">elementor_library_type</taxonomy>
@@ -397,6 +398,17 @@
                 <field>search_input_placeholder_text</field>
                 <field>submit_button_text</field>
                 <field>nothing_found_message_text</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons">
+            <fields>
+                <field>top_bar_title</field>
+                <field>top_bar_subtitle</field>
+                <field>message_bubble_name</field>
+                <field>message_bubble_body</field>
+                <field>send_button_text</field>
+                <field>top_bar_image>url</field>
+                <field>top_bar_image>alt</field>
             </fields>
         </widget>
     </elementor-widgets>
