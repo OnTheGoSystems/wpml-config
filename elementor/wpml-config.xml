@@ -411,5 +411,81 @@
                 <field>top_bar_image>alt</field>
             </fields>
         </widget>
+        <widget name="link-in-bio">
+            <fields>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>bio_description</field>
+            </fields>
+            <fields-in-item items_of="cta_link">
+                <field>cta_link_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="link-in-bio-var-2">
+            <fields>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>cta_link</field>
+            </fields>
+            <fields-in-item items_of="cta_link">
+                <field>cta_link_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="link-in-bio-var-3">
+            <fields>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>bio_description</field>
+                <field>cta_link</field>
+            </fields>
+            <fields-in-item items_of="cta_link">
+                <field>cta_link_text</field>
+            </fields-in-item>
+            </widget>
+        <widget name="link-in-bio-var-4">
+        <fields>
+                <field>bio_heading</field>
+                <field>bio_description</field>
+                <field>cta_link</field>
+            </fields>
+            <fields-in-item items_of="cta_link">
+                <field>cta_link_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="link-in-bio-var-5">
+            <fields>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>cta_link</field>
+            </fields>
+            <fields-in-item items_of="cta_link">
+                <field>cta_link_text</field>
+            </fields-in-item>
+        </widget>
+        <widget name="link-in-bio-var-6">
+            <fields>
+                <field>identity_image>url</field>
+                <field>identity_image>alt</field>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>bio_description</field>
+            </fields>
+            <fields-in-item items_of="image_links">
+                <field>image_links_image>url</field>
+                <field>image_links_image>alt</field>
+            </fields-in-item>
+        </widget>
+        <widget name="link-in-bio-var-7">
+            <fields>
+                <field>bio_heading</field>
+                <field>bio_title</field>
+                <field>bio_about</field>
+                <field>bio_description</field>
+                <field>cta_section_button_text</field>
+            </fields>
+            <fields-in-item items_of="icon">
+                <field>icon_text</field>
+            </fields-in-item>
+        </widget>
     </elementor-widgets>
 </wpml-config>
