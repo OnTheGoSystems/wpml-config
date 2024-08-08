@@ -5,7 +5,8 @@
 		<custom-field action="translate">_yoast_wpseo_metadesc</custom-field>
 		<custom-field action="translate">_yoast_wpseo_metakeywords</custom-field>
 		<custom-field action="translate">_yoast_wpseo_focuskw</custom-field>
-		<custom-field action="translate">_yoast_wpseo_focuskeywords</custom-field>
+		<custom-field action="translate" encoding="json">_yoast_wpseo_focuskeywords</custom-field>
+		<custom-field action="translate" encoding="json">_yoast_wpseo_keyword</custom-field>
 		<custom-field action="copy">_yoast_wpseo_meta-robots-noindex</custom-field>
 		<custom-field action="copy">_yoast_wpseo_meta-robots-nofollow</custom-field>
 		<custom-field action="copy">_yoast_wpseo_meta-robots-adv</custom-field>
