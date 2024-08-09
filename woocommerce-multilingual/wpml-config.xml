@@ -12,6 +12,7 @@
 		<custom-field action="copy">_featured</custom-field>
 		<custom-field action="copy">_manage_stock</custom-field>
 		<custom-field action="copy">_sku</custom-field>
+		<custom-field action="copy">_global_unique_id</custom-field>
 		<custom-field action="ignore">_stock</custom-field>
 		<custom-field action="copy">_stock_status</custom-field>
 		<custom-field action="copy">_sold_individually</custom-field>
