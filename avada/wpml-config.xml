@@ -819,9 +819,9 @@
         <shortcode>
             <tag>fusion_circle_info</tag>
             <attributes>
-                <attribute label="Circles Info - Title">title</attribute>
-                <attribute label="Circles Info - Content">item_content</attribute>
-                <attribute label="Circles Info - Link" type="link">link</attribute>
+                <attribute>title</attribute>
+                <attribute>item_content</attribute>
+                <attribute type="link">link</attribute>
             </attributes>
         </shortcode>        
     </shortcodes>
