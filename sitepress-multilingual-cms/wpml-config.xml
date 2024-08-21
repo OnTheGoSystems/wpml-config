@@ -20,6 +20,13 @@
 		<custom-field action="translate">_wp_attachment_image_alt</custom-field>
 		<custom-field action="translate" encoding="json">footnotes</custom-field>
 	</custom-fields>
+	<custom-fields-texts>
+		<key name="footnotes">
+			<key name="*">
+				<key name="content" />
+			</key>
+		</key>
+	</custom-fields-texts>
 	<taxonomies>
 		<taxonomy translate="1">translation_priority</taxonomy>
 		<taxonomy translate="0">wp_theme</taxonomy>
