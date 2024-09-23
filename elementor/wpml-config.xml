@@ -487,5 +487,10 @@
                 <field>icon_text</field>
             </fields-in-item>
         </widget>
+        <widget name="contact-buttons-var-4">
+            <fields-in-item items_of="contact_repeater">
+                <field>contact_tooltip</field>
+            </fields-in-item>
+        </widget>
     </elementor-widgets>
 </wpml-config>
