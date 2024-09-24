@@ -89,6 +89,7 @@
 		<item id="woocommerce-plivo" override_local="true">WooCommerce Plivo</item>
 		<item id="woocommerce-postepay" override_local="true">WooCommerce PostePay</item>
 		<item id="woocommerce-price-by-country" override_local="true">WooCommerce Price by Country</item>
+		<item id="woocommerce-product-addons" override_local="true">WooCommerce Product Add-Ons</item>
 		<item id="woocommerce-product-addons" override_local="true">WooCommerce Product Add-ons</item>
 		<item id="woocommerce-product-addons" override_local="true">Woo Product Add-ons</item>
 		<item id="woocommerce-product-bundles">WooCommerce Product Bundles</item>
