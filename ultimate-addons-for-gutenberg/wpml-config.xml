@@ -126,5 +126,8 @@
 		<gutenberg-block type="uagb/forms" translate="1">
 			<xpath>//button/div</xpath>
 		</gutenberg-block>
+		<gutenberg-block type="uagb/container" translate="1">
+			<xpath label="Container link" type="link">//a/@href</xpath>
+		</gutenberg-block>		
 	</gutenberg-blocks>
 </wpml-config>
