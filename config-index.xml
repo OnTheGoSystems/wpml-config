@@ -106,6 +106,7 @@
 		<item id="edd-multilingual" override_local="true">Easy Digital Downloads Multilingual</item>
 		<item id="advanced-custom-fields" override_local="true">Advanced Custom Fields</item>
 		<item id="advanced-custom-fields" override_local="true">Advanced Custom Fields PRO</item>
+		<item id="advanced-custom-fields" override_local="true">Secure Custom Fields</item>
 	</plugins>
 	<themes>
 		<item id="astra" override_local="true">Astra</item>
