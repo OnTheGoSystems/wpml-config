@@ -524,8 +524,8 @@
                 <field type="Floating Button: Button URL" editor_type="LINK">send_button_url>url</field>
             </fields>
             <fields-in-item items_of="contact_repeater">
-            <field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
-            <field type="Floating Button: Button URL" editor_type="LINK" key_of="contact_icon_url">url</field>
+            	<field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
+            	<field type="Floating Button: Button URL" editor_type="LINK" key_of="contact_icon_url">url</field>
             </fields-in-item>
         </widget>
         <widget name="contact-buttons-var-4">
