@@ -443,7 +443,7 @@
             </fields-in-item>
             </widget>
         <widget name="link-in-bio-var-4">
-        <fields>
+            <fields>
                 <field>bio_heading</field>
                 <field>bio_description</field>
                 <field>cta_link</field>
@@ -487,9 +487,98 @@
                 <field>icon_text</field>
             </fields-in-item>
         </widget>
-        <widget name="contact-buttons-var-4">
+    	<widget name="floating-bars-var-1">
+            <fields>
+                <field type="Floating Bar: Announcement Text" editor_type="LINE">announcement_text</field>
+                <field type="Floating Bar: Button Text" editor_type="LINE">cta_text</field>
+                <field type="Floating Bar: URL" editor_type="LINK">cta_link>url</field>
+                <field type="Floating Bar: Accessible name" editor_type="LINE">accessible_name</field>
+            </fields>
+        </widget>
+        <widget name="floating-bars-var-2">
+            <fields-in-item items_of="headlines_repeater">
+                <field type="Floating Bar: Headline" editor_type="LINE">headlines_text</field>
+                <field type="Floating Bar: URL" editor_type="LINK" key_of="headlines_url">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="floating-bars-var-3">
+            <fields>
+                <field type="Floating Bar: Announcement Text" editor_type="LINE">announcement_text</field>
+                <field type="Floating Bar: Success Message" editor_type="LINE">coupon_success_message</field>
+                <field type="Floating Bar: Accessible name" editor_type="LINE">accessible_name</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-1">
+            <fields>
+                <field type="Floating Button: Top Bar Title" editor_type="LINE">top_bar_title</field>
+                <field type="Floating Button: Top Bar Subtitle" editor_type="LINE">top_bar_subtitle</field>
+                <field type="Floating Button: Name" editor_type="LINE">message_bubble_name</field>
+                <field type="Floating Button: Message" editor_type="AREA">message_bubble_body</field>
+                <field type="Floating Button: Button Text" editor_type="LINE">contact_cta_text</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-3">
+            <fields>
+                <field type="Floating Button: Top Bar Title" editor_type="LINE">top_bar_title</field>
+                <field type="Floating Button: Button Text" editor_type="LINE">send_button_text</field>
+                <field type="Floating Button: Button URL" editor_type="LINK">send_button_url>url</field>
+            </fields>
             <fields-in-item items_of="contact_repeater">
-                <field>contact_tooltip</field>
+            	<field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
+            	<field type="Floating Button: Button URL" editor_type="LINK" key_of="contact_icon_url">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="contact-buttons-var-4">
+            <fields>
+                <field type="Floating Button: Accessible name" editor_type="LINE">chat_aria_label</field>
+            </fields>      
+            <fields-in-item items_of="contact_repeater">
+                <field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
+                <field type="Floating Button: URL" editor_type="LINK" key_of="contact_icon_url">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="contact-buttons-var-5">
+            <fields>
+                <field type="Floating Button: Button Label" editor_type="LINE">chat_aria_label</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-6">
+            <fields>
+                <field type="Floating Button: Accessible name" editor_type="LINE">contact_aria_label</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-7">
+            <fields>
+                <field type="Floating Button: Button Label" editor_type="LINE">chat_aria_label</field>
+                <field type="Floating Button: URL" editor_type="LINK">chat_button_url>url</field>
+                <field type="Floating Button: Button Text" editor_type="LINE">chat_button_display_text</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-8">
+            <fields>
+                <field type="Floating Button: Top Bar Title" editor_type="LINE">top_bar_title</field>
+                <field type="Floating Button: Top Bar Subtitle" editor_type="LINE">top_bar_subtitle</field>
+            </fields>
+            <fields-in-item items_of="contact_repeater">
+                <field type="Floating Button: Contact Title" editor_type="LINE">contact_title</field>
+                <field type="Floating Button: Contact Description" editor_type="AREA">contact_description</field>
+                <field type="Floating Button: URL" editor_type="LINK" key_of="contact_icon_url">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="contact-buttons-var-9">
+            <fields>
+                <field type="Floating Button: Button Label" editor_type="LINE">chat_aria_label</field>        
+                <field type="Floating Button: Button Text" editor_type="LINE">chat_button_display_text</field>
+                <field type="Floating Button: Button URL" editor_type="LINK">chat_button_url>url</field>
+            </fields>
+        </widget>
+        <widget name="contact-buttons-var-10">
+            <fields>
+                <field type="Floating Button: Button Label" editor_type="LINE">contact_aria_label</field>
+            </fields>
+            <fields-in-item items_of="contact_repeater">
+                <field type="Floating Button: Contact Title" editor_type="LINE">contact_title</field>
+                <field type="Floating Button: URL" editor_type="LINK" key_of="contact_icon_url">url</field>
             </fields-in-item>
         </widget>
     </elementor-widgets>
