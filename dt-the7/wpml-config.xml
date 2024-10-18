@@ -115,6 +115,11 @@
         <field type="Text" editor_type="LINE">onsale_text</field>
       </fields>
     </widget>
+    <widget name="the7-woocommerce-product-out-of-stock-label">
+      <fields>
+        <field type="Text" editor_type="LINE">out_of_stock_text</field>
+      </fields>
+    </widget>
     <widget name="the7-woocommerce-product-rating">
       <fields>
         <field type="Singular" editor_type="LINE">rating_caption_single</field>
@@ -294,6 +299,22 @@
       <fields>
         <field type="Title" editor_type="LINE">taxonomy_label_text</field>
       </fields>
+    </widget>
+    <widget name="the7-logo-widget">
+      <fields>
+        <field type="Link" editor_type="LINK">image_link>url</field>
+      </fields>
+    </widget>
+    <widget name="the7-ticker-widget">
+      <fields-in-item items_of="ticker_items">
+        <field type="Content" editor_type="AREA">ticker_content</field>
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="the7-image-ticker-widget">
+      <fields-in-item items_of="ticker_items">
+        <field type="Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
     </widget>
     <widget name="the7-post-loop">
       <fields>
