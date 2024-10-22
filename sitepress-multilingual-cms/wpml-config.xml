@@ -23,7 +23,7 @@
 	<custom-fields-texts>
 		<key name="footnotes">
 			<key name="*">
-				<key name="content" />
+				<key name="content" label="Footnote" />
 			</key>
 		</key>
 	</custom-fields-texts>
