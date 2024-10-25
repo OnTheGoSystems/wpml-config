@@ -18,7 +18,7 @@
 			<key name="ctaText"/>
 		</gutenberg-block>
 		<gutenberg-block type="uagb/info-box" translate="1">
-			<xpath label="Title Prefix">//span[@class="uagb-ifb-title-prefix"]</xpath>
+			<xpath label="Title Prefix">//*[@class="uagb-ifb-title-prefix"]</xpath>
 			<xpath label="Title">//*[@class="uagb-ifb-title"]</xpath>
 			<xpath label="Description">//p[@class="uagb-ifb-desc"]</xpath>
 			<xpath label="Button Text">//span[contains(@class, 'uagb-inline-editing')]</xpath>
