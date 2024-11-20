@@ -347,7 +347,7 @@
             <fields-in-item items_of="price_list">
                 <field type="Pricing list: title">title</field>
                 <field editor_type="AREA" type="Pricing list: description">item_description</field>
-                <field editor_type="LINK" type="Pricing list: link" key_of="link">url</field
+                <field editor_type="LINK" type="Pricing list: link" key_of="link">url</field>
                 <field editor_type="LINE" type="Pricing list: price">price</field>
             </fields-in-item>
         </widget>
@@ -532,7 +532,7 @@
         <widget name="contact-buttons-var-4">
             <fields>
                 <field type="Floating Button: Accessible name" editor_type="LINE">chat_aria_label</field>
-            </fields>      
+            </fields>
             <fields-in-item items_of="contact_repeater">
                 <field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
                 <field type="Floating Button: URL" editor_type="LINK" key_of="contact_icon_url">url</field>
@@ -568,7 +568,7 @@
         </widget>
         <widget name="contact-buttons-var-9">
             <fields>
-                <field type="Floating Button: Button Label" editor_type="LINE">chat_aria_label</field>        
+                <field type="Floating Button: Button Label" editor_type="LINE">chat_aria_label</field>
                 <field type="Floating Button: Button Text" editor_type="LINE">chat_button_display_text</field>
                 <field type="Floating Button: Button URL" editor_type="LINK">chat_button_url>url</field>
             </fields>
