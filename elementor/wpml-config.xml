@@ -347,7 +347,8 @@
             <fields-in-item items_of="price_list">
                 <field type="Pricing list: title">title</field>
                 <field editor_type="AREA" type="Pricing list: description">item_description</field>
-                <field editor_type="LINK" type="Pricing list: link" key_of="link">url</field>
+                <field editor_type="LINK" type="Pricing list: link" key_of="link">url</field
+                <field editor_type="LINE" type="Pricing list: price">price</field>
             </fields-in-item>
         </widget>
         <widget name="mega-menu">
