@@ -285,5 +285,11 @@
 		<gutenberg-block type="core/social-link" translate="1">
 			<key name="url" type="link" />
 		</gutenberg-block>
+		<gutenberg-block type="core/query-pagination-previous" translate="1">
+			<key name="label" />
+		</gutenberg-block>
+		<gutenberg-block type="core/query-pagination-next" translate="1">
+			<key name="label" />
+		</gutenberg-block>		
 	</gutenberg-blocks>
 </wpml-config>
