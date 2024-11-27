@@ -169,5 +169,12 @@
                 <attribute>subheading</attribute>
             </attributes>
         </shortcode>
+        <shortcode>
+            <tag>vc_column</tag>
+            <attributes>
+                <attribute encoding="vc_link" type="link">link_to</attribute>
+                <attribute type="link">column_link</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
