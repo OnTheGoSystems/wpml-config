@@ -253,5 +253,19 @@
                 <field type="Button: Link URL" editor_type="LINK">anchor_href</field>
             </fields>
         </widget>
+        <widget name="creative-cta">
+            <fields>
+                <field type="Creative CTA: Primary Content" editor_type="LINE">anchor_text_primary_content</field>
+                <field type="Creative CTA: Secondary Content" editor_type="LINE">anchor_text_secondary_content</field>
+                <field type="Creative CTA: Link" editor_type="LINK">anchor_href</field>        
+                <field type="Creative CTA: Interactive Primary Content" editor_type="LINE">anchor_interactive_content_text_primary_content</field>
+                <field type="Creative CTA: Interactive Secondary Content" editor_type="LINE">anchor_interactive_content_text_secondary_content</field>
+            </fields>           
+        </widget>
+        <widget name="raw-content">
+            <fields>
+                <field type="Raw content" editor_type="LINE">raw_content</field>
+            </fields>           
+        </widget>           
     </cornerstone-widgets>
 </wpml-config>
