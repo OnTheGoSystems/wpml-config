@@ -175,7 +175,7 @@
                 <attribute encoding="vc_link" type="link">link_to</attribute>
                 <attribute type="link">column_link</attribute>
                 <attribute type="media-ids">back_image</attribute>
-            </attributes
+            </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_column_inner</tag>
