@@ -8,7 +8,7 @@
 		<custom-field action="copy">_wc_booking_enable_range_picker</custom-field>
 		<custom-field action="copy">_wc_booking_calendar_display_mode</custom-field>
 		<custom-field action="copy">_wc_booking_qty</custom-field>
-        	<custom-field action="copy">_wc_booking_has_persons</custom-field>
+		<custom-field action="copy">_wc_booking_has_persons</custom-field>
 		<custom-field action="copy">_wc_booking_person_qty_multiplier</custom-field>
 		<custom-field action="copy">_wc_booking_person_cost_multiplier</custom-field>
 		<custom-field action="copy">_wc_booking_min_persons_group</custom-field>
@@ -39,6 +39,7 @@
 		<custom-field action="copy">_wc_booking_block_cost</custom-field>
 		<custom-field action="copy">_wc_booking_has_restricted_days</custom-field>
 		<custom-field action="copy">_wc_booking_restricted_days</custom-field>
+		<custom-field action="copy">_wc_booking_buffer_period</custom-field>
 	</custom-fields>
 	<custom-types>
 		<custom-type translate="1" automatic="0">bookable_person</custom-type>
