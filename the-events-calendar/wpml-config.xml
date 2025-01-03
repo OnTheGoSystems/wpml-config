@@ -5,6 +5,7 @@
         <custom-type translate="1">tribe_events</custom-type>
         <custom-type translate="1">tribe_rsvp_tickets</custom-type>
         <custom-type translate="1">ticket-meta-fieldset</custom-type>
+        <custom-type translate="1">tribe_event_series</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">tribe_events_cat</taxonomy>
