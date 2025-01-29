@@ -2,6 +2,7 @@
 	<gutenberg-blocks>
 		<gutenberg-block type="uagb/advanced-heading" translate="1">
 			<xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+			<xpath>//div/div[@class="uagb-heading-text"]</xpath>
 			<xpath>//div/p[@class="uagb-desc-text"]</xpath>
 			<key name="customUrl"/>
 		</gutenberg-block>
