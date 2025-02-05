@@ -92,6 +92,7 @@
 			<xpath label="Button URL" type="link">//a/@href</xpath>
 		</gutenberg-block>
 		<gutenberg-block type="core/image" translate="1">
+			<key type="post-ids" name="id" />
 			<xpath label="Caption">//figure/figcaption</xpath>
 			<xpath label="Title">//figure//img/@title</xpath>
 			<xpath label="Alt Text">//figure//img/@alt</xpath>
