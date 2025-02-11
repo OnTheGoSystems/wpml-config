@@ -267,6 +267,12 @@
             <fields>
                 <field type="Raw content" editor_type="LINE">raw_content</field>
             </fields>           
-        </widget>           
+        </widget>
+        <widget name="headline">
+            <fields>
+                <field type="Headline: Headline">text_content</field>
+                <field type="Headline: Subheadline">text_subheadline_content</field>
+            </fields>
+        </widget>
     </cornerstone-widgets>
 </wpml-config>
