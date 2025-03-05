@@ -1,145 +1,145 @@
 <wpml-config>
-  <taxonomies>
-    <taxonomy translate="0">fl-builder-template-type</taxonomy>
-  </taxonomies>
-  <custom-fields>
-    <custom-field action="copy">_fl_builder_enabled</custom-field>
-  </custom-fields>
-  <beaver-builder-widgets>
-    <widget name="button-group">
-      <fields>
-        <field type="Button group: Title" editor_type="LINE">button_group_label</field>
-      </fields>
-      <fields-in-item items_of="items">
-        <field type="Button group: Label" editor_type="LINE">text</field>
-        <field type="Button group: Link" editor_type="LINK">link</field>
-        <field type="Button group: Lightbox HTML" editor_type="AREA">lightbox_content_html</field>
-      </fields-in-item>
-    </widget>
-	<widget name="icon-group">
-		<fields-in-item items_of="icons">
-			<field type="Icon group: Link" editor_type="LINK">link</field>
-			<field type="Icon group: Text" editor_type="LINE">text</field>
-			<field type="Icon group: Screen Reader Text" editor_type="LINE">sr_text</field>
-		</fields-in-item>
-	</widget>
-    <widget name="list">
-		<fields-in-item items_of="list_items">
-			<field type="List: Heading" editor_type="LINE">heading</field>
-			<field type="List: Content" editor_type="VISUAL">content</field>
-		</fields-in-item>
-	</widget>
-	<widget name="login-form">
-		<fields>
-			<field type="Login form: name field" editor_type="LINE">name_field_text</field>
-			<field type="Login form: password field" editor_type="LINE">password_field_text</field>
-			<field type="Login form: button label" editor_type="LINE">btn_text</field>
-			<field type="Login form: button URL" editor_type="LINK">success_url</field>
-			<field type="Login form: Logout button label" editor_type="LINE">lo_btn_text</field>
-			<field type="Login form: Logout button URL" editor_type="LINK">lo_success_url</field>
-		</fields>
-	</widget>
-	<widget name="pricing-table">
-		<fields>
-			<field type="Pricing Table: Billing Option 1" editor_type="LINE">billing_option_1</field>
-			<field type="Pricing Table: Billing Option 2" editor_type="LINE">billing_option_2</field>
-		</fields>
-		<fields-in-item items_of="pricing_columns">
-			<field type="Pricing Table: Title" editor_type="LINE">title</field>
-			<field type="Pricing Table: Ribbon Text" editor_type="LINE">ribbon_text</field>
-			<field type="Pricing Table: Button Text" editor_type="LINE">button_text</field>
-			<field type="Pricing Table: Button URL" editor_type="LINK">button_url</field>
-			<field type="Pricing Table: Price" editor_type="LINE">price</field>
-			<field type="Pricing Table: Duration" editor_type="LINE">duration</field>
-			<field type="Pricing Table: Price (Option 2)" editor_type="LINE">price_option_2</field>
-		</fields-in-item>
-	</widget>
-	<widget name="subscribe-form">
-		<fields>
-			<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
-			<field type="Subscribe Form: e-mail" editor_type="LINE">email_field_text</field>
-			<field type="Subscribe Form: terms checkbox text" editor_type="LINE">terms_checkbox_text</field>
-			<field type="Subscribe Form: terms_text" editor_type="LINE">terms_text</field>
-			<field type="Subscribe Form: success message" editor_type="LINE">success_message</field>
-			<field type="Subscribe Form: success message" editor_type="LINE">btn_text</field>				
-		</fields>		
-	</widget>    
-	<widget name="search">
-		<fields>
-			<field type="Search: placeholder" editor_type="LINE">placeholder</field>
-			<field type="Search: button label" editor_type="LINE">btn_text</field>
-			<field type="Search: no results message" editor_type="LINE">no_results_message</field>
-		</fields>
-	</widget>
-  </beaver-builder-widgets>
-  <gutenberg-blocks>
-    <gutenberg-block type="fl-builder/accordion" translate="1">
-      <xpath label="Accordion Labels">//h3</xpath>
-      <key name="settings">
-        <key name="items">
-          <key name="*">
-            <key name="label" />
-            <key name="content" />
-          </key>
-        </key>
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/box" translate="1">
-      <xpath label="Box Link">//a</xpath>
-      <key name="settings">
-        <key name="link" />
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/tabs" translate="1">
-      <xpath label="Tabs Labels">//h3</xpath>
-      <key name="settings">
-        <key name="items">
-          <key name="*">
-            <key name="label" />
-            <key name="content" />
-          </key>
-        </key>
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/pricing-table" translate="1">
-      <xpath label="Pricing Table">//h2</xpath>
-      <key name="settings">
-        <key name="pricing_columns">
-          <key name="*">
-            <key name="title" />
-            <key name="ribbon_text" />
-            <key name="price" />
-            <key name="duration" />
-            <key name="button_text" />
-            <key name="button_url" />
-            <key name="extended_features">
-              <key name="*">
-                <key name="description" />
-                <key name="tooltip" />
-              </key>
-            </key>
-          </key>
-        </key>
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/numbers" translate="1">
-      <xpath label="Numbers Text">//span</xpath>
-      <key name="settings">
-        <key name="before_number_text" />
-        <key name="after_number_text" />
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/map" translate="1">
-      <xpath label="Map Title">//h3</xpath>
-      <key name="settings">
-        <key name="map_title_attribute" />
-      </key>
-    </gutenberg-block>
-    <gutenberg-block type="fl-builder/countdown" translate="1">
-      <xpath label="Countdown Redirect">//a</xpath>
-      <key name="settings">
-        <key name="redirect_url" />
-      </key>
-    </gutenberg-block>
-  </gutenberg-blocks>
+	<taxonomies>
+		<taxonomy translate="0">fl-builder-template-type</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="copy">_fl_builder_enabled</custom-field>
+	</custom-fields>
+	<beaver-builder-widgets>
+		<widget name="button-group">
+			<fields>
+				<field type="Button group: Title" editor_type="LINE">button_group_label</field>
+			</fields>
+			<fields-in-item items_of="items">
+				<field type="Button group: Label" editor_type="LINE">text</field>
+				<field type="Button group: Link" editor_type="LINK">link</field>
+				<field type="Button group: Lightbox HTML" editor_type="AREA">lightbox_content_html</field>
+			</fields-in-item>
+		</widget>
+		<widget name="icon-group">
+			<fields-in-item items_of="icons">
+				<field type="Icon group: Link" editor_type="LINK">link</field>
+				<field type="Icon group: Text" editor_type="LINE">text</field>
+				<field type="Icon group: Screen Reader Text" editor_type="LINE">sr_text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="list">
+			<fields-in-item items_of="list_items">
+				<field type="List: Heading" editor_type="LINE">heading</field>
+				<field type="List: Content" editor_type="VISUAL">content</field>
+				</fields-in-item>
+			</widget>
+		<widget name="login-form">
+			<fields>
+				<field type="Login form: name field" editor_type="LINE">name_field_text</field>
+				<field type="Login form: password field" editor_type="LINE">password_field_text</field>
+				<field type="Login form: button label" editor_type="LINE">btn_text</field>
+				<field type="Login form: button URL" editor_type="LINK">success_url</field>
+				<field type="Login form: Logout button label" editor_type="LINE">lo_btn_text</field>
+				<field type="Login form: Logout button URL" editor_type="LINK">lo_success_url</field>
+			</fields>
+		</widget>
+		<widget name="pricing-table">
+			<fields>
+				<field type="Pricing Table: Billing Option 1" editor_type="LINE">billing_option_1</field>
+				<field type="Pricing Table: Billing Option 2" editor_type="LINE">billing_option_2</field>
+			</fields>
+			<fields-in-item items_of="pricing_columns">
+				<field type="Pricing Table: Title" editor_type="LINE">title</field>
+				<field type="Pricing Table: Ribbon Text" editor_type="LINE">ribbon_text</field>
+				<field type="Pricing Table: Button Text" editor_type="LINE">button_text</field>
+				<field type="Pricing Table: Button URL" editor_type="LINK">button_url</field>
+				<field type="Pricing Table: Price" editor_type="LINE">price</field>
+				<field type="Pricing Table: Duration" editor_type="LINE">duration</field>
+				<field type="Pricing Table: Price (Option 2)" editor_type="LINE">price_option_2</field>
+			</fields-in-item>
+		</widget>
+		<widget name="subscribe-form">
+			<fields>
+				<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
+				<field type="Subscribe Form: e-mail" editor_type="LINE">email_field_text</field>
+				<field type="Subscribe Form: terms checkbox text" editor_type="LINE">terms_checkbox_text</field>
+				<field type="Subscribe Form: terms_text" editor_type="LINE">terms_text</field>
+				<field type="Subscribe Form: success message" editor_type="LINE">success_message</field>
+				<field type="Subscribe Form: success message" editor_type="LINE">btn_text</field>				
+			</fields>		
+		</widget>    
+		<widget name="search">
+			<fields>
+				<field type="Search: placeholder" editor_type="LINE">placeholder</field>
+				<field type="Search: button label" editor_type="LINE">btn_text</field>
+				<field type="Search: no results message" editor_type="LINE">no_results_message</field>
+			</fields>
+		</widget>
+	</beaver-builder-widgets>
+	<gutenberg-blocks>
+		<gutenberg-block type="fl-builder/accordion" translate="1">
+			<xpath label="Accordion Labels">//h3</xpath>
+			<key name="settings">
+				<key name="items">
+				<key name="*">
+					<key name="label" />
+					<key name="content" />
+				</key>
+				</key>
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/box" translate="1">
+			<xpath label="Box Link">//a</xpath>
+			<key name="settings">
+				<key name="link" />
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/tabs" translate="1">
+			<xpath label="Tabs Labels">//h3</xpath>
+			<key name="settings">
+				<key name="items">
+				<key name="*">
+					<key name="label" />
+					<key name="content" />
+				</key>
+				</key>
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/pricing-table" translate="1">
+			<xpath label="Pricing Table">//h2</xpath>
+			<key name="settings">
+				<key name="pricing_columns">
+				<key name="*">
+					<key name="title" />
+					<key name="ribbon_text" />
+					<key name="price" />
+					<key name="duration" />
+					<key name="button_text" />
+					<key name="button_url" />
+					<key name="extended_features">
+					<key name="*">
+						<key name="description" />
+						<key name="tooltip" />
+					</key>
+					</key>
+				</key>
+				</key>
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/numbers" translate="1">
+			<xpath label="Numbers Text">//span</xpath>
+			<key name="settings">
+				<key name="before_number_text" />
+				<key name="after_number_text" />
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/map" translate="1">
+			<xpath label="Map Title">//h3</xpath>
+			<key name="settings">
+				<key name="map_title_attribute" />
+			</key>
+		</gutenberg-block>
+		<gutenberg-block type="fl-builder/countdown" translate="1">
+			<xpath label="Countdown Redirect">//a</xpath>
+			<key name="settings">
+				<key name="redirect_url" />
+			</key>
+		</gutenberg-block>
+	</gutenberg-blocks>
 </wpml-config>
