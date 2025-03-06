@@ -74,7 +74,6 @@
 	</beaver-builder-widgets>
 	<gutenberg-blocks>
 		<gutenberg-block type="fl-builder/accordion" translate="1">
-			<xpath label="Accordion Labels">//h3</xpath>
 			<key name="settings">
 				<key name="items">
 				<key name="*">
@@ -85,13 +84,11 @@
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/box" translate="1">
-			<xpath label="Box Link">//a</xpath>
 			<key name="settings">
-				<key name="link" />
+				<key name="link" type="link"/>
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/tabs" translate="1">
-			<xpath label="Tabs Labels">//h3</xpath>
 			<key name="settings">
 				<key name="items">
 				<key name="*">
@@ -102,7 +99,6 @@
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/pricing-table" translate="1">
-			<xpath label="Pricing Table">//h2</xpath>
 			<key name="settings">
 				<key name="pricing_columns">
 				<key name="*">
@@ -111,7 +107,7 @@
 					<key name="price" />
 					<key name="duration" />
 					<key name="button_text" />
-					<key name="button_url" />
+					<key name="button_url" type="link"/>
 					<key name="extended_features">
 					<key name="*">
 						<key name="description" />
@@ -123,22 +119,19 @@
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/numbers" translate="1">
-			<xpath label="Numbers Text">//span</xpath>
 			<key name="settings">
 				<key name="before_number_text" />
 				<key name="after_number_text" />
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/map" translate="1">
-			<xpath label="Map Title">//h3</xpath>
 			<key name="settings">
 				<key name="map_title_attribute" />
 			</key>
 		</gutenberg-block>
 		<gutenberg-block type="fl-builder/countdown" translate="1">
-			<xpath label="Countdown Redirect">//a</xpath>
 			<key name="settings">
-				<key name="redirect_url" />
+				<key name="redirect_url" type="link"/>
 			</key>
 		</gutenberg-block>
 	</gutenberg-blocks>
