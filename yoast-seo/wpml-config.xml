@@ -41,4 +41,32 @@
             <key name="og_frontpage_image" />
         </key>
     </admin-texts>
+    <gutenberg-blocks>
+        <gutenberg-block type="yoast/faq-block" translate="1">
+            <key name="questions">
+                <key name="*">
+                    <key name="question" />
+                    <key name="answer" />
+                    <key name="jsonQuestion" />
+                    <key name="jsonAnswer" />
+                </key>
+            </key>
+            <xpath>//div/strong[contains(@class,"schema-faq-question")]</xpath>
+            <xpath>//div/p[contains(@class,"schema-faq-answer")]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="yoast/how-to-block" translate="1">
+            <key name="jsonDescription" />
+            <key name="steps">
+                <key name="*">
+                    <key name="name" />
+                    <key name="text" />
+                    <key name="jsonName" />
+                    <key name="jsonText" />       
+                </key>      
+            </key>
+            <xpath>//div/p</xpath>
+            <xpath>//div/ol/li/strong[contains(@class,"schema-how-to-step-name")]</xpath>
+            <xpath>//div/ol/li/p[contains(@class,"schema-how-to-step-text")]</xpath>
+        </gutenberg-block>
+    </gutenberg-blocks>
 </wpml-config>
