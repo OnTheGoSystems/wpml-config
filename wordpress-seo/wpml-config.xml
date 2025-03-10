@@ -55,6 +55,14 @@
 			<key name="og_frontpage_desc" />
 			<key name="og_frontpage_image" />
 		</key>
+		<key name="wpseo_internallinks">
+			<key name="breadcrumbs-sep" />
+			<key name="breadcrumbs-home" />
+			<key name="breadcrumbs-prefix" />
+			<key name="breadcrumbs-archiveprefix" />
+			<key name="breadcrumbs-searchprefix" />
+			<key name="breadcrumbs-404crumb" />
+		</key>
 	</admin-texts>
 </wpml-config>
 
