@@ -64,5 +64,32 @@
 			<key name="breadcrumbs-404crumb" />
 		</key>
 	</admin-texts>
+	<gutenberg-blocks>
+		<gutenberg-block type="yoast/faq-block" translate="1" label="Yoast Faq Block">
+			<key name="questions">
+				<key name="*">
+					<key name="question" />
+					<key name="answer" />
+					<key name="jsonQuestion" />
+					<key name="jsonAnswer" />
+				</key>
+			</key>
+			<xpath label="Question">//div/strong</xpath>
+			<xpath label="Answer">//div/p</xpath>
+		</gutenberg-block>
+		<gutenberg-block type="yoast/how-to-block" translate="1" label="Yoast How to Block">
+			<key name="jsonDescription" />
+			<key name="steps">
+				<key name="*">
+					<key name="name" />
+					<key name="text" />
+					<key name="jsonName" />
+					<key name="jsonText" />
+				</key>
+			</key>
+      			<xpath>//div/p</xpath>
+			<xpath label="Step Title">//div/ol/li/strong</xpath>
+			<xpath label="Step Description">//div/ol/li/p</xpath>
+		</gutenberg-block>
+	</gutenberg-blocks>
 </wpml-config>
-
