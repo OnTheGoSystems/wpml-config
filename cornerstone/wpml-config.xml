@@ -242,6 +242,11 @@
                 <field type="Slide: Content">content</field>
             </fields-in-item>
         </widget>
+        <widget name="image">
+          <fields>
+            <field type="Image: Alternative Text">image_alt</field>
+          </fields>
+        </widget>
         <widget name="testimonial">
             <fields>
                 <field type="Testimonial: Content">testimonial_content</field>
