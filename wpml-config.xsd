@@ -25,6 +25,7 @@
             <xs:element type="wpml-custom-term-fields" name="custom-term-fields" minOccurs="0"/>
             <xs:element type="wpml-custom-fields-texts" name="custom-fields-texts" minOccurs="0"/>
             <xs:element type="wpml-admin-texts" name="admin-texts" minOccurs="0"/>
+            <xs:element type="wpml-allow-translatable-job-fields" name="allow-translatable-job-fields" minOccurs="0"/>
             <xs:element type="wpml-gutenberg-blocks" name="gutenberg-blocks" minOccurs="0"/>
             <xs:element type="wpml-elementor-widgets" name="elementor-widgets" minOccurs="0"/>
             <xs:element type="wpml-beaver-builder-widgets" name="beaver-builder-widgets" minOccurs="0"/>
@@ -281,6 +282,19 @@
     </xs:complexType>
     <!-- Custom Terms Meta/Fields: end -->
 
+    <!-- Custom Fields: start -->
+    <xs:complexType name="wpml-allow-translatable-job-fields">
+        <xs:sequence>
+            <xs:element type="wpml-allow-translatable-job-field" name="allow-translatable-job-field" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="wpml-allow-translatable-job-field">
+        <xs:attribute type="xs:string" name="type" use="required"/>
+        <xs:attribute type="xs:string" name="value" use="required"/>
+    </xs:complexType>
+    <!-- Custom Fields: end -->
+
 	<!-- Shortcode list: start -->
 	<xs:simpleType name="wpml-shortcode-list">
 		<xs:restriction base="xs:token">
@@ -391,6 +405,7 @@
         <xs:simpleContent>
             <xs:extension base="wpml-non-empty-string">
                 <xs:attribute type="xs:string" name="type"/>
+                <xs:attribute type="xs:string" name="sub-type" use="optional"/>
                 <xs:attribute name="editor_type" use="optional">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
