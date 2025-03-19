@@ -519,6 +519,7 @@
                 <field type="Floating Button: Name" editor_type="LINE">message_bubble_name</field>
                 <field type="Floating Button: Message" editor_type="AREA">message_bubble_body</field>
                 <field type="Floating Button: Button Text" editor_type="LINE">contact_cta_text</field>
+                <field type="post-ids" sub-type="attachment">chat_button_icon>value>id</field>
             </fields>
         </widget>
         <widget name="contact-buttons-var-3">
@@ -526,6 +527,7 @@
                 <field type="Floating Button: Top Bar Title" editor_type="LINE">top_bar_title</field>
                 <field type="Floating Button: Button Text" editor_type="LINE">send_button_text</field>
                 <field type="Floating Button: Button URL" editor_type="LINK">send_button_url>url</field>
+                <field type="post-ids" sub-type="attachment">chat_button_icon>value>id</field>
             </fields>
             <fields-in-item items_of="contact_repeater">
             	<field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
@@ -535,6 +537,7 @@
         <widget name="contact-buttons-var-4">
             <fields>
                 <field type="Floating Button: Accessible name" editor_type="LINE">chat_aria_label</field>
+                <field type="post-ids" sub-type="attachment">chat_button_icon>value>id</field>
             </fields>
             <fields-in-item items_of="contact_repeater">
                 <field type="Floating Button: Tooltip" editor_type="LINE">contact_tooltip</field>
@@ -562,6 +565,7 @@
             <fields>
                 <field type="Floating Button: Top Bar Title" editor_type="LINE">top_bar_title</field>
                 <field type="Floating Button: Top Bar Subtitle" editor_type="LINE">top_bar_subtitle</field>
+                <field type="post-ids" sub-type="attachment">chat_button_icon>value>id</field>
             </fields>
             <fields-in-item items_of="contact_repeater">
                 <field type="Floating Button: Contact Title" editor_type="LINE">contact_title</field>
