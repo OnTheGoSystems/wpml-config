@@ -387,7 +387,11 @@
                 <field type="Loop Grid: Load more">text</field>
                 <field type="Loop Grid: Load more/No posts custom message">load_more_no_posts_custom_message</field>
                 <field type="Loop Grid: Nothing found message">nothing_found_message_text</field>
+                <field type="post-ids" sub-type="elementor_library">template_id</field>
             </fields>
+            <fields-in-item items_of="alternate_templates">
+                <field type="post-ids" sub-type="elementor_library">template_id</field>
+            </fields-in-item>
         </widget>
         <widget name="lottie">
             <fields>
