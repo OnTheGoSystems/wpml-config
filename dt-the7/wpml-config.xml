@@ -771,6 +771,7 @@
     <custom-field action="copy">_dt_header_disabled_transparent_top_bar_bg_opacity</custom-field>
     <custom-field action="copy">_dt_header_disabled_transparent_bg_color</custom-field>
     <custom-field action="copy">_dt_header_disabled_transparent_bg_opacity</custom-field>
+    <custom-field action="copy">_menu_item_the7_mega_menu_settings</custom-field>
   </custom-fields>
   <admin-texts>
     <key name="the7">
