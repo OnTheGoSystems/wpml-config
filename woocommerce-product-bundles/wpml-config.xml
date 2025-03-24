@@ -7,5 +7,7 @@
 		<custom-field action="copy">_wc_sw_max_regular_price</custom-field>
 		<custom-field action="copy">_wc_pb_layout_style</custom-field>
 		<custom-field action="copy">_wc_pb_edit_in_cart</custom-field>
+		<custom-field action="copy">_wc_pb_add_to_cart_form_location</custom-field>
+		<custom-field action="copy">_wc_pb_group_mode</custom-field>
 	</custom-fields>
 </wpml-config>
