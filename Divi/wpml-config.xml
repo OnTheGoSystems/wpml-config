@@ -105,9 +105,9 @@
         <shortcode>
             <tag label="Call To Action: Content">et_pb_cta</tag>
             <attributes>
-                <attribute label="Call To Action: Title">title</attribute>
-                <attribute label="Call To Action: Title (phone)">title_phone</attribute>
-                <attribute label="Call To Action: Title (tablet)">title_tablet</attribute>
+                <attribute label="Call To Action: Title" encoding="allow_html_tags">title</attribute>
+                <attribute label="Call To Action: Title (phone)" encoding="allow_html_tags">title_phone</attribute>
+                <attribute label="Call To Action: Title (tablet)" encoding="allow_html_tags">title_tablet</attribute>
                 <attribute label="Call To Action: Title (hover)" encoding="allow_html_tags">title__hover</attribute>
                 <attribute label="Call To Action: Admin Label">admin_label</attribute>
                 <attribute label="Call To Action: Content (phone)" encoding="allow_html_tags">content_phone</attribute>
