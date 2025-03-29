@@ -1,4 +1,7 @@
 <configurations>
+	<global>
+		<item id="global-wpml-notices" override_local="true">global-wpml-notices</item>
+	</global>
 	<plugins>
 		<item id="popup-maker" override_local="true">Popup Maker</item>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>

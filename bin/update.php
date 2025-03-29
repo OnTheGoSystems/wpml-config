@@ -30,6 +30,7 @@ class WPML_Config_Index {
 
 	function validate_paths() {
 		$this->errors = array_merge(
+			$this->validate_path( $this->configs->global->item ),
 			$this->validate_path( $this->configs->plugins->item ),
 			$this->validate_path( $this->configs->themes->item )
 		);
@@ -52,6 +53,7 @@ class WPML_Config_Index {
 
 	function save_json() {
 		$data = new stdClass;
+		$data->global = $this->get_items( $this->configs->global->item );
 		$data->plugins = $this->get_items( $this->configs->plugins->item );
 		$data->themes = $this->get_items( $this->configs->themes->item );
 
@@ -78,7 +80,7 @@ class WPML_Config_Index {
 		$data->path = 'wpml-config/' . $path;
 		$data->updated = filemtime( $path );
 		$data->hash = md5( file_get_contents( $path ) );
-		
+
 		return $data;
 	}
 
