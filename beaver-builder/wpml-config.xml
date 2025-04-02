@@ -39,21 +39,6 @@
 				<field type="Login form: Logout button URL" editor_type="LINK">lo_success_url</field>
 			</fields>
 		</widget>
-		<widget name="pricing-table">
-			<fields>
-				<field type="Pricing Table: Billing Option 1" editor_type="LINE">billing_option_1</field>
-				<field type="Pricing Table: Billing Option 2" editor_type="LINE">billing_option_2</field>
-			</fields>
-			<fields-in-item items_of="pricing_columns">
-				<field type="Pricing Table: Title" editor_type="LINE">title</field>
-				<field type="Pricing Table: Ribbon Text" editor_type="LINE">ribbon_text</field>
-				<field type="Pricing Table: Button Text" editor_type="LINE">button_text</field>
-				<field type="Pricing Table: Button URL" editor_type="LINK">button_url</field>
-				<field type="Pricing Table: Price" editor_type="LINE">price</field>
-				<field type="Pricing Table: Duration" editor_type="LINE">duration</field>
-				<field type="Pricing Table: Price (Option 2)" editor_type="LINE">price_option_2</field>
-			</fields-in-item>
-		</widget>
 		<widget name="subscribe-form">
 			<fields>
 				<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
