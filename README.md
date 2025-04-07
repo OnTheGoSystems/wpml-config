@@ -31,7 +31,7 @@ For example:
 
 ## Validating XML files
 
-Run `composer install --no-autoloader` to validate XML files.
+Run `composer run-script validate-xml` to validate XML files.
 
 ## Testing Instructions
 
@@ -42,9 +42,9 @@ Run `composer install --no-autoloader` to validate XML files.
    ```
 
 2. **Run Update Script:**
-   Navigate to the `/wpml-config/` folder and run the update script:
+   Navigate to the `/wpml-config/` folder and run the `build-index` script:
    ```
-   cd /path/to/wordpress/wpml-config/ && php bin/update.php
+   composer run-script build-index
    ```
 
 3. **Configure WordPress:**
