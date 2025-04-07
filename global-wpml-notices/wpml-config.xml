@@ -1,2 +1,18 @@
 <wpml-config>
+    <notices>
+        <notice type="info" dismissible="1" id="compdev-560-learndash">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-560/ -->
+            <conditions>
+                <plugin>LearnDash LMS</plugin>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+            </locations>
+            <content><![CDATA[
+<p style="margin-top:6px;">
+Remember to manually connect your LearnDash components after translating them. <a target="_blank" href="https://wpml.org/documentation/plugins-compatibility/how-to-create-multilingual-online-courses-websites-using-learndash-and-wpml/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Learn how to do this</a>.
+</p>
+]]></content>
+        </notice>
+    </notices>
 </wpml-config>
