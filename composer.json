@@ -14,8 +14,17 @@
         "ext-dom": "*"
     },
     "scripts": {
-        "post-install-cmd": "@validate-xml",
-        "post-update-cmd": "@validate-xml",
+        "post-install-cmd": [
+            "@build-index",
+            "@validate-xml"
+        ],
+        "post-update-cmd": [
+            "@build-index",
+            "@validate-xml"
+        ],
+        "build-index": [
+            "bin/update"
+        ],
         "validate-xml": [
             "find . -name wpml-config.xml | xargs -n1 bin/validate"
         ]

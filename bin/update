@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 /**
  * Parses the XML index file and generates the corresponding JSON file.
