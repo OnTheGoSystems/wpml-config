@@ -226,8 +226,8 @@
         </widget>
 	    <widget name="media-carousel">
             <fields-in-item items_of="slides">
-                <field type="Slide: Video Link" editor_type="LINE" key_of="video">url</field>
-                <field type="Slide: Image Link" editor_type="LINE" key_of="image_link_to">url</field>
+                <field type="Slide: Video Link" editor_type="LINK" key_of="video">url</field>
+                <field type="Slide: Image Link" editor_type="LINK" key_of="image_link_to">url</field>
             </fields-in-item>
         </widget>
         <widget name="text-path">
