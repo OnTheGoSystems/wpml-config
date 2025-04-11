@@ -17,6 +17,11 @@
 		<custom-field action="copy">rank_math_twitter_enable_image_overlay</custom-field>
 		<custom-field action="copy">rank_math_twitter_image_overlay</custom-field>
 	</custom-fields>
+	<custom-term-fields>
+		<custom-term-field action="translate">rank_math_focus_keyword</custom-term-field>
+		<custom-term-field action="translate">rank_math_description</custom-term-field>
+		<custom-term-field action="translate">rank_math_title</custom-term-field>
+	</custom-term-fields>
 	<admin-texts>
 		<key name="rank-math-options-titles">
 			<key name="title_separator"/>
