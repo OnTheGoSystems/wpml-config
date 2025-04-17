@@ -44,5 +44,22 @@ To translate custom post types, custom fields, and taxonomies created with JetEn
         ]]>
             </content>
         </notice>
+        <notice id="compdev-764-events-manager" dismissible="1" type="warning">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-764/ -->
+            <conditions>
+                <plugin>Events Manager</plugin>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+                <screenId>edit-event</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<p style="margin-top:6px;">
+Events Manager is no longer compatible with WPML, so you won’t be able to translate your events. <a target="_blank" href="https://wpml.org/plugin-functionality/calendar/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Here’s a list of other recommended plugins</a>.
+</p>
+        ]]>
+            </content>
+        </notice>
     </notices>
 </wpml-config>
