@@ -61,5 +61,21 @@ Events Manager is no longer compatible with WPML, so you won’t be able to tran
         ]]>
             </content>
         </notice>
+        <notice id="compdev-760-formidable" dismissible="1">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-760/ -->
+            <conditions>
+                <plugin>Formidable Forms</plugin>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<p style="margin-top:6px;">
+To translate Formidable Forms with WPML, install the WP Multilingual add-on from Formidable Forms. Then, use the Formidable editor to manually translate your forms. <a target="_blank" href="https://wpml.org/documentation/plugins-compatibility/how-to-translate-formidable-forms-with-wpml/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Learn more</a>
+</p>
+        ]]>
+            </content>
+        </notice>
     </notices>
 </wpml-config>
