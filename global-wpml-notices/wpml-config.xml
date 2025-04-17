@@ -14,5 +14,19 @@ Remember to manually connect your LearnDash components after translating them. <
 </p>
 ]]></content>
         </notice>
+        <notice id="compdev-762-wp-residence" dismissible="1">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-762/ -->
+            <conditions>
+                <theme>WpResidence</theme>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+            </locations>
+            <content><![CDATA[
+<p style="margin-top:6px;">
+To translate custom fields created with WP Residence, set their translation preferences in <a target="_blank" href="/wp-admin/admin.php?page=tm%2Fmenu%2Fsettings&sm=mcsetup#ml-content-setup-sec-cf">WPML → Settings</a>.
+</p>
+        ]]></content>
+        </notice>
     </notices>
 </wpml-config>
