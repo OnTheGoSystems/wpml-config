@@ -28,5 +28,21 @@ To translate custom fields created with WP Residence, set their translation pref
 </p>
         ]]></content>
         </notice>
+        <notice id="compdev-765-jetengine" dismissible="1">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-765/ -->
+            <conditions>
+                <plugin>JetEngine</plugin>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<p style="margin-top:6px;">
+To translate custom post types, custom fields, and taxonomies created with JetEngine, you first need to make them translatable. <a target="_blank" href="https://wpml.org/documentation/plugins-compatibility/how-to-translate-jetengine-with-wpml/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Learn how to do this</a>.
+</p>
+        ]]>
+            </content>
+        </notice>
     </notices>
 </wpml-config>
