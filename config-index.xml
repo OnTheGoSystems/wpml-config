@@ -29,6 +29,7 @@
 		<item id="fluent-crm" override_local="false">FluentCRM - Marketing Automation For WordPress</item>
 		<item id="forminator" override_local="false">Forminator</item>
 		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
+		<item id="hello-plus" override_local="true">Hello Plus</item>
 		<item id="hummingbird-performance" override_local="true">Hummingbird</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
