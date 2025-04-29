@@ -1,0 +1,156 @@
+<wpml-config>
+    <elementor-widgets>
+        <widget name="zigzag">
+            <fields-in-item items_of="image_zigzag_items">
+                <field>image_title</field>
+                <field>image_description</field>
+                <field>image_button_label</field>
+                <field>image_button_text</field>
+                <field key_of="image_button_link" editor_type="LINK">url</field>
+            </fields-in-item>
+            <fields-in-item items_of="icon_zigzag_items">
+                <field>icon_title</field>
+                <field>icon_description</field>
+                <field>icon_button_label</field>
+                <field>icon_button_text</field>
+                <field key_of="icon_button_link" editor_type="LINK">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="hero">
+            <fields>
+                <field>heading_text</field>
+                <field>subheading_text</field>
+                <field>primary_cta_button_text</field>
+                <field key_of="primary_cta_button_link" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="cta">
+            <fields>
+                <field>heading_text</field>
+                <field>description_text</field>
+                <field>primary_cta_button_text</field>
+                <field key_of="primary_cta_button_link" editor_type="LINK">url</field>
+                <field>secondary_cta_button_text</field>
+                <field key_of="secondary_cta_button_link" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="flex-hero">
+            <fields>
+                <field>intro_text</field>
+                <field>heading_text</field>
+                <field>subheading_text</field>
+                <field>primary_cta_button_text</field>
+                <field key_of="primary_cta_button_link" editor_type="LINK">url</field>
+                <field>secondary_cta_button_text</field>
+                <field key_of="secondary_cta_button_link" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="contact">
+            <fields>
+                <field>heading_text</field>
+                <field>description_text</field>
+                <field>group_1_links_subheading</field>
+                <field>group_1_text_subheading</field>
+                <field>group_1_text_textarea</field>
+                <field>group_1_social_subheading</field>
+                <field>group_2_links_subheading</field>
+                <field>group_2_text_subheading</field>
+                <field>group_2_text_textarea</field>
+                <field>group_2_social_subheading</field>
+                <field>group_3_links_subheading</field>
+                <field>group_3_text_subheading</field>
+                <field>group_3_text_textarea</field>
+                <field>group_3_social_subheading</field>
+                <field>group_4_links_subheading</field>
+                <field>group_4_text_subheading</field>
+                <field>group_4_text_textarea</field>
+                <field>group_4_social_subheading</field>
+                <field>group_4_social_repeater</field>
+                <field>map_address</field>
+            </fields>
+            <fields-in-item items_of="group_1_repeater">
+                <field>group_1_label</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_1_social_repeater">
+                <field>group_1_social_label</field>
+                <field key_of="group_1_social_link" editor_type="LINK">url</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_2_repeater">
+                <field>group_2_label</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_2_social_repeater">
+                <field>group_2_social_label</field>
+                <field key_of="group_2_social_link" editor_type="LINK">url</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_3_repeater">
+                <field>value</field>
+                <field>library</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_3_social_repeater">
+                <field>group_3_social_label</field>
+                <field key_of="group_3_social_link" editor_type="LINK">url</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_4_repeater">
+                <field>group_4_icon</field>
+                <field>group_4_label</field>
+            </fields-in-item>
+            <fields-in-item items_of="group_4_social_repeater">
+                <field>group_4_social_label</field>
+                <field>group_4_social_icon</field>
+                <field key_of="group_4_social_link" editor_type="LINK">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="ehp-header">
+            <fields>
+                <field>navigation_menu_name</field>
+                <field>primary_cta_button_text</field>
+                <field>primary_cta_button_link>url</field>
+                <field>secondary_cta_button_text</field>
+                <field key_of="secondary_cta_button_link" editor_type="LINK">url</field>
+            </fields>
+            <fields-in-item items_of="contact_buttons_repeater">
+                <field>contact_buttons_label</field>
+            </fields-in-item>
+        </widget>
+        <widget name="ehp-footer">
+            <fields>
+                <field>footer_description</field>
+                <field>footer_copyright</field>
+                <field>footer_menu_heading</field>
+                <field>footer_contact_heading</field>
+                <field>footer_contact_information</field>
+            </fields>
+            <fields-in-item items_of="footer_icons">
+                <field>footer_icon_text</field>
+                <field key_of="footer_icon_link" editor_type="LINK">url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="ehp-form">
+            <fields>
+                <field>text_heading</field>
+                <field>text_description</field>
+                <field>form_name</field>
+                <field>form_fields</field>
+                <field>button_text</field>
+                <field>selected_button_icon</field>
+                <field>redirect_to</field>
+                <field>email_to</field>
+                <field>email_subject</field>
+                <field>email_content</field>
+                <field>email_from</field>
+                <field>email_from_name</field>
+                <field>email_reply_to</field>
+                <field>email_to_cc</field>
+                <field>email_to_bcc</field>
+                <field>success_message</field>
+                <field>error_message</field>
+                <field>server_message</field>
+                <field>invalid_message</field>
+            </fields>
+            <fields-in-item items_of="form_fields">
+                <field>field_label</field>
+                <field>placeholder</field>
+            </fields-in-item>
+        </widget>
+    </elementor-widgets>
+</wpml-config>
