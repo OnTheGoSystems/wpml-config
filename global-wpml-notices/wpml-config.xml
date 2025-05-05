@@ -77,5 +77,21 @@ To translate Formidable Forms with WPML, install the WP Multilingual add-on from
         ]]>
             </content>
         </notice>
+        <notice id="compdev-778-events-manager" dismissible="1" type="warning">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-778 -->
+            <conditions>
+                <plugin>Oxygen</plugin>
+            </conditions>
+            <locations>
+                <screenId>toplevel_page_tm/menu/main</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<p style="margin-top:6px;">
+Oxygen Builder is not compatible with WPML. Here’s a <a target="_blank" href="https://wpml.org/plugin-functionality/page-builder/?utm_source=plugin&utm_medium=gui&utm_campaign=core">list of recommended page builders for multilingual sites</a>.
+</p>
+        ]]>
+            </content>
+        </notice>
     </notices>
 </wpml-config>
