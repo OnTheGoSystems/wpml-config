@@ -77,7 +77,7 @@ To translate Formidable Forms with WPML, install the WP Multilingual add-on from
         ]]>
             </content>
         </notice>
-        <notice id="compdev-778-events-manager" dismissible="1" type="warning">
+        <notice id="compdev-778-oxygen-builder" dismissible="1" type="warning">
             <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-778 -->
             <conditions>
                 <plugin>Oxygen</plugin>
