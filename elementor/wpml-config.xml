@@ -272,7 +272,7 @@
                 <field type="post-ids" sub-type="attachment">id</field>
             </fields-in-item>
         </widget>
-	<widget name="woocommerce-cart">
+        <widget name="woocommerce-cart">
             <fields>
                 <field type="Cart: Update button text" editor_type="LINE">update_cart_button_text</field>
                 <field type="Cart: Apply coupon botton text" editor_type="LINE">apply_coupon_button_text</field>
@@ -596,13 +596,13 @@
         <widget name="image">
             <fields>
                 <field type="Image: Caption">caption</field>
-                <field type="Image: Link URL" editor_type="LINK">url</field>
+                <field type="Image: Link URL" editor_type="LINK">link>url</field>
                 <field type="post-ids" sub-type="attachment">image>id</field>
             </fields>
         </widget>
         <widget name="icon">
             <fields>
-                <field type="Icon: Link URL" editor_type="LINK">url</field>
+                <field type="Icon: Link URL" editor_type="LINK">link>url</field>
                 <field type="post-ids" sub-type="attachment">selected_icon>value>id</field>
             </fields>
         </widget>
