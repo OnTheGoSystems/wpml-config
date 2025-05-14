@@ -16,6 +16,8 @@
 		<custom-field action="copy">rank_math_twitter_card_type</custom-field>
 		<custom-field action="copy">rank_math_twitter_enable_image_overlay</custom-field>
 		<custom-field action="copy">rank_math_twitter_image_overlay</custom-field>
+		<custom-field action="copy">rank_math_primary_category</custom-field>
+		<custom-field action="copy">rank_math_primary_product_cat</custom-field>
 	</custom-fields>
 	<custom-term-fields>
 		<custom-term-field action="translate">rank_math_focus_keyword</custom-term-field>
