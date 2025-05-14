@@ -90,7 +90,7 @@
         <shortcode>
             <tag>et_pb_accordion_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="media-url">background_image</attribute>
                 <attribute>title_phone</attribute>
                 <attribute>title_tablet</attribute>
@@ -171,9 +171,9 @@
         <shortcode>
             <tag>et_pb_contact_field</tag>
             <attributes>
-                <attribute>field_title</attribute>
-                <attribute>field_title_phone</attribute>
-                <attribute>field_title_tablet</attribute>
+                <attribute encoding="allow_html_tags">field_title</attribute>
+                <attribute encoding="allow_html_tags">field_title_phone</attribute>
+                <attribute encoding="allow_html_tags">field_title_tablet</attribute>
                 <attribute encoding="divi_options">checkbox_options</attribute>
                 <attribute encoding="divi_options">radio_options</attribute>
                 <attribute encoding="divi_options">select_options</attribute>
@@ -290,9 +290,9 @@
         <shortcode>
             <tag>et_pb_button</tag>
             <attributes>
-                <attribute>button_text</attribute>
-                <attribute>button_text_phone</attribute>
-                <attribute>button_text_tablet</attribute>
+                <attribute encoding="allow_html_tags">button_text</attribute>
+                <attribute encoding="allow_html_tags">button_text_phone</attribute>
+                <attribute encoding="allow_html_tags">button_text_tablet</attribute>
                 <attribute type="link">button_url</attribute>
                 <attribute type="media-url">background_image</attribute>
             </attributes>
@@ -365,9 +365,9 @@
                 <attribute encoding="allow_html_tags">heading_tablet</attribute>
                 <attribute encoding="allow_html_tags">heading_phone</attribute>
                 <attribute>image_alt</attribute>
-                <attribute>button_text</attribute>
-                <attribute>button_text_tablet</attribute>
-                <attribute>button_text_phone</attribute>
+                <attribute encoding="allow_html_tags">button_text</attribute>
+                <attribute encoding="allow_html_tags">button_text_tablet</attribute>
+                <attribute encoding="allow_html_tags">button_text_phone</attribute>
                 <attribute type="link">button_link</attribute>
                 <attribute type="link">link_option_url</attribute>
                 <attribute type="media-url">image</attribute>
