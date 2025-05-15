@@ -606,5 +606,39 @@
                 <field type="post-ids" sub-type="attachment">selected_icon>value>id</field>
             </fields>
         </widget>
+        <!-- WIP: Elementor Editor V4 -->
+        <widget name="e-heading">
+            <fields>
+                <field type="Heading: Title">title>value</field>
+                <field type="Heading: Link URL" editor_type="LINK">link>value>destination>value</field>
+                <field type="Heading: Link Label">link>value>label>value</field>
+            </fields>
+        </widget>
+        <widget name="e-paragraph">
+            <fields>
+                <field type="Paragraph: Content">paragraph>value</field>
+                <field type="Paragraph: Link URL" editor_type="LINK">link>value>destination>value</field>
+                <field type="Paragraph: Link Label">link>value>label>value</field>
+            </fields>
+        </widget>
+        <widget name="e-button">
+            <fields>
+                <field type="Button: Content">text>value</field>
+                <field type="Button: Link URL" editor_type="LINK">link>value>destination>value</field>
+                <field type="Button: Link Label">link>value>label</field>
+            </fields>
+        </widget>
+        <widget name="e-image">
+            <fields>
+                <field type="Image: Link URL" editor_type="LINK">link>value>destination>value</field>
+                <field type="Image: Link Label">link>value>label>value</field>
+            </fields>
+        </widget>
+        <widget name="e-svg">
+            <fields>
+                <field type="SVG: Link URL" editor_type="LINK">link>value>destination>value</field>
+                <field type="SVG: Link Label">link>value>label>value</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
