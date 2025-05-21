@@ -291,6 +291,9 @@
 		</gutenberg-block>
 		<gutenberg-block type="core/query-pagination-next" translate="1">
 			<key name="label" />
-		</gutenberg-block>		
+		</gutenberg-block>
+		<gutenberg-block type="core/read-more" translate="1">
+			<key name="content" />
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
