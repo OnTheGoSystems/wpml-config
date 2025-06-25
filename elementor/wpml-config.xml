@@ -606,6 +606,16 @@
                 <field type="post-ids" sub-type="attachment">selected_icon>value>id</field>
             </fields>
         </widget>
+        <widget name="woocommerce-product-meta">
+            <fields>
+                <field type="Single Category Caption" editor_type="LINE">category_caption_single</field>
+                <field type="Plural Category Caption" editor_type="LINE">category_caption_plural</field>
+                <field type="Single tag Caption" editor_type="LINE">tag_caption_single</field>
+                <field type="Single tag Caption" editor_type="LINE">tag_caption_plural</field>
+                <field type="SKU Caption" editor_type="LINE">sku_caption</field>
+                <field type="SKU Missing Caption" editor_type="LINE">sku_missing_caption</field>
+            </fields>
+        </widget>
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
             <fields>
@@ -638,16 +648,6 @@
             <fields>
                 <field type="SVG: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="SVG: Link Label">link>value>label>value</field>
-            </fields>
-        </widget>
-    	<widget name="woocommerce-product-meta">
-            <fields>
-		<field type="Single Category Caption" editor_type="LINE">category_caption_single</field>
-		<field type="Plural Category Caption" editor_type="LINE">category_caption_plural</field>
-		<field type="Single tag Caption" editor_type="LINE">tag_caption_single</field>
-		<field type="Single tag Caption" editor_type="LINE">tag_caption_plural</field>
-		<field type="SKU Caption" editor_type="LINE">sku_caption</field>
-		<field type="SKU Missing Caption" editor_type="LINE">sku_missing_caption</field>
             </fields>
         </widget>
     </elementor-widgets>
