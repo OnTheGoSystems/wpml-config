@@ -650,5 +650,10 @@
                 <field type="SVG: Link Label">link>value>label>value</field>
             </fields>
         </widget>
+        <widget name="e-youtube">
+            <fields>
+                <field type="Youtube: URL" editor_type="LINK">source>value</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
