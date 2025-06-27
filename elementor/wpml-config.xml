@@ -616,6 +616,13 @@
                 <field type="SKU Missing Caption" editor_type="LINE">sku_missing_caption</field>
             </fields>
         </widget>
+        <widget name="woocommerce-products">
+            <fields>
+                <field type="Related Products Title" editor_type="LINE">products_related_products_title_text</field>
+                <field type="Products Upsells Title" editor_type="LINE">products_upsells_title_text</field>
+                <field type="Products Cross-Sells Title" editor_type="LINE">products_cross_sells_title_text</field>
+            </fields>
+        </widget>
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
             <fields>
