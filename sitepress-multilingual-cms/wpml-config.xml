@@ -295,5 +295,12 @@
 		<gutenberg-block type="core/read-more" translate="1">
 			<key name="content" />
 		</gutenberg-block>
+		<gutenberg-block type="core/block" translate="1">
+			<key name="content">
+				<key name="/^.+$/" search-method="regex">
+					<key name="content"/>
+				</key>
+			</key>
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
