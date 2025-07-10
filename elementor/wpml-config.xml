@@ -623,6 +623,12 @@
                 <field type="Products Cross-Sells Title" editor_type="LINE">products_cross_sells_title_text</field>
             </fields>
         </widget>
+        <widget name="social-icons">
+            <fields-in-item items_of="social_icon_list">
+                <field type="Social Icon: URL" editor_type="LINK">link>url</field>
+                <field type="Social Icon: Custom Attributes">link>custom_attributes</field>
+            </fields-in-item>
+        </widget>
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
             <fields>
