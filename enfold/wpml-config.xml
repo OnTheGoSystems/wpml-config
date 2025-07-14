@@ -350,6 +350,38 @@
             <tag>av_image</tag>
             <attributes>
                 <attribute type="link" encoding="av_link">link</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_image_diff</tag>
+            <attributes>
+                <attribute type="media-ids">attachment</attribute>
+                <attribute type="media-ids">after_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_image_hotspot</tag>
+            <attributes>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_gallery</tag>
+            <attributes>
+                <attribute type="media-ids">ids</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_horizontal_gallery</tag>
+            <attributes>
+                <attribute type="media-ids">ids</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_masonry_gallery</tag>
+            <attributes>
+                <attribute type="media-ids">ids</attribute>
             </attributes>
         </shortcode>
 	<shortcode>
@@ -370,6 +402,7 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
+                <attribute type="media-ids">id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
