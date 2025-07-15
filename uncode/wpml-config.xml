@@ -164,9 +164,9 @@
         <shortcode>
             <tag>vc_custom_heading</tag>
             <attributes>
-                <attribute>text</attribute>
+                <attribute encoding="allow_html_tags">text</attribute>
                 <attribute>link</attribute>
-                <attribute>subheading</attribute>
+                <attribute encoding="allow_html_tags">subheading</attribute>
             </attributes>
         </shortcode>
         <shortcode>
