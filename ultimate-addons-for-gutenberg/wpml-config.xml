@@ -129,6 +129,9 @@
 		</gutenberg-block>
 		<gutenberg-block type="uagb/container" translate="1">
 			<xpath label="Container link" type="link">//a[contains(@class, "spectra-container-link-overlay")]/@href</xpath>
-		</gutenberg-block>		
+		</gutenberg-block>
+		<gutenberg-block type="uagb/image-gallery" translate="1">
+			<key name="imageDefaultCaption" />
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
