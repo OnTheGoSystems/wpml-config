@@ -629,6 +629,14 @@
                 <field type="Social Icon: Custom Attributes">link>custom_attributes</field>
             </fields-in-item>
         </widget>
+        <widget name="share-buttons">
+            <fields-in-item items_of="share_buttons">
+                <field type="Share Buttons: Label">text</field>
+            </fields-in-item>
+            <fields>
+                <field type="Share Buttons: Shared URL" editor_type="LINK">share_url>url</field>
+            </fields>
+        </widget>
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
             <fields>
