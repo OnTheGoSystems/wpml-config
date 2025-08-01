@@ -302,5 +302,8 @@
 				</key>
 			</key>
 		</gutenberg-block>
+		<gutenberg-block type="core/page-list" translate="0">
+			<key name="parentPageID" type="post-ids" sub-type="page" />
+		</gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
