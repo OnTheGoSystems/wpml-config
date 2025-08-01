@@ -809,7 +809,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" />
+                                    <key name="url" type="link"/>
                                 </key>
                             </key>
                         </key>
@@ -819,35 +819,7 @@
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="barProgress">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-                <key name="decoration">
-                    <key name="background">
-                        <key name="*">
-                            <key name="value">
-                                <key name="color" />
-                            </key>
-                        </key>
+                        <key name="value"/>
                     </key>
                 </key>
             </key>
@@ -1331,6 +1303,319 @@
                     </key>
                 </key>
             </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/blurb" translate="1">
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" type="link"/>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                            <key name="url" type="link"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/contact-field" translate="1">
+            <key name="fieldItem">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/contact-form" translate="1">
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="email">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>      
+            <key name="module">
+                <key name="advanced">
+                    <key name="successMessage">
+                        <key name="*">
+                            <key name="value"/>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="redirect">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/post-nav" translate="1">
+            <key name="links">
+                <key name="advanced">
+                    <key name="prevText">
+                        <key name="*">
+                            <key name="value"/>
+                        </key>
+                    </key>
+                    <key name="nextText">
+                        <key name="*">
+                            <key name="value"/>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/post-slider" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/search" translate="1">
+            <key name="searchPlaceholder">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/portfolio" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/gallery" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/signup" translate="1">
+            <key name="module">
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="footerContent">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="success">
+                <key name="advanced">
+                    <key name="message">
+                        <key name="*">
+                            <key name="value"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/fullwidth-header" translate="1">
+            <key name="title">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="subhead">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value"/>
+                    </key>
+                </key>
+            </key>
+            <key name="buttonOne">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                            <key name="linkUrl" type="link"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="buttonTwo">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text"/>
+                            <key name="linkUrl" type="link"/>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="module">
+                <key name="advanced">
+                    <key name="link">
+                        <key name="*">
+                            <key name="value">
+                                <key name="url" type="link"/>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+                <key name="decoration">
+                    <key name="background">
+                        <key name="*">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link"/>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key> 
         </gutenberg-block>
     </gutenberg-blocks>
 </wpml-config>
