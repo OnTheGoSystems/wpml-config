@@ -50,6 +50,7 @@
 		<custom-field action="copy">_regular_price</custom-field>
 		<custom-field action="copy">_sale_price</custom-field>
 		<custom-field action="copy">_price</custom-field>
+		<custom-field action="copy">_cogs_total_value</custom-field>
 		<custom-field action="copy">_min_variation_regular_price</custom-field>
 		<custom-field action="copy">_min_variation_sale_price</custom-field>
 		<custom-field action="copy">_min_variation_price</custom-field>
@@ -197,3 +198,4 @@
 		<gutenberg-block type="woocommerce/reviews-by-category" translate="0"></gutenberg-block>
 	</gutenberg-blocks>
 </wpml-config>
+
