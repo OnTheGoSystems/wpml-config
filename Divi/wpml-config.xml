@@ -598,10 +598,32 @@
                 </key>
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" />
+                                    <key name="url" type="link" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="link" />
                                 </key>
                                 <key name="video">
                                     <key name="mp4" />
@@ -621,7 +643,7 @@
             </key>
             <key name="title">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
                         <key name="value" />
                     </key>
                     <key name="tablet">
@@ -634,7 +656,7 @@
             </key>
             <key name="content">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
                         <key name="value" />
                     </key>
                     <key name="tablet">
@@ -647,7 +669,7 @@
             </key>
             <key name="button">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
                         <key name="value">
                             <key name="text" />
                             <key name="linkUrl" />
@@ -656,11 +678,13 @@
                     <key name="tablet">
                         <key name="value">
                             <key name="text" />
+                            <key name="linkUrl" />
                         </key>
                     </key>
                     <key name="phone">
                         <key name="value">
                             <key name="text" />
+                            <key name="linkUrl" />
                         </key>
                     </key>
                 </key>
@@ -671,22 +695,6 @@
                         <key name="value">
                             <key name="url" />
                         </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/accordion-item" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -728,38 +736,10 @@
                 </key>
             </key>
         </gutenberg-block>
-        <gutenberg-block type="divi/button" translate="1">
-            <key name="button">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value">
-                            <key name="text" />
-                            <key type="link" name="linkUrl" />
-                        </key>
-                    </key>
-                    <key name="tablet">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
-                    <key name="phone">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
         <gutenberg-block type="divi/circle-counter" translate="1">
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -767,36 +747,6 @@
             <key name="number">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/code" translate="1">
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/countdown-timer" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -824,63 +774,6 @@
                 </key>
             </key>
         </gutenberg-block>
-        <gutenberg-block type="divi/cta" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="button">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value">
-                            <key name="text" />
-                            <key type="link" name="linkUrl" />
-                        </key>
-                    </key>
-                    <key name="tablet">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
-                    <key name="phone">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/heading" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
         <gutenberg-block type="divi/icon" translate="1">
             <key name="icon">
                 <key name="innerContent">
@@ -904,50 +797,6 @@
                 </key>
             </key>
         </gutenberg-block>
-        <gutenberg-block type="divi/login" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/map-pin" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
         <gutenberg-block type="divi/menu" translate="1">
             <key name="logo">
                 <key name="innerContent">
@@ -965,23 +814,11 @@
                     <key name="*">
                         <key name="value" />
                     </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
                 </key>
             </key>
             <key name="number">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -997,29 +834,11 @@
                             <key name="per" />
                         </key>
                     </key>
-                    <key name="tablet">
-                        <key name="value">
-                            <key name="currency" />
-                            <key name="per" />
-                        </key>
-                    </key>
-                    <key name="phone">
-                        <key name="value">
-                            <key name="currency" />
-                            <key name="per" />
-                        </key>
-                    </key>
                 </key>
             </key>
             <key name="subtitle">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -1029,23 +848,11 @@
                     <key name="*">
                         <key name="value" />
                     </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
                 </key>
             </key>
             <key name="price">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -1058,27 +865,11 @@
                             <key type="link" name="linkUrl" />
                         </key>
                     </key>
-                    <key name="tablet">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
-                    <key name="phone">
-                        <key name="value">
-                            <key name="text" />
-                        </key>
-                    </key>
                 </key>
             </key>
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -1114,34 +905,6 @@
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/tab" translate="1">
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
                         <key name="value" />
                     </key>
                 </key>
@@ -1220,49 +983,6 @@
                 </key>
             </key>
         </gutenberg-block>
-        <gutenberg-block type="divi/text" translate="1">
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/toggle" translate="1">
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value" />
-                    </key>
-                    <key name="tablet">
-                        <key name="value" />
-                    </key>
-                    <key name="phone">
-                        <key name="value" />
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
         <gutenberg-block type="divi/video" translate="1">
             <key name="video">
                 <key name="innerContent">
@@ -1304,41 +1024,11 @@
                 </key>
             </key>
         </gutenberg-block>
-        <gutenberg-block type="divi/blurb" translate="1">
-            <key name="module">
-                <key name="advanced">
-                    <key name="link">
-                        <key name="*">
-                            <key name="value">
-                                <key name="url" type="link"/>
-                            </key>
-                        </key>
-                    </key>
-                </key>
-            </key>
-            <key name="title">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value">
-                            <key name="text"/>
-                            <key name="url" type="link"/>
-                        </key>
-                    </key>
-                </key>
-            </key>
-            <key name="content">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value"/>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
         <gutenberg-block type="divi/contact-field" translate="1">
             <key name="fieldItem">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1347,7 +1037,7 @@
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1355,7 +1045,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="text"/>
+                            <key name="text" />
                         </key>
                     </key>
                 </key>
@@ -1363,15 +1053,15 @@
             <key name="email">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
-            </key>      
+            </key>
             <key name="module">
                 <key name="advanced">
                     <key name="successMessage">
                         <key name="*">
-                            <key name="value"/>
+                            <key name="value" />
                         </key>
                     </key>
                 </key>
@@ -1380,7 +1070,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="link" />
                                 </key>
                             </key>
                         </key>
@@ -1390,7 +1080,7 @@
             <key name="redirect">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1400,12 +1090,12 @@
                 <key name="advanced">
                     <key name="prevText">
                         <key name="*">
-                            <key name="value"/>
+                            <key name="value" />
                         </key>
                     </key>
                     <key name="nextText">
                         <key name="*">
-                            <key name="value"/>
+                            <key name="value" />
                         </key>
                     </key>
                 </key>
@@ -1414,33 +1104,9 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="link" />
                                 </key>
                             </key>
-                        </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/post-slider" translate="1">
-            <key name="module">
-                <key name="decoration">
-                    <key name="background">
-                        <key name="*">
-                            <key name="value">
-                                <key name="image">
-                                    <key name="url" type="link"/>
-                                </key>
-                            </key>
-                        </key>
-                    </key>
-                </key>
-            </key>
-            <key name="button">
-                <key name="innerContent">
-                    <key name="*">
-                        <key name="value">
-                            <key name="text"/>
                         </key>
                     </key>
                 </key>
@@ -1450,7 +1116,7 @@
             <key name="searchPlaceholder">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1460,37 +1126,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
-                                </key>
-                            </key>
-                        </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/portfolio" translate="1">
-            <key name="module">
-                <key name="decoration">
-                    <key name="background">
-                        <key name="*">
-                            <key name="value">
-                                <key name="image">
-                                    <key name="url" type="link"/>
-                                </key>
-                            </key>
-                        </key>
-                    </key>
-                </key>
-            </key>
-        </gutenberg-block>
-        <gutenberg-block type="divi/gallery" translate="1">
-            <key name="module">
-                <key name="decoration">
-                    <key name="background">
-                        <key name="*">
-                            <key name="value">
-                                <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="link" />
                                 </key>
                             </key>
                         </key>
@@ -1505,7 +1141,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="link" />
                                 </key>
                             </key>
                         </key>
@@ -1515,14 +1151,14 @@
             <key name="title">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
             <key name="content">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1530,7 +1166,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="text"/>
+                            <key name="text" />
                         </key>
                     </key>
                 </key>
@@ -1538,7 +1174,7 @@
             <key name="footerContent">
                 <key name="innerContent">
                     <key name="*">
-                        <key name="value"/>
+                        <key name="value" />
                     </key>
                 </key>
             </key>
@@ -1546,7 +1182,7 @@
                 <key name="advanced">
                     <key name="message">
                         <key name="*">
-                            <key name="value"/>
+                            <key name="value" />
                         </key>
                     </key>
                 </key>
@@ -1617,5 +1253,5 @@
                 </key>
             </key> 
         </gutenberg-block>
-    </gutenberg-blocks>
+    </gutenberg-blocks>    
 </wpml-config>
