@@ -5,7 +5,7 @@
         <custom-type translate="1">vc_grid_item</custom-type>
     </custom-types>
     <custom-fields>
-        <custom-field action="ignore">_vc_post_settings</custom-field>
+        <custom-field action="copy">_vc_post_settings</custom-field>
         <custom-field action="copy">_wpb_shortcodes_custom_css</custom-field>
         <custom-field action="translate" encoding="json">_wpb_post_custom_seo_settings</custom-field>
     </custom-fields>
