@@ -178,6 +178,10 @@
 			<xpath>//p/a</xpath>
 			<key name="moreText" />
 		</gutenberg-block>
+		<gutenberg-block type="core/widget-group" translate="1">
+			<key name="title"></key>
+			<xpath>//h2</xpath>
+		</gutenberg-block>
 		<gutenberg-block type="core-embed/twitter" translate="1">
 			<xpath>//figure/figcaption</xpath>
 		</gutenberg-block>
