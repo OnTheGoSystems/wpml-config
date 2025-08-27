@@ -665,14 +665,7 @@
                     <key name="phone">
                         <key name="value" />
                     </key>
-                </key>
-                <key name="advanced">
-                    <key name="product">
-                        <key name="*">
-                            <key name="value" type="post-ids" sub-type="product" />
-                        </key>
-                    </key>
-                </key>                
+                </key>             
             </key>
             <key name="button">
                 <key name="innerContent">
