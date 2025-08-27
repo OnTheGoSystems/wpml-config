@@ -1260,5 +1260,103 @@
                 </key>
             </key> 
         </gutenberg-block>
-    </gutenberg-blocks>    
+        <gutenberg-block type="divi/woocommerce-breadcrumb" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="homeText">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                    <key name="homeUrl">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-description" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-additional-info" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-rating" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-reviews" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-tabs" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-title" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/woocommerce-product-upsell" translate="1">
+            <key name="content">
+                <key name="advanced">
+                    <key name="product">
+                        <key name="*">
+                            <key name="value" type="post-ids" sub-type="product" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+    </gutenberg-blocks>
 </wpml-config>
