@@ -86,6 +86,7 @@
 		<item id="woocommerce-mix-and-match-products" override_local="true">WooCommerce Mix and Match</item>
 		<item id="woocommerce-multilingual" override_local="true">WooCommerce Multilingual</item>
 		<item id="woocommerce-multilingual" override_local="true">WooCommerce Multilingual &amp; Multicurrency</item>
+		<item id="woocommerce-multilingual" override_local="true">WPML Multilingual &amp; Multicurrency for WooCommerce</item>
 		<item id="woocommerce-name-your-price" override_local="true">WooCommerce Name Your Price</item>
 		<item id="woocommerce-paymill-gateway" override_local="true">WooCommerce Paymill Gateway</item>
 		<item id="woocommerce-pdf-invoices-packing-slips" override_local="true">WooCommerce PDF Invoices &amp; Packing Slips</item>
