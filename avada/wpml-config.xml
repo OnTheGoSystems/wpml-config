@@ -567,6 +567,7 @@
 				<attribute>after_text</attribute>
 				<attribute>animated_text</attribute>
 				<attribute>rotation_text</attribute>
+				<attribute type="link">link_url</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
