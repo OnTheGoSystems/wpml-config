@@ -57,6 +57,13 @@
             <key name="divi_seo_home_keywordstext"/>
             <key name="custom_footer_credits"/>
         </key>
+        <key name="et_divi_global_variables">
+            <key name="strings">
+                <key name="*">
+                    <key name="value" />
+                </key>
+            </key>
+        </key>
     </admin-texts>
     <shortcodes>
         <shortcode>
