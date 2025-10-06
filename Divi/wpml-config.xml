@@ -773,7 +773,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="media-url"/>
                                 </key>
                             </key>
                         </key>
@@ -1084,7 +1084,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1118,7 +1118,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1140,7 +1140,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1155,7 +1155,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1259,7 +1259,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="media-url"/>
                                 </key>
                             </key>
                         </key>
