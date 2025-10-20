@@ -107,6 +107,7 @@
             <tag>et_pb_heading</tag>
             <attributes>
                 <attribute>title</attribute>
+                <attribute type="link">url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
