@@ -293,6 +293,13 @@
 		<gutenberg-block type="core/social-link" translate="1">
 			<key name="url" type="link" />
 		</gutenberg-block>
+		<gutenberg-block type="core/query" translate="1">
+			<key name="query">
+				<key name="parents">
+					<key type="post-ids" name="*" />
+				</key>
+			</key>
+		</gutenberg-block>
 		<gutenberg-block type="core/query-pagination-previous" translate="1">
 			<key name="label" />
 		</gutenberg-block>
