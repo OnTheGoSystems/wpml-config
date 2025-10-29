@@ -676,5 +676,15 @@
                 <field type="Youtube: URL" editor_type="LINK">source>value</field>
             </fields>
         </widget>
+        <widget name="e-flexbox">
+            <fields>
+                <field type="Flexbox: Link URL" editor_type="LINK">link>value>destination>value</field>
+            </fields>
+        </widget>
+        <widget name="e-div-block">
+            <fields>
+                <field type="Div Block: Link URL" editor_type="LINK">link>value>destination>value</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
