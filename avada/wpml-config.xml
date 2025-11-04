@@ -7,6 +7,7 @@
 			<key name="header_email"/>
 			<key name="header_tagline"/>
 			<key name="breacrumb_prefix"/>
+			<key name="breacrumb_home_label"/>
 			<key name="breadcrumb_separator"/>
 			<key name="footer_text"/>
 			<key name="blog_title"/>
@@ -26,11 +27,15 @@
 			<key name="map_infobox_content"/>
 			<key name="sharing_social_tagline"/>
 			<key name="privacy_bar_text"/>
+			<key name="privacy_bar_button_text" />
 			<key name="privacy_bar_more_text"/>
 			<key name="privacy_bar_update_text"/>
+			<key name="privacy_bar_reject_text" />
+			<key name="meta_tags_separator" />
 			<key name="google_analytics"/>
 			<key name="space_head"/>
 			<key name="space_body"/>
+			<key name="maintenance_page_title"/>
 			<key name="syntax_highlighter_copy_to_clipboard_text"/>
 		</key>
 	</admin-texts>
