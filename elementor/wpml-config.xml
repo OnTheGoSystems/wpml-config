@@ -393,6 +393,15 @@
                 <field type="post-ids" sub-type="elementor_library">template_id</field>
             </fields-in-item>
         </widget>
+        <widget name="loop-carousel">
+        </widget>
+        <widget name="nested-carousel">
+        </widget>
+        <widget name="off-canvas">
+            <fields>
+                <field type="Off Canvas: Name">off_canvas_name</field>
+            </fields>
+        </widget>
         <widget name="lottie">
             <fields>
                 <field type="Lottie: Media File" editor_type="LINK">source_json>url</field>
@@ -636,6 +645,89 @@
             <fields>
                 <field type="Share Buttons: Shared URL" editor_type="LINK">share_url>url</field>
             </fields>
+        </widget>
+        <widget name="google_maps">
+        </widget>
+        <widget name="audio">
+            <fields>
+                <field type="SoundCloud: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="nav-menu">
+        </widget>
+        <widget name="read-more">
+            <fields>
+                <field type="Read More: Link Text">link_text</field>
+            </fields>
+        </widget>
+        <widget name="theme-site-logo">
+            <fields>
+                <field type="Site Logo: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="theme-site-title">
+        </widget>
+        <widget name="theme-page-title">
+            <fields>
+                <field type="Page Title: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="theme-post-title">
+            <fields>
+                <field type="Post Title: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="theme-post-excerpt">
+        </widget>
+        <widget name="theme-post-featured-image">
+            <fields>
+                <field type="Featured Image: Caption">caption</field>
+                <field type="Featured Image: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="theme-archive-title">
+            <fields>
+                <field type="Archive Title: URL" editor_type="LINK">link>url</field>
+            </fields>
+        </widget>
+        <widget name="post-info">
+            <fields-in-item items_of="icon_list">
+                <field type="Post Info: Prefix">text_prefix</field>
+                <field type="Post Info: No Comments">string_no_comments</field>
+                <field type="Post Info: One Comment">string_one_comment</field>
+                <field type="Post Info: Comments">string_comments</field>
+            </fields-in-item>
+        </widget>
+        <widget name="sitemap">
+            <fields-in-item items_of="sitemap_items">
+                <field type="Sitemap: Title">sitemap_title</field>
+            </fields-in-item>
+        </widget>
+        <widget name="facebook-button">
+            <fields>
+                <field type="Facebook Button: URL" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="facebook-comments">
+            <fields>
+                <field type="Facebook Comments: URL" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="facebook-embed">
+            <fields>
+                <field type="Facebook Embed: Post URL" editor_type="LINK">post_url</field>
+                <field type="Facebook Embed: Video URL" editor_type="LINK">video_url</field>
+                <field type="Facebook Embed: Comment URL" editor_type="LINK">comment_url</field>
+            </fields>
+        </widget>
+        <widget name="facebook-page">
+            <fields>
+                <field type="Facebook Page: URL" editor_type="LINK">url</field>
+            </fields>
+        </widget>
+        <widget name="code-highlight">
+        </widget>
+        <widget name="progress-tracker">
         </widget>
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
