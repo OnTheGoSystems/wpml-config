@@ -1,4 +1,24 @@
 <wpml-config>
+    <notices>
+        <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-1021 -->
+        <notice type="warning" dismissible="1" id="compdev-1021-divi-5">
+            <conditions>
+                <theme>Divi</theme>
+            </conditions>
+            <locations>
+                <!-- Divi Dashboard -->
+                <screenId>divi_page_et_onboarding</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<h2>Divi 5 Compatibility with WPML</h2>
+<p>WPML has partial support for Divi 5 which is in public beta. Full compatibility is coming in WPML 4.9.</p>
+<br/>
+<p><a class="button" href="https://wpml.org/errata/divi-5-wpml-compatibility-while-new-features-are-being-released/" target="_blank">View known issues</a></p>
+]]>
+            </content>
+        </notice>
+    </notices>
     <built-with-page-builder>/\[(et_pb_section|et_pb_row|et_pb_column)/</built-with-page-builder>
     <shortcode-list>et_pb_section,et_pb_row,et_pb_column,et_pb_accordion_item,et_pb_cta,et_pb_map_pin,et_pb_text,et_pb_blurb,et_pb_circle_counter,et_pb_contact_field,et_pb_contact_form,et_pb_image,et_pb_number_counter,et_pb_post_nav,et_pb_pricing_table,et_pb_tab,et_pb_toggle,et_pb_counter,et_pb_button,et_pb_countdown_timer,et_pb_login,et_pb_team_member,et_pb_post_slider,et_pb_search,et_pb_slide,et_pb_signup,et_pb_testimonial,et_pb_fullwidth_post_slider,et_pb_fullwidth_header,et_pb_fullwidth_image,et_pb_fullwidth_portfolio,et_pb_audio,et_pb_line_break_holder,et_pb_blog,et_pb_fullwidth_post_title,et_pb_slider,et_pb_fullwidth_menu,et_pb_social_media_follow_network,et_pb_code,et_pb_video_slider_item,et_pb_video,et_pb_gallery,et_pb_wc_add_to_cart</shortcode-list>
     <custom-types>
@@ -310,7 +330,7 @@
             <attributes>
                 <attribute type="link">url</attribute>
             </attributes>
-        </shortcode>        
+        </shortcode>
         <shortcode>
             <tag>et_pb_code</tag>
             <attributes>
@@ -673,7 +693,7 @@
                     <key name="phone">
                         <key name="value" />
                     </key>
-                </key>             
+                </key>
             </key>
             <key name="button">
                 <key name="innerContent">
@@ -1259,7 +1279,7 @@
                         </key>
                     </key>
                 </key>
-            </key> 
+            </key>
         </gutenberg-block>
         <gutenberg-block type="divi/woocommerce-breadcrumb" translate="1">
             <key name="content">
