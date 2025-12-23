@@ -428,6 +428,15 @@
             </attributes>
         </shortcode>
         <shortcode>
+            <tag>et_pb_signup_custom_field</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">field_title</attribute>
+                <attribute encoding="divi_options">checkbox_options</attribute>
+                <attribute encoding="divi_options">radio_options</attribute>
+                <attribute encoding="divi_options">select_options</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
             <tag>et_pb_testimonial</tag>
             <attributes>
                 <attribute>author</attribute>
