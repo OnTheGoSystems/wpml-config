@@ -711,22 +711,10 @@
             </key>
             <key name="button">
                 <key name="innerContent">
-                    <key name="desktop">
+                    <key name="*">
                         <key name="value">
                             <key name="text" />
-                            <key name="linkUrl" />
-                        </key>
-                    </key>
-                    <key name="tablet">
-                        <key name="value">
-                            <key name="text" />
-                            <key name="linkUrl" />
-                        </key>
-                    </key>
-                    <key name="phone">
-                        <key name="value">
-                            <key name="text" />
-                            <key name="linkUrl" />
+                            <key type="link" name="linkUrl" />
                         </key>
                     </key>
                 </key>
