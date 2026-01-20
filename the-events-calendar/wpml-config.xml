@@ -5,6 +5,7 @@
         <custom-type translate="1">tribe_events</custom-type>
         <custom-type translate="1">tribe_rsvp_tickets</custom-type>
         <custom-type translate="1">ticket-meta-fieldset</custom-type>
+        <custom-type translate="1">tribe_event_series</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">tribe_events_cat</taxonomy>
@@ -52,6 +53,7 @@
         <custom-field action="copy">_tribe_tickets_meta_enabled</custom-field>
         <custom-field action="translate">_tribe_tickets_meta</custom-field>
         <custom-field action="copy">_EventRecurrence</custom-field>
+        <custom-field action="copy">_tec-series-show-title</custom-field>
     </custom-fields>
     <admin-texts>
     <key name="tribe_events_calendar_options">
