@@ -101,6 +101,7 @@
 		<item id="woocommerce-product-bundles">Woo Product Bundles</item>
 		<item id="woocommerce-product-gift-wrap" override_local="true">WooCommerce Product Gift Wrap</item>
 		<item id="woocommerce-social-media-share-buttons" override_local="true">Woocommerce Social Media Share Buttons</item>
+		<item id="woocommerce-subscriptions">WooCommerce Subscriptions</item>
 		<item id="woocommerce-tab-manager" override_local="true">WooCommerce Tab Manager</item>
 		<item id="woocommerce-video-tab" override_local="true">WooCommerce Video Tab</item>
 		<item id="wordpress-seo" override_local="true">Yoast SEO</item>

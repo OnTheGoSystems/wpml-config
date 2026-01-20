@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <!-- WooCommerce All Products For Subscriptions -->
+        <key name="wcsatt_subscribe_to_cart_categories">
+            <key name="*" type="taxonomy-ids" sub-type="product_cat"/>
+        </key>
+    </admin-texts>
+</wpml-config>
