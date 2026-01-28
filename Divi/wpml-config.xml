@@ -1381,5 +1381,16 @@
                 </key>
             </key>
         </gutenberg-block>
+        <gutenberg-block type="divi/gallery" translate="1">
+            <key name="image">
+                <key name="advanced">
+                    <key name="galleryIds">
+                        <key name="*">
+                            <key name="value" type="media-ids" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
     </gutenberg-blocks>
 </wpml-config>
