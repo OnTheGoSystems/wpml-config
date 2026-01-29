@@ -13,6 +13,7 @@
         <custom-type translate="1" display-as-translated="1">elementor_library</custom-type>
         <custom-type translate="1" display-as-translated="1">e-landing-page</custom-type>
         <custom-type translate="1" display-as-translated="1">e-floating-buttons</custom-type>
+        <custom-type translate="1" display-as-translated="1">elementor_component</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="0">elementor_library_type</taxonomy>
@@ -776,6 +777,11 @@
         <widget name="e-div-block">
             <fields>
                 <field type="Div Block: Link URL" editor_type="LINK">link>value>destination>value</field>
+            </fields>
+        </widget>
+        <widget name="e-component">
+            <fields>
+                <field type="post-ids" sub-type="elementor_component">component_instance>value>component_id>value</field>
             </fields>
         </widget>
     </elementor-widgets>
