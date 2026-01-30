@@ -1,4 +1,25 @@
 <wpml-config>
+    <notices>
+        <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-1062 -->
+        <notice type="warning" dismissible="1" id="compdev-1062-elementor-4">
+            <conditions relation="OR">
+                <plugin>Elementor</plugin>
+                <plugin>Elementor Pro</plugin>
+            </conditions>
+            <locations>
+                <!-- Elementor > Editor > Settings -->
+                <screenId>elementor_page_elementor-settings</screenId>
+            </locations>
+            <content>
+                <![CDATA[
+<h2>Elementor Editor V4 Compatibility with WPML</h2>
+<p>Elementor's new Editor V4 is still in beta. WPML compatibility may be unstable until Editor V4 reaches its official production release.</p>
+<br/>
+<p><a class="button" href="https://wpml.org/errata/elementor-v4-general-overview/" target="_blank">View known issues</a></p>
+]]>
+            </content>
+        </notice>
+    </notices>
    <custom-fields>
         <custom-field action="copy-once">_elementor_page_settings</custom-field>
         <custom-field action="copy">_elementor_edit_mode</custom-field>
