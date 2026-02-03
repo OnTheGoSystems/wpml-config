@@ -67,6 +67,7 @@
         <custom-field action="copy">_et_pb_show_page_creation</custom-field>
         <custom-field action="copy">_et_pb_excluded_global_options</custom-field>
         <custom-field action="copy-once">et_pb_post_hide_nav</custom-field>
+        <custom-field action="copy">_et_pb_use_divi_5</custom-field>
     </custom-fields>
     <admin-texts>
         <key name="et_divi">
@@ -1278,6 +1279,28 @@
                                     <key name="url" type="link"/>
                                 </key>
                             </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="image">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="logo">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
                         </key>
                     </key>
                 </key>
