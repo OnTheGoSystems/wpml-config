@@ -644,7 +644,7 @@
                         <key name="desktop">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                                 <key name="video">
                                     <key name="mp4" />
@@ -655,7 +655,7 @@
                         <key name="tablet">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                                 <key name="video">
                                     <key name="mp4" />
@@ -666,7 +666,7 @@
                         <key name="phone">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                                 <key name="video">
                                     <key name="mp4" />
@@ -790,7 +790,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="media-url"/>
                                 </key>
                             </key>
                         </key>
@@ -1101,7 +1101,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1135,7 +1135,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1157,7 +1157,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1172,7 +1172,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link" />
+                                    <key name="url" type="media-url" />
                                 </key>
                             </key>
                         </key>
@@ -1276,7 +1276,7 @@
                         <key name="*">
                             <key name="value">
                                 <key name="image">
-                                    <key name="url" type="link"/>
+                                    <key name="url" type="media-url"/>
                                 </key>
                             </key>
                         </key>
