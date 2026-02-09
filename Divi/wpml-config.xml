@@ -12,7 +12,7 @@
             <content>
                 <![CDATA[
 <h2>Divi 5 Compatibility with WPML</h2>
-<p>WPML has partial support for Divi 5 which is in public beta. Full compatibility is coming in WPML 4.9.</p>
+<p>Divi 5 is still in public beta. WPML 4.9 addresses most known issues, but some limitations remain until the stable release.</p>
 <br/>
 <p><a class="button" href="https://wpml.org/errata/divi-5-wpml-compatibility-while-new-features-are-being-released/" target="_blank">View known issues</a></p>
 ]]>
