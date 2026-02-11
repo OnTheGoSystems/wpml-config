@@ -204,6 +204,8 @@
         <xs:sequence>
             <xs:element type="wpml-generic-setting-key" name="key" maxOccurs="unbounded" minOccurs="1"/>
         </xs:sequence>
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+        <xs:attribute type="xs:string" name="sub-type" use="optional"/>
     </xs:complexType>
     <!-- Admin Texts: end -->
 
@@ -217,7 +219,10 @@
 
     <xs:complexType name="wpml-custom-field">
         <xs:simpleContent>
-            <xs:extension base="wpml-translate-action"/>
+            <xs:extension base="wpml-translate-action">
+                <xs:attribute type="xs:string" name="type" use="optional"/>
+                <xs:attribute type="xs:string" name="sub-type" use="optional"/>
+            </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
     <!-- Custom Fields: end -->
@@ -257,7 +262,10 @@
 
     <xs:complexType name="wpml-custom-term-field">
         <xs:simpleContent>
-            <xs:extension base="wpml-translate-action"/>
+            <xs:extension base="wpml-translate-action">
+                <xs:attribute type="xs:string" name="type" use="optional"/>
+                <xs:attribute type="xs:string" name="sub-type" use="optional"/>
+            </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
     <!-- Custom Terms Meta/Fields: end -->
@@ -275,13 +283,13 @@
     </xs:complexType>
     <!-- Custom Fields: end -->
 
-    <!-- Shortcode list: start -->
-    <xs:simpleType name="wpml-shortcode-list">
-        <xs:restriction base="xs:token">
-            <xs:pattern value="[^,]+(, ?[^,]+)*"/>
-        </xs:restriction>
-    </xs:simpleType>
-    <!-- Shortcode list: end -->
+  <!-- Shortcode list: start -->
+  <xs:simpleType name="wpml-shortcode-list">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[^,]+(, ?[^,]+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Shortcode list: end -->
 
 
     <!-- Gutenberg: start -->
