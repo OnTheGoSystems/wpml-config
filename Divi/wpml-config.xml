@@ -29,6 +29,7 @@
         <custom-type translate="1" display-as-translated="1">et_footer_layout</custom-type>
         <custom-type translate="0">et_theme_builder</custom-type>
         <custom-type translate="0">et_template</custom-type>
+        <custom-type translate="1" display-as-translated="1">et_pb_canvas</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">project_category</taxonomy>
@@ -68,6 +69,10 @@
         <custom-field action="copy">_et_pb_excluded_global_options</custom-field>
         <custom-field action="copy-once">et_pb_post_hide_nav</custom-field>
         <custom-field action="copy">_et_pb_use_divi_5</custom-field>
+        <custom-field action="copy">_et_builder_version</custom-field>
+        <custom-field action="copy">_divi_canvas_append_to_main</custom-field>
+        <custom-field action="ignore">_divi_canvas_id</custom-field>
+        <custom-field action="copy" type="post-ids" sub-type="et_pb_canvas">_divi_canvas_parent_post_id</custom-field>
     </custom-fields>
     <admin-texts>
         <key name="et_divi">
