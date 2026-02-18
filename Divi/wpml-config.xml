@@ -72,6 +72,8 @@
         <custom-field action="copy">_et_builder_version</custom-field>
         <custom-field action="copy">_divi_canvas_append_to_main</custom-field>
         <custom-field action="copy">_divi_canvas_id</custom-field>
+        <custom-field action="copy">_divi_canvas_z_index</custom-field>
+        <custom-field action="copy">_divi_canvas_created_at</custom-field>
         <custom-field action="copy" type="post-ids" sub-type="et_pb_canvas">_divi_canvas_parent_post_id</custom-field>
     </custom-fields>
     <admin-texts>
