@@ -56,6 +56,11 @@
 				<field type="Search: no results message" editor_type="LINE">no_results_message</field>
 			</fields>
 		</widget>
+		<widget name="html">
+			<fields>
+				<field type="HTML" editor_type="AREA">html</field>
+			</fields>
+		</widget>
 	</beaver-builder-widgets>
 	<gutenberg-blocks>
 		<gutenberg-block type="fl-builder/accordion" translate="1">
