@@ -1,7 +1,7 @@
 <wpml-config>
     <notices>
         <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-1021 -->
-        <notice type="warning" dismissible="1" id="compdev-1021-divi-5">
+        <notice type="warning" dismissible="1" id="compdev-1021-divi-5-c">
             <conditions>
                 <theme>Divi</theme>
             </conditions>
@@ -12,7 +12,7 @@
             <content>
                 <![CDATA[
 <h2>Divi 5 Compatibility with WPML</h2>
-<p>Divi 5 is still in public beta. WPML 4.9 addresses most known issues, but some limitations remain until the stable release.</p>
+<p>WPML 4.9.1 addresses most known issues with Divi 5, but a few limitations remain. We are already working on these and will fix them in the upcoming WPML 4.9.2 release.</p>
 <br/>
 <p><a class="button" href="https://wpml.org/errata/divi-5-wpml-compatibility-while-new-features-are-being-released/" target="_blank">View known issues</a></p>
 ]]>
