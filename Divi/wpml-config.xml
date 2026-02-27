@@ -8,6 +8,7 @@
             <locations>
                 <!-- Divi Dashboard -->
                 <screenId>divi_page_et_onboarding</screenId>
+                <screenId>divi_page_et_d5_readiness</screenId>
             </locations>
             <content>
                 <![CDATA[
