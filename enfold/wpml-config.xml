@@ -148,16 +148,23 @@
         <shortcode>
             <tag>av_iconlist_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_icongrid_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">subtitle</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_timeline_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
-                <attribute>date</attribute>
+                <attribute encoding="allow_html_tags">date</attribute>
                 <attribute type="media-url">image</attribute>
                 <attribute type="media-ids">attachment</attribute>
             </attributes>
@@ -179,21 +186,21 @@
         <shortcode>
             <tag>av_rotator_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_button</tag>
             <attributes>
-                <attribute>label</attribute>
+                <attribute encoding="allow_html_tags">label</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_button_big</tag>
             <attributes>
-                <attribute>label</attribute>
+                <attribute encoding="allow_html_tags">label</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
@@ -206,44 +213,45 @@
         <shortcode>
             <tag>av_content_slide</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_notification</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_tab</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_toggle</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="allow_html_tags">title_open</attribute>
                 <attribute>tags</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_promobox</tag>
             <attributes>
-                <attribute>label</attribute>
+                <attribute encoding="allow_html_tags">label</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_contact</tag>
             <attributes>
-                <attribute>email</attribute>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">email</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute>button</attribute>
-                <attribute>sent</attribute>
+                <attribute encoding="allow_html_tags">sent</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute>subject</attribute>
                 <attribute>autorespond</attribute>
@@ -252,8 +260,8 @@
         <shortcode>
             <tag>av_contact_field</tag>
             <attributes>
-                <attribute>label</attribute>
-		<attribute>options</attribute>
+                <attribute encoding="allow_html_tags">label</attribute>
+		        <attribute encoding="allow_html_tags">options</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -266,9 +274,9 @@
         <shortcode>
             <tag>av_team_member</tag>
             <attributes>
-                <attribute>name</attribute>
-                <attribute>job</attribute>
-                <attribute>description</attribute>
+                <attribute encoding="allow_html_tags">name</attribute>
+                <attribute encoding="allow_html_tags">job</attribute>
+                <attribute encoding="allow_html_tags">description</attribute>
                 <attribute type="media-url">src</attribute>
                 <attribute type="media-ids">attachment</attribute>
             </attributes>
@@ -295,27 +303,27 @@
         <shortcode>
             <tag>av_progress_bar</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_submenu_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_testimonial_single</tag>
             <attributes>
-                <attribute>name</attribute>
-                <attribute>subtitle</attribute>
+                <attribute encoding="allow_html_tags">name</attribute>
+                <attribute encoding="allow_html_tags">subtitle</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>av_catalogue_item</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute>price</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute type="media-ids">id</attribute>
@@ -400,7 +408,7 @@
         <shortcode>
             <tag>av_slide</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute type="media-ids">id</attribute>
             </attributes>
@@ -408,7 +416,7 @@
         <shortcode>
             <tag>av_slide_full</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute>link1</attribute>
                 <attribute>button_label</attribute>
@@ -429,7 +437,7 @@
         <shortcode>
             <tag>av_slide_accordion</tag>
             <attributes>
-                <attribute>title</attribute>
+                <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute type="media-ids">id</attribute>
             </attributes>
@@ -437,7 +445,7 @@
         <shortcode>
             <tag>av_partner</tag>
             <attributes>
-                <attribute>heading</attribute>
+                <attribute encoding="allow_html_tags">heading</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -471,7 +479,7 @@
         <shortcode>
             <tag>av_buttonrow_item</tag>
             <attributes>
-                <attribute>label</attribute>
+                <attribute encoding="allow_html_tags">label</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
             </attributes>
         </shortcode>
