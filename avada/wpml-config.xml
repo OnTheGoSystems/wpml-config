@@ -224,6 +224,16 @@
 			<key name="button_1" />
 			<key name="button_2" />
 			<key name="vimeo_id" />
+			<key name="notifications">
+				<key name="*">
+					<key name="label" />
+					<key name="email_subject" />
+					<key name="email_from" />
+					<key name="email_from_id" />
+					<key name="email_reply_to" />
+					<key name="email_message" />
+				</key>
+			</key>
 		</key>
 	</custom-fields-texts>
 	<custom-term-fields>
