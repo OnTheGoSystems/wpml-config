@@ -808,5 +808,30 @@
                 <field type="post-ids" sub-type="elementor_component">component_instance>value>component_id>value</field>
             </fields>
         </widget>
+        <widget name="e-form">
+            <fields>
+                <field type="Form: Name">form-name</field>
+            </fields>
+        </widget>
+        <widget name="e-form-label">
+            <fields>
+                <field type="Form: Label">text>value>content>value</field>
+            </fields>
+        </widget>
+        <widget name="e-form-input">
+            <fields>
+                <field type="Form: Input placeholder">placeholder>value</field>
+            </fields>
+        </widget>
+        <widget name="e-form-textarea">
+            <fields>
+                <field type="Form: Textarea placeholder">placeholder>value</field>
+            </fields>
+        </widget>
+        <widget name="e-form-submit-button">
+            <fields>
+                <field type="Form: Submit Button">label>value</field>
+            </fields>
+        </widget>
     </elementor-widgets>
 </wpml-config>
