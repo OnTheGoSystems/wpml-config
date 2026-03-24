@@ -828,6 +828,8 @@
                 <field type="Form: Textarea placeholder">placeholder>value</field>
             </fields>
         </widget>
+        <widget name="e-form-checkbox">
+        </widget>
         <widget name="e-form-submit-button">
             <fields>
                 <field type="Form: Submit Button">label>value</field>
