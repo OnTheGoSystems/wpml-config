@@ -756,24 +756,21 @@
         <!-- WIP: Elementor Editor V4 -->
         <widget name="e-heading">
             <fields>
-                <field type="Heading: Title" field_id="title">title>value</field><!-- V4 beta -->
-                <field type="Heading: Title" field_id="title">title>value>content>value</field>
+                <field type="Heading: Title">title>value>content>value</field>
                 <field type="Heading: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Heading: Link Label">link>value>label>value</field>
             </fields>
         </widget>
         <widget name="e-paragraph">
             <fields>
-                <field type="Paragraph: Content" field_id="paragraph">paragraph>value</field><!-- V4 beta -->
-                <field type="Paragraph: Content" field_id="paragraph">paragraph>value>content>value</field>
+                <field type="Paragraph: Content">paragraph>value>content>value</field>
                 <field type="Paragraph: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Paragraph: Link Label">link>value>label>value</field>
             </fields>
         </widget>
         <widget name="e-button">
             <fields>
-                <field type="Button: Content" field_id="text">text>value</field><!-- V4 beta -->
-                <field type="Button: Content" field_id="text">text>value>content>value</field>
+                <field type="Button: Content">text>value>content>value</field>
                 <field type="Button: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Button: Link Label">link>value>label</field>
             </fields>
@@ -803,11 +800,6 @@
         <widget name="e-div-block">
             <fields>
                 <field type="Div Block: Link URL" editor_type="LINK">link>value>destination>value</field>
-            </fields>
-        </widget>
-        <widget name="e-component">
-            <fields>
-                <field type="post-ids" sub-type="elementor_component">component_instance>value>component_id>value</field>
             </fields>
         </widget>
         <widget name="e-form">
