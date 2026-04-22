@@ -804,7 +804,11 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="src" />
+                            <key type="media-ids" name="id" />
+                            <key type="media-url" name="src" />
+                            <key name="alt" />
+                            <key name="titleText" />
+                            <key type="link" name="linkUrl" />
                         </key>
                     </key>
                 </key>
