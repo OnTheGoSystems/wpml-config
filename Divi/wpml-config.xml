@@ -1399,6 +1399,19 @@
                 </key>
             </key>
         </gutenberg-block>
+        <gutenberg-block type="divi/shop" translate="0">
+            <key name="content">
+                <key name="advanced">
+                    <key name="includeCategories">
+                        <key name="*">
+                            <key name="value">
+                                <key name="*" type="taxonomy-ids" sub-type="product_cat" />
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
         <gutenberg-block type="divi/gallery" translate="1">
             <key name="image">
                 <key name="advanced">
