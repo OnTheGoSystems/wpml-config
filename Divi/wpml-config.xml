@@ -787,8 +787,26 @@
             </key>
             <key name="image">
                 <key name="innerContent">
-                    <key name="*">
-                        <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key type="media-ids" name="id" />
+                            <key type="media-url" name="src" />
+                            <key name="alt" />
+                            <key name="titleText" />
+                            <key type="link" name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key type="media-ids" name="id" />
+                            <key type="media-url" name="src" />
+                            <key name="alt" />
+                            <key name="titleText" />
+                            <key type="link" name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="phone">
+                        <key name="value">
                             <key type="media-ids" name="id" />
                             <key type="media-url" name="src" />
                             <key name="alt" />
@@ -802,7 +820,25 @@
         <gutenberg-block type="divi/menu" translate="1">
             <key name="logo">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key type="media-ids" name="id" />
+                            <key type="media-url" name="src" />
+                            <key name="alt" />
+                            <key name="titleText" />
+                            <key type="link" name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key type="media-ids" name="id" />
+                            <key type="media-url" name="src" />
+                            <key name="alt" />
+                            <key name="titleText" />
+                            <key type="link" name="linkUrl" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key type="media-ids" name="id" />
                             <key type="media-url" name="src" />
@@ -1416,7 +1452,13 @@
             <key name="image">
                 <key name="advanced">
                     <key name="galleryIds">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value" type="media-ids" />
+                        </key>
+                        <key name="tablet">
+                            <key name="value" type="media-ids" />
+                        </key>
+                        <key name="phone">
                             <key name="value" type="media-ids" />
                         </key>
                     </key>
