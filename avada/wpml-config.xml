@@ -721,6 +721,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -738,6 +739,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_options">options</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -747,6 +749,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_options">options</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -757,6 +760,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_options">options</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -773,6 +777,7 @@
 				<attribute>label</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -782,6 +787,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -790,6 +796,7 @@
 				<attribute>label</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -797,6 +804,7 @@
 			<attributes>
 				<attribute type="media-url">image</attribute>
 				<attribute>label</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -806,6 +814,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -815,6 +824,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -824,6 +834,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -842,6 +853,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -851,6 +863,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -860,6 +873,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -869,6 +883,7 @@
 				<attribute>placeholder</attribute>
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
+				<attribute>empty_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
