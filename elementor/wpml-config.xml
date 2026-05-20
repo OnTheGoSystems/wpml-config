@@ -801,9 +801,14 @@
         </widget>
         <widget name="e-form-checkbox">
         </widget>
+        <widget name="e-form-radio-button">
+        </widget>
+        <widget name="e-form-file-upload">
+        </widget>
         <widget name="e-form-submit-button">
             <fields>
                 <field type="Form: Submit Button">label>value</field>
+                <field type="Form: Submit Button">text>value>content>value</field><!-- Since 4.1.0 -->
             </fields>
         </widget>
     </elementor-widgets>
