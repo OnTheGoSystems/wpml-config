@@ -720,6 +720,27 @@
                 </key>
             </key>
         </gutenberg-block>
+        <gutenberg-block type="divi/breadcrumbs" translate="1">
+            <key name="home">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                            <key type="link" name="url" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+            <key name="separator">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
         <gutenberg-block type="divi/circle-counter" translate="1">
             <key name="title">
                 <key name="innerContent">
@@ -812,6 +833,17 @@
                             <key name="alt" />
                             <key name="titleText" />
                             <key type="link" name="linkUrl" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/instagram-feed" translate="1">
+            <key name="followButton">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
                         </key>
                     </key>
                 </key>
@@ -945,6 +977,37 @@
                 </key>
             </key>
             <key name="content">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/svg" translate="1">
+            <key name="svg">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="title" />
+                            <key type="link" name="linkUrl" />
+                            <key type="media-url" name="src" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/table-of-contents" translate="1">
+            <key name="emptyState">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/timeline-item" translate="1">
+            <key name="date">
                 <key name="innerContent">
                     <key name="*">
                         <key name="value" />
