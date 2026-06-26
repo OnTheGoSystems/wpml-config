@@ -109,5 +109,23 @@ Breakdance is not compatible with WPML. Here’s a <a target="_blank" href="http
         ]]>
             </content>
         </notice>
+        <notice type="warning" dismissible="1" id="compdev-1295">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-1295/ -->
+            <conditions>
+                <plugin>WooCommerce Subscriptions</plugin>
+            </conditions>
+            <locations>
+                <screenId>dashboard</screenId>
+                <screenId>woocommerce_page_wc-orders--shop_subscription</screenId>
+            </locations>
+            <content><![CDATA[
+<h4 style="margin-top:0;">
+WooCommerce Subscriptions 9.0.0 is not natively compatible with WCML.
+</h4>
+<p>
+You need to restore the legacy subscription editor interface as <a href="https://wpml.org/errata/woocommerce-subscriptions-version-9-0-0-is-not-compatible/" target="_blank">described in our erratum<a>.
+</p>
+]]></content>
+        </notice>
     </notices>
 </wpml-config>
