@@ -813,7 +813,6 @@
                             <key type="media-ids" name="id" />
                             <key type="media-url" name="src" />
                             <key name="alt" />
-                            <key name="titleText" />
                             <key type="link" name="linkUrl" />
                         </key>
                     </key>
@@ -822,7 +821,6 @@
                             <key type="media-ids" name="id" />
                             <key type="media-url" name="src" />
                             <key name="alt" />
-                            <key name="titleText" />
                             <key type="link" name="linkUrl" />
                         </key>
                     </key>
@@ -831,7 +829,6 @@
                             <key type="media-ids" name="id" />
                             <key type="media-url" name="src" />
                             <key name="alt" />
-                            <key name="titleText" />
                             <key type="link" name="linkUrl" />
                         </key>
                     </key>
