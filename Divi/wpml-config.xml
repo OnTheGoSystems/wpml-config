@@ -677,7 +677,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="url" />
+                            <key name="url" type="media-url" />
                         </key>
                     </key>
                 </key>
@@ -954,7 +954,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="src" />
+                            <key name="src" type="media-url" />
                         </key>
                     </key>
                 </key>
@@ -1034,7 +1034,7 @@
                 <key name="innerContent">
                     <key name="*">
                         <key name="value">
-                            <key name="url" />
+                            <key name="url" type="media-url" />
                         </key>
                     </key>
                 </key>
