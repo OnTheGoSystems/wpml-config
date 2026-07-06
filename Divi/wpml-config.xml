@@ -628,7 +628,29 @@
                 </key>
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                                <key name="video">
+                                    <key name="mp4" />
+                                    <key name="webm" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url" />
@@ -682,7 +704,17 @@
             </key>
             <key name="image">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key name="url" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="url" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key name="url" type="media-url" />
                         </key>
@@ -768,7 +800,21 @@
             <key name="barCounter">
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url"/>
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url"/>
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url"/>
@@ -965,7 +1011,17 @@
         <gutenberg-block type="divi/slide" translate="1">
             <key name="image">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key name="src" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="src" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key name="src" type="media-url" />
                         </key>
@@ -1000,7 +1056,21 @@
         <gutenberg-block type="divi/svg" translate="1">
             <key name="svg">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key name="title" />
+                            <key type="link" name="linkUrl" />
+                            <key type="media-url" name="src" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="title" />
+                            <key type="link" name="linkUrl" />
+                            <key type="media-url" name="src" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key name="title" />
                             <key type="link" name="linkUrl" />
@@ -1045,7 +1115,17 @@
             </key>
             <key name="image">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key name="url" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key name="url" type="media-url" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key name="url" type="media-url" />
                         </key>
@@ -1205,7 +1285,21 @@
                 </key>
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url" />
@@ -1239,7 +1333,21 @@
                 </key>
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url" />
@@ -1261,7 +1369,21 @@
             <key name="module">
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url" />
@@ -1276,7 +1398,21 @@
             <key name="module">
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url" />
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url" />
@@ -1380,7 +1516,21 @@
                 </key>
                 <key name="decoration">
                     <key name="background">
-                        <key name="*">
+                        <key name="desktop">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url"/>
+                                </key>
+                            </key>
+                        </key>
+                        <key name="tablet">
+                            <key name="value">
+                                <key name="image">
+                                    <key name="url" type="media-url"/>
+                                </key>
+                            </key>
+                        </key>
+                        <key name="phone">
                             <key name="value">
                                 <key name="image">
                                     <key name="url" type="media-url"/>
@@ -1392,7 +1542,21 @@
             </key>
             <key name="image">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key type="media-url" name="src" />
                             <key name="titleText" />
@@ -1403,7 +1567,21 @@
             </key>
             <key name="logo">
                 <key name="innerContent">
-                    <key name="*">
+                    <key name="desktop">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
+                        </key>
+                    </key>
+                    <key name="tablet">
+                        <key name="value">
+                            <key type="media-url" name="src" />
+                            <key name="titleText" />
+                            <key name="alt" />
+                        </key>
+                    </key>
+                    <key name="phone">
                         <key name="value">
                             <key type="media-url" name="src" />
                             <key name="titleText" />
