@@ -756,6 +756,7 @@
             <fields>
                 <field type="Image: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Image: Link Label">link>value>label>value</field>
+                <field type="Image: Alt">image>value>src>value>alt>value</field>
             </fields>
         </widget>
         <widget name="e-svg">
