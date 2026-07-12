@@ -1,6 +1,10 @@
 <wpml-config>
+	<custom-types>
+		<custom-type translate="1">fl-builder-template</custom-type>
+	</custom-types>
 	<taxonomies>
 		<taxonomy translate="0">fl-builder-template-type</taxonomy>
+		<taxonomy translate="0">fl-builder-template-category</taxonomy>
 	</taxonomies>
 	<custom-fields>
 		<custom-field action="copy">_fl_builder_enabled</custom-field>
