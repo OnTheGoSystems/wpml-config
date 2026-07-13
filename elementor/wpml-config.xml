@@ -806,6 +806,11 @@
         </widget>
         <widget name="e-form-file-upload">
         </widget>
+        <widget name="e-form-select">
+            <fields-in-item items_of="options>value">
+                <field type="Form Select: Option Label" editor_type="LINE">value>key>value</field>
+            </fields-in-item>
+        </widget>
         <widget name="e-form-submit-button">
             <fields>
                 <field type="Form: Submit Button">label>value</field>
