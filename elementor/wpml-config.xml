@@ -783,6 +783,10 @@
         <widget name="e-form">
             <fields>
                 <field type="Form: Name">form-name</field>
+                <field type="Form: Email subject">email>value>subject>value</field>
+                <field type="Form: Email Content" editor_type="AREA">email>value>message>value</field>
+                <field type="Form: Email subject 2">email_2>value>subject>value</field>
+                <field type="Form: Email Content 2" editor_type="AREA">email_2>value>message>value</field>
             </fields>
         </widget>
         <widget name="e-form-label">
