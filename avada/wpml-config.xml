@@ -258,6 +258,7 @@
 			<attributes>
 				<attribute type="link">link</attribute>
 				<attribute>title</attribute>
+				<attribute>hover_text</attribute>
 				<attribute>dynamic_params</attribute>
 			</attributes>
 		</shortcode>
