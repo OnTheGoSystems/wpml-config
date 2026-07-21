@@ -1,6 +1,12 @@
 <wpml-config>
   <custom-types>
-    <custom-type translate="1">x-portfolio</custom-type>
+    <custom-type translate="1" display-as-translated="1">x-portfolio</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_header</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_footer</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_layout_archive</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_layout_single</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_layout_archive_wc</custom-type>
+    <custom-type translate="1" display-as-translated="1">cs_layout_single_wc</custom-type>
   </custom-types>
   <taxonomies>
     <taxonomy translate="1">portfolio-tag</taxonomy>
