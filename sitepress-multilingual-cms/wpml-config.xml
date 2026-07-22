@@ -173,6 +173,7 @@
 		<gutenberg-block type="core/columns" translate="0" />
 		<gutenberg-block type="core/group" translate="0" />
 		<gutenberg-block type="core/code" translate="0" />
+		<gutenberg-block type="core/math" translate="0" />
 		<gutenberg-block type="core/more" translate="0" />
 		<gutenberg-block type="core/nextpage" translate="0" />
 		<gutenberg-block type="core/separator" translate="0" />
