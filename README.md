@@ -24,6 +24,7 @@ There are a couple of requisites:
 - The XML entry has to be inside one of these elements: `<plugins>` or `<themes>`
 - The id attribute in the index file corresponds to the folder name and must match the folder name of the plugin or theme.
 - The name of the plugin has to match the name of the plugin in its header.
+- The optional `override_local` attribute accepts `"true"` or `"false"` (the default when omitted). When `"true"`, the configuration in this repository replaces the plugin's or theme's bundled `wpml-config.xml`; otherwise the bundled file stays active. Any other value makes `bin/update` fail.
 
 For example:
 
