@@ -5,7 +5,6 @@
         <custom-field action="copy">_min_composite_price</custom-field>
         <custom-field action="copy">_max_composite_price</custom-field>
         <custom-field action="copy">_bto_style</custom-field>
-        <custom-field action="copy">_bto_selection_mode</custom-field>
         <custom-field action="copy">_base_regular_price</custom-field>
         <custom-field action="copy">_base_sale_price</custom-field>
         <custom-field action="copy">_base_price</custom-field>
