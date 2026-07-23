@@ -5,7 +5,7 @@
 	<plugins>
 		<item id="popup-maker" override_local="true">Popup Maker</item>
 		<item id="10bit-woocommerce-gateway-yaadpay" override_local="true">10bit WooCommerce Gateway Yaadpay</item>
-		<item id="activecampaign-subscription-forms" override_local="false">ActiveCampaign</item>
+		<item id="activecampaign-subscription-forms" override_local="true">ActiveCampaign</item>
 		<item id="advanced-gutenberg" override_local="true">Advanced Gutenberg</item>
 		<item id="advanced-gutenberg" override_local="true">PublishPress Blocks</item>
 		<item id="ajax-search-lite" override_local="true">Ajax Search Lite</item>
@@ -15,7 +15,7 @@
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Lite Version)</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Pro Version)</item>
 		<item id="beaver-builder" override_local="true">Beaver Builder Plugin (Agency Version)</item>
-		<item id="bloom" override_local="false">Bloom</item>
+		<item id="bloom" override_local="true">Bloom</item>
 		<item id="book-now">Book Now</item>
 		<item id="click-to-chat-for-whatsapp" override_local="true">Click to Chat</item>
 		<item id="comment-form" override_local="true">Advanced Comment Form</item>
@@ -28,16 +28,16 @@
 		<item id="event-tickets-plus">Event Tickets Plus</item>
 		<item id="events-filterbar" override_local="true">The Events Calendar: Filter Bar</item>
 		<item id="exit-popup">Exit Popup</item>
-		<item id="fluent-crm" override_local="false">FluentCRM - Marketing Automation For WordPress</item>
-		<item id="forminator" override_local="false">Forminator</item>
+		<item id="fluent-crm" override_local="true">FluentCRM - Marketing Automation For WordPress</item>
+		<item id="forminator" override_local="true">Forminator</item>
 		<item id="google-analytics-opt-out" override_local="true">Google Analytics Opt-Out</item>
 		<item id="hello-plus" override_local="true">Hello Plus</item>
 		<item id="hummingbird-performance" override_local="true">Hummingbird</item>
 		<item id="js_composer" override_local="true">WPBakery Page Builder</item>
 		<item id="js_composer" override_local="true">WPBakery Visual Composer</item>
-		<item id="js_composer-dt-the7" override_local="false">The7 WPBakery Page Builder</item><!-- Not maintained anymore -->
+		<item id="js_composer-dt-the7" override_local="true">The7 WPBakery Page Builder</item><!-- Not maintained anymore -->
 		<item id="kingcomposer" override_local="true">KingComposer</item>
-		<item id="leadin" override_local="false">HubSpot All-In-One Marketing - Forms, Popups, Live Chat</item>
+		<item id="leadin" override_local="true">HubSpot All-In-One Marketing - Forms, Popups, Live Chat</item>
 		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
 		<item id="master-slider" override_local="true">MasterSlider</item>
 		<item id="members">Members</item>
@@ -46,7 +46,7 @@
 		<item id="ninja-forms" override_local="true">Ninja Forms</item>
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="oxygen" override_local="true">Oxygen Builder</item>
-		<item id="optinmonster" override_local="false">OptinMonster</item>
+		<item id="optinmonster" override_local="true">OptinMonster</item>
 		<item id="paid-memberships-pro" override_local="true">Paid Memberships Pro</item>
 		<item id="paypal-for-woocommerce" override_local="true">PayPal for WooCommerce</item>
 		<item id="product-enquiry-pro-for-woocommerce" override_local="true">Product Enquiry Pro for WooCommerce</item>
@@ -60,8 +60,8 @@
 		<item id="stackable-ultimate-gutenberg-blocks" override_local="true">Stackable - Gutenberg Blocks (Premium)</item>
 		<item id="subscriptio">Subscriptio</item>
 		<item id="the-events-calendar" override_local="true">The Events Calendar</item>
-		<item id="ultimate-addons-for-gutenberg" override_local="false">Ultimate Addons for Gutenberg</item>
-		<item id="ultimate-addons-for-gutenberg" override_local="false">Spectra</item>
+		<item id="ultimate-addons-for-gutenberg" override_local="true">Ultimate Addons for Gutenberg</item>
+		<item id="ultimate-addons-for-gutenberg" override_local="true">Spectra</item>
 		<item id="ultimate-member" override_local="true">Ultimate Member</item>
 		<item id="uncode-js_composer" override_local="true">Uncode Page Builder (Visual Composer)</item>
 		<item id="uncode-js_composer" override_local="true">Uncode WPBakery Page Builder</item>
@@ -117,11 +117,11 @@
 	<themes>
 		<item id="astra" override_local="true">Astra</item>
 		<item id="avada" override_local="true">Avada</item>
-		<item id="brooklyn" override_local="false">Brooklyn</item>
+		<item id="brooklyn" override_local="true">Brooklyn</item>
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
 		<item id="Divi" override_local="true">Divi</item>
-		<item id="dt-the7" override_local="false">The7</item><!-- Not maintained anymore -->
+		<item id="dt-the7" override_local="true">The7</item><!-- Not maintained anymore -->
 		<item id="emerald-cv" override_local="true">Emerald CV</item>
 		<item id="enfold" override_local="true">Enfold</item>
 		<item id="extra" override_local="true">Extra</item>
