@@ -10,7 +10,6 @@
         <custom-field action="translate">text_required_field_missing</custom-field>
         <custom-field action="translate">text_unsubscribed</custom-field>
         <custom-field action="translate">text_not_subscribed</custom-field>
-        <custom-field action="translate">text_subscribed</custom-field>
         <custom-field action="translate">text_no_lists_selected</custom-field>
         <custom-field action="translate">text_updated</custom-field>
         <custom-field action="copy-once">_mc4wp_settings</custom-field>
