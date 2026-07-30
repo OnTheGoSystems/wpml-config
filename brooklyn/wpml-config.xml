@@ -110,18 +110,6 @@
             <tag>ut_service_box</tag>
         </shortcode>
         <shortcode>
-            <tag>ut_service_column</tag>
-            <attributes>
-                <attribute>headline</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
-            <tag>ut_service_column_vertical</tag>
-            <attributes>
-                <attribute>headline</attribute>
-            </attributes>
-        </shortcode>
-        <shortcode>
             <tag>ut_service_icon_box</tag>
             <attributes>
                 <attribute>headline</attribute>
