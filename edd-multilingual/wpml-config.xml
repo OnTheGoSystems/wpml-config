@@ -8,7 +8,6 @@
         <custom-field action="ignore">_edd_download_earnings</custom-field>
         <custom-field action="ignore">_edd_download_sales</custom-field>
         <custom-field action="copy">edd_price</custom-field>
-        <custom-field action="copy">edd_variable_prices</custom-field>
         <custom-field action="copy">_variable_pricing</custom-field>
         <custom-field action="copy">_edd_price_options_mode</custom-field>
         <custom-field action="copy">_edd_purchase_style</custom-field>
