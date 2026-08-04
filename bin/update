@@ -20,7 +20,8 @@ class WPML_Config_Index {
 	function update() {
 		$this->load_xml();
 		if ( ! $this->validate_paths() ) {
-			die( implode( PHP_EOL, $this->errors ) . PHP_EOL );
+			fwrite( STDERR, implode( PHP_EOL, $this->errors ) . PHP_EOL );
+			exit( 1 );
 		}
 		$this->save_json();
 	}
@@ -46,6 +47,11 @@ class WPML_Config_Index {
 			$path = $slug . '/wpml-config.xml';
 			if ( ! file_exists( $path ) ) {
 				$errors[] = "File <$path> not found.";
+			}
+
+			$override_local = $config->attributes()['override_local'];
+			if ( null !== $override_local && ! in_array( (string) $override_local, array( 'true', 'false' ), true ) ) {
+				$errors[] = "Invalid override_local=\"$override_local\" for <$slug>: use \"true\", \"false\", or omit the attribute.";
 			}
 		}
 
@@ -73,7 +79,7 @@ class WPML_Config_Index {
 		$name = (string) $item;
 		$slug = (string) $item->attributes()['id'];
 		$path = $slug . '/wpml-config.xml';
-		$override_local = (bool) $item->attributes()['override_local'];
+		$override_local = 'true' === (string) $item->attributes()['override_local'];
 
 		$data = new stdClass;
 		$data->name = $name;
