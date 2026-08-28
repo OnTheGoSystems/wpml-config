@@ -61,6 +61,12 @@
 				<field type="HTML" editor_type="AREA">html</field>
 			</fields>
 		</widget>
+        <widget name="photo">
+			<fields>
+  				<field type="Photo: Caption" editor_type="LINE">caption</field>
+				<field type="Photo: Link" editor_type="LINK">link_url</field>
+			</fields>
+        </widget>
 	</beaver-builder-widgets>
 	<gutenberg-blocks>
 		<gutenberg-block type="fl-builder/accordion" translate="1">
