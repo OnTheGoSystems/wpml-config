@@ -1,11 +1,11 @@
 <wpml-config>
 	<custom-fields>
 		<custom-field action="translate">_yoast_wpseo_title</custom-field>
-		<custom-field action="translate">_yoast_wpseo_bctitle</custom-field>
-		<custom-field action="translate">_yoast_wpseo_metadesc</custom-field>
-		<custom-field action="translate">_yoast_wpseo_metakeywords</custom-field>
-		<custom-field action="translate">_yoast_wpseo_focuskw</custom-field>
-		<custom-field action="translate" encoding="json">_yoast_wpseo_focuskeywords</custom-field>
+		<custom-field action="translate" label="Breadcrumb Title">_yoast_wpseo_bctitle</custom-field>
+		<custom-field action="translate" label="Meta Description">_yoast_wpseo_metadesc</custom-field>
+		<custom-field action="translate" label="Meta Keywords">_yoast_wpseo_metakeywords</custom-field>
+		<custom-field action="translate" label="Focus Keyword">_yoast_wpseo_focuskw</custom-field>
+		<custom-field action="translate" label="Focus Keywords" encoding="json">_yoast_wpseo_focuskeywords</custom-field>
 		<custom-field action="translate" encoding="json">_yoast_wpseo_keyword</custom-field>
 		<custom-field action="copy">_yoast_wpseo_meta-robots-noindex</custom-field>
 		<custom-field action="copy">_yoast_wpseo_meta-robots-nofollow</custom-field>
@@ -46,6 +46,9 @@
 			<key name="breadcrumbs-archiveprefix" />
 			<key name="breadcrumbs-searchprefix" />
 			<key name="breadcrumbs-404crumb" />
+			<key name="open_graph_frontpage_title" />
+			<key name="open_graph_frontpage_desc" />
+			<key name="open_graph_frontpage_image" />
 		</key>
 		<key name="wpseo_rss">
 			<key name="rssbefore" />
