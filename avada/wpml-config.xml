@@ -470,7 +470,9 @@
 			<tag>fusion_post_cards</tag>
 			<attributes>
 				<attribute type="post-ids">post_card</attribute>
-				<attribute type="taxonomy-ids">include_product_cat</attribute>
+				<attribute type="post-ids">post_ids</attribute>
+				<attribute type="taxonomy-ids">include_(?!product_skus)[a-z0-9_-]+</attribute>
+				<attribute type="taxonomy-ids">exclude_(?!product_skus)[a-z0-9_-]+</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
