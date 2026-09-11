@@ -733,6 +733,7 @@
         <widget name="e-heading">
             <fields>
                 <field type="Heading: Title">title>value>content>value</field>
+                <field type="Heading: Title" field_id="title>value>content>value">title>value</field><!-- Since 4.3.0 -->
                 <field type="Heading: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Heading: Link Label">link>value>label>value</field>
             </fields>
@@ -740,6 +741,7 @@
         <widget name="e-paragraph">
             <fields>
                 <field type="Paragraph: Content">paragraph>value>content>value</field>
+                <field type="Paragraph: Content" field_id="paragraph>value>content>value">paragraph>value</field><!-- Since 4.3.0 -->
                 <field type="Paragraph: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Paragraph: Link Label">link>value>label>value</field>
             </fields>
@@ -747,6 +749,7 @@
         <widget name="e-button">
             <fields>
                 <field type="Button: Content">text>value>content>value</field>
+                <field type="Button: Content" field_id="text>value>content>value">text>value</field><!-- Since 4.3.0 -->
                 <field type="Button: Link URL" editor_type="LINK">link>value>destination>value</field>
                 <field type="Button: Link Label">link>value>label</field>
             </fields>
@@ -791,6 +794,7 @@
         <widget name="e-form-label">
             <fields>
                 <field type="Form: Label">text>value>content>value</field>
+                <field type="Form: Label" field_id="text>value>content>value">text>value</field><!-- Since 4.3.0 -->
             </fields>
         </widget>
         <widget name="e-form-input">
@@ -818,6 +822,7 @@
             <fields>
                 <field type="Form: Submit Button">label>value</field>
                 <field type="Form: Submit Button">text>value>content>value</field><!-- Since 4.1.0 -->
+                <field type="Form: Submit Button" field_id="text>value>content>value">text>value</field><!-- Since 4.3.0 -->
             </fields>
         </widget>
     </elementor-widgets>
