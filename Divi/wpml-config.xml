@@ -1152,6 +1152,17 @@
                     </key>
                 </key>
             </key>
+            <key name="social">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="facebookUrl" type="link" />
+                            <key name="twitterUrl" type="link" />
+                            <key name="linkedinUrl" type="link" />
+                        </key>
+                    </key>
+                </key>
+            </key>
         </gutenberg-block>
         <gutenberg-block type="divi/testimonial" translate="1">
             <key name="company">
@@ -1665,6 +1676,138 @@
                         </key>
                         <key name="phone">
                             <key name="value" type="media-ids" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/charts" translate="1">
+            <key name="chart">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="title" />
+                            <key name="subtitle" />
+                            <key name="legendTitle" />
+                            <key name="data">
+                                <key name="columns">
+                                    <key name="*">
+                                        <key name="label" />
+                                    </key>
+                                </key>
+                                <key name="rows">
+                                    <key name="*">
+                                        <key name="cells">
+                                            <key name="*" />
+                                        </key>
+                                    </key>
+                                </key>
+                            </key>
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/post-filter-item" translate="1">
+            <key name="label">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="field">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="placeholder" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/payment-button" translate="1">
+            <key name="button">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="text" />
+                            <key name="linkUrl" type="link" />
+                            <key name="description" />
+                            <key name="returnUrl" type="link" />
+                            <key name="cancelUrl" type="link" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/before-after-image" translate="1">
+            <key name="beforeLabel">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+            <key name="afterLabel">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/signup-custom-field" translate="1">
+            <key name="fieldItem">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value" />
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/social-media-follow-network" translate="1">
+            <key name="socialNetwork">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="link" type="link" />
+                            <key name="skypeUrl" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/fullwidth-menu" translate="1">
+            <key name="logo">
+                <key name="innerContent">
+                    <key name="*">
+                        <key name="value">
+                            <key name="id" type="media-ids" />
+                            <key name="src" type="media-url" />
+                            <key name="linkUrl" type="link" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/post-slider" translate="1">
+            <key name="pagination">
+                <key name="advanced">
+                    <key name="swipeText">
+                        <key name="*">
+                            <key name="value" />
+                        </key>
+                    </key>
+                </key>
+            </key>
+        </gutenberg-block>
+        <gutenberg-block type="divi/slider" translate="1">
+            <key name="pagination">
+                <key name="advanced">
+                    <key name="swipeText">
+                        <key name="*">
+                            <key name="value" />
                         </key>
                     </key>
                 </key>
