@@ -77,8 +77,8 @@ To translate Formidable Forms with WPML, install the WP Multilingual add-on from
         ]]>
             </content>
         </notice>
-        <notice id="compdev-778-oxygen-builder" dismissible="1" type="warning">
-            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-778 -->
+        <notice id="comp-4596-oxygen-builder" dismissible="1" type="info">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/comp-4596 -->
             <conditions>
                 <plugin>Oxygen</plugin>
             </conditions>
@@ -88,13 +88,13 @@ To translate Formidable Forms with WPML, install the WP Multilingual add-on from
             <content>
                 <![CDATA[
 <p style="margin-top:6px;">
-Oxygen Builder is not compatible with WPML. Here’s a <a target="_blank" href="https://wpml.org/plugin-functionality/page-builder/?utm_source=plugin&utm_medium=gui&utm_campaign=core">list of recommended page builders for multilingual sites</a>.
+To translate Oxygen Builder with WPML, install WPML Oxygen Connector, a paid add-on from a third-party developer. <a target="_blank" href="https://wpml.org/plugin/oxygen/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Learn more</a>
 </p>
         ]]>
             </content>
         </notice>
-        <notice id="compdev-777-breakdance" dismissible="1" type="warning">
-            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-777 -->
+        <notice id="comp-4596-breakdance" dismissible="1" type="info">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/comp-4596 -->
             <conditions>
                 <plugin>Breakdance</plugin>
             </conditions>
@@ -104,7 +104,7 @@ Oxygen Builder is not compatible with WPML. Here’s a <a target="_blank" href="
             <content>
                 <![CDATA[
 <p style="margin-top:6px;">
-Breakdance is not compatible with WPML. Here’s a <a target="_blank" href="https://wpml.org/plugin-functionality/page-builder/?utm_source=plugin&utm_medium=gui&utm_campaign=core">list of recommended page builders for multilingual sites</a>.
+To translate Breakdance with WPML, install WPML Oxygen Connector, a paid add-on from a third-party developer. <a target="_blank" href="https://wpml.org/plugin/breakdance/?utm_source=plugin&utm_medium=gui&utm_campaign=core">Learn more</a>
 </p>
         ]]>
             </content>
