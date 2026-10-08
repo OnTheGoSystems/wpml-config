@@ -416,6 +416,12 @@
             <attributes>
                 <attribute>title</attribute>
             </attributes>
-          </shortcode>         
+        </shortcode>
+        <shortcode>
+            <tag label="Uncode Button">uncode_button</tag>
+            <attributes>
+                <attribute type="link" encoding="vc_link" label="Button link">link</attribute>
+            </attributes>
+        </shortcode>
     </shortcodes>
 </wpml-config>
