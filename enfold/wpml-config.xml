@@ -348,10 +348,12 @@
             </attributes>
         </shortcode>
         <shortcode>
-            <tag>av_image</tag>
+            <tag label="Enfold image">av_image</tag>
             <attributes>
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute type="media-ids">attachment</attribute>
+                <attribute>title_attr</attribute>
+                <attribute>alt_attr</attribute>
             </attributes>
         </shortcode>
         <shortcode>
