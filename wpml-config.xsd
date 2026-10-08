@@ -107,6 +107,14 @@
         <xs:attribute type="xs:string" name="label" use="optional"/>
         <xs:attribute type="xs:string" name="type" use="optional"/>
         <xs:attribute type="xs:string" name="sub-type" use="optional"/>
+        <xs:attribute name="translate_link_target" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                    <xs:enumeration value="0"/>
+                    <xs:enumeration value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
         <xs:attribute name="encoding" use="optional">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
@@ -178,11 +186,14 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- With type="post-ids" or type="taxonomy-ids", "*" in the attribute name matches one or more letters, digits,
+         "_" or "-" (example: include_*). "exclude" lists names, separated by commas, that WPML does not convert. -->
     <xs:complexType name="wpml-shortcode-attribute">
         <xs:simpleContent>
             <xs:extension base="xs:string">
                 <xs:attribute type="xs:string" name="type" use="optional"/>
                 <xs:attribute type="xs:string" name="sub-type" use="optional"/>
+                <xs:attribute type="xs:string" name="exclude" use="optional"/>
                 <xs:attribute type="xs:string" name="encoding" use="optional"/>
                 <xs:attribute type="xs:string" name="label" use="optional"/>
             </xs:extension>
