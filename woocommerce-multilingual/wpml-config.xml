@@ -22,6 +22,15 @@
 		<custom-field action="copy">_subscription_price</custom-field>
 		<custom-field action="copy">_subscription_sign_up_fee</custom-field>
 		<custom-field action="copy">_subscription_trial_length</custom-field>
+		<custom-field action="copy">_wcsatt_schemes</custom-field>
+		<custom-field action="copy">_wcsatt_schemes_status</custom-field>
+		<custom-field action="copy">_wcsatt_force_subscription</custom-field>
+		<custom-field action="copy">_wcsatt_allow_one_off</custom-field>
+		<custom-field action="copy">_wcsatt_default_status</custom-field>
+		<custom-field action="copy">_wcsatt_layout</custom-field>
+		<custom-field action="copy">_wcsatt_storewide_selection_mode</custom-field>
+		<custom-field action="copy">_wcsatt_selected_storewide_plans</custom-field>
+		<custom-field action="translate">_wcsatt_subscription_prompt</custom-field>
 		<custom-field action="copy">_subscription_trial_period</custom-field>
 		<custom-field action="copy">_tax_class</custom-field>
 		<custom-field action="copy">_tax_status</custom-field>
@@ -67,6 +76,7 @@
 		<custom-field action="translate">_children</custom-field>
 		<custom-field action="copy">_subscription_limit</custom-field>
 		<custom-field action="copy">_low_stock_amount</custom-field>
+		<custom-field action="translate">wc_booking_resource_label</custom-field>
 	</custom-fields>
 	<custom-types>
 		<custom-type translate="1">product</custom-type>
@@ -146,6 +156,7 @@
 		<key name="woocommerce_registration_privacy_policy_text" />
 		<key name="woocommerce_checkout_privacy_policy_text" />
 		<key name="woocommerce_checkout_terms_and_conditions_checkbox_text" />
+		<key name="wcsatt_subscribe_to_cart_prompt" />
 	</admin-texts>
 	<gutenberg-blocks>
 		<gutenberg-block type="woocommerce/checkout-contact-information-block" translate="1">
