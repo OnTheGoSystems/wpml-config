@@ -23,6 +23,12 @@
 		<custom-term-field action="translate">rank_math_focus_keyword</custom-term-field>
 		<custom-term-field action="translate">rank_math_description</custom-term-field>
 		<custom-term-field action="translate">rank_math_title</custom-term-field>
+		<custom-term-field action="translate">rank_math_facebook_title</custom-term-field>
+		<custom-term-field action="translate">rank_math_facebook_description</custom-term-field>
+		<custom-term-field action="translate">rank_math_twitter_title</custom-term-field>
+		<custom-term-field action="translate">rank_math_twitter_description</custom-term-field>
+		<custom-term-field action="translate">rank_math_breadcrumb_title</custom-term-field>
+		<custom-term-field action="ignore">rank_math_canonical_url</custom-term-field>
 	</custom-term-fields>
 	<admin-texts>
 		<key name="rank-math-options-titles">
