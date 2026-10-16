@@ -759,6 +759,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
 				<attribute>empty_notice</attribute>
+				<attribute>invalid_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -862,6 +863,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
 				<attribute>empty_notice</attribute>
+				<attribute>invalid_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -872,6 +874,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
 				<attribute>empty_notice</attribute>
+				<attribute>invalid_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -901,6 +904,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
 				<attribute>empty_notice</attribute>
+				<attribute>invalid_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
@@ -911,6 +915,7 @@
 				<attribute>tooltip</attribute>
 				<attribute encoding="fusion_logics">logics</attribute>
 				<attribute>empty_notice</attribute>
+				<attribute>invalid_notice</attribute>
 			</attributes>
 		</shortcode>
 		<shortcode>
