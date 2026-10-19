@@ -117,6 +117,7 @@
 	<themes>
 		<item id="astra" override_local="true">Astra</item>
 		<item id="avada" override_local="true">Avada</item>
+		<item id="avada-one" override_local="true">Avada One</item>
 		<item id="brooklyn" override_local="false">Brooklyn</item>
 		<item id="canvas" override_local="true">Canvas</item>
 		<item id="customizr">Customizr</item>
