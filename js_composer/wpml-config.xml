@@ -10,6 +10,8 @@
         <custom-field action="ignore">_wpb_post_custom_css</custom-field>
         <custom-field action="copy">_wpb_post_custom_layout</custom-field>
         <custom-field action="translate" encoding="json">_wpb_post_custom_seo_settings</custom-field>
+        <custom-field action="copy">_wpb_vc_use_optimized_css</custom-field>
+        <custom-field action="copy">_wpb_vc_use_optimized_js</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
@@ -97,6 +99,13 @@
         </shortcode>
         <shortcode>
             <tag>vc_btn</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>wpb_btn</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_link" type="link">link</attribute>
