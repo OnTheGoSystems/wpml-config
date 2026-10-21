@@ -109,8 +109,8 @@ To translate Breakdance with WPML, install WPML Oxygen Connector, a paid add-on 
         ]]>
             </content>
         </notice>
-        <notice type="warning" dismissible="1" id="compdev-1295">
-            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/compdev-1295/ -->
+        <notice type="info" dismissible="1" id="wpmldev-11417">
+            <!-- https://onthegosystems.myjetbrains.com/youtrack/issue/wpmldev-11417/ -->
             <conditions>
                 <plugin>WooCommerce Subscriptions</plugin>
             </conditions>
@@ -120,10 +120,10 @@ To translate Breakdance with WPML, install WPML Oxygen Connector, a paid add-on 
             </locations>
             <content><![CDATA[
 <h4 style="margin-top:0;">
-WooCommerce Subscriptions 9.0.0 is not natively compatible with WCML.
+WCML 5.7.0 now supports WooCommerce Subscriptions 9.
 </h4>
 <p>
-You need to restore the legacy subscription editor interface as <a href="https://wpml.org/errata/woocommerce-subscriptions-version-9-0-0-is-not-compatible/" target="_blank">described in our erratum<a>.
+Update WCML to version 5.7.0 or later. After the update, you no longer need to use the legacy subscription editor interface described in <a href="https://wpml.org/errata/woocommerce-subscriptions-version-9-0-0-is-not-compatible/" target="_blank">our erratum</a>.
 </p>
 ]]></content>
         </notice>
