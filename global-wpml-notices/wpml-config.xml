@@ -123,7 +123,7 @@ To translate Breakdance with WPML, install WPML Oxygen Connector, a paid add-on 
 WCML 5.7.0 now supports WooCommerce Subscriptions 9.
 </h4>
 <p>
-Update WCML to version 5.7.0 or later. After the update, you no longer need to use the legacy subscription editor interface described in <a href="https://wpml.org/errata/woocommerce-subscriptions-version-9-0-0-is-not-compatible/" target="_blank">our erratum</a>.
+Update WCML to version 5.7.0 or later. After the update, you no longer need to use the legacy subscription editor interface.
 </p>
 ]]></content>
         </notice>
