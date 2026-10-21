@@ -504,6 +504,11 @@
 				<attribute type="taxonomy-ids">exclude_term_faq_category</attribute>
 				<attribute type="taxonomy-ids">exclude_term_product_cat</attribute>
 				<attribute type="taxonomy-ids">exclude_term_product_tag</attribute>
+				<!-- For WPML versions before 5.1.0, which read an attribute name as a regex. WPML 5.1.0 and later read these
+				     two names as plain names, so they match nothing there. See wpmldev-10215 -->
+				<attribute type="taxonomy-ids">include_(?!product_skus)[a-z0-9_-]+</attribute>
+				<attribute type="taxonomy-ids">exclude_(?!product_skus)[a-z0-9_-]+</attribute>
+				<!-- For WPML 5.2 and later: "*" matches the rest of the attribute name. See wpmldev-10215 -->
 				<attribute type="taxonomy-ids" exclude="include_product_skus">include_*</attribute>
 				<attribute type="taxonomy-ids" exclude="exclude_product_skus">exclude_*</attribute>
 			</attributes>
