@@ -1,6 +1,6 @@
 <wpml-config>
-    <built-with-page-builder>/\[vc_row\]/</built-with-page-builder>
-    <shortcode-list>vc_row,vc_empty_space,vc_separator,vc_column,vc_column_inner,vc_raw_html,vc_column_text,vc_text_separator,vc_message,vc_toggle,vc_tta_accordion,vc_tta_tour,vc_tta_tabs,vc_tta_pageable,vc_tta_section,vc_custom_heading,vc_progress_bar,vc_pie,vc_round_chart,vc_btn,vc_cta,vc_line_chart,vc_single_image,vc_gallery,vc_images_carousel,vc_widget_sidebar,vc_posts_slider,vc_video,vc_gmaps,vc_flickr,vc_wp_search,vc_wp_meta,vc_wp_recentcomments,vc_wp_calendar,vc_wp_pages,vc_wp_tagcloud,vc_wp_custommenu,vc_wp_text,vc_wp_posts,vc_wp_categories,vc_wp_archives,vc_wp_rss,vc_hoverbox,vc_accordion,vc_accordion_tab,vc_basic_grid,vc_button,vc_button2,vc_carousel,vc_cta_button,vc_cta_button2,vc_masonry_grid,vc_masonry_media_grid,vc_media_grid,vc_posts_grid,vc_tab,vc_tabs,vc_tour,vc_tweetmeme,contact-form-7,ult_buttons,ult_countdown,ult_dualbutton,ultimate_exp_section,ultimate_fancytext,icon_counter,ultimate_google_map,ultimate_heading,ultimate_ctation,ult_hotspot_items,icon_timeline_sep,icon_timeline_item,icon_timeline_feat,single_icon,ultimate_img_separator,ult_ihover_item,ultimate_info_banner,bsf-info-box,info_circle_item,info_list_item,ultimate_info_table,interactive_banner_2,interactive_banner,just_icon,ult_createlink,ultimate_icon_list_item,ultimate_modal,ultimate_pricing,stat_counter,swatch_container,swatch_item,ult_tab_element,single_tab,ult_team,ultimate_video_banner</shortcode-list>
+    <built-with-page-builder>/\[vc_row[\s\]]/</built-with-page-builder>
+    <shortcode-list>vc_row,vc_empty_space,vc_separator,vc_column,vc_column_inner,vc_raw_html,vc_column_text,vc_text_separator,vc_message,vc_toggle,vc_tta_accordion,vc_tta_tour,vc_tta_tabs,vc_tta_pageable,vc_tta_section,vc_custom_heading,vc_progress_bar,vc_pie,vc_round_chart,vc_btn,vc_cta,vc_line_chart,vc_single_image,vc_gallery,vc_images_carousel,vc_widget_sidebar,vc_posts_slider,vc_video,vc_gmaps,vc_flickr,vc_wp_search,vc_wp_meta,vc_wp_recentcomments,vc_wp_calendar,vc_wp_pages,vc_wp_tagcloud,vc_wp_custommenu,vc_wp_text,vc_wp_posts,vc_wp_categories,vc_wp_archives,vc_wp_rss,vc_hoverbox,vc_accordion,vc_accordion_tab,vc_basic_grid,vc_button,vc_button2,vc_carousel,vc_cta_button,vc_cta_button2,vc_masonry_grid,vc_masonry_media_grid,vc_media_grid,vc_posts_grid,vc_tab,vc_tabs,vc_tour,vc_tweetmeme,contact-form-7,ult_buttons,ult_countdown,ult_dualbutton,ultimate_exp_section,ultimate_fancytext,icon_counter,ultimate_google_map,ultimate_heading,ultimate_ctation,ult_hotspot_items,icon_timeline_sep,icon_timeline_item,icon_timeline_feat,single_icon,ultimate_img_separator,ult_ihover_item,ultimate_info_banner,bsf-info-box,info_circle_item,info_list_item,ultimate_info_table,interactive_banner_2,interactive_banner,just_icon,ult_createlink,ultimate_icon_list_item,ultimate_modal,ultimate_pricing,stat_counter,swatch_container,swatch_item,ult_tab_element,single_tab,ult_team,ultimate_video_banner,vc_copyright,vc_facebook,vc_goo_maps,vc_googleplus,vc_icon,vc_pinterest,vc_pricing_table,vc_raw_js,vc_row_inner,vc_section,vc_tta_toggle,vc_tta_toggle_section,vc_wp_links,vc_zigzag</shortcode-list>
     <custom-types>
         <custom-type translate="1">vc_grid_item</custom-type>
     </custom-types>
@@ -12,12 +12,15 @@
         <custom-field action="translate" encoding="json">_wpb_post_custom_seo_settings</custom-field>
         <custom-field action="copy">_wpb_vc_use_optimized_css</custom-field>
         <custom-field action="copy">_wpb_vc_use_optimized_js</custom-field>
+        <custom-field action="copy">_wpb_vc_editor_type</custom-field>
     </custom-fields>
     <shortcodes>
         <shortcode>
             <tag>vc_row</tag>
             <attributes>
                 <attribute>el_id</attribute>
+                <attribute type="media-ids">parallax_image</attribute>
+                <attribute type="link">video_bg_url</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -64,6 +67,12 @@
         </shortcode>
         <shortcode>
             <tag>vc_tta_section</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_toggle_section</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
             </attributes>
@@ -136,6 +145,7 @@
                 <attribute type="media-ids">image</attribute>
                 <attribute type="media-ids">media</attribute>
                 <attribute type="link">link</attribute>
+                <attribute>caption</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -166,12 +176,14 @@
             <tag>vc_posts_slider</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute encoding="vc_safe">custom_links</attribute>
             </attributes>
         </shortcode>
         <shortcode>
             <tag>vc_video</tag>
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
+                <attribute type="link">link</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -179,6 +191,12 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute encoding="vc_safe">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_goo_maps</tag>
+            <attributes>
+                <attribute>location</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -387,7 +405,7 @@
         <shortcode>
             <tag>contact-form-7</tag>
             <attributes>
-                <attribute>id</attribute>
+                <attribute type="post-ids" sub-type="wpcf7_contact_form">id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -418,7 +436,20 @@
         <shortcode>
             <tag>vc_pricing_table</tag>
             <attributes>
+                <attribute encoding="allow_html_tags">heading</attribute>
+                <attribute encoding="allow_html_tags">subheading</attribute>
+                <attribute>price</attribute>
+                <attribute>currency</attribute>
+                <attribute>period</attribute>
+                <attribute encoding="allow_html_tags">btn_title</attribute>
                 <attribute encoding="vc_link" type="link">btn_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_copyright</tag>
+            <attributes>
+                <attribute encoding="allow_html_tags">prefix</attribute>
+                <attribute encoding="allow_html_tags">postfix</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
