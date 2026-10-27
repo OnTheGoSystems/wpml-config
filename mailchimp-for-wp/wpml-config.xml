@@ -12,6 +12,7 @@
         <custom-field action="translate">text_not_subscribed</custom-field>
         <custom-field action="translate">text_no_lists_selected</custom-field>
         <custom-field action="translate">text_updated</custom-field>
+        <custom-field action="translate">text_spam</custom-field>
         <custom-field action="copy-once">_mc4wp_settings</custom-field>
     </custom-fields>
     <admin-texts>
@@ -38,6 +39,21 @@
                 <key name="label"/>
             </key>
             <key name="buddypress">
+                <key name="label"/>
+            </key>
+            <key name="memberpress">
+                <key name="label"/>
+            </key>
+            <key name="peepso">
+                <key name="label"/>
+            </key>
+            <key name="affiliatewp">
+                <key name="label"/>
+            </key>
+            <key name="give">
+                <key name="label"/>
+            </key>
+            <key name="simple-basic-contact-form">
                 <key name="label"/>
             </key>
         </key>
