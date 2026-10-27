@@ -1,0 +1,306 @@
+<wpml-config>
+  <built-with-page-builder>/\[siteorigin_widget.*\]/</built-with-page-builder>
+  <gutenberg-blocks>
+    <gutenberg-block type="siteorigin-panels/layout-block" translate="1">
+      <key name="panelsData">
+        <key name="widgets">
+          <key name="*">
+            <key name="title" />
+            <key name="text" />
+            <key name="alt" />
+            <key name="url" />
+            <key name="content" />
+            <key name="caption" />
+            <key name="attributes">
+              <key name="title" />
+            </key>
+            <key name="settings">
+              <key name="default_subject" />
+              <key name="subject_prefix" />
+              <key name="success_message" />
+              <key name="submit_text" />
+            </key>
+            <key name="fields">
+              <key name="*">
+                <key name="label" />
+                <key name="description" />
+                <key name="required">
+                  <key name="missing_message" />
+                </key>
+              </key>
+            </key>
+            <key name="panels">
+              <key name="*">
+                <key name="title" />
+                <key name="content_text" />
+                <key name="content_layout" />
+              </key>
+            </key>
+            <key name="items">
+              <key name="*">
+                <key name="title" />
+                <key name="content_text" />
+                <key name="content_layout" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="tabs">
+              <key name="*">
+                <key name="title" />
+                <key name="content_text" />
+                <key name="content_layout" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="features">
+              <key name="*">
+                <key name="title" />
+                <key name="text" />
+                <key name="icon_title" />
+                <key name="more_text" />
+                <key name="more_url" />
+              </key>
+            </key>
+            <key name="frames">
+              <key name="*">
+                <key name="content" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="images">
+              <key name="*">
+                <key name="title" />
+                <key name="alt" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="columns">
+              <key name="*">
+                <key name="title" />
+                <key name="subtitle" />
+                <key name="image_title" />
+                <key name="image_alt" />
+                <key name="per" />
+                <key name="button_text" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="networks">
+              <key name="*">
+                <key name="url" />
+                <key name="icon_title" />
+              </key>
+            </key>
+            <key name="testimonials">
+              <key name="*">
+                <key name="title" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="headline">
+              <key name="text" />
+              <key name="destination_url" />
+            </key>
+            <key name="sub_headline">
+              <key name="text" />
+              <key name="destination_url" />
+            </key>
+            <key name="testimonials">
+              <key name="*">
+                <key name="text" />
+                <key name="url" />
+              </key>
+            </key>
+            <key name="frames">
+              <key name="*">
+                <key name="content" />
+              </key>
+            </key>
+            <key name="features">
+              <key name="*">
+                <key name="title" />
+                <key name="text" />
+                <key name="icon_title" />
+                <key name="more_text" />
+                <key name="more_url" />
+              </key>
+            </key>
+            <key name="cta">
+              <key name="*">
+                <key name="title" />
+                <key name="sub_title" />
+                <key name="button>text" />
+                <key name="button>destination_url" />
+                <key name="attributes>title" />
+              </key>
+            </key>
+            <key name="taxonomy">
+              <key name="*">
+                <key name="label" />
+              </key>
+            </key>
+          </key>
+        </key>
+      </key>
+    </gutenberg-block>
+  </gutenberg-blocks>
+  <siteorigin-widgets>
+    <widget name="WP_Widget_Archives">
+      <fields>
+        <field type="Archive: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Audio">
+      <fields>
+        <field type="Audio: Title">title</field>
+        <field type="Audio: URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Calendar">
+      <fields>
+        <field type="Calendar: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Categories">
+      <fields>
+        <field type="Categories: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Custom_HTML">
+      <fields>
+        <field type="Custom HTML: Title">title</field>
+        <field type="Custom HTML: Content" editor_type="AREA">content</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Gallery">
+      <fields>
+        <field type="Gallery: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Image">
+      <fields>
+        <field type="Image: Title">title</field>
+        <field type="Image: Caption">caption</field>
+        <field type="Image: Alt">alt</field>
+        <field type="Image: Link URL" editor_type="LINK">link_url</field>
+	  </fields>
+    </widget>
+    <widget name="WP_Widget_Meta">
+      <fields>
+        <field type="Meta: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Nav_Menu_Widget">
+      <fields>
+        <field type="Menu: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Pages">
+      <fields>
+        <field type="Pages: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_RSS">
+      <fields>
+        <field type="RSS: Title">title</field>
+        <field type="RSS: URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Recent_Comments">
+      <fields>
+        <field type="Recent Comments: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Recent_Posts">
+      <fields>
+        <field type="Recent Posts: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Search">
+      <fields>
+        <field type="Search: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Tag_Cloud">
+      <fields>
+        <field type="Tag Cloud: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Text">
+      <fields>
+        <field type="Widget: Title">title</field>
+        <field type="Widget: Text" editor_type="AREA">text</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widgets_PostLoop">
+      <fields>
+        <field type="Post Loop: Title">title</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Block">
+      <fields>
+        <field type="Block: Content" editor_type="AREA">content</field>
+      </fields>
+    </widget>
+    <widget name="WP_Widget_Media_Video">
+      <fields>
+        <field type="Video: Title">title</field>
+        <field type="Video: URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_Animated_Image">
+      <fields>
+        <field type="Animated Image: Image URL" editor_type="LINK">image</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_Button">
+      <fields>
+        <field type="Button (PB): Text">text</field>
+        <field type="Button (PB): URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_Call_To_Action">
+      <fields>
+        <field type="Call To Action (PB): Title">title</field>
+        <field type="Call To Action (PB): Subtitle">subtitle</field>
+        <field type="Call To Action (PB): Button Text">button_text</field>
+        <field type="Call To Action (PB): Button URL" editor_type="LINK">button_url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_List">
+      <fields>
+        <field type="List (PB): Title">title</field>
+        <field type="List (PB): Text" editor_type="AREA">text</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_Price_Box">
+      <fields>
+        <field type="Price Box (PB): Title">title</field>
+        <field type="Price Box (PB): Price">price</field>
+        <field type="Price Box (PB): Per">per</field>
+        <field type="Price Box (PB): Information">information</field>
+        <field type="Price Box (PB): Features" editor_type="AREA">features</field>
+        <field type="Price Box (PB): Button Text">button_text</field>
+        <field type="Price Box (PB): Button URL" editor_type="LINK">button_url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Panels_Widget_Testimonial">
+      <fields>
+        <field type="Testimonial (PB): Name">name</field>
+        <field type="Testimonial (PB): Location">location</field>
+        <field type="Testimonial (PB): Text" editor_type="AREA">text</field>
+        <field type="Testimonial (PB): URL" editor_type="LINK">url</field>
+      </fields>
+    </widget>
+    <widget name="SiteOrigin_Widget_Button_Grid_Widget">
+      <fields-in-item items_of="buttons">
+        <field type="Button Grid: Button Text">widget>text</field>
+        <field type="Button Grid: Button URL" editor_type="LINK">widget>url</field>
+        <field type="Button Grid: Button Title">widget>attributes>title</field>
+      </fields-in-item>
+    </widget>
+  </siteorigin-widgets>
+  <custom-fields>
+    <custom-field action="ignore">panels_data</custom-field>
+  </custom-fields>
+</wpml-config>
