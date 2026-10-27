@@ -38,7 +38,6 @@
 		<item id="js_composer-dt-the7" override_local="false">The7 WPBakery Page Builder</item><!-- Not maintained anymore -->
 		<item id="kingcomposer" override_local="true">KingComposer</item>
 		<item id="leadin" override_local="false">HubSpot All-In-One Marketing - Forms, Popups, Live Chat</item>
-		<item id="mailchimp-for-wp" override_local="true">MailChimp for WordPress</item>
 		<item id="mailchimp-for-wp" override_local="true">MC4WP: Mailchimp for WordPress</item>
 		<item id="master-slider" override_local="true">MasterSlider</item>
 		<item id="members">Members</item>
