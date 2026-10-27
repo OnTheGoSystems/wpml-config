@@ -1,10 +1,11 @@
 <wpml-config>
-    <built-with-page-builder>/\[(av|av_)/</built-with-page-builder>
-	<shortcode-list>av_one_full,av_tab_section,av_tab_sub_section,av_layout_row,av_cell_one_half,av_textblock,av_heading,av_icon_box,av_iconlist_item,av_timeline_item,av_font_icon,av_headline_rotator,av_rotator_item,av_button,av_button_big,av_content_slider,av_content_slide,av_notification,av_tab,av_toggle,av_promobox,av_contact,av_contact_field,av_magazine,av_team_member,av_team_icon,av_table,av_cell,av_progress_bar,av_submenu_item,av_testimonial_single,av_catalogue_item,av_animated_numbers,av_mailchimp,av_mailchimp_field,av_social_share,av_image,av_image_spot,av_slide,av_slide_full,av_fullscreen_slide,av_slide_accordion,av_layerslider,av_partner,av_partner_logo,av_gmap_location,av_codeblock,av_video,av_masonry_entries,av_cell_one_third,av_google_map,av_one_third,av_section,av_row,et_pb_fullwidth_code</shortcode-list>
+    <built-with-page-builder>/\[(av_[a-z]|avia_sc_)/</built-with-page-builder>
+	<shortcode-list>av_one_full,av_tab_section,av_tab_sub_section,av_layout_row,av_cell_one_half,av_textblock,av_heading,av_icon_box,av_iconlist_item,av_timeline_item,av_font_icon,av_headline_rotator,av_rotator_item,av_button,av_button_big,av_content_slider,av_content_slide,av_notification,av_tab,av_toggle,av_promobox,av_contact,av_contact_field,av_magazine,av_team_member,av_team_icon,av_table,av_cell,av_progress_bar,av_submenu_item,av_testimonial_single,av_catalogue_item,av_animated_numbers,av_mailchimp,av_mailchimp_field,av_social_share,av_image,av_image_spot,av_slide,av_slide_full,av_fullscreen_slide,av_slide_accordion,av_layerslider,av_partner,av_partner_logo,av_gmap_location,av_codeblock,av_video,av_masonry_entries,av_cell_one_third,av_google_map,av_one_third,av_section,av_row,av_testimonials,avia_sc_search,av_countdown,av_chart,av_chart_dataset,av_list_menu_item,av_slide_sub_section</shortcode-list>
     <custom-types>
         <custom-type translate="0">avia_framework_post</custom-type>
         <custom-type translate="1">portfolio</custom-type>
         <custom-type translate="1">alb_elements</custom-type>
+        <custom-type translate="1">alb_custom_layout</custom-type>
     </custom-types>
     <taxonomies>
         <taxonomy translate="1">portfolio_entries</taxonomy>
@@ -248,6 +249,7 @@
                 <attribute type="link" encoding="av_link">link</attribute>
                 <attribute>subject</attribute>
                 <attribute>autorespond</attribute>
+                <attribute>autoresponder_subject</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -413,10 +415,11 @@
             <attributes>
                 <attribute encoding="allow_html_tags">title</attribute>
                 <attribute type="link" encoding="av_link">link</attribute>
-                <attribute>link1</attribute>
+                <attribute type="link" encoding="av_link">link1</attribute>
                 <attribute>button_label</attribute>
                 <attribute>button_label2</attribute>
-                <attribute>link2</attribute>
+                <attribute type="link" encoding="av_link">link2</attribute>
+                <attribute type="media-ids">id</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -463,6 +466,7 @@
             <tag ignore-content="1">av_testimonial_single</tag>
             <attributes>
                 <attribute type="media-ids">src</attribute>
+                <attribute>linktext</attribute>
             </attributes>
         </shortcode>
         <shortcode>
@@ -483,6 +487,159 @@
             <attributes>
                 <attribute>title</attribute>
                 <attribute encoding="allow_html_tags">subtitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>avia_sc_search</tag>
+            <attributes>
+                <attribute>placeholder</attribute>
+                <attribute>label_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_countdown</tag>
+            <attributes>
+                <attribute>finished_msg</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_chart</tag>
+            <attributes>
+                <attribute>chart_title</attribute>
+                <attribute>chart_subtitle</attribute>
+                <attribute>chart_labels</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_chart_dataset</tag>
+            <attributes>
+                <attribute>dataset_label</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_list_menu_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_slide_sub_section</tag>
+            <attributes>
+                <attribute>tab_title</attribute>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+                <attribute type="media-ids">tab_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_one_full</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_one_half</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_one_third</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_two_third</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_one_fourth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_three_fourth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_one_fifth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_two_fifth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_three_fifth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_cell_four_fifth</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_section</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_slideshow_full</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_video</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-url">mobile_image</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_lottie</tag>
+            <attributes>
+                <attribute type="media-url">src</attribute>
+                <attribute type="media-ids">attachment</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_player</tag>
+            <attributes>
+                <attribute type="media-ids">cover_id</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>av_playlist_element</tag>
+            <attributes>
+                <attribute type="media-ids">id</attribute>
             </attributes>
         </shortcode>
     </shortcodes>
