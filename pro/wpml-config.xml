@@ -25,7 +25,7 @@
     <custom-field action="copy">_x_portfolio_project_link</custom-field>
     <custom-field action="copy">_x_portfolio_embed</custom-field>
     <custom-field action="translate">_x_entry_alternate_index_title</custom-field>
-    <custom-field action="copy">_cornerstone_data</custom-field>
+    <custom-field action="copy-once">_cornerstone_data</custom-field>
     <custom-field action="copy">menu-item-anchor_graphic_menu_item_display</custom-field>
     <custom-field action="copy">menu-item-anchor_graphic_icon</custom-field>
     <custom-field action="copy">menu-item-anchor_graphic_icon_alt</custom-field>
