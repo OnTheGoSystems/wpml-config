@@ -1,4 +1,7 @@
 <wpml-config>
+	<custom-types>
+		<custom-type translate="1" display-as-translated="1">fl-builder-template</custom-type>
+	</custom-types>
 	<taxonomies>
 		<taxonomy translate="0">fl-builder-template-type</taxonomy>
 	</taxonomies>
@@ -19,7 +22,6 @@
 		<widget name="icon-group">
 			<fields-in-item items_of="icons">
 				<field type="Icon group: Link" editor_type="LINK">link</field>
-				<field type="Icon group: Text" editor_type="LINE">text</field>
 				<field type="Icon group: Screen Reader Text" editor_type="LINE">sr_text</field>
 			</fields-in-item>
 		</widget>
@@ -41,19 +43,21 @@
 		</widget>
 		<widget name="subscribe-form">
 			<fields>
-				<field type="Subscribe Form: name" editor_type="LINE">name_field_text</field>
-				<field type="Subscribe Form: e-mail" editor_type="LINE">email_field_text</field>
-				<field type="Subscribe Form: terms checkbox text" editor_type="LINE">terms_checkbox_text</field>
-				<field type="Subscribe Form: terms_text" editor_type="LINE">terms_text</field>
-				<field type="Subscribe Form: success message" editor_type="LINE">success_message</field>
-				<field type="Subscribe Form: success message" editor_type="LINE">btn_text</field>				
-			</fields>		
-		</widget>    
+				<field type="Subscribe form: Name Field Text" editor_type="LINE">name_field_text</field>
+				<field type="Subscribe form: Email Field Text" editor_type="LINE">email_field_text</field>
+				<field type="Subscribe form: Checkbox Text" editor_type="LINE">terms_checkbox_text</field>
+				<field type="Subscribe form: Terms and Conditions" editor_type="VISUAL">terms_text</field>
+				<field type="Subscribe form: Notification Subject" editor_type="LINE">custom_subject</field>
+				<field type="Subscribe form: Success Message" editor_type="VISUAL">success_message</field>
+				<field type="Subscribe form: Button Text" editor_type="LINE">btn_text</field>
+				<field type="Subscribe form: Redirect Link" editor_type="LINK">success_url</field>
+			</fields>
+		</widget>
 		<widget name="search">
 			<fields>
 				<field type="Search: placeholder" editor_type="LINE">placeholder</field>
 				<field type="Search: button label" editor_type="LINE">btn_text</field>
-				<field type="Search: no results message" editor_type="LINE">no_results_message</field>
+				<field type="Search: no results message" editor_type="AREA">no_results_message</field>
 			</fields>
 		</widget>
 		<widget name="html">
