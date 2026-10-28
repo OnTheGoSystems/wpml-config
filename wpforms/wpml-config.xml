@@ -1,0 +1,39 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">wpforms</custom-type>
+        <custom-type translate="0">wpforms_log</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="0">wpforms_log_type</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="wpforms_settings">
+            <key name="validation-required"/>
+            <key name="validation-email"/>
+            <key name="validation-email-suggestion"/>
+            <key name="validation-email-restricted"/>
+            <key name="validation-number"/>
+            <key name="validation-number-positive"/>
+            <key name="validation-minimum-price"/>
+            <key name="validation-confirm"/>
+            <key name="validation-inputmask-incomplete"/>
+            <key name="validation-check-limit"/>
+            <key name="validation-character-limit"/>
+            <key name="validation-word-limit"/>
+            <key name="validation-requiredpayment"/>
+            <key name="validation-creditcard"/>
+            <key name="validation-min"/>
+            <key name="validation-max"/>
+            <key name="validation-url"/>
+            <key name="validation-phone"/>
+            <key name="validation-fileextension"/>
+            <key name="validation-filesize"/>
+            <key name="validation-maxfilenumber"/>
+            <key name="validation-time12h"/>
+            <key name="validation-time24h"/>
+            <key name="validation-time-limit"/>
+            <key name="validation-post_max_size"/>
+            <key name="validation-passwordstrength"/>
+        </key>
+    </admin-texts>
+</wpml-config>

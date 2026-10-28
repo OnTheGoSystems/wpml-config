@@ -44,6 +44,8 @@
 		<item id="multibanco-ifthenpay-gateway-for-woocommerce">Multibanco (IfthenPay gateway) for WooCommerce</item>
 		<item id="newsletter">Newsletter</item>
 		<item id="ninja-forms" override_local="true">Ninja Forms</item>
+		<item id="wpforms" override_local="true">WPForms</item>
+		<item id="wpforms" override_local="true">WPForms Lite</item>
 		<item id="nw-adcart-for-woocommerce" override_local="true">NW ADCart for WooCommerce</item>
 		<item id="oxygen" override_local="true">Oxygen Builder</item>
 		<item id="optinmonster" override_local="false">OptinMonster</item>
